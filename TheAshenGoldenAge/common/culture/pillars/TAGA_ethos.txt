@@ -1,0 +1,27 @@
+ethos_tagamenfa = {
+	type = ethos
+	character_modifier = {
+		dynasty_opinion = 20          # 宗族好感 +20
+		learning = 5                        # 学识 +5
+		monthly_lifestyle_xp_gain_mult = 0.2   # 生活方式经验 +20%
+		different_faith_opinion = 5         # 不同信仰好感 +5
+		knight_effectiveness_mult = -0.4   # 骑士效果 -40%
+		levy_size = -0.4				# 征兵规模 -40%
+	}
+	county_modifier = {
+		development_growth_factor = 0.2   #发展度增长+20%
+	}
+	culture_modifier = {
+    	cultural_acceptance_gain_mult = 0.5   # 文化接受度增长 +50%
+	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				culture = { has_ethos = ethos_tagamenfa }
+			}
+			multiply = 2
+		}
+	}
+}
