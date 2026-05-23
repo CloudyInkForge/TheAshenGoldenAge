@@ -1,0 +1,39 @@
+﻿bm_PJin_ZhiGong = {
+	start_date = 339.1.1
+	is_playable = yes
+	group = bm_group_PJin
+
+	weight = {
+		value = 0
+	}
+}
+
+bm_PJin_YuanZi = {
+	start_date = 347.1.1
+	is_playable = yes
+	group = bm_group_PJin
+
+	weight = {
+		value = 0
+	}
+}
+
+bm_PJin_XuanWu = {
+	start_date = 361.11.17
+	is_playable = yes
+	group = bm_group_PJin
+
+	weight = {
+		value = 0
+	}
+}
+
+bm_PJin_YouDu = {
+	start_date = 373.1.1
+	is_playable = yes
+	group = bm_group_PJin
+
+	weight = {
+		value = 0
+	}
+}
