@@ -18,7 +18,7 @@ bm_PJin_YuanZi = {
 	}
 }
 
-bm_PJin_XuanWu = {
+bm_PJin_NanJun = {
 	start_date = 361.11.17
 	is_playable = yes
 	group = bm_group_PJin
@@ -28,7 +28,7 @@ bm_PJin_XuanWu = {
 	}
 }
 
-bm_PJin_YouDu = {
+bm_PJin_XuanWu = {
 	start_date = 373.1.1
 	is_playable = yes
 	group = bm_group_PJin
