@@ -3,5 +3,9 @@ name="TheAshenGoldenAge"
 tags={
 	"Bookmarks"
 }
+replace_path="common/landed_titles"
+replace_path="history/provinces"
+replace_path="history/characters"
+replace_path="history/titles"
 supported_version="1.19.0.4"
 path="D:/CloudyInkForge/CK3/TheAshenGoldenAge/TheAshenGoldenAge"

@@ -1,0 +1,250 @@
+
+k_taga_yangzhou = {
+	color = { 255 127 80 }
+
+	capital = c_taga_danyang
+	
+	d_taga_yang = {
+		color = { 255 127 80 }
+
+		capital = c_taga_danyang
+
+		c_taga_danyang = {
+			color = { 255 125 80 }
+
+			b_taga_jiankang = {
+				province = 10331
+
+				color = { 255 126 80 }
+			}
+
+			b_taga_gourong = {
+				province = 10333
+
+				color = { 230 126 80 }
+
+			}
+
+			b_taga_moling = {
+				province =10337
+
+				color = { 255 140 80 }
+			}
+
+			b_taga_hushu = {
+				province = 10338
+
+				color = { 255 127 100 }
+			}
+
+			b_taga_yuhu = {
+				province = 10339
+
+				color = { 245 127 80 }
+
+			}
+			
+			b_taga_jiangcheng = {
+				province = 10332
+
+				color = { 255 127 100 }
+			}
+
+			b_taga_liyang = {
+				province = 8848
+
+				color= { 255 127 100 }
+			}
+		}
+
+		c_taga_jinling = {
+			color = { 205 127 80 }
+
+			b_taga_jingkou = {
+				province = 12950
+
+				color = { 245 115 70 }
+			}
+
+			b_taga_qve = {
+				province = 10370
+
+				color = { 225 116 70 }
+
+			} 
+
+			b_taga_yanling = {
+				province = 10334
+
+				color ={ 255 116 70 }
+			}
+
+			b_taga_jinling = {
+				province = 10330
+
+				color = { 245 100 70 }
+			}
+
+			b_taga_wuxi = {
+				province = 12951
+
+				color = { 245 140 70 }
+			}
+		}
+
+		c_taga_yixing = {
+			color = { 255 175 80 }
+
+			b_taga_yixing = {
+				province = 10329
+
+				color = { 255 135 90 }
+			}
+		}
+
+		c_taga_wuxing = {
+			color = { 255 127 130 }
+
+			b_taga_wucheng = {
+				province = 10344
+
+				color = { 235 105 60 }
+			}
+
+			b_taga_changcheng = {
+				province = 10342
+
+				color = { 215 85 60 }
+			}
+
+			b_taga_wukang = {
+				province = 10343
+
+				color = { 195 65 60 }
+			}
+
+			b_taga_yuhang = {
+				province = 10345
+
+				color = { 255 125 60 }
+			}
+		}
+
+		c_taga_wu = {
+			color = { 255 127 30}
+
+			b_taga_wu = {
+				province = 10326
+
+				color = { 255 145 100 }
+			}
+
+			b_taga_jiaxing = {
+				province =10328
+
+				color = { 255 125 100 }
+			}
+
+			b_taga_yanguan = {
+				province = 8841
+
+				color = { 245 127 81 }
+			}
+
+			b_taga_qiantang = {
+				province = 10346
+
+				color = { 255 127 82 }
+			}
+
+			b_taga_fuchun = {
+				province = 10348
+
+				color = { 255 127 83 }
+			}
+
+			b_taga_jiande = {
+				province = 10349
+
+				color = { 255 127 84 }
+			}
+
+			b_taga_haiyu = {
+				province = 10325
+
+				color = { 255 127 85 }
+			}
+
+			b_taga_yanglou = {
+				province = 10324
+
+				color = { 255 127 86 }
+			}
+
+			b_taga_hudulei = {
+				province = 10327
+
+				color = { 255 127 87 }
+			}
+			
+			b_taga_huating = {
+				province = 12953
+
+				color = { 255 127 90 }
+			}
+		}
+
+		c_taga_xuancheng = {
+			color = {205 77 80 }
+
+			b_taga_wanling = {
+				province = 10340
+
+				color = { 205 76 80 }
+			}
+
+			b_taga_guangde = {
+				province = 8846
+
+				color = { 205 75 80 }
+			}
+
+			b_taga_ningguo = {
+				province = 8847
+
+				color = { 205 74 80 }
+			}
+
+			b_taga_lincheng = {
+				province = 10375
+
+				color = {205 73 80 }
+			}
+
+			b_taga_shicheng = {
+				province = 10374
+
+				color = { 205 72 80 }
+			}
+
+			b_taga_xuancheng = {
+				province = 10372
+
+				color = { 205 70 80 }
+			}
+
+			b_taga_huaian = {
+				province = 10341
+
+				color ={ 205 69 80 }
+			}
+
+			b_taga_anwu = {
+				province = 10373
+
+				color = { 205 68 80 }
+			}
+		}
+	}
+
+}
