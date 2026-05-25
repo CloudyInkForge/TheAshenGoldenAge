@@ -564,7 +564,7 @@ k_taga_yangzhou = {
 			}
 
 			b_taga_angu = {
-				province = 10392
+				province = 10292
 
 				color = { 188 200 160 }
 			}
