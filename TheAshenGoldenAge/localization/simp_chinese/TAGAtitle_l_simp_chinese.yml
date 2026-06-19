@@ -4,13 +4,17 @@
  k_taga_yang:"扬州"
 
  d_taga_danyang:"丹杨"
- c_taga_danyang:"丹杨"
+ c_taga_jingyi:"京邑"
  b_taga_jiankang:"建康"
+ c_taga_gourong:"句容"
  b_taga_gourong:"句容"
- b_taga_moling:"秣陵"
- b_taga_hushu:"湖熟"
+ c_taga_yuhu:"于湖"
  b_taga_yuhu:"于湖"
+ c_taga_danyang:"丹杨"
+ b_taga_danyang:"丹杨"
+ c_taga_jiangcheng:"江乘"
  b_taga_jiangcheng:"江乘"
+ c_taga_lishui:"溧水"
  b_taga_liyang:"溧阳"
 
  d_taga_jinling:"晋陵"
@@ -55,6 +59,7 @@
  b_taga_xuancheng:"宣城"
  b_taga_huaian:"怀安"
  b_taga_anwu:"安吴"
+ b_taga_chungu:"春谷"
 
  k_taga_jiangxi:"江西"
 
