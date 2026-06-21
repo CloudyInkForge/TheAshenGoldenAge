@@ -205,6 +205,7 @@
 12953 = {
 	culture = TAGA_jin
 	religion = daoxue
+	holding = castle_holding
 }
 
 10249 = {

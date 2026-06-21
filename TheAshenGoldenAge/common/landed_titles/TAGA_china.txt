@@ -541,11 +541,10 @@ e_taga_jingyang = {
 					color = { 220 90 45 }
 				}
 
-				b_taga_xinliyang = {
-					province = 10350
+			}
 
-					color = { 220 90 45 }
-				}
+			c_taga_she = {
+				color = { 220 95 50 }
 
 				b_taga_she = {
 					province = 10368
@@ -558,6 +557,10 @@ e_taga_jingyang = {
 
 					color = { 220 90 45 }
 				}
+			}
+
+			c_taga_you = {
+				color = { 220 90 50 }
 
 				b_taga_you = {
 					province = 10371
@@ -615,6 +618,12 @@ e_taga_jingyang = {
 					province = 12956
 
 					color = { 215 85 40 }
+				}
+
+				b_taga_xinliyang = {
+					province = 10350
+
+					color = { 220 90 45 }
 				}
 			}
 		}
