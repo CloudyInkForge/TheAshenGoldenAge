@@ -1,4 +1,4 @@
-﻿bm_LiuMin_ShiZhi = {
+﻿bm_PJin_ShiZhi = {
 	start_date = 313.4.1
 	is_playable = yes
 	group = bm_group_LiuMin
