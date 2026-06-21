@@ -25,7 +25,7 @@
 10328 = {
 	culture = TAGA_jin
 	religion = daoxue
-	holding = city_holding
+	holding = castle_holding
 }
 
 10329 = {
@@ -121,7 +121,7 @@
 10346 = {
 	culture = TAGA_jin
 	religion = daoxue
-	holding = city_holding
+	holding = castle_holding
 }
 
 10348 = {
