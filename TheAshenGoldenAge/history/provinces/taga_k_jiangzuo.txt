@@ -478,7 +478,7 @@
 	holding = castle_holding
 }
 
-10392 = {
+10292 = {
 	culture = TAGA_jin
 	religion = daoxue
 	holding = castle_holding
