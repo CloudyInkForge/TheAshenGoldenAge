@@ -1,5 +1,5 @@
 ﻿
-h_taga_jia = { 
+h_taga_hanjin = { 
 	color = { 255 127 80 }
 
 	capital = c_taga_jingyi
@@ -764,7 +764,7 @@ h_taga_jia = {
 			}
 		}
 
-		k_jiangxi = {
+		k_taga_jiang = {
 			color = { 200 130 120 }
 
 			capital = c_hongzhou

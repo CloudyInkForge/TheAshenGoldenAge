@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
- e_taga_jingyang:"扬州"
+ h_taga_hanjin:"汉晋"
+
+ e_taga_jingyang:"扬"
 
  k_taga_yang:"扬州"
 
@@ -153,3 +155,5 @@
  b_taga_angu:"安固"
  b_taga_hengyang:"横阳"
  b_taga_songyang:"松阳"
+
+ k_taga_jiang:"江州"
