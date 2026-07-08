@@ -1,7 +1,15 @@
 ﻿l_simp_chinese:
  h_taga_hanjin:"汉晋"
 
- e_taga_jingyang:"扬"
+ e_taga_yang:"扬州"
+
+ e_taga_si:"司州"
+
+ k_taga_henan:"河南"
+
+ d_taga_henan:"河南"
+ c_taga_luoyang:"洛阳"
+ b_taga_luoyang:"洛阳"
 
  k_taga_yang:"扬州"
 
@@ -157,3 +165,14 @@
  b_taga_songyang:"松阳"
 
  k_taga_jiang:"江州"
+ 
+ d_taga_yuzhang:"豫章"
+ d_taga_wuchang:"武昌"
+ d_taga_ancheng:"安成"
+ d_taga_linchuan:"临川"
+ d_taga_luling:"庐陵"
+ d_taga_xunyang:"寻阳"
+ d_taga_poyang:"鄱阳"
+ d_taga_nankang:"南康"
+ d_taga_jinan:"晋安"
+ d_taga_jianan:"建安"
