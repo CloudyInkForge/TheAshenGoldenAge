@@ -17,8 +17,8 @@ class LocatorPositionUpdater:
         "building_locators.txt": True,   # 必须找到，否则报错
         "combat_locators.txt": True,
         "siege_locators.txt": True,
-        "stack_locators.txt": True,
-        "player_stack_locators.txt": False,  # 已被弃用，ID 可能缺失，忽略即可
+        "stack_locators.txt": False,
+        "player_stack_locators.txt": True,  # 已被弃用，ID 可能缺失，忽略即可
     }
 
     def __init__(self, base_path: str = None):

@@ -1,4 +1,5 @@
 import numpy as np
+from pathlib import Path
 from utils.get_title import TAGA_Parser
 from utils.match_color import CSVLookup
 from utils.get_color import ColorMaskGenerator
@@ -153,29 +154,89 @@ class LocMapProcessor:
             pid = self.province_ids[idx] if idx < len(self.province_ids) else "?"
             print(f"掩码 {idx} (省份 {pid}) 的匹配像素数量：{count}")
 
+    # ---------- 新增：整合业务，将最大内切圆圆心应用到定位文件 ----------
+    def apply_circles_to_locators(self, title_key: str, base_path: str = None) -> None:
+        """
+        完整业务流程：
+        1. 根据头衔键获取所有省份 ID；
+        2. 生成掩码并计算每个省份的最大内切圆圆心（取第一个）；
+        3. 使用 LocatorPositionUpdater 将圆心坐标更新到定位文件中。
 
-# ===== 使用示例 =====
+        :param title_key: 头衔键，如 'd_taga_linchuan'
+        :param base_path: 项目根目录（包含 TheAshenGoldenAge 文件夹），
+                          若不提供，则自动从 self.landed_titles_path 向上查找。
+        """
+        # 1. 获取省份 ID
+        try:
+            self.get_province_ids(title_key)
+        except ValueError as e:
+            print(f"错误：{e}")
+            return
+
+        if not self.province_ids:
+            print("警告：该头衔下没有省份 ID，无法继续。")
+            return
+
+        # 2. 计算最大内切圆（内部会自动生成掩码）
+        circle_results = self.get_max_inscribed_circle_centers()
+        if not circle_results:
+            print("错误：无法获取任何省份的圆心结果。")
+            return
+
+        # 3. 确定项目根目录（用于 LocatorPositionUpdater）
+        if base_path is None:
+            # 从 self.landed_titles_path 向上查找包含 TheAshenGoldenAge 的父目录
+            landed_path = Path(self.landed_titles_path).resolve()
+            root_path = None
+            for parent in landed_path.parents:
+                if (parent / "TheAshenGoldenAge").is_dir():
+                    root_path = parent
+                    break
+            if root_path is None:
+                # 若未找到，则使用默认的自动推断（基于本脚本位置）
+                updater = LocatorPositionUpdater()
+                print("信息：未找到项目根目录，使用默认推断（基于脚本位置）。")
+            else:
+                updater = LocatorPositionUpdater(base_path=str(root_path))
+        else:
+            updater = LocatorPositionUpdater(base_path=base_path)
+
+        # 4. 遍历每个省份，取第一个圆心更新定位
+        for res in circle_results:
+            pid = res['province_id']
+            centers = res['centers']
+            if not centers:
+                print(f"省份 {pid} 没有有效圆心，跳过。")
+                continue
+
+            x, y = centers[0]  # 取第一个圆心
+            # 转为整数（像素坐标本身为整数，但以防浮点误差）
+            x_int = int(round(x))
+            y_int = int(round(y))
+
+            try:
+                updater.update_position(id=pid, x=x_int, y=y_int)
+                print(f"省份 {pid} 更新成功：position = ({x_int}, 0.0, {y_int})")
+            except Exception as e:
+                print(f"省份 {pid} 更新失败：{e}")
+
+
 if __name__ == '__main__':
+    # 配置文件路径（请根据实际项目结构调整）
     LANDED_TITLES = "TheAshenGoldenAge/common/landed_titles/TAGA_china.txt"
     DEFINITION_CSV = "TheAshenGoldenAge/map_data/definition.csv"
     PROVINCES_PNG = "TheAshenGoldenAge/map_data/provinces.png"
 
+    # 初始化处理器
     processor = LocMapProcessor(LANDED_TITLES, DEFINITION_CSV, PROVINCES_PNG)
 
-    title = "d_taga_linchuan"   # 请替换为实际存在的头衔
+    # 指定要处理的头衔（请替换为实际存在的头衔键）
+    TITLE_KEY = "d_taga_linchuan"
+
     try:
-        ids = processor.get_province_ids(title)
-        print(f"头衔 '{title}' 下共有 {len(ids)} 个省份，前6个: {ids[:6]}")
-    except ValueError as e:
-        print(e)
-        exit()
+        # 一键执行完整流程：获取省份ID → 生成掩码 → 计算最大内切圆 → 更新定位文件
+        processor.apply_circles_to_locators(TITLE_KEY)
+        print(f"\n成功完成头衔 '{TITLE_KEY}' 的定位更新。")
+    except Exception as e:
+        print(f"\n处理过程中发生错误：{e}")
 
-    masks = processor.generate_masks()
-    print(f"共生成 {len(masks)} 个掩码")
-
-    cropped_results = processor.crop_masks_with_border()
-    print(f"共裁剪出 {len(cropped_results)} 个区域")
-
-    circle_results = processor.get_max_inscribed_circle_centers()
-    for res in circle_results:
-        print(f"省份 {res['province_id']}: 半径 {res['radius']:.2f}, 圆心数 {len(res['centers'])}")
