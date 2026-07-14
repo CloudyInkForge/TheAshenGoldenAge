@@ -143,67 +143,108 @@ game_object_locator={
 	}
 }
 
-#### TheAshenGoldenAge
->   - 📁.vscode
->   - 📁examples
->     - 📄02_china.txt
->   - 📁MISC
->     - 📁oldtitles
->       - 📄TAGAtitle_l_simp_chinese.yml
->       - 📄TAGA_china.txt
->   - 📁TheAshenGoldenAge
->     - 📁common
->       - 📁bookmarks
->         - 📁bookmarks
->           - 📄00_bookmarks.txt
->         - 📁groups
->           - 📄00_bookmark_groups.txt
->       - 📁culture
->         - 📁cultures
->           - 📄TAGA_jindy.txt
->         - 📁pillars
->           - 📄TAGA_ethos.txt
->           - 📄TAGA_heritage.txt
->       - 📁landed_titles
->         - 📄TAGA_china.txt
->       - 📁province_terrain
->         - 📄00_province_terrain.txt
->         - 📄01_province_properties.txt
->     - 📁gfx
->       - 📁interface
->         - 📁icons
->           - 📁culture_pillars
->             - 📄ethos_tagamenfa.dds
->       - 📁map
->         - 📁map_object_data
->           - 📄building_locators.txt
->           - 📄combat_locators.txt
->           - 📄player_stack_locators.txt
->           - 📄siege_locators.txt
->           - 📄stack_locators.txt
->     - 📁history
->       - 📁provinces
->         - 📄taga_k_jiangzuo.txt
->     - 📁localization
->       - 📁simp_chinese
->         - 📄TAGAbookmark_l_simp_chinese.yml
->         - 📄TAGAculture_l_simp_chinese.yml
->         - 📄TAGAtitle_l_simp_chinese.yml
->     - 📁map_data
->       - 📄definition.csv
->       - 📄provinces.png
->       - 📄provinces.psd
->     - 📄TheAshenGoldenAge.mod
->   - 📁tools
->     - 📁utils
->       - 📁__pycache__
->         - 📄get_color.cpython-313.pyc
->         - 📄get_title.cpython-313.pyc
->         - 📄match_color.cpython-313.pyc
->         - 📄shortest_point.cpython-313.pyc
->       - 📄get_color.py
->       - 📄get_title.py
->       - 📄match_color.py
->       - 📄shortest_point.py
->     - 📄loc_mapobjects.py
->     - 📄province_history.py
+TheAshenGoldenAge\common\landed_titles\TAGA_china.txt
+h_taga_hanjin = { 
+	color = { 255 127 80 }
+
+	capital = c_taga_jingyi
+
+	e_taga_si = {
+		color = { 255 30 0 }
+
+		capital = c_taga_luoyang
+
+		k_taga_henan = {
+			color = { 255 30 0 }
+
+			capital = c_taga_luoyang
+
+			d_taga_henan = {
+				color = { 255 35 0 }
+
+				capital = c_taga_luoyang
+
+				c_taga_luoyang = {
+					color = { 255 35 0 }
+
+					b_taga_luoyang = {
+						province = 9780
+
+						color = { 255 35 0 }
+					}
+				}
+			}
+		}
+	}
+}
+
+```
+TheAshenGoldenAge
+├─ 📁.vscode
+├─ 📁examples
+│  └─ 📄02_china.txt
+├─ 📁MISC
+│  └─ 📁oldtitles
+│     ├─ 📄TAGAtitle_l_simp_chinese.yml
+│     └─ 📄TAGA_china.txt
+├─ 📁TheAshenGoldenAge
+│  ├─ 📁common
+│  │  ├─ 📁bookmarks
+│  │  │  ├─ 📁bookmarks
+│  │  │  │  └─ 📄00_bookmarks.txt
+│  │  │  └─ 📁groups
+│  │  │     └─ 📄00_bookmark_groups.txt
+│  │  ├─ 📁culture
+│  │  │  ├─ 📁cultures
+│  │  │  │  └─ 📄TAGA_jindy.txt
+│  │  │  └─ 📁pillars
+│  │  │     ├─ 📄TAGA_ethos.txt
+│  │  │     └─ 📄TAGA_heritage.txt
+│  │  ├─ 📁landed_titles
+│  │  │  └─ 📄TAGA_china.txt
+│  │  └─ 📁province_terrain
+│  │     ├─ 📄00_province_terrain.txt
+│  │     └─ 📄01_province_properties.txt
+│  ├─ 📁gfx
+│  │  ├─ 📁interface
+│  │  │  └─ 📁icons
+│  │  │     └─ 📁culture_pillars
+│  │  │        └─ 📄ethos_tagamenfa.dds
+│  │  └─ 📁map
+│  │     └─ 📁map_object_data
+│  │        ├─ 📄building_locators.txt
+│  │        ├─ 📄combat_locators.txt
+│  │        ├─ 📄player_stack_locators.txt
+│  │        ├─ 📄siege_locators.txt
+│  │        └─ 📄stack_locators.txt
+│  ├─ 📁history
+│  │  └─ 📁provinces
+│  │     └─ 📄taga_k_jiangzuo.txt
+│  ├─ 📁localization
+│  │  └─ 📁simp_chinese
+│  │     ├─ 📄TAGAbookmark_l_simp_chinese.yml
+│  │     ├─ 📄TAGAculture_l_simp_chinese.yml
+│  │     └─ 📄TAGAtitle_l_simp_chinese.yml
+│  ├─ 📁map_data
+│  │  ├─ 📄definition.csv
+│  │  ├─ 📄provinces.png
+│  │  └─ 📄provinces.psd
+│  └─ 📄TheAshenGoldenAge.mod
+├─ 📁tools
+│  ├─ 📁utils
+│  │  ├─ 📁__pycache__
+│  │  │  ├─ 📄get_color.cpython-313.pyc
+│  │  │  ├─ 📄get_title.cpython-313.pyc
+│  │  │  ├─ 📄LocatorPositionUpdater.cpython-313.pyc
+│  │  │  ├─ 📄match_color.cpython-313.pyc
+│  │  │  └─ 📄shortest_point.cpython-313.pyc
+│  │  ├─ 📄ColorAllocator.py
+│  │  ├─ 📄get_color.py
+│  │  ├─ 📄get_title.py
+│  │  ├─ 📄LocatorPositionUpdater.py
+│  │  ├─ 📄match_color.py
+│  │  └─ 📄shortest_point.py
+│  ├─ 📄loc_mapobjects.py
+│  └─ 📄province_history.py
+└─ 📄README.md
+```
