@@ -343,79 +343,6 @@ class ColorAllocator:
             root_key = next(iter(tree))
         return cls(tree, root_key=root_key)
 
-    def _parse_with_lines(self, text: str):
-        """返回 (tree, line_map)，line_map: 完整路径 -> (start_line, end_line)"""
-        lines = text.splitlines(keepends=True)
-        self._lines_ref = lines
-
-        tree = {}
-        line_map = {}
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-            if re.match(r'^\s*(#|$)', line):
-                i += 1
-                continue
-            m = re.match(r'^(\s*)([\w_]+)\s*=\s*\{', line)
-            if m:
-                key = m.group(2)
-                start_line = i
-                block_tree, end_line = self._parse_block_with_lines(lines, i, start_line, key)
-                tree[key] = block_tree
-                i = end_line + 1
-            else:
-                i += 1
-
-        def build_map(node, path):
-            for k, v in node.items():
-                cur = f"{path}|{k}" if path else k
-                if isinstance(v, dict) and 'start_line' in v:
-                    line_map[cur] = (v['start_line'], v['end_line'])
-                if isinstance(v, dict):
-                    build_map(v, cur)
-
-        build_map(tree, '')
-        return tree, line_map
-
-    def _parse_block_with_lines(self, lines, i, block_start_line, block_key):
-        """
-        解析从第 i 行（已含开括号）开始的块，返回 (sub_tree, end_line)。
-        自动修正深度计数，正确处理嵌套子块。
-        """
-        sub_tree = {}
-        depth = 1   # 当前行开括号已计入
-        j = i + 1
-        while j < len(lines) and depth > 0:
-            line = lines[j]
-            # 更新深度
-            depth += line.count('{') - line.count('}')
-            if depth == 0:
-                end_line = j
-                break
-
-            # 检测子块
-            m = re.match(r'^\s*([\w_]+)\s*=\s*\{', line)
-            if m:
-                child_key = m.group(1)
-                child_start = j
-                # 递归解析子块（内部会处理完整个子块直到其闭合行）
-                child_tree, child_end = self._parse_block_with_lines(
-                    lines, j, child_start, child_key
-                )
-                sub_tree[child_key] = child_tree
-                # 子块闭合行 child_end 包含了 '}'，外层循环尚未处理到该行，
-                # 需要手动将外层 depth 减1，并跳过 child_end 行
-                depth -= 1          # 抵消子块闭合括号
-                j = child_end + 1   # 跳过子块闭合行
-                continue
-            j += 1
-        else:
-            raise ValueError(f"未闭合的块: {block_key} 开始于行 {block_start_line}")
-
-        sub_tree['start_line'] = block_start_line
-        sub_tree['end_line'] = end_line
-        return sub_tree, end_line
-
     def apply_colors_to_file(self, input_filepath: str, output_filepath: Optional[str] = None):
         if output_filepath is None:
             output_filepath = input_filepath
@@ -423,38 +350,78 @@ class ColorAllocator:
         with open(input_filepath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
 
-        stack = []  # 元素: (块键名, 开始行号)
+        # 栈元素：(键名, 块起始行号, 本块第一个b的颜色 (R,G,B) 或 None)
+        stack = []
+        # 记录每个部门完整路径的首个b颜色 (用于跨级传递)
+        first_b_of = {}  # 路径字符串 -> (R,G,B)
+
         i = 0
         while i < len(lines):
             line = lines[i]
-            # 匹配 "key = {" 的行，key 以 h_/e_/k_/d_/c_/b_ 开头
+            # 1. 检测块开始：key = {
             m = re.match(r'^\s*([\w_]+)\s*=\s*\{', line)
             if m:
                 key = m.group(1)
                 if key.startswith(('h_', 'e_', 'k_', 'd_', 'c_', 'b_')):
-                    stack.append((key, i))
+                    stack.append((key, i, None))
                 i += 1
                 continue
 
-            # 匹配只包含 } 的行（闭合块）
+            # 2. 检测块结束：}
             if re.match(r'^\s*\}', line):
-                if stack:
-                    key, start_line = stack.pop()
-                    if key.startswith('b_'):
-                        # 构建完整路径：栈中剩余的所有上级 + 当前 b_
-                        path_parts = [k for k, _ in stack] + [key]
-                        b_path = '|'.join(path_parts)
-                        if b_path in self.b_colors:
-                            new_rgb = self.b_colors[b_path]
-                            # 在 start_line ~ i 之间查找并替换 color 行
-                            for k in range(start_line, i + 1):
-                                cm = re.match(r'(\s*color\s*=\s*\{)\s*(\d+)\s+(\d+)\s+(\d+)\s*(\}.*)', lines[k])
-                                if cm:
-                                    new_line = f"{cm.group(1)} {new_rgb[0]} {new_rgb[1]} {new_rgb[2]} {cm.group(5)}"
-                                    if lines[k].endswith('\n'):
-                                        new_line += '\n'
-                                    lines[k] = new_line
+                if not stack:
+                    i += 1
+                    continue
+                key, start_line, fb_color = stack.pop()
+                # 如果当前块是 b_，需要处理颜色替换并向上传递首个b颜色
+                if key.startswith('b_'):
+                    # 构建完整路径
+                    path_parts = [k for k, _, _ in stack] + [key]
+                    b_path = '|'.join(path_parts)
+                    if b_path in self.b_colors:
+                        new_rgb = self.b_colors[b_path]
+                        # 替换本 b_ 块内的 color 行
+                        for k in range(start_line, i + 1):
+                            cm = re.match(r'(\s*color\s*=\s*\{)\s*(\d+)\s+(\d+)\s+(\d+)\s*(\}.*)', lines[k])
+                            if cm:
+                                new_line = f"{cm.group(1)} {new_rgb[0]} {new_rgb[1]} {new_rgb[2]} {cm.group(5)}"
+                                if lines[k].endswith('\n'):
+                                    new_line += '\n'
+                                lines[k] = new_line
+                                break
+                        # 向上传递首个b颜色
+                        parent_path = '|'.join(path_parts[:-1])  # 去掉 b_ 自身
+                        if parent_path and parent_path not in first_b_of:
+                            first_b_of[parent_path] = new_rgb
+                            # 继续向上传播给祖父、曾祖父，直到已存在或到根
+                            parts = parent_path.split('|')
+                            for up_level in range(len(parts)-1, 0, -1):
+                                upper_path = '|'.join(parts[:up_level])
+                                if upper_path in first_b_of:
                                     break
+                                first_b_of[upper_path] = new_rgb
+                    i += 1
+                    continue
+
+                # 3. 如果当前块是 c_、d_ 或 k_，且记录到了首个b颜色，则替换其 color 行
+                if key.startswith(('c_', 'd_', 'k_')):
+                    # 构建本部门的完整路径
+                    path_parts = [k for k, _, _ in stack] + [key]
+                    my_path = '|'.join(path_parts)
+                    my_color = first_b_of.get(my_path)
+                    if my_color is not None:
+                        for k in range(start_line, i + 1):
+                            cm = re.match(r'(\s*color\s*=\s*\{)\s*(\d+)\s+(\d+)\s+(\d+)\s*(\}.*)', lines[k])
+                            if cm:
+                                new_line = f"{cm.group(1)} {my_color[0]} {my_color[1]} {my_color[2]} {cm.group(5)}"
+                                if lines[k].endswith('\n'):
+                                    new_line += '\n'
+                                lines[k] = new_line
+                                break
+                        # 同时将本部门的颜色向上传递给父级（如果父级还没有）
+                        parent_path = '|'.join(path_parts[:-1])
+                        if parent_path and parent_path not in first_b_of:
+                            first_b_of[parent_path] = my_color
                 i += 1
                 continue
 
