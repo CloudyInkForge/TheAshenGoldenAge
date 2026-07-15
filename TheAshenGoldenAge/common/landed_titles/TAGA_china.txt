@@ -1199,52 +1199,53 @@ h_taga_hanjin = {
 			d_taga_nankang = {
 				color = { 240 75 120 }
 
-				capital = c_ningduzhou
+				capital = c_taga_yudu
 
-				c_ningduzhou = {
+				c_taga_yudu = {
 					color = { 240 75 120 }
 
-					b_yudu = {
+					b_taga_yudu = {
 						province = 9543
 
 						color = { 240 75 120 }
 					}
 
-					b_qianhua = {
+					b_taga_ningdu = {
 						province = 12947
 
 						color = { 240 75 105 }
 					}
-
-				}
-				c_qianzhou = {
-					color = { 225 90 120 }
-
-					b_gan = {
-						province = 9546
-
-						color = { 225 90 120 }
-					}
-					b_anyuan = {
+					b_taga_beiyang = {
 						province = 9544
 
 						color = { 225 90 105 }
 					}
+
 				}
+				c_taga_gan = {
+					color = { 225 90 120 }
 
-				c_nanan = {
-					color = { 210 90 120 }
+					b_taga_gan = {
+						province = 9546
 
-					b_dayu = {
-						province = 9545
-
-						color = { 210 90 120 }
+						color = { 225 90 120 }
 					}
-					b_shangyou = {
+					b_taga_pinggu = {
 						province = 13052
 
 						color = { 210 75 120 }
 					}
+				}
+
+				c_taga_nanye = {
+					color = { 210 90 120 }
+
+					b_taga_nanye = {
+						province = 9545
+
+						color = { 210 90 120 }
+					}
+
 					b_nankang = {
 						province = 13053
 
