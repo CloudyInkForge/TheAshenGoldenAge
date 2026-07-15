@@ -868,30 +868,71 @@ h_taga_hanjin = {
 			d_taga_luling = {
 				color = { 240 150 45 }
 
-				capital = c_jizhou
+				capital = c_taga_shiyang
 
-				c_jizhou = {
+				c_taga_shiyang = {
 					color = { 240 150 45 }
 
-					b_luling = {
+					b_taga_shiyang = {
 						province = 9536
 
 						color = { 240 150 45 }
 					}
+					b_taga_gaochang = {
+						province = 8842
 
-					b_taihe = {
-						province = 9460
-
-						color = { 240 135 60 }
+						color = { 210 135 105 }
 					}
+					b_taga_dongchang = {
+						province = 8817
 
-					b_wanan = {
+						color = { 225 120 120 }
+					}
+					b_taga_jiyang_lul = {
+						province = 8814
+
+						color = { 210 105 120 }
+					}
+				}
+
+				c_taga_xingping = {
+					color = { 240 150 45 }
+					b_taga_xingping = {
+						province = 13108
+
+						color = { 225 75 120 }
+					}
+					b_taga_yangfeng = {
 						province = 10433
 
 						color = { 255 150 45 }
 					}
 				}
 
+				c_taga_xichang = {
+					color = { 240 150 45 }
+
+					b_taga_xichang = {
+						province = 9460
+
+						color = { 240 135 60 }
+					}
+					b_taga_suixing = {
+						province = 8808
+
+						color = { 225 105 90 }
+					}
+
+				}
+				c_taga_baqiu = {
+					color = { 240 150 45 }
+
+					b_taga_baqiu = {
+						province = 13135
+
+						color = { 255 75 120 }
+					}
+				}
 			}
 			d_taga_linchuan = {
 				color = { 240 165 75 }
@@ -1168,21 +1209,13 @@ h_taga_hanjin = {
 
 						color = { 240 75 120 }
 					}
-					b_huichang = {
-						province = 13135
 
-						color = { 255 75 120 }
-					}
 					b_qianhua = {
 						province = 12947
 
 						color = { 240 75 105 }
 					}
-					b_ruijin = {
-						province = 13108
 
-						color = { 225 75 120 }
-					}
 				}
 				c_qianzhou = {
 					color = { 225 90 120 }
@@ -1352,11 +1385,7 @@ h_taga_hanjin = {
 
 						color = { 210 120 90 }
 					}
-					b_shanghang = {
-						province = 8808
 
-						color = { 225 105 90 }
-					}
 					b_ninghua = {
 						province = 8812
 
@@ -1403,26 +1432,14 @@ h_taga_hanjin = {
 
 						color = { 210 105 105 }
 					}
-					b_youxi = {
-						province = 8814
 
-						color = { 210 105 120 }
-					}
 					b_sha = {
 						province = 8813
 
 						color = { 210 120 120 }
 					}
-					b_jiangle = {
-						province = 8817
 
-						color = { 225 120 120 }
-					}
-					b_yongan = {
-						province = 8842
 
-						color = { 210 135 105 }
-					}
 				}
 				c_shaowu = {
 					color = { 210 135 120 }
