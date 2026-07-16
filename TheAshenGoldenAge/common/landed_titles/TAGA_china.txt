@@ -1167,53 +1167,55 @@ h_taga_hanjin = {
 			d_taga_poyang = {
 				color = { 225 135 105 }
 
-				capital = c_raozhou
-				c_raozhou = {
+				capital = c_taga_poyang
+				c_taga_poyang = {
 					color = { 225 135 105 }
-
-					b_poyang = {
-						province = 8989
-
-						color = { 225 135 105 }
-					}
-					b_fuliang = {
+					b_taga_guangjin = {
 						province = 8988
 
 						color = { 240 120 105 }
 					}
-					b_dexing = {
+					b_taga_poyang = {
+						province = 8989
+
+						color = { 225 135 105 }
+					}
+
+					b_taga_lean = {
 						province = 13016
 
 						color = { 225 120 120 }
 					}
-					b_yugan_2 = {
-						province = 13015
 
-						color = { 225 135 120 }
-					}
-					b_leping_1 = {
+					b_taga_liling = {
 						province = 9684
 
 						color = { 225 150 105 }
 					}
 				}
 
-				c_xinhzou = {
+				c_taga_yuhan = {
 					color = { 210 150 120 }
+					b_taga_yuhan = {
+						province = 13015
 
-					b_shangrao = {
+						color = { 225 135 120 }
+					}
+					b_taga_shangrao = {
 						province = 9679
 
 						color = { 210 150 120 }
 					}
 
-					b_yiyang_1 = {
+					b_taga_geyang = {
 						province = 9682
 
 						color = { 210 135 105 }
 					}
-
-					b_yanshan = {
+				}
+				c_taga_qiaoyang = {
+					color = { 231 135 105 }
+					b_taga_qiaoyang = {
 						province = 12996
 
 						color = { 210 150 105 }
