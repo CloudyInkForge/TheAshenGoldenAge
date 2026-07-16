@@ -167,7 +167,29 @@
  k_taga_jiang:"江州"
  
  d_taga_yuzhang:"豫章"
+ c_taga_nanchang:"南昌"
+ b_taga_nanchang:"南昌"
+ b_taga_zhongling:"钟陵"
+ b_taga_fengcheng:"丰城"
+ c_taga_yongxiu:"永修"
+ b_taga_ai:"艾"
+ b_taga_yuning:"豫宁"
+ b_taga_yongxiu:"永修"
+ c_taga_jiancheng:"建城"
+ b_taga_jiancheng:"建城"
+ b_taga_kangle:"康乐"
+ b_taga_wangcai:"望蔡"
+ b_taga_yifeng:"宜丰"
+ c_taga_xingan:"新淦"
+ b_taga_xingan:"新淦"
+ b_taga_wuping:"吴平"
+ c_taga_haihun:"海昏"
+ b_taga_haihun:"海昏"
+ b_taga_xinwu:"新吴"
+ b_taga_jianchang:"建昌"
+
  d_taga_wuchang:"武昌"
+
  d_taga_ancheng:"安成"
  c_taga_yichun:"宜春"
  b_taga_yichun:"宜春"
@@ -179,6 +201,7 @@
  c_taga_yongxin:"永新"
  b_taga_yongxin:"永新"
  b_taga_guangxing:"广兴"
+
  d_taga_linchuan:"临川"
  c_taga_linru:"临汝"
  b_taga_linru:"临汝"
@@ -192,6 +215,7 @@
  b_taga_nanfeng:"南丰"
  b_taga_yongcheng:"永城"
  b_taga_dongxing:"东兴"
+
  d_taga_luling:"庐陵"
  c_taga_shiyang:"石阳"
  b_taga_shiyang:"石阳"
@@ -206,8 +230,11 @@
  b_taga_suixing:"遂兴"
  c_taga_baqiu:"巴丘"
  b_taga_baqiu:"巴丘"
+
  d_taga_xunyang:"寻阳"
+
  d_taga_poyang:"鄱阳"
+
  d_taga_nankang:"南康"
  c_taga_yudu:"雩都"
  b_taga_yudu:"雩都"
@@ -219,7 +246,9 @@
  c_taga_nanye:"南野"
  b_taga_nanye:"南野"
  b_taga_nankang:"南康"
+
  d_taga_jinan:"晋安"
+ 
  d_taga_jianan:"建安"
  c_taga_jianan:"建安"
  b_taga_jianan:"建安"
