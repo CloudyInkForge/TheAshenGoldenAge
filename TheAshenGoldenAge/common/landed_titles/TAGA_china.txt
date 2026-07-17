@@ -1086,32 +1086,33 @@ h_taga_hanjin = {
 			d_taga_wuchang = {
 				color = { 255 90 105 }
 
-				capital = c_ezhou
+				capital = c_taga_wuchang
 
-				c_ezhou = {
+				c_taga_wuchang = {
 					color = { 255 90 105 }
 
-					b_jiangxia = {
-						province = 10395
-
-						color = { 255 90 105 }
-					}
-					b_puqi = {
-						province = 10397
-
-						color = { 255 75 120 }
-					}
-					b_wuchang = {
+					b_taga_wuchang = {
 						province = 10396
 
 						color = { 255 75 105 }
 					}
-					b_tangnian = {
+					b_taga_shaxian = {
+						province = 10395
+
+						color = { 255 90 105 }
+					}
+					b_taga_e = {
+						province = 10397
+
+						color = { 255 75 120 }
+					}
+
+					b_taga_shayang = {
 						province = 10398
 
 						color = { 255 90 120 }
 					}
-					b_yongxing_2 = {
+					b_taga_yangxin = {
 						province = 10401
 
 						color = { 255 90 90 }
