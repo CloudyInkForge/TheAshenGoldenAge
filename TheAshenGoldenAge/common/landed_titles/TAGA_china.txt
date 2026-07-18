@@ -394,11 +394,10 @@ h_taga_hanjin = {
 			d_taga_xuancheng = {
 				color = { 255 105 45 }
 
-				capital = c_taga_xuancheng
+				capital = c_taga_wanling
 
-				c_taga_xuancheng = {
+				c_taga_wanling = {
 					color = { 255 105 45 }
-
 					b_taga_wanling = {
 						province = 10340
 
@@ -412,10 +411,45 @@ h_taga_hanjin = {
 					}
 
 					b_taga_ningguo = {
-						province = 8847
+						province = 10341
 
 						color = { 255 120 45 }
 					}
+
+					b_taga_huaian = {
+						province = 8847
+
+						color = { 255 105 30 }
+					}
+				}
+				c_taga_xuancheng = {
+					color = { 255 105 45 }
+
+					b_taga_xuancheng = {
+						province = 10372
+
+						color = { 240 90 30 }
+					}
+
+					b_taga_anwu = {
+						province = 10373
+
+						color = { 255 90 45 }
+					}
+					b_taga_jing = {
+						province = 8820
+
+						color = { 225 120 90 }
+					}
+					b_taga_lingyang = {
+						province = 12949
+
+						color = { 210 135 90 }
+					}
+
+				}
+				c_taga_shicheng = {
+					color = { 255 105 45 }
 
 					b_taga_lincheng = {
 						province = 10375
@@ -428,25 +462,9 @@ h_taga_hanjin = {
 
 						color = { 255 120 30 }
 					}
-
-					b_taga_xuancheng = {
-						province = 10372
-
-						color = { 240 90 30 }
-					}
-
-					b_taga_huaian = {
-						province = 10341
-
-						color = { 255 105 30 }
-					}
-
-					b_taga_anwu = {
-						province = 10373
-
-						color = { 255 90 45 }
-					}
-
+				}
+				c_taga_chungu = {
+					color = { 255 105 45 }
 					b_taga_chungu = {
 						province = 10339
 
@@ -860,6 +878,13 @@ h_taga_hanjin = {
 						color = { 225 75 75 }
 					}
 				}
+
+
+			}
+			d_taga_yongjia = {
+				color = { 210 75 120 }
+
+				capital = c_taga_yongjia
 				c_taga_yongjia = {
 					color = { 225 75 105 }
 
@@ -891,7 +916,6 @@ h_taga_hanjin = {
 						color = { 225 75 90 }
 					}
 				}
-
 			}
 		}
 
@@ -1390,16 +1414,7 @@ h_taga_hanjin = {
 
 						color = { 210 120 90 }
 					}
-					b_xianyou = {
-						province = 8820
 
-						color = { 225 120 90 }
-					}
-					b_xinghua = {
-						province = 12949
-
-						color = { 210 135 90 }
-					}
 				}
 				c_fuzhou_1 = {
 					color = { 240 135 90 }

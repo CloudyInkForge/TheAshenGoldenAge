@@ -66,6 +66,7 @@
  b_taga_yixiang:"义乡"
  b_taga_linjin:"临津"
  b_taga_guoshan:"国山"
+
  d_taga_wu:"吴"
  c_taga_wu:"吴"
  b_taga_wu:"吴"
@@ -84,7 +85,10 @@
  b_taga_shouchang:"寿昌"
 
  d_taga_xuancheng:"宣城"
+ c_taga_wanling:"宛陵"
  c_taga_xuancheng:"宣城"
+ c_taga_shicheng:"石城"
+ c_taga_chungu:"春谷"
  b_taga_wanling:"宛陵"
  b_taga_guangde:"广德"
  b_taga_ningguo:"宁国"
@@ -94,6 +98,8 @@
  b_taga_huaian:"怀安"
  b_taga_anwu:"安吴"
  b_taga_chungu:"春谷"
+ b_taga_jing:"泾"
+ b_taga_lingyang:"陵阳"
 
  k_taga_jiangxi:"江西"
 
@@ -178,6 +184,8 @@
  b_taga_ninghai:"宁海"
  b_taga_shifeng:"始丰"
  b_taga_linhai:"临海"
+
+ d_taga_yongjia:"永嘉"
  c_taga_yongjia:"永嘉"
  c_taga_songyang:"松阳"
  b_taga_yongning:"永宁"
