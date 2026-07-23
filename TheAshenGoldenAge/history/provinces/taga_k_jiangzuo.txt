@@ -843,16 +843,6 @@
 	religion = daoxue
 	holding = castle_holding
 }
-1469 = {
-	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
-}
-8822 = {
-	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
-}
 8824 = {
 	culture = TAGA_jin
 	religion = daoxue
@@ -864,6 +854,16 @@
 	holding = castle_holding
 }
 10336 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+8822 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+1469 = {
 	culture = TAGA_jin
 	religion = daoxue
 	holding = castle_holding
