@@ -506,11 +506,7 @@ h_taga_hanjin = {
 						color = { 255 90 30 }
 					}
 
-					b_taga_chengde = {
-						province = 8942
 
-						color = { 240 105 45 }
-					}
 				}
 			}
 
@@ -527,59 +523,60 @@ h_taga_hanjin = {
 
 						color = { 210 120 45 }
 					}
-					
-					b_taga_liucheng = {
-						province = 10251
-
-						color = { 210 120 60 }
-					}
-
 					b_taga_qian = {
-						province = 10252
+						province = 8946
 
 						color = { 210 120 30 }
 					}
-
-					b_taga_juchao = {
-						province = 13001
-
-						color = { 210 105 45 }
-					}
-
-					b_taga_dongguan = {
-						province = 8940
-
-						color = { 225 120 60 }
-					}
-
-					b_taga_ruxvkou = {
-						province = 8943
-
-						color = { 210 105 30 }
-					}
-
-					b_taga_dalei = {
-						province = 10394
-
-						color = { 225 120 45 }
-					}
-
 					b_taga_longshu = {
 						province = 8945
 
 						color = { 210 90 30 }
 					}
+				}
+
+				c_taga_yangquan = {
+					color = { 210 120 45 }
+
+					b_taga_yangquan = {
+						province = 10394
+
+						color = { 225 120 45 }
+					}
+					b_taga_liuan = {
+						province = 8942
+
+						color = { 240 105 45 }
+					}
+				}
+
+				c_taga_wan = {
+					color = { 210 120 45 }
 
 					b_taga_wan = {
-						province = 8946
+						province = 8943
 
 						color = { 225 120 30 }
 					}
 
-					b_taga_linhu = {
+					b_taga_juchao = {
 						province = 8944
 
+						color = { 210 105 45 }
+					}
+				}
+				c_taga_linhu = {
+					color = { 210 120 45 }
+
+					b_taga_linhu = {
+						province = 8940
+
 						color = { 225 105 45 }
+					}
+					b_taga_xiangan = {
+						province = 13001
+
+						color = { 225 120 60 }
 					}
 				}
 			}
@@ -1419,11 +1416,7 @@ h_taga_hanjin = {
 				c_fuzhou_1 = {
 					color = { 210 105 120 }
 
-					b_min = {
-						province = 10432
 
-						color = { 210 105 120 }
-					}
 					b_yongtai = {
 						province = 8822
 
@@ -1439,11 +1432,7 @@ h_taga_hanjin = {
 
 						color = { 225 105 120 }
 					}
-					b_gutian = {
-						province = 8821
 
-						color = { 225 105 105 }
-					}
 				}
 				c_funing = {
 					color = { 255 120 120 }
@@ -1547,6 +1536,108 @@ h_taga_hanjin = {
 					}
 				}
 			}
+		}
+	}
+	e_taga_yu = {
+		color = { 225 225 30 }
+
+		capital = c_taga_anfeng
+
+		k_taga_yiyang = {
+			color = { 225 225 30 }
+
+			capital = c_taga_yiyang
+			d_taga_yiyang = {
+				color = { 225 225 30 }
+
+				capital = c_taga_yiyang
+
+				c_taga_yiyang = {
+					color = { 170 101 202 }
+
+					b_taga_yiyang = {
+						province = 10254
+
+						color = { 183 90 203 }
+					}
+					b_taga_qisi = {
+						province = 10253
+
+						color = { 152 90 180 }
+					}
+
+
+				}
+				c_taga_xiyang = {
+					color = { 225 225 30 }
+					b_taga_xiyang = {
+						province = 10255
+
+						color = { 151 104 192 }
+					}
+					b_taga_dai = {
+						province = 10256
+
+						color = { 178 117 206 }
+					}
+				}
+				c_taga_xiling = {
+					color = { 225 225 30 }
+					b_taga_xiling = {
+						province = 10432
+
+						color = { 210 105 120 }
+					}
+					b_taga_qichun = {
+						province = 8973
+
+						color = { 108 41 56 }
+					}
+					b_taga_zhu = {
+						province = 8974
+
+						color = { 81 13 29 }
+					}
+				}
+			}
+			d_taga_anfeng = {
+				color = { 225 225 30 }
+
+				capital = c_taga_anfeng
+
+				c_taga_anfeng = {
+					color = { 225 225 30 }
+					b_taga_anfeng = {
+						province = 13010
+
+						color = { 141 86 186 }
+					}
+					b_taga_songzi = {
+						province = 8821
+
+						color = { 225 105 105 }
+					}
+				}
+				c_taga_lu = {
+					color = { 225 225 30 }
+					b_taga_lu = {
+						province = 10250
+
+						color = { 175 72 197 }
+					}
+					b_taga_anfeng_n = {
+						province = 10251
+
+						color = { 210 120 60 }
+					}
+					b_taga_yulou = {
+						province = 10252
+
+						color = { 210 120 30 }
+					}
+				}
+			}
+
 		}
 	}
 }
