@@ -244,7 +244,9 @@ TheAshenGoldenAge
 │  │  ├─ 📄LocatorPositionUpdater.py
 │  │  ├─ 📄match_color.py
 │  │  └─ 📄shortest_point.py
+│  ├─ 📄check_duplicates.py
 │  ├─ 📄loc_mapobjects.py
-│  └─ 📄province_history.py
+│  ├─ 📄province_history.py
+│  └─ 📄regenerate_localization.py
 └─ 📄README.md
 ```
