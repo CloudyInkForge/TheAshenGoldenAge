@@ -1,8 +1,6 @@
 ﻿l_simp_chinese:
  h_taga_hanjin:"汉晋"
 
- e_taga_yang:"扬州"
-
  e_taga_si:"司州"
 
  k_taga_henan:"河南"
@@ -10,6 +8,8 @@
  d_taga_henan:"河南"
  c_taga_luoyang:"洛阳"
  b_taga_luoyang:"洛阳"
+
+ e_taga_yang:"扬州"
 
  k_taga_yang:"扬州"
 
@@ -36,14 +36,14 @@
 
  d_taga_jinling:"晋陵"
  c_taga_dantu:"丹徒"
- c_taga_jinling:"晋陵"
  b_taga_jingkou:"京口"
  b_taga_qve:"曲阿"
  b_taga_yanling:"延陵"
+ b_taga_wujin:"武进"
+ c_taga_jinling:"晋陵"
  b_taga_jinling:"晋陵"
  b_taga_wuxi:"无锡"
  b_taga_jiyang:"暨阳"
- b_taga_wujin:"武进" 
 
  d_taga_wuxing:"吴兴"
  c_taga_wuxing:"吴兴"
@@ -70,12 +70,12 @@
  d_taga_wu:"吴"
  c_taga_wu:"吴"
  b_taga_wu:"吴"
- b_taga_haiyu:"海虞"
  b_taga_jiaxing:"嘉兴"
  b_taga_yanglou:"娄"
+ b_taga_haiyu:"海虞"
  c_taga_haiyan:"海盐"
- b_taga_haiyan:"海盐"
  b_taga_yanguan:"盐官"
+ b_taga_haiyan:"海盐"
  c_taga_qiantang:"钱塘"
  b_taga_qiantang:"钱塘"
  b_taga_fuchun:"富春"
@@ -86,20 +86,20 @@
 
  d_taga_xuancheng:"宣城"
  c_taga_wanling:"宛陵"
- c_taga_xuancheng:"宣城"
- c_taga_shicheng:"石城"
- c_taga_chungu:"春谷"
  b_taga_wanling:"宛陵"
  b_taga_guangde:"广德"
  b_taga_ningguo:"宁国"
- b_taga_lincheng:"临城"
- b_taga_shicheng:"石城"
- b_taga_xuancheng:"宣城"
  b_taga_huaian:"怀安"
+ c_taga_xuancheng:"宣城"
+ b_taga_xuancheng:"宣城"
  b_taga_anwu:"安吴"
- b_taga_chungu:"春谷"
  b_taga_jing:"泾"
  b_taga_lingyang:"陵阳"
+ c_taga_shicheng:"石城"
+ b_taga_lincheng:"临城"
+ b_taga_shicheng:"石城"
+ c_taga_chungu:"春谷"
+ b_taga_chungu:"春谷"
 
  k_taga_jiangxi:"江西"
 
@@ -108,11 +108,21 @@
  b_taga_shouchun:"寿春"
  b_taga_hefei:"合肥"
  b_taga_yinling:"阴陵"
- b_taga_chengde:"成德"
 
- d_taga_zhongli:"钟离"
- c_taga_zhongli:"钟离"
- b_taga_zhongli:"燕"
+ d_taga_lujiang:"庐江"
+ c_taga_lujiang:"庐江"
+ b_taga_shu:"舒"
+ b_taga_qian:"灊"
+ b_taga_longshu:"龙舒"
+ c_taga_yangquan:"阳泉"
+ b_taga_yangquan:"阳泉"
+ b_taga_liuan:"六安"
+ c_taga_wan:"皖"
+ b_taga_wan:"皖"
+ b_taga_juchao:"居巢"
+ c_taga_linhu:"临湖"
+ b_taga_linhu:"临湖"
+ b_taga_xiangan:"襄安"
 
  d_taga_liyang:"历阳"
  c_taga_liyang:"历阳"
@@ -120,22 +130,9 @@
  b_taga_quanjiao:"全椒"
  b_taga_wujiang:"乌江"
 
- d_taga_lujiang:"庐江"
- c_taga_lujiang:"庐江"
- c_taga_shu:"舒"
- b_taga_shu:"舒"
- b_taga_qian:"灊"
- b_taga_longshu:"龙舒"
- c_taga_linhu:"临湖"
- b_taga_linhu:"临湖"
- b_taga_xiangan:"襄安"
- c_taga_wan:"皖"
- b_taga_wan:"皖"
- b_taga_juchao:"居巢"
- c_taga_yangquan:"阳泉"
- b_taga_yangquan:"阳泉"
- b_taga_liuan:"六安"
-
+ d_taga_zhongli:"钟离"
+ c_taga_zhongli:"钟离"
+ b_taga_zhongli:"燕"
 
  k_taga_kuaiji:"会稽"
 
@@ -145,15 +142,15 @@
  b_taga_yongxing:"永兴"
  b_taga_shangyu:"上虞"
  b_taga_yuyao:"余姚"
- c_taga_zhuji:"诸暨"
- b_taga_zhuji:"诸暨"
- c_taga_gouzhang:"句章"
  c_taga_shan:"剡"
  b_taga_shan:"剡"
  b_taga_shining:"始宁"
+ c_taga_gouzhang:"句章"
  b_taga_gouzhang:"句章"
  b_taga_mao:"鄮"
  b_taga_yin:"鄞"
+ c_taga_zhuji:"诸暨"
+ b_taga_zhuji:"诸暨"
 
  d_taga_xinan:"新安"
  c_taga_xinan:"新安"
@@ -169,36 +166,36 @@
  c_taga_changshan:"长山"
  b_taga_changshan:"长山"
  b_taga_wushang:"乌伤"
+ b_taga_wuning:"吴宁"
  c_taga_dongxinan:"信安"
  b_taga_xinan:"信安"
  b_taga_taimo:"太末"
  b_taga_dingyang:"定阳"
- b_taga_wuning:"吴宁"
- c_taga_suichang:"遂昌"
- b_taga_yongkang:"永康"
- b_taga_suichang:"遂昌"
  c_taga_fengan:"丰安"
  b_taga_fengan:"丰安"
+ c_taga_suichang:"遂昌"
+ b_taga_suichang:"遂昌"
+ b_taga_yongkang:"永康"
 
  d_taga_linhai:"临海"
- c_taga_linhai:"临海"
  c_taga_zhangan:"章安"
- c_taga_ninghai:"宁海"
  b_taga_zhangan:"章安"
- b_taga_ninghai:"宁海"
- b_taga_shifeng:"始丰"
+ c_taga_linhai:"临海"
  b_taga_linhai:"临海"
+ b_taga_shifeng:"始丰"
+ c_taga_ninghai:"宁海"
+ b_taga_ninghai:"宁海"
 
  d_taga_yongjia:"永嘉"
  c_taga_yongjia:"永嘉"
- c_taga_songyang:"松阳"
  b_taga_yongning:"永宁"
  b_taga_angu:"安固"
  b_taga_hengyang:"横阳"
+ c_taga_songyang:"松阳"
  b_taga_songyang:"松阳"
 
  k_taga_jiang:"江州"
- 
+
  d_taga_yuzhang:"豫章"
  c_taga_nanchang:"南昌"
  b_taga_nanchang:"南昌"
@@ -221,40 +218,6 @@
  b_taga_xinwu:"新吴"
  b_taga_jianchang:"建昌"
 
- d_taga_wuchang:"武昌"
- c_taga_wuchang:"武昌"
- b_taga_wuchang:"武昌"
- b_taga_shaxian:"沙羡"
- b_taga_e:"鄂"
- b_taga_shayang:"沙阳"
- b_taga_yangxin:"阳新"
-
- d_taga_ancheng:"安成"
- c_taga_yichun:"宜春"
- b_taga_yichun:"宜春"
- b_taga_xinyu:"新谕"
- b_taga_pingxiang:"萍乡"
- c_taga_pingdu:"平都"
- b_taga_pingdu:"平都"
- b_taga_anfu:"安复"
- c_taga_yongxin:"永新"
- b_taga_yongxin:"永新"
- b_taga_guangxing:"广兴"
-
- d_taga_linchuan:"临川"
- c_taga_linru:"临汝"
- b_taga_linru:"临汝"
- b_taga_xining:"西宁"
- b_taga_yihuang:"宜黄"
- b_taga_xinjian:"新建"
- b_taga_anpu:"安浦"
- b_taga_xifeng:"西丰"
- c_taga_nancheng:"南城"
- b_taga_nancheng:"南城"
- b_taga_nanfeng:"南丰"
- b_taga_yongcheng:"永城"
- b_taga_dongxing:"东兴"
-
  d_taga_luling:"庐陵"
  c_taga_shiyang:"石阳"
  b_taga_shiyang:"石阳"
@@ -270,12 +233,46 @@
  c_taga_baqiu:"巴丘"
  b_taga_baqiu:"巴丘"
 
+ d_taga_linchuan:"临川"
+ c_taga_linru:"临汝"
+ b_taga_linru:"临汝"
+ b_taga_xifeng:"西丰"
+ b_taga_xining:"西宁"
+ b_taga_yihuang:"宜黄"
+ b_taga_xinjian:"新建"
+ b_taga_anpu:"安浦"
+ c_taga_nancheng:"南城"
+ b_taga_nancheng:"南城"
+ b_taga_nanfeng:"南丰"
+ b_taga_yongcheng:"永城"
+ b_taga_dongxing:"东兴"
+
+ d_taga_ancheng:"安成"
+ c_taga_pingdu:"平都"
+ b_taga_pingdu:"平都"
+ b_taga_anfu:"安复"
+ c_taga_yichun:"宜春"
+ b_taga_yichun:"宜春"
+ b_taga_xinyu:"新谕"
+ b_taga_pingxiang:"萍乡"
+ c_taga_yongxin:"永新"
+ b_taga_yongxin:"永新"
+ b_taga_guangxing:"广兴"
+
+ d_taga_wuchang:"武昌"
+ c_taga_wuchang:"武昌"
+ b_taga_wuchang:"武昌"
+ b_taga_shaxian:"沙羡"
+ b_taga_e:"鄂"
+ b_taga_shayang:"沙阳"
+ b_taga_yangxin:"阳新"
+
  d_taga_xunyang:"寻阳"
  c_taga_chaisang:"柴桑"
- c_taga_pengze:"彭泽"
- c_taga_xunyang:"寻阳"
  b_taga_chaisang:"柴桑"
+ c_taga_pengze:"彭泽"
  b_taga_pengze:"彭泽"
+ c_taga_xunyang:"寻阳"
  b_taga_xunyang:"寻阳"
 
  d_taga_poyang:"鄱阳"
@@ -333,7 +330,7 @@
  e_taga_yu:"豫州"
 
  k_taga_yiyang:"弋阳"
- 
+
  d_taga_yiyang:"弋阳"
  c_taga_yiyang:"弋阳"
  b_taga_yiyang:"弋阳"
@@ -359,7 +356,39 @@
 
  k_taga_nanyang:"南阳"
 
+ d_taga_nanyang:"南阳"
+
+ d_taga_xiangyang:"襄阳"
+
+ d_taga_xinye:"新野"
+
+ d_taga_nanxiang:"南乡"
+
+ d_taga_shangyong:"上庸"
+
+ d_taga_xincheng:"新城"
+
  k_taga_jing:"荆州"
+
+ d_taga_nan:"南"
+
+ d_taga_jingling:"竟陵"
+
+ d_taga_sui:"随"
+
+ d_taga_yiyang_j:"义阳"
+
+ d_taga_yidu:"宜都"
+
+ d_taga_jianping:"建平"
+
+ d_taga_jiangxia:"江夏"
+
+ d_taga_nanping:"南平"
+
+ d_taga_wuling:"武陵"
+
+ d_taga_tianmen:"天门"
 
  k_taga_xiang:"湘州"
 
@@ -367,23 +396,23 @@
 
  d_taga_hengyang:"衡阳"
 
- d_taga_xiangdong:"湘东"
-
- d_taga_lingling:"零陵"
+ d_taga_baling:"巴陵"
 
  d_taga_shaoling:"邵陵"
 
- d_taga_yingyang:"营阳"
+ d_taga_xiangdong:"湘东"
 
  d_taga_guiyang:"桂阳"
 
- d_taga_shixing:"始兴"
+ d_taga_lingling:"零陵"
 
- d_taga_shian:"始安"
+ d_taga_yingyang:"营阳"
 
  d_taga_linhe:"临贺"
 
- d_taga_baling:"巴陵"
+ d_taga_shian:"始安"
+
+ d_taga_shixing:"始兴"
 
  e_taga_jiao:"交州"
 
