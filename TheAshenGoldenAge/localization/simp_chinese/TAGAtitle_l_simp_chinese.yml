@@ -365,6 +365,7 @@
  d_taga_nanxiang:"南乡"
 
  d_taga_shangyong:"上庸"
+ c_taga_shangyong:"上庸"
 
  d_taga_xincheng:"新城"
 
@@ -377,6 +378,7 @@
  d_taga_sui:"随"
 
  d_taga_yiyang_j:"义阳"
+ c_taga_yiyang_j:"义阳"
 
  d_taga_yidu:"宜都"
 
@@ -395,6 +397,7 @@
  d_taga_changsha:"长沙"
 
  d_taga_hengyang:"衡阳"
+ c_taga_xiangnan:"衡阳"
 
  d_taga_baling:"巴陵"
 
@@ -419,3 +422,13 @@
  k_taga_guang:"广州"
 
  k_taga_jiao:"交州"
+
+ e_taga_xv:"徐州"
+
+ k_taga_nanxv:"南徐"
+
+ d_taga_guangling:"广陵"
+ c_taga_guangling:"广陵"
+
+ d_taga_linhuai:"临淮"
+ c_taga_linhuai:"临淮"

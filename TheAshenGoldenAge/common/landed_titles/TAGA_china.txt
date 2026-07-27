@@ -3858,8 +3858,103 @@ h_taga_hanjin = {
 			}
 		}
 	}
-}
+	e_taga_xv = {
+		color = { 30 225 225 }
+		capital = c_taga_guangling
 
+		k_taga_nanxv = {
+			color = { 30 225 225 }
+			capital = c_taga_guangling
+
+			d_taga_guangling = {
+				color = { 30 225 225 }
+
+				capital = c_taga_guangling
+				c_taga_guangling = {
+					color = { 30 225 225 }
+					b_jiangdu = {
+						province = 8933
+
+						color = { 170 148 201 }
+					}
+					b_hailing = {
+						province = 8932
+
+						color = { 147 124 177 }
+					}
+					b_rugao = {
+						province = 8869
+
+						color = { 120 96 151 }
+					}
+					b_jinghai = {
+						province = 8931
+
+						color = { 139 99 170 }
+					}
+					b_yancheng = {
+						province = 8947
+
+						color = { 139 100 170 }
+					}
+					b_gaoyou = {
+						province = 8951
+
+						color = { 166 125 197 }
+					}
+				}
+			}
+			d_taga_linhuai = {
+				color = { 30 225 225 }
+
+				capital = c_taga_linhuai
+				c_taga_linhuai = {
+					color = { 30 225 225 }
+					b_yongyang = {
+						province = 9707
+
+						color = { 140 113 181 }
+					}
+					b_qingliu = {
+						province = 8936
+
+						color = { 149 137 187 }
+					}
+					b_shanyang_2 = {
+						province = 8950
+
+						color = { 166 127 197 }
+					}
+					b_baoying = {
+						province = 8948
+
+						color = { 165 101 192 }
+					}
+					b_xuyi = {
+						province = 8949
+
+						color = { 141 113 181 }
+					}
+					b_tianchang = {
+						province = 8934
+
+						color = { 144 121 174 }
+					}
+					b_liuhe = {
+						province = 8935
+
+						color = { 149 136 186 }
+					}
+					b_zhaoyi = {
+						province = 9689
+
+						color = { 141 56 181 }
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
