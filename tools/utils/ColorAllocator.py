@@ -118,12 +118,28 @@ class ColorAllocator:
 
     # ==================== 核心分配逻辑 ====================
     def _allocate(self):
-        # ---------- 1. 自底向上构建三维点阵 ----------
+        # ---------- 外边距配置 ----------
+        MARGINS = {
+            'e_': 0,
+            'k_': 0,
+            'd_': 0,
+            'c_': 0,
+        }
+        DEFAULT_MARGIN = 0
+
+        def get_margin(node_name: str) -> int:
+            for prefix, n in MARGINS.items():
+                if node_name.startswith(prefix):
+                    return n
+            return DEFAULT_MARGIN
+
+        # ---------- 1. 自底向上构建三维点阵（带外边距 + 强制正方体） ----------
         def build_shape(path: Tuple[str, ...]):
             node = self.tree
             for part in path:
                 node = node[part]
 
+            # 叶子员工
             if path[-1].startswith('b_'):
                 key = '|'.join(path)
                 return (1, 1, 1), [(key, 0, 0, 0)]
@@ -136,6 +152,7 @@ class ColorAllocator:
                 size, b_list = build_shape(cpath)
                 child_items.append((cname, size, b_list))
 
+            # 按体积降序排列（放置大块优先）
             child_items.sort(key=lambda x: x[1][0] * x[1][1] * x[1][2], reverse=True)
 
             occupied = set()
@@ -143,20 +160,38 @@ class ColorAllocator:
             global_b_list = []
 
             for cname, (w, h, d), b_list in child_items:
+                # ---- 根据子节点类型包裹外边距 ----
+                margin = get_margin(cname)
+                w_margin = w + 2 * margin
+                h_margin = h + 2 * margin
+                d_margin = d + 2 * margin
+                # 平移员工坐标
+                b_list_margin = [(bk, x + margin, y + margin, z + margin)
+                                 for (bk, x, y, z) in b_list]
+
+                # ---- 尝试所有旋转放置 ----
                 best_placement = None
                 best_longest_side = float('inf')
                 best_volume = float('inf')
 
                 for rot_idx, (size_fn, rot_fn) in enumerate(ROTATIONS):
-                    rw, rh, rd = size_fn(w, h, d)
+                    rw, rh, rd = size_fn(w_margin, h_margin, d_margin)
                     for ox in range(max_x + 1):
                         for oy in range(max_y + 1):
                             for oz in range(max_z + 1):
-                                if any((ox + x, oy + y, oz + z) in occupied
-                                       for x in range(rw)
-                                       for y in range(rh)
-                                       for z in range(rd)):
+                                # 检查冲突
+                                conflict = False
+                                for x in range(rw):
+                                    for y in range(rh):
+                                        for z in range(rd):
+                                            if (ox + x, oy + y, oz + z) in occupied:
+                                                conflict = True
+                                                break
+                                        if conflict: break
+                                    if conflict: break
+                                if conflict:
                                     continue
+
                                 new_max_x = max(max_x, ox + rw)
                                 new_max_y = max(max_y, oy + rh)
                                 new_max_z = max(max_z, oz + rd)
@@ -167,33 +202,50 @@ class ColorAllocator:
                                     best_longest_side = new_longest
                                     best_volume = new_vol
                                     best_placement = (ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z)
+
                 if best_placement is None:
                     raise RuntimeError(f"无法放置子块 {cname}，可能空间不足")
 
                 ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z = best_placement
                 _, rot_fn = ROTATIONS[rot_idx]
-                rw, rh, rd = ROTATIONS[rot_idx][0](w, h, d)
+                rw, rh, rd = ROTATIONS[rot_idx][0](w_margin, h_margin, d_margin)
+
+                # 标记占用
                 for x in range(rw):
                     for y in range(rh):
                         for z in range(rd):
                             occupied.add((ox + x, oy + y, oz + z))
+
                 max_x, max_y, max_z = new_max_x, new_max_y, new_max_z
 
-                for b_key, lx, ly, lz in b_list:
+                # 变换员工坐标
+                for bk, lx, ly, lz in b_list_margin:
                     rx, ry, rz = rot_fn(lx, ly, lz)
                     gx, gy, gz = ox + rx, oy + ry, oz + rz
-                    global_b_list.append((b_key, gx, gy, gz))
+                    global_b_list.append((bk, gx, gy, gz))
 
-            return (max_x, max_y, max_z), global_b_list
+            # ---- 强制当前节点结果为正方体 ----
+            max_dim = max(max_x, max_y, max_z)
+            size_cube = (max_dim, max_dim, max_dim)
+
+            # 调试输出
+            total_cells = max_dim * max_dim * max_dim
+            real_points = len(global_b_list)
+            dead_points = total_cells - real_points
+            print(f"[构建节点] {'|'.join(path)}: 员工数={real_points}, "
+                  f"正方体边长={max_dim}, 格点总数={total_cells}, 无效点={dead_points}")
+
+            return size_cube, global_b_list
 
         root_path = (self.root_key,)
         (size_x, size_y, size_z), global_b_assignments = build_shape(root_path)
 
-        # 输出占位点数量
+        # 整体点阵统计
         total_cells = size_x * size_y * size_z
         real_points = len(global_b_assignments)
         dead_points = total_cells - real_points
-        print(f"点阵尺寸: {size_x} × {size_y} × {size_z} = {total_cells} 格点")
+        print(f"\n===== 最终点阵 =====")
+        print(f"尺寸: {size_x} × {size_y} × {size_z} = {total_cells} 格点")
         print(f"真实员工点: {real_points}, 占位点(无效点): {dead_points}")
 
         # ---------- 2. 映射到 CIELAB 安全立方体 ----------
@@ -213,8 +265,58 @@ class ColorAllocator:
         for b_key, x, y, z in global_b_assignments:
             lab_positions[b_key] = list(grid_to_lab(x, y, z))
 
-        # ---------- 3. 顺序分层位移（从底层到高层） ----------
-        # 收集所有节点及其下属员工列表
+        # ---------- 3. （已废除引力位移）----------
+        # 不再进行顺序分层位移，聚类效果由外边距和正方体装箱实现
+
+        # ---------- 4. 量化到整数 LAB 并检测重复 ----------
+        int_lab = {}
+        color_map_lab = {}
+        for bk, (L, a_val, b_val) in lab_positions.items():
+            L_int = int(round(L))
+            a_int = int(round(a_val))
+            b_int = int(round(b_val))
+            int_lab[bk] = (L_int, a_int, b_int)
+            key = (L_int, a_int, b_int)
+            color_map_lab.setdefault(key, []).append(bk)
+
+        collisions_lab = 0
+        for lab_key, bks in color_map_lab.items():
+            if len(bks) > 1:
+                collisions_lab += 1
+                print(f"⚠️ [LAB重复] LAB{lab_key} 出现在员工: {', '.join(bks)}")
+        if collisions_lab == 0:
+            print("✅ 无 LAB 整数重复")
+
+        # ---------- 5. 转换为 sRGB 并存储 ----------
+        self.b_colors.clear()
+        for bk, (L_int, a_int, b_int) in int_lab.items():
+            self.b_colors[bk] = lab_to_rgb(L_int, a_int, b_int)
+
+        # ---------- 5.5 最终 RGB 重复检测（关键修复）----------
+        rgb_map = {}
+        for bk, rgb in self.b_colors.items():
+            rgb_map.setdefault(rgb, []).append(bk)
+        rgb_collisions = 0
+        for rgb, bks in rgb_map.items():
+            if len(bks) > 1:
+                rgb_collisions += 1
+                print(f"🔴 [RGB重复] RGB{rgb} 出现在员工: {', '.join(bks)}")
+        if rgb_collisions == 0:
+            print("✅ 无最终 RGB 颜色重复")
+        else:
+            print(f"⚠️ 警告：共有 {rgb_collisions} 组 RGB 颜色重复！")
+
+        # ---------- 6. 计算上级节点颜色（取中位数）----------
+        def median_int(values):
+            sorted_vals = sorted(values)
+            n = len(sorted_vals)
+            if n == 0:
+                return 0
+            if n % 2 == 1:
+                return sorted_vals[n // 2]
+            else:
+                return int(round((sorted_vals[n // 2 - 1] + sorted_vals[n // 2]) / 2.0))
+
         node_b_cache = {}
 
         def collect_b_paths(node_path):
@@ -244,91 +346,17 @@ class ColorAllocator:
 
         populate_cache((self.root_key,))
 
-        # 引力系数配置（可调，初始全为0方便调试）
-        LEVEL_ALPHA = {
-            'c_': 0.40,   # 办公室
-            'd_': 0.30,   # 子部门
-            'k_': 0.20,   # 次级部门
-            'e_': 0.15,   # 部门
-        }
-
-        # 收集各级节点路径
-        def get_level_paths(start_path, prefix):
-            res = []
-            node = self.tree
-            for part in start_path:
-                node = node[part]
-            if start_path[-1].startswith(prefix):
-                res.append(start_path)
-            children = {k: v for k, v in node.items()
-                        if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
-            for cname in children:
-                res.extend(get_level_paths(start_path + (cname,), prefix))
-            return res
-
-        # 顺序执行 C → D → K → E
-        for prefix in ['c_', 'd_', 'k_', 'e_']:
-            alpha = LEVEL_ALPHA.get(prefix, 0.0)
-            if alpha == 0.0:
-                continue   # 不移动，直接跳过
-            level_paths = get_level_paths((self.root_key,), prefix)
-            for node_path in level_paths:
-                b_list = node_b_cache['|'.join(node_path)]
-                if not b_list:
-                    continue
-                # 计算当前中心（使用当前 lab_positions）
-                n = len(b_list)
-                center = [0.0, 0.0, 0.0]
-                for bk in b_list:
-                    pos = lab_positions[bk]
-                    center[0] += pos[0]
-                    center[1] += pos[1]
-                    center[2] += pos[2]
-                center = [c / n for c in center]
-                # 对每个下属 b 施加位移
-                for bk in b_list:
-                    pos = lab_positions[bk]
-                    pos[0] += alpha * (center[0] - pos[0])
-                    pos[1] += alpha * (center[1] - pos[1])
-                    pos[2] += alpha * (center[2] - pos[2])
-
-        # ---------- 4. 量化到整数 LAB 并检测重复 ----------
-        int_lab = {}
-        color_map = {}
-        for bk, (L, a_val, b_val) in lab_positions.items():
-            L_int = int(round(L))
-            a_int = int(round(a_val))
-            b_int = int(round(b_val))
-            int_lab[bk] = (L_int, a_int, b_int)
-            key = (L_int, a_int, b_int)
-            color_map.setdefault(key, []).append(bk)
-
-        collisions = 0
-        for lab_key, bks in color_map.items():
-            if len(bks) > 1:
-                collisions += 1
-                print(f"⚠️ 重复颜色 LAB{lab_key} 出现在员工: {', '.join(bks)}")
-        if collisions == 0:
-            print("✅ 无颜色重复")
-
-        # ---------- 5. 转换为 sRGB 并存储 ----------
-        self.b_colors.clear()
-        for bk, (L_int, a_int, b_int) in int_lab.items():
-            self.b_colors[bk] = lab_to_rgb(L_int, a_int, b_int)
-
-        # ---------- 6. 计算上级节点颜色 ----------
         self.node_colors.clear()
         for node_path_str, b_list in node_b_cache.items():
             if not b_list or node_path_str.split('|')[-1].startswith('b_'):
                 continue
-            sum_L = sum(int_lab[bk][0] for bk in b_list)
-            sum_a = sum(int_lab[bk][1] for bk in b_list)
-            sum_b = sum(int_lab[bk][2] for bk in b_list)
-            n = len(b_list)
-            avg_L = int(round(sum_L / n))
-            avg_a = int(round(sum_a / n))
-            avg_b = int(round(sum_b / n))
-            self.node_colors[node_path_str] = lab_to_rgb(avg_L, avg_a, avg_b)
+            L_vals = [int_lab[bk][0] for bk in b_list]
+            a_vals = [int_lab[bk][1] for bk in b_list]
+            b_vals = [int_lab[bk][2] for bk in b_list]
+            med_L = median_int(L_vals)
+            med_a = median_int(a_vals)
+            med_b = median_int(b_vals)
+            self.node_colors[node_path_str] = lab_to_rgb(med_L, med_a, med_b)
 
     # ==================== 文件解析与输出（保持不变） ====================
     @staticmethod
