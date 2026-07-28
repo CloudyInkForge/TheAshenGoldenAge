@@ -19,10 +19,11 @@ class ColorAllocator:
         self.root_key = root_key
         self.tree = {root_key: company_tree[root_key]}
         self.b_colors: Dict[str, Tuple[int, int, int]] = {}
-        self.node_colors: Dict[str, Tuple[int, int, int]] = {}   # 存储所有节点的颜色
+        self.node_colors: Dict[str, Tuple[int, int, int]] = {}
         self._node_demands = {}
 
         self._parse_and_validate()
+        self._build_hue_perception_tables()
         self._assign_colors_by_space(self.root_key, (self.root_key,),
                                      h_range=(0.0, 360.0),
                                      s_range=(0.3, 0.7),
@@ -58,27 +59,97 @@ class ColorAllocator:
         if total_demand <= 0:
             raise ValueError("总员工数必须大于0")
 
-    # ========== 跳跃排列（核心优化） ==========
+    # ========== 色相感知灵敏度建模 ==========
+    def _build_hue_perception_tables(self):
+        """
+        构建色相感知权重表与累积感知长度表。
+        使用双峰模型：在黄色 (60°) 和蓝色 (240°) 附近灵敏度高，
+        在绿色 (150°) 和红色 (330°) 附近灵敏度低。
+        w(h) = 1.0 + 0.35 * cos(2 * (h - 60°) )，取值范围 [0.65, 1.35]。
+        对 0~360 度每整度采样，计算累积积分（梯形法则）。
+        """
+        self._hue_samples = 361  # 0 到 360 共 361 个点
+        self._hue_weights = [0.0] * self._hue_samples
+        step = 1.0  # 1 度
+        total_sum = 0.0
+        for i in range(self._hue_samples):
+            h = i  # 0..360
+            rad = math.radians(2 * (h - 60))
+            w = 1.0 + 0.35 * math.cos(rad)
+            self._hue_weights[i] = w
+            total_sum += w * step
+        # 构建累积分布（未归一化）
+        self._cumulative = [0.0] * self._hue_samples
+        cum = 0.0
+        for i in range(self._hue_samples):
+            cum += self._hue_weights[i] * step
+            self._cumulative[i] = cum
+        # 归一化系数，使总感知长度为 1（用于比例映射）
+        self._total_perception = cum
+
+    def _hue_perception_length(self, h1: float, h2: float) -> float:
+        """计算色相区间 [h1, h2) 的感知长度。h1, h2 在 [0,360] 内。"""
+        if h1 >= h2:
+            return 0.0
+        # 确保在 [0,360] 内
+        h1 = max(0.0, min(360.0, h1))
+        h2 = max(0.0, min(360.0, h2))
+        # 线性插值累积值
+        def cum_at(h):
+            i = int(h)
+            if i >= 360:
+                return self._cumulative[360]
+            frac = h - i
+            return self._cumulative[i] + frac * (self._cumulative[i+1] - self._cumulative[i])
+        return cum_at(h2) - cum_at(h1)
+
+    def _perceptual_mid_hue(self, h_range: Tuple[float, float]) -> float:
+        """返回色相区间的感知中点，即左右感知长度相等的点。"""
+        h1, h2 = h_range
+        total_len = self._hue_perception_length(h1, h2)
+        if total_len <= 0:
+            return (h1 + h2) / 2.0
+        target = self._hue_perception_length(h1, h2) / 2.0
+        # 二分查找
+        lo, hi = h1, h2
+        for _ in range(50):  # 足够精度
+            mid = (lo + hi) / 2.0
+            left_len = self._hue_perception_length(h1, mid)
+            if left_len < target:
+                lo = mid
+            else:
+                hi = mid
+        return (lo + hi) / 2.0
+
+    def _hue_interval_by_perception(self, h_start: float, h_end: float,
+                                    perception_fraction: float) -> Tuple[float, float]:
+        """
+        从 h_start 开始，截取一段感知长度等于 perception_fraction * 区间总感知长度的子区间，
+        返回 (new_start, new_end)。若 perception_fraction == 1 则直接返回 (h_start, h_end)。
+        """
+        if perception_fraction <= 0:
+            return h_start, h_start
+        if perception_fraction >= 1.0:
+            return h_start, h_end
+        total_len = self._hue_perception_length(h_start, h_end)
+        target_len = total_len * perception_fraction
+        # 二分找 new_end
+        lo, hi = h_start, h_end
+        for _ in range(50):
+            mid = (lo + hi) / 2.0
+            if self._hue_perception_length(h_start, mid) < target_len:
+                lo = mid
+            else:
+                hi = mid
+        new_end = (lo + hi) / 2.0
+        return h_start, new_end
+
+    # ========== 跳跃排列 ==========
     @staticmethod
     def _leapfrog_order(n: int) -> List[int]:
         """
         生成 [0, n) 的一个排列，使得排列后相邻原始索引在位置上尽可能远。
-
-        使用逐层二分策略：
-        - 第一层：取整个范围 [0, n-1] 的中点
-        - 第二层：取左半段和右半段各自的中点
-        - 第三层：取四个四分之一段各自的中点
-        - ...依次类推，直到所有位置被填充
-
-        例如 n=8 返回 [4, 1, 6, 0, 2, 5, 7, 3]，
-        意味着位置 0 放 child[4]，位置 1 放 child[1]，位置 2 放 child[6]...
-        这样 child[0] 在位置 3，child[1] 在位置 1，它们之间隔了 2 个位置，
-        而非像顺序排列那样紧挨在一起。
-
-        效果：对于 n 个等权子节点，相邻子节点（在树结构中相邻）在颜色空间中
-        的间距约为 range/2，而顺序排列仅为 range/n。
-        当 n=20 时，顺序排列相邻间距 = range/20 = 0.025（几乎无法区分），
-        跳跃排列相邻间距 ≈ range/2 = 0.25（清晰可辨），提升约 10 倍。
+        使用逐层二分策略。
         """
         if n <= 0:
             return []
@@ -110,30 +181,8 @@ class ColorAllocator:
         """
         递归为树中每个节点分配颜色。
 
-        当前节点获得其空间范围的中点颜色（含微小偏移），然后根据子节点包含的
-        b 数量在对应维度上按比例切分空间，递归处理子节点。
-
-        - 子节点为 c_ ：在 S 轴上切分
-        - 子节点为 b_ ：在 L 轴上切分
-        - 其他（e_/k_/d_ 或根的直接子节点）：在 H 轴上切分
-
-        优化一（跳跃排列）：
-        在为子节点分配切分轴上的位置时，使用 _leapfrog_order 重新排列分配顺序。
-        原始顺序中相邻的子节点会被分配到切分轴上相距最远的位置，使得在树结构中
-        相邻的兄弟节点在颜色上差异最大，从而大幅提高同级可区分性。
-        同时，所有子节点仍然被限制在父节点的颜色空间范围内，保持了"同属一个上级"
-        的视觉聚类效果——通过 H 范围（e/k/d级）、S 范围（c级）、L 范围（b级）
-        即可判断从属关系。
-
-        优化二（父节点偏移）：
-        为父节点（非叶子节点）的颜色添加微小偏移（2%），避免与"恰好落在范围中心"
-        的子节点颜色完全重合。偏移方向按深度交替，使相邻层级的父节点产生明暗差异，
-        进一步增强层级可辨识度。
-
-        优化三（d节点环绕取色）：
-        为 d 节点在所属 k 节点的 S-L 平面上，以中点为中心进行环绕分布。
-        使用跳跃排列决定各 d 节点的环绕角度，使同 k 内相邻 d 在角度上相距最大，
-        同时通过跨 k 角度微调避免不同 k 中 d 节点的颜色重合。
+        核心改进：当切分轴为 H 时，子区间按“感知均匀”方式分配，使每个子节点
+        获得的色相感知长度与其需求成正比，而非线性长度。
         """
         # 取出当前节点的原始数据
         node = self.tree
@@ -155,69 +204,59 @@ class ColorAllocator:
             else:
                 child_axis = 'H'
 
-        # 计算当前节点的默认中点颜色
-        h_mid = (h_range[0] + h_range[1]) / 2.0
+        # 计算当前节点的默认颜色坐标
+        # H 取感知中点，S、L 取线性中点
+        h_mid = self._perceptual_mid_hue(h_range)
         s_mid = (s_range[0] + s_range[1]) / 2.0
         l_mid = (l_range[0] + l_range[1]) / 2.0
 
-        # === 优化三：d节点专属环绕取色 ===
-        # 同k内d节点在S-L平面上以中点为中心环绕分布，最大化二维区分度
-        # 同时通过跨k角度微调避免不同k的d节点重合
+        # === d节点专属环绕取色 ===
         is_d_node = node_name.startswith('d_')
         d_staggered = False
 
         if is_d_node and d_index is not None and d_count is not None:
-            # 计算S-L平面的中心点
             s_center = (s_range[0] + s_range[1]) / 2.0
             l_center = (l_range[0] + l_range[1]) / 2.0
 
             if d_count > 1:
                 d_staggered = True
-                # 使用跳跃排列决定各d的环绕顺序，使相邻d在角度上相距最大
                 order = self._leapfrog_order(d_count)
-                rank = order.index(d_index)      # 当前d在跳跃排列中的位置
+                rank = order.index(d_index)
                 base_angle = 2.0 * math.pi * rank / d_count
 
-                # 跨k区分：根据k_index对环绕角度进行微小旋转
+                # 跨k角度微调
                 if k_index is not None and k_count is not None and k_count > 1:
-                    # 旋转角度偏移量，使用质数7避免与等分角度产生周期性重合
                     angle_offset = 2.0 * math.pi * 0.03 * (k_index % 7)
                     base_angle += angle_offset
 
-                # 计算环绕半径：取S和L范围半宽的较小值乘以系数，确保所有点均在范围内
                 s_half = (s_range[1] - s_range[0]) / 2.0
                 l_half = (l_range[1] - l_range[0]) / 2.0
-                radius = min(s_half, l_half) * 0.5   # 0.5倍半宽使d节点始终簇拥在中心周围
+                radius = min(s_half, l_half) * 0.5
 
-                # 根据角度和半径计算具体位置
                 s_mid = s_center + radius * math.cos(base_angle)
                 l_mid = l_center + radius * math.sin(base_angle)
 
-                # 裁剪到有效范围，防止浮点误差越界
                 s_mid = max(s_range[0], min(s_range[1], s_mid))
                 l_mid = max(l_range[0], min(l_range[1], l_mid))
             else:
-                # 单个d节点：直接取中点，但可应用跨k微调（仍取中点，添加微小S偏移以保留原设计意图）
+                # 单个d节点仍可应用跨k微调（保持原有意图）
                 if k_index is not None and k_count is not None and k_count > 1:
                     offset_pattern = [-0.04, 0.0, 0.04]
                     k_s_offset = offset_pattern[k_index % 3] * (s_range[1] - s_range[0])
                     s_mid = max(s_range[0], min(s_range[1], s_center + k_s_offset))
                     l_mid = l_center
-                # 单个d节点不设置d_staggered，以便仍然可以应用父节点偏移（如需）
-                # 这里保持 d_staggered = False，与原有逻辑一致
+                # 不设置 d_staggered，以便可叠加父节点偏移
 
-        # 优化二：为父节点添加微小偏移，避免与中心子节点颜色完全重合
-        # d节点已使用环绕逻辑（d_staggered=True）时跳过，避免干扰精心设计的环绕位置
+        # === 父节点微小偏移 ===
         if child_axis is not None and not d_staggered:
             depth = len(path)
             sign = 1 if depth % 2 == 0 else -1
-            offset_ratio = 0.02  # 2% 偏移，足够避免重合但不影响视觉聚类
-            # 在切分轴方向偏移：避免该轴上的中心子节点与父节点完全重合
+            offset_ratio = 0.02
             if child_axis == 'H':
+                # 在H轴上偏移时，仍使用线性偏移（微小量不影响感知均匀性）
                 h_mid += sign * (h_range[1] - h_range[0]) * offset_ratio
             elif child_axis == 'S':
                 s_mid += sign * (s_range[1] - s_range[0]) * offset_ratio
-            # 在 L 方向始终偏移：为所有层级的父节点提供与子节点的明度差异
             l_mid += sign * (l_range[1] - l_range[0]) * offset_ratio
 
         rgb = self._hsl_to_rgb(h_mid, s_mid, l_mid)
@@ -229,9 +268,9 @@ class ColorAllocator:
             self.b_colors[path_str] = rgb
 
         if not children:
-            return  # 叶子节点（b_）或无子节点
+            return
 
-        # 计算子节点总需求和
+        # 准备子节点
         child_items = []
         total_demand = 0
         for cname, cnode in children.items():
@@ -243,83 +282,123 @@ class ColorAllocator:
         if total_demand == 0:
             return
 
-        axis = child_axis  # 已在上方确定
+        axis = child_axis
 
-        # 在选定轴上按需求比例分配子区间
-        if axis == 'H':
-            start = h_range[0]
-            length = h_range[1] - h_range[0]
-        elif axis == 'S':
-            start = s_range[0]
-            length = s_range[1] - s_range[0]
-        else:  # 'L'
-            start = l_range[0]
-            length = l_range[1] - l_range[0]
-
-        # === 优化一：使用跳跃排列重新排序子节点的位置分配 ===
-        # lf_order[j] 表示第 j 个位置上应该放置哪个原始子节点
-        # 这样原始顺序中相邻的子节点会被分配到切分轴上相距最远的位置
+        # === 跳跃排列重排子节点顺序 ===
         n_children = len(child_items)
         lf_order = self._leapfrog_order(n_children)
+        # 先计算每个子节点应获得的“长度”（如果是H轴则为感知长度，否则为线性长度）
+        child_lengths = []
+        for cname, cnode, demand, cpath in child_items:
+            if axis == 'H':
+                total_len = self._hue_perception_length(h_range[0], h_range[1])
+                child_lengths.append(total_len * (demand / total_demand))
+            elif axis == 'S':
+                total_len = s_range[1] - s_range[0]
+                child_lengths.append(total_len * (demand / total_demand))
+            else:  # L
+                total_len = l_range[1] - l_range[0]
+                child_lengths.append(total_len * (demand / total_demand))
+
+        # 按跳跃顺序排列长度及子项
+        reordered_lengths = [child_lengths[lf_order[j]] for j in range(n_children)]
         reordered_items = [child_items[lf_order[j]] for j in range(n_children)]
 
-        current_start = start
-        for j, (cname, cnode, demand, cpath) in enumerate(reordered_items):
-            interval_length = length * (demand / total_demand)
-            child_h_range = h_range
-            child_s_range = s_range
-            child_l_range = l_range
-            if axis == 'H':
-                child_h_range = (current_start, current_start + interval_length)
-            elif axis == 'S':
-                child_s_range = (current_start, current_start + interval_length)
-            else:  # 'L'
-                child_l_range = (current_start, current_start + interval_length)
-            current_start += interval_length
+        # 分配区间
+        if axis == 'H':
+            current_h = h_range[0]
+            for j, (cname, cnode, demand, cpath) in enumerate(reordered_items):
+                target_len = reordered_lengths[j]
+                child_h_end = self._hue_interval_by_perception(
+                    current_h, h_range[1],
+                    target_len / self._hue_perception_length(current_h, h_range[1])
+                )[1] if self._hue_perception_length(current_h, h_range[1]) > 0 else current_h
+                child_h_range = (current_h, child_h_end)
+                current_h = child_h_end
+                child_s_range = s_range
+                child_l_range = l_range
 
-            # === 传递上下文索引信息给子节点（用于d节点环绕取色） ===
-            # orig_idx: 当前子节点在原始顺序中的索引（跳跃排列前的位置）
-            orig_idx = lf_order[j]
-            new_d_index = d_index
-            new_d_count = d_count
-            new_k_index = k_index
-            new_k_count = k_count
+                # 传递上下文索引
+                orig_idx = lf_order[j]
+                new_d_index = d_index
+                new_d_count = d_count
+                new_k_index = k_index
+                new_k_count = k_count
+                if cname.startswith('d_'):
+                    new_d_index = orig_idx
+                    new_d_count = n_children
+                elif cname.startswith('k_'):
+                    new_k_index = orig_idx
+                    new_k_count = n_children
+                    new_d_index = None
+                    new_d_count = None
+                elif cname.startswith('e_'):
+                    new_k_index = None
+                    new_k_count = None
+                    new_d_index = None
+                    new_d_count = None
+                elif cname.startswith('c_'):
+                    new_d_index = None
+                    new_d_count = None
 
-            if cname.startswith('d_'):
-                # 记录此d在兄弟d中的原始序号和总数，供环绕取色使用
-                new_d_index = orig_idx
-                new_d_count = n_children
-                # k信息保持不变，传递下去用于跨k角度微调
-            elif cname.startswith('k_'):
-                # 记录此k在兄弟k中的原始序号和总数
-                new_k_index = orig_idx
-                new_k_count = n_children
-                # 进入新k，重置d信息
-                new_d_index = None
-                new_d_count = None
-            elif cname.startswith('e_'):
-                # 进入新e，重置k和d信息
-                new_k_index = None
-                new_k_count = None
-                new_d_index = None
-                new_d_count = None
-            elif cname.startswith('c_'):
-                # c和b不需要d上下文
-                new_d_index = None
-                new_d_count = None
+                self._assign_colors_by_space(cname, cpath,
+                                             child_h_range, child_s_range, child_l_range,
+                                             d_index=new_d_index, d_count=new_d_count,
+                                             k_index=new_k_index, k_count=new_k_count)
+        else:
+            # S 或 L 轴，线性分配
+            if axis == 'S':
+                start = s_range[0]
+                length = s_range[1] - s_range[0]
+            else:  # L
+                start = l_range[0]
+                length = l_range[1] - l_range[0]
 
-            self._assign_colors_by_space(cname, cpath,
-                                         child_h_range, child_s_range, child_l_range,
-                                         d_index=new_d_index, d_count=new_d_count,
-                                         k_index=new_k_index, k_count=new_k_count)
+            current_start = start
+            for j, (cname, cnode, demand, cpath) in enumerate(reordered_items):
+                interval_length = reordered_lengths[j]
+                child_h_range = h_range
+                if axis == 'S':
+                    child_s_range = (current_start, current_start + interval_length)
+                    child_l_range = l_range
+                else:
+                    child_s_range = s_range
+                    child_l_range = (current_start, current_start + interval_length)
+                current_start += interval_length
+
+                orig_idx = lf_order[j]
+                new_d_index = d_index
+                new_d_count = d_count
+                new_k_index = k_index
+                new_k_count = k_count
+                if cname.startswith('d_'):
+                    new_d_index = orig_idx
+                    new_d_count = n_children
+                elif cname.startswith('k_'):
+                    new_k_index = orig_idx
+                    new_k_count = n_children
+                    new_d_index = None
+                    new_d_count = None
+                elif cname.startswith('e_'):
+                    new_k_index = None
+                    new_k_count = None
+                    new_d_index = None
+                    new_d_count = None
+                elif cname.startswith('c_'):
+                    new_d_index = None
+                    new_d_count = None
+
+                self._assign_colors_by_space(cname, cpath,
+                                             child_h_range, child_s_range, child_l_range,
+                                             d_index=new_d_index, d_count=new_d_count,
+                                             k_index=new_k_index, k_count=new_k_count)
 
     @staticmethod
     def _hsl_to_rgb(h: float, s: float, l: float) -> Tuple[int, int, int]:
-        """HSL -> RGB 转换，h in [0,360), s,l in [0,1]，输出 (0-255)"""
         r, g, b = colorsys.hls_to_rgb(h / 360.0, l, s)
         return (int(round(r * 255)), int(round(g * 255)), int(round(b * 255)))
 
-    # ========== 文件处理（保留原有格式，使用新颜色） ==========
+    # ========== 文件处理（保持不变） ==========
     @staticmethod
     def parse_paradox_script(text: str) -> dict:
         if not isinstance(text, str):
@@ -348,7 +427,6 @@ class ColorAllocator:
                 i = skip_ws(i)
                 if i < len(text) and text[i] == '}':
                     return {}, i + 1
-                # 判断数组还是块
                 temp_i = i
                 while temp_i < len(text) and text[temp_i] not in '}\n#=' and text[temp_i] != '=':
                     temp_i += 1
@@ -476,11 +554,10 @@ class ColorAllocator:
         if not lines:
             raise ValueError("输入文件为空")
 
-        stack = []  # (name, start_line)
+        stack = []
         i = 0
         while i < len(lines):
             line = lines[i]
-            # 检测块开始
             m = re.match(r'^\s*([\w_]+)\s*=\s*\{', line)
             if m:
                 key = m.group(1)
@@ -489,13 +566,11 @@ class ColorAllocator:
                 i += 1
                 continue
 
-            # 检测块结束
             if re.match(r'^\s*\}', line):
                 if not stack:
                     i += 1
                     continue
                 key, start_line = stack.pop()
-                # 构建完整路径
                 path_parts = [k for k, _ in stack] + [key]
                 full_path = '|'.join(path_parts)
 
@@ -506,7 +581,6 @@ class ColorAllocator:
                     new_rgb = self.node_colors.get(full_path)
 
                 if new_rgb is not None:
-                    # 在块内查找并替换 color 行
                     replaced = False
                     for k in range(start_line, i + 1):
                         cm = re.match(r'(\s*color\s*=\s*\{)\s*(\d+)\s+(\d+)\s+(\d+)\s*(\}.*)', lines[k])
@@ -517,13 +591,12 @@ class ColorAllocator:
                             lines[k] = new_line
                             replaced = True
                             break
-                    # 如果原块内没有 color 行，则在 } 前插入新行
                     if not replaced:
                         indent = re.match(r'^(\s*)\}', lines[i])
                         indent_str = indent.group(1) if indent else ''
                         color_line = f"{indent_str}    color = {{ {new_rgb[0]} {new_rgb[1]} {new_rgb[2]} }}\n"
                         lines.insert(i, color_line)
-                        i += 1  # 因为插入了一行，需要跳过它
+                        i += 1
                 i += 1
                 continue
 
@@ -544,7 +617,6 @@ class ColorAllocator:
         return allocator.b_colors
 
 
-# 使用示例
 if __name__ == "__main__":
     allocator = ColorAllocator.from_file("TheAshenGoldenAge/common/landed_titles/TAGA_china.txt", root_key="h_taga_hanjin")
     print("员工颜色数量:", len(allocator.b_colors))
