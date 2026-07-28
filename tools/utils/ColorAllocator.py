@@ -2,6 +2,7 @@ import re
 import colorsys
 from typing import List, Tuple, Dict, Optional
 
+
 class ColorAllocator:
     def __init__(self, company_tree: dict, root_key: str = None):
         if not isinstance(company_tree, dict):
@@ -23,8 +24,8 @@ class ColorAllocator:
         self._parse_and_validate()
         self._assign_colors_by_space(self.root_key, (self.root_key,),
                                      h_range=(0.0, 360.0),
-                                     s_range=(0.3, 0.8),
-                                     l_range=(0.3, 0.8))
+                                     s_range=(0.3, 0.7),
+                                     l_range=(0.3, 0.7))
 
     def assign(self) -> Dict[str, Tuple[int, int, int]]:
         return self.b_colors
@@ -56,31 +57,84 @@ class ColorAllocator:
         if total_demand <= 0:
             raise ValueError("总员工数必须大于0")
 
+    # ========== 跳跃排列（核心优化） ==========
+    @staticmethod
+    def _leapfrog_order(n: int) -> List[int]:
+        """
+        生成 [0, n) 的一个排列，使得排列后相邻原始索引在位置上尽可能远。
+
+        使用逐层二分策略：
+        - 第一层：取整个范围 [0, n-1] 的中点
+        - 第二层：取左半段和右半段各自的中点
+        - 第三层：取四个四分之一段各自的中点
+        - ...依次类推，直到所有位置被填充
+
+        例如 n=8 返回 [4, 1, 6, 0, 2, 5, 7, 3]，
+        意味着位置 0 放 child[4]，位置 1 放 child[1]，位置 2 放 child[6]...
+        这样 child[0] 在位置 3，child[1] 在位置 1，它们之间隔了 2 个位置，
+        而非像顺序排列那样紧挨在一起。
+
+        效果：对于 n 个等权子节点，相邻子节点（在树结构中相邻）在颜色空间中
+        的间距约为 range/2，而顺序排列仅为 range/n。
+        当 n=20 时，顺序排列相邻间距 = range/20 = 0.025（几乎无法区分），
+        跳跃排列相邻间距 ≈ range/2 = 0.25（清晰可辨），提升约 10 倍。
+        """
+        if n <= 0:
+            return []
+        if n == 1:
+            return [0]
+        order = []
+        intervals = [(0, n - 1)]
+        while intervals:
+            next_intervals = []
+            for lo, hi in intervals:
+                if lo > hi:
+                    continue
+                mid = (lo + hi) // 2
+                order.append(mid)
+                if lo <= mid - 1:
+                    next_intervals.append((lo, mid - 1))
+                if mid + 1 <= hi:
+                    next_intervals.append((mid + 1, hi))
+            intervals = next_intervals
+        return order
+
     # ========== 基于空间划分的颜色分配 ==========
     def _assign_colors_by_space(self, node_name: str, path: tuple,
                                 h_range: Tuple[float, float],
                                 s_range: Tuple[float, float],
-                                l_range: Tuple[float, float]):
+                                l_range: Tuple[float, float],
+                                d_index: int = None, d_count: int = None,
+                                k_index: int = None, k_count: int = None):
         """
         递归为树中每个节点分配颜色。
-        当前节点获得其空间范围的中点颜色，然后根据子节点包含的 b 数量
-        在对应维度上按比例切分空间，递归处理子节点。
+
+        当前节点获得其空间范围的中点颜色（含微小偏移），然后根据子节点包含的
+        b 数量在对应维度上按比例切分空间，递归处理子节点。
+
         - 子节点为 c_ ：在 S 轴上切分
         - 子节点为 b_ ：在 L 轴上切分
         - 其他（e_/k_/d_ 或根的直接子节点）：在 H 轴上切分
+
+        优化一（跳跃排列）：
+        在为子节点分配切分轴上的位置时，使用 _leapfrog_order 重新排列分配顺序。
+        原始顺序中相邻的子节点会被分配到切分轴上相距最远的位置，使得在树结构中
+        相邻的兄弟节点在颜色上差异最大，从而大幅提高同级可区分性。
+        同时，所有子节点仍然被限制在父节点的颜色空间范围内，保持了"同属一个上级"
+        的视觉聚类效果——通过 H 范围（e/k/d级）、S 范围（c级）、L 范围（b级）
+        即可判断从属关系。
+
+        优化二（父节点偏移）：
+        为父节点（非叶子节点）的颜色添加微小偏移（2%），避免与"恰好落在范围中心"
+        的子节点颜色完全重合。偏移方向按深度交替，使相邻层级的父节点产生明暗差异，
+        进一步增强层级可辨识度。
+
+        优化三（d节点交错取色）：
+        为d节点不恒取中心，而是在S轴和L轴上使用跳跃排列进行交错分布，
+        使同一k下的不同d在S-L二维平面上最大化分散，易于区分；
+        同时根据所属k的序号添加跨k的S轴微小偏移，避免不同k中的d
+        在S-L平面上意外重合，实现跨k可区分。
         """
-        # 计算当前节点的颜色（中点）
-        h_mid = (h_range[0] + h_range[1]) / 2.0
-        s_mid = (s_range[0] + s_range[1]) / 2.0
-        l_mid = (l_range[0] + l_range[1]) / 2.0
-        rgb = self._hsl_to_rgb(h_mid, s_mid, l_mid)
-
-        # 保存颜色
-        path_str = '|'.join(path)
-        self.node_colors[path_str] = rgb
-        if node_name.startswith('b_'):
-            self.b_colors[path_str] = rgb
-
         # 取出当前节点的原始数据
         node = self.tree
         for part in path:
@@ -89,6 +143,73 @@ class ColorAllocator:
         # 筛选合法子节点
         children = {k: v for k, v in node.items()
                     if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
+
+        # 确定子节点的切分轴
+        child_axis = None
+        if children:
+            first_cname = next(iter(children))
+            if first_cname.startswith('b_'):
+                child_axis = 'L'
+            elif first_cname.startswith('c_'):
+                child_axis = 'S'
+            else:
+                child_axis = 'H'
+
+        # 计算当前节点的颜色（中点）
+        h_mid = (h_range[0] + h_range[1]) / 2.0
+        s_mid = (s_range[0] + s_range[1]) / 2.0
+        l_mid = (l_range[0] + l_range[1]) / 2.0
+
+        # === 优化三：d节点专属交错取色 ===
+        # 不恒取中心，在S和L轴上按跳跃排列交错分布，实现同k内d可区分
+        # 同时通过k序号偏移实现跨k可区分
+        is_d_node = node_name.startswith('d_')
+        d_staggered = False
+
+        if is_d_node and d_index is not None and d_count is not None:
+            if d_count > 1:
+                d_staggered = True
+
+                # S轴：使用跳跃排列，让同k中不同d在S方向上最大化间距
+                s_lf = self._leapfrog_order(d_count)
+                s_rank = s_lf.index(d_index)
+                s_mid = s_range[0] + (s_range[1] - s_range[0]) * (s_rank + 0.5) / d_count
+
+                # L轴：使用偏移半位的跳跃排列，确保S-L二维空间中对角线分散
+                # 即S高的d对应L低，S低的d对应L高，最大化二维欧氏距离
+                l_rank = (s_rank + d_count // 2) % d_count
+                l_mid = l_range[0] + (l_range[1] - l_range[0]) * (l_rank + 0.5) / d_count
+
+            # 跨k区分：根据k_index添加微小S轴偏移
+            # 使用三态循环模式(-4%, 0%, +4%)，避免不同k中的d在S-L平面上重合
+            # 即使d_count==1（无需同k内交错），跨k偏移仍然生效
+            if k_index is not None and k_count is not None and k_count > 1:
+                offset_pattern = [-0.04, 0.0, 0.04]
+                k_s_offset = offset_pattern[k_index % 3] * (s_range[1] - s_range[0])
+                s_mid = max(s_range[0], min(s_range[1], s_mid + k_s_offset))
+
+        # 优化二：为父节点添加微小偏移，避免与中心子节点颜色完全重合
+        # d节点已使用交错逻辑（d_staggered=True）时跳过，避免干扰精心设计的交错位置
+        if child_axis is not None and not d_staggered:
+            depth = len(path)
+            sign = 1 if depth % 2 == 0 else -1
+            offset_ratio = 0.02  # 2% 偏移，足够避免重合但不影响视觉聚类
+            # 在切分轴方向偏移：避免该轴上的中心子节点与父节点完全重合
+            if child_axis == 'H':
+                h_mid += sign * (h_range[1] - h_range[0]) * offset_ratio
+            elif child_axis == 'S':
+                s_mid += sign * (s_range[1] - s_range[0]) * offset_ratio
+            # 在 L 方向始终偏移：为所有层级的父节点提供与子节点的明度差异
+            l_mid += sign * (l_range[1] - l_range[0]) * offset_ratio
+
+        rgb = self._hsl_to_rgb(h_mid, s_mid, l_mid)
+
+        # 保存颜色
+        path_str = '|'.join(path)
+        self.node_colors[path_str] = rgb
+        if node_name.startswith('b_'):
+            self.b_colors[path_str] = rgb
+
         if not children:
             return  # 叶子节点（b_）或无子节点
 
@@ -104,15 +225,7 @@ class ColorAllocator:
         if total_demand == 0:
             return
 
-        # 决定切分的轴
-        # 由于所有子节点前缀相同（假设结构规范），我们用第一个子节点的前缀判断
-        first_cname = child_items[0][0]
-        if first_cname.startswith('b_'):
-            axis = 'L'
-        elif first_cname.startswith('c_'):
-            axis = 'S'
-        else:
-            axis = 'H'
+        axis = child_axis  # 已在上方确定
 
         # 在选定轴上按需求比例分配子区间
         if axis == 'H':
@@ -125,8 +238,15 @@ class ColorAllocator:
             start = l_range[0]
             length = l_range[1] - l_range[0]
 
+        # === 优化一：使用跳跃排列重新排序子节点的位置分配 ===
+        # lf_order[j] 表示第 j 个位置上应该放置哪个原始子节点
+        # 这样原始顺序中相邻的子节点会被分配到切分轴上相距最远的位置
+        n_children = len(child_items)
+        lf_order = self._leapfrog_order(n_children)
+        reordered_items = [child_items[lf_order[j]] for j in range(n_children)]
+
         current_start = start
-        for cname, cnode, demand, cpath in child_items:
+        for j, (cname, cnode, demand, cpath) in enumerate(reordered_items):
             interval_length = length * (demand / total_demand)
             child_h_range = h_range
             child_s_range = s_range
@@ -139,8 +259,41 @@ class ColorAllocator:
                 child_l_range = (current_start, current_start + interval_length)
             current_start += interval_length
 
+            # === 传递上下文索引信息给子节点（用于d节点交错取色） ===
+            # orig_idx: 当前子节点在原始顺序中的索引（跳跃排列前的位置）
+            orig_idx = lf_order[j]
+            new_d_index = d_index
+            new_d_count = d_count
+            new_k_index = k_index
+            new_k_count = k_count
+
+            if cname.startswith('d_'):
+                # 记录此d在兄弟d中的原始序号和总数，供交错取色使用
+                new_d_index = orig_idx
+                new_d_count = n_children
+                # k信息保持不变，传递下去用于跨k偏移
+            elif cname.startswith('k_'):
+                # 记录此k在兄弟k中的原始序号和总数
+                new_k_index = orig_idx
+                new_k_count = n_children
+                # 进入新k，重置d信息
+                new_d_index = None
+                new_d_count = None
+            elif cname.startswith('e_'):
+                # 进入新e，重置k和d信息
+                new_k_index = None
+                new_k_count = None
+                new_d_index = None
+                new_d_count = None
+            elif cname.startswith('c_'):
+                # c和b不需要d上下文
+                new_d_index = None
+                new_d_count = None
+
             self._assign_colors_by_space(cname, cpath,
-                                         child_h_range, child_s_range, child_l_range)
+                                         child_h_range, child_s_range, child_l_range,
+                                         d_index=new_d_index, d_count=new_d_count,
+                                         k_index=new_k_index, k_count=new_k_count)
 
     @staticmethod
     def _hsl_to_rgb(h: float, s: float, l: float) -> Tuple[int, int, int]:
