@@ -1,56 +1,7 @@
 import re
-import math
 from typing import List, Tuple, Dict, Optional
 
-# -------------------- LAB ↔ sRGB 转换 --------------------
-# 参考白点 D65
-XYZ_N = (0.95047, 1.0, 1.08883)
-
-def lab_to_xyz(L: float, a: float, b: float) -> Tuple[float, float, float]:
-    """CIELAB (D65) → XYZ"""
-    delta = 6 / 29
-    fy = (L + 16) / 116.0
-    fx = a / 500.0 + fy
-    fz = fy - b / 200.0
-
-    def finv(t: float) -> float:
-        if t > delta:
-            return t ** 3
-        return 3 * delta ** 2 * (t - 4 / 29)
-
-    xr = finv(fx)
-    yr = finv(fy)
-    zr = finv(fz)
-
-    return xr * XYZ_N[0], yr * XYZ_N[1], zr * XYZ_N[2]
-
-
-def xyz_to_linear_rgb(X: float, Y: float, Z: float) -> Tuple[float, float, float]:
-    """XYZ → 线性 RGB (sRGB)"""
-    r =  3.2404542 * X - 1.5371385 * Y - 0.4985314 * Z
-    g = -0.9692660 * X + 1.8760108 * Y + 0.0415560 * Z
-    b =  0.0556434 * X - 0.2040259 * Y + 1.0572252 * Z
-    return r, g, b
-
-
-def linear_to_srgb(c: float) -> int:
-    """单个线性分量 → 8bit sRGB"""
-    if c <= 0.0031308:
-        srgb = 12.92 * c
-    else:
-        srgb = 1.055 * (c ** (1 / 2.4)) - 0.055
-    return max(0, min(255, int(round(srgb * 255))))
-
-
-def lab_to_rgb(L: float, a: float, b: float) -> Tuple[int, int, int]:
-    """CIELAB (D65) → 8bit sRGB"""
-    X, Y, Z = lab_to_xyz(L, a, b)
-    r, g, b = xyz_to_linear_rgb(X, Y, Z)
-    return linear_to_srgb(r), linear_to_srgb(g), linear_to_srgb(b)
-
-
 # -------------------- 三维旋转定义 --------------------
-# 6 种旋转：(尺寸变换函数, 点坐标变换函数)
 ROTATIONS = [
     # 0: x, y, z → (x, y, z)
     (lambda w, h, d: (w, h, d), lambda x, y, z: (x, y, z)),
@@ -92,7 +43,6 @@ class ColorAllocator:
         return self.b_colors
 
     def _parse_and_validate(self):
-        """原解析验证不变"""
         def calc_demand(node, path):
             if not isinstance(node, dict):
                 raise TypeError(f"节点 {path} 必须是字典")
@@ -116,9 +66,7 @@ class ColorAllocator:
         if total_demand <= 0:
             raise ValueError("总员工数必须大于0")
 
-    # ==================== 核心分配逻辑 ====================
     def _allocate(self):
-        # ---------- 外边距配置 ----------
         MARGINS = {
             'e_': 0,
             'k_': 0,
@@ -133,13 +81,11 @@ class ColorAllocator:
                     return n
             return DEFAULT_MARGIN
 
-        # ---------- 1. 自底向上构建三维点阵（带外边距 + 强制正方体） ----------
         def build_shape(path: Tuple[str, ...]):
             node = self.tree
             for part in path:
                 node = node[part]
 
-            # 叶子员工
             if path[-1].startswith('b_'):
                 key = '|'.join(path)
                 return (1, 1, 1), [(key, 0, 0, 0)]
@@ -152,7 +98,6 @@ class ColorAllocator:
                 size, b_list = build_shape(cpath)
                 child_items.append((cname, size, b_list))
 
-            # 按体积降序排列（放置大块优先）
             child_items.sort(key=lambda x: x[1][0] * x[1][1] * x[1][2], reverse=True)
 
             occupied = set()
@@ -160,57 +105,69 @@ class ColorAllocator:
             global_b_list = []
 
             for cname, (w, h, d), b_list in child_items:
-                # ---- 根据子节点类型包裹外边距 ----
                 margin = get_margin(cname)
                 w_margin = w + 2 * margin
                 h_margin = h + 2 * margin
                 d_margin = d + 2 * margin
-                # 平移员工坐标
                 b_list_margin = [(bk, x + margin, y + margin, z + margin)
                                  for (bk, x, y, z) in b_list]
 
-                # ---- 尝试所有旋转放置 ----
                 best_placement = None
                 best_longest_side = float('inf')
                 best_volume = float('inf')
 
-                for rot_idx, (size_fn, rot_fn) in enumerate(ROTATIONS):
-                    rw, rh, rd = size_fn(w_margin, h_margin, d_margin)
-                    for ox in range(max_x + 1):
-                        for oy in range(max_y + 1):
-                            for oz in range(max_z + 1):
-                                # 检查冲突
-                                conflict = False
-                                for x in range(rw):
-                                    for y in range(rh):
-                                        for z in range(rd):
-                                            if (ox + x, oy + y, oz + z) in occupied:
-                                                conflict = True
-                                                break
-                                        if conflict: break
-                                    if conflict: break
-                                if conflict:
-                                    continue
+                candidates = set()
+                if not occupied:
+                    candidates.add((0, 0, 0))
+                else:
+                    for rot_idx, (size_fn, _) in enumerate(ROTATIONS):
+                        rw, rh, rd = size_fn(w_margin, h_margin, d_margin)
+                        for (ox_, oy_, oz_) in occupied:
+                            candidates.add((ox_ + 1, oy_, oz_))
+                            if ox_ - rw >= 0:
+                                candidates.add((ox_ - rw, oy_, oz_))
+                            candidates.add((ox_, oy_ + 1, oz_))
+                            if oy_ - rh >= 0:
+                                candidates.add((ox_, oy_ - rh, oz_))
+                            candidates.add((ox_, oy_, oz_ + 1))
+                            if oz_ - rd >= 0:
+                                candidates.add((ox_, oy_, oz_ - rd))
 
-                                new_max_x = max(max_x, ox + rw)
-                                new_max_y = max(max_y, oy + rh)
-                                new_max_z = max(max_z, oz + rd)
-                                new_longest = max(new_max_x, new_max_y, new_max_z)
-                                new_vol = new_max_x * new_max_y * new_max_z
-                                if new_longest < best_longest_side or \
-                                   (new_longest == best_longest_side and new_vol < best_volume):
-                                    best_longest_side = new_longest
-                                    best_volume = new_vol
-                                    best_placement = (ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z)
+                for ox, oy, oz in candidates:
+                    for rot_idx, (size_fn, rot_fn) in enumerate(ROTATIONS):
+                        rw, rh, rd = size_fn(w_margin, h_margin, d_margin)
+                        if ox < 0 or oy < 0 or oz < 0:
+                            continue
+                        conflict = False
+                        for x in range(rw):
+                            if conflict: break
+                            for y in range(rh):
+                                if conflict: break
+                                for z in range(rd):
+                                    if (ox + x, oy + y, oz + z) in occupied:
+                                        conflict = True
+                                        break
+                        if conflict:
+                            continue
+
+                        new_max_x = max(max_x, ox + rw)
+                        new_max_y = max(max_y, oy + rh)
+                        new_max_z = max(max_z, oz + rd)
+                        new_longest = max(new_max_x, new_max_y, new_max_z)
+                        new_vol = new_max_x * new_max_y * new_max_z
+                        if new_longest < best_longest_side or \
+                           (new_longest == best_longest_side and new_vol < best_volume):
+                            best_longest_side = new_longest
+                            best_volume = new_vol
+                            best_placement = (ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z)
 
                 if best_placement is None:
                     raise RuntimeError(f"无法放置子块 {cname}，可能空间不足")
 
                 ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z = best_placement
-                _, rot_fn = ROTATIONS[rot_idx]
-                rw, rh, rd = ROTATIONS[rot_idx][0](w_margin, h_margin, d_margin)
+                size_fn, rot_fn = ROTATIONS[rot_idx]
+                rw, rh, rd = size_fn(w_margin, h_margin, d_margin)
 
-                # 标记占用
                 for x in range(rw):
                     for y in range(rh):
                         for z in range(rd):
@@ -218,17 +175,17 @@ class ColorAllocator:
 
                 max_x, max_y, max_z = new_max_x, new_max_y, new_max_z
 
-                # 变换员工坐标
                 for bk, lx, ly, lz in b_list_margin:
                     rx, ry, rz = rot_fn(lx, ly, lz)
                     gx, gy, gz = ox + rx, oy + ry, oz + rz
                     global_b_list.append((bk, gx, gy, gz))
 
-            # ---- 强制当前节点结果为正方体 ----
+            # ---- 新增调试输出：强制正方体前的原始包围盒 ----
+            print(f"[构建节点] {'|'.join(path)}: 原始包围盒: {max_x}×{max_y}×{max_z}")
+
             max_dim = max(max_x, max_y, max_z)
             size_cube = (max_dim, max_dim, max_dim)
 
-            # 调试输出
             total_cells = max_dim * max_dim * max_dim
             real_points = len(global_b_list)
             dead_points = total_cells - real_points
@@ -240,59 +197,33 @@ class ColorAllocator:
         root_path = (self.root_key,)
         (size_x, size_y, size_z), global_b_assignments = build_shape(root_path)
 
-        # 整体点阵统计
         total_cells = size_x * size_y * size_z
         real_points = len(global_b_assignments)
         dead_points = total_cells - real_points
         print(f"\n===== 最终点阵 =====")
         print(f"尺寸: {size_x} × {size_y} × {size_z} = {total_cells} 格点")
-        print(f"真实员工点: {real_points}, 占位点(无效点): {dead_points}")
+        print(f"真实员工点: {real_points}, 无效点(占位): {dead_points}")
 
-        # ---------- 2. 映射到 CIELAB 安全立方体 ----------
-        LAB_BOX = {
-            'L_min': 25.0, 'L_max': 90.0,
-            'a_min': -80.0, 'a_max': 80.0,
-            'b_min': -80.0, 'b_max': 80.0
+        RGB_BOX = {
+            'R_min': 30, 'R_max': 225,
+            'G_min': 30, 'G_max': 225,
+            'B_min': 30, 'B_max': 225
         }
 
-        def grid_to_lab(x, y, z):
-            L = LAB_BOX['L_min'] + (LAB_BOX['L_max'] - LAB_BOX['L_min']) * (x / max(size_x - 1, 1))
-            a_val = LAB_BOX['a_min'] + (LAB_BOX['a_max'] - LAB_BOX['a_min']) * (y / max(size_y - 1, 1))
-            b_val = LAB_BOX['b_min'] + (LAB_BOX['b_max'] - LAB_BOX['b_min']) * (z / max(size_z - 1, 1))
-            return L, a_val, b_val
+        def grid_to_rgb(x, y, z):
+            R = RGB_BOX['R_min'] + (RGB_BOX['R_max'] - RGB_BOX['R_min']) * (x / max(size_x - 1, 1))
+            G = RGB_BOX['G_min'] + (RGB_BOX['G_max'] - RGB_BOX['G_min']) * (y / max(size_y - 1, 1))
+            B = RGB_BOX['B_min'] + (RGB_BOX['B_max'] - RGB_BOX['B_min']) * (z / max(size_z - 1, 1))
+            return int(round(R)), int(round(G)), int(round(B))
 
-        lab_positions = {}
-        for b_key, x, y, z in global_b_assignments:
-            lab_positions[b_key] = list(grid_to_lab(x, y, z))
-
-        # ---------- 3. （已废除引力位移）----------
-        # 不再进行顺序分层位移，聚类效果由外边距和正方体装箱实现
-
-        # ---------- 4. 量化到整数 LAB 并检测重复 ----------
-        int_lab = {}
-        color_map_lab = {}
-        for bk, (L, a_val, b_val) in lab_positions.items():
-            L_int = int(round(L))
-            a_int = int(round(a_val))
-            b_int = int(round(b_val))
-            int_lab[bk] = (L_int, a_int, b_int)
-            key = (L_int, a_int, b_int)
-            color_map_lab.setdefault(key, []).append(bk)
-
-        collisions_lab = 0
-        for lab_key, bks in color_map_lab.items():
-            if len(bks) > 1:
-                collisions_lab += 1
-                print(f"⚠️ [LAB重复] LAB{lab_key} 出现在员工: {', '.join(bks)}")
-        if collisions_lab == 0:
-            print("✅ 无 LAB 整数重复")
-
-        # ---------- 5. 转换为 sRGB 并存储 ----------
         self.b_colors.clear()
-        for bk, (L_int, a_int, b_int) in int_lab.items():
-            self.b_colors[bk] = lab_to_rgb(L_int, a_int, b_int)
+        for bk, x, y, z in global_b_assignments:
+            r, g, b = grid_to_rgb(x, y, z)
+            r = max(0, min(255, r))
+            g = max(0, min(255, g))
+            b = max(0, min(255, b))
+            self.b_colors[bk] = (r, g, b)
 
-        # ---------- 5.5 最终 RGB 重复检测（关键修复）----------
         rgb_map = {}
         for bk, rgb in self.b_colors.items():
             rgb_map.setdefault(rgb, []).append(bk)
@@ -306,7 +237,6 @@ class ColorAllocator:
         else:
             print(f"⚠️ 警告：共有 {rgb_collisions} 组 RGB 颜色重复！")
 
-        # ---------- 6. 计算上级节点颜色（取中位数）----------
         def median_int(values):
             sorted_vals = sorted(values)
             n = len(sorted_vals)
@@ -350,15 +280,14 @@ class ColorAllocator:
         for node_path_str, b_list in node_b_cache.items():
             if not b_list or node_path_str.split('|')[-1].startswith('b_'):
                 continue
-            L_vals = [int_lab[bk][0] for bk in b_list]
-            a_vals = [int_lab[bk][1] for bk in b_list]
-            b_vals = [int_lab[bk][2] for bk in b_list]
-            med_L = median_int(L_vals)
-            med_a = median_int(a_vals)
-            med_b = median_int(b_vals)
-            self.node_colors[node_path_str] = lab_to_rgb(med_L, med_a, med_b)
+            R_vals = [self.b_colors[bk][0] for bk in b_list]
+            G_vals = [self.b_colors[bk][1] for bk in b_list]
+            B_vals = [self.b_colors[bk][2] for bk in b_list]
+            med_R = median_int(R_vals)
+            med_G = median_int(G_vals)
+            med_B = median_int(B_vals)
+            self.node_colors[node_path_str] = (med_R, med_G, med_B)
 
-    # ==================== 文件解析与输出（保持不变） ====================
     @staticmethod
     def parse_paradox_script(text: str) -> dict:
         if not isinstance(text, str):
