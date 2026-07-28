@@ -120,55 +120,43 @@ class ColorAllocator:
     def _allocate(self):
         # ---------- 1. 自底向上构建三维点阵 ----------
         def build_shape(path: Tuple[str, ...]):
-            """
-            递归构建形状，返回 (size, b_assignments)
-            size: (W, H, D) 该节点占据的完整长方体尺寸
-            b_assignments: [(b_key, local_x, local_y, local_z), ...]
-            """
             node = self.tree
             for part in path:
                 node = node[part]
 
-            # 叶子员工
             if path[-1].startswith('b_'):
                 key = '|'.join(path)
                 return (1, 1, 1), [(key, 0, 0, 0)]
 
-            # 收集子节点
             children = {k: v for k, v in node.items()
                         if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
-            child_items = []  # (cname, size, b_list)
+            child_items = []
             for cname in children:
                 cpath = path + (cname,)
                 size, b_list = build_shape(cpath)
                 child_items.append((cname, size, b_list))
 
-            # 按体积降序排序
             child_items.sort(key=lambda x: x[1][0] * x[1][1] * x[1][2], reverse=True)
 
-            # 三维装箱：贪心放置，支持旋转，目标最小化最长边
-            occupied = set()            # 已占用网格坐标集合
-            max_x = max_y = max_z = 0   # 当前包围盒尺寸
-            global_b_list = []          # 最终全局坐标的员工列表
+            occupied = set()
+            max_x = max_y = max_z = 0
+            global_b_list = []
 
             for cname, (w, h, d), b_list in child_items:
                 best_placement = None
                 best_longest_side = float('inf')
                 best_volume = float('inf')
 
-                # 尝试所有旋转与所有偏移
                 for rot_idx, (size_fn, rot_fn) in enumerate(ROTATIONS):
                     rw, rh, rd = size_fn(w, h, d)
                     for ox in range(max_x + 1):
                         for oy in range(max_y + 1):
                             for oz in range(max_z + 1):
-                                # 检查盒子是否与已占用格点重叠
                                 if any((ox + x, oy + y, oz + z) in occupied
                                        for x in range(rw)
                                        for y in range(rh)
                                        for z in range(rd)):
                                     continue
-                                # 新包围盒
                                 new_max_x = max(max_x, ox + rw)
                                 new_max_y = max(max_y, oy + rh)
                                 new_max_z = max(max_z, oz + rd)
@@ -184,7 +172,6 @@ class ColorAllocator:
 
                 ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z = best_placement
                 _, rot_fn = ROTATIONS[rot_idx]
-                # 更新占用
                 rw, rh, rd = ROTATIONS[rot_idx][0](w, h, d)
                 for x in range(rw):
                     for y in range(rh):
@@ -192,7 +179,6 @@ class ColorAllocator:
                             occupied.add((ox + x, oy + y, oz + z))
                 max_x, max_y, max_z = new_max_x, new_max_y, new_max_z
 
-                # 为员工计算全局坐标
                 for b_key, lx, ly, lz in b_list:
                     rx, ry, rz = rot_fn(lx, ly, lz)
                     gx, gy, gz = ox + rx, oy + ry, oz + rz
@@ -200,9 +186,15 @@ class ColorAllocator:
 
             return (max_x, max_y, max_z), global_b_list
 
-        # 根节点构建
         root_path = (self.root_key,)
         (size_x, size_y, size_z), global_b_assignments = build_shape(root_path)
+
+        # 输出占位点数量
+        total_cells = size_x * size_y * size_z
+        real_points = len(global_b_assignments)
+        dead_points = total_cells - real_points
+        print(f"点阵尺寸: {size_x} × {size_y} × {size_z} = {total_cells} 格点")
+        print(f"真实员工点: {real_points}, 占位点(无效点): {dead_points}")
 
         # ---------- 2. 映射到 CIELAB 安全立方体 ----------
         LAB_BOX = {
@@ -217,12 +209,12 @@ class ColorAllocator:
             b_val = LAB_BOX['b_min'] + (LAB_BOX['b_max'] - LAB_BOX['b_min']) * (z / max(size_z - 1, 1))
             return L, a_val, b_val
 
-        # 初始化所有员工 LAB 坐标
-        lab_positions = {}  # b_key -> [L, a, b]
+        lab_positions = {}
         for b_key, x, y, z in global_b_assignments:
             lab_positions[b_key] = list(grid_to_lab(x, y, z))
 
-        # ---------- 3. 分层引力迭代 ----------
+        # ---------- 3. 顺序分层位移（从底层到高层） ----------
+        # 收集所有节点及其下属员工列表
         node_b_cache = {}
 
         def collect_b_paths(node_path):
@@ -252,15 +244,15 @@ class ColorAllocator:
 
         populate_cache((self.root_key,))
 
-        LEVEL_CONFIG = [
-            ('c_', 0.16),
-            ('d_', 0.08),
-            ('k_', 0.04),
-            ('e_', 0.015),
-        ]
-        ITERATIONS = 100
-        LR = 0.05
+        # 引力系数配置（可调，初始全为0方便调试）
+        LEVEL_ALPHA = {
+            'c_': 0.40,   # 办公室
+            'd_': 0.30,   # 子部门
+            'k_': 0.20,   # 次级部门
+            'e_': 0.15,   # 部门
+        }
 
+        # 收集各级节点路径
         def get_level_paths(start_path, prefix):
             res = []
             node = self.tree
@@ -274,37 +266,31 @@ class ColorAllocator:
                 res.extend(get_level_paths(start_path + (cname,), prefix))
             return res
 
-        level_nodes = []
-        for prefix, alpha in LEVEL_CONFIG:
-            paths = get_level_paths((self.root_key,), prefix)
-            level_nodes.append((paths, alpha))
-
-        # 迭代引力
-        for _ in range(ITERATIONS):
-            forces = {bk: [0.0, 0.0, 0.0] for bk in lab_positions}
-            for paths, alpha in level_nodes:
-                for node_path in paths:
-                    b_list = node_b_cache['|'.join(node_path)]
-                    if not b_list:
-                        continue
-                    n = len(b_list)
-                    center = [0.0, 0.0, 0.0]
-                    for bk in b_list:
-                        pos = lab_positions[bk]
-                        center[0] += pos[0]
-                        center[1] += pos[1]
-                        center[2] += pos[2]
-                    center = [c / n for c in center]
-                    for bk in b_list:
-                        pos = lab_positions[bk]
-                        forces[bk][0] += alpha * (center[0] - pos[0])
-                        forces[bk][1] += alpha * (center[1] - pos[1])
-                        forces[bk][2] += alpha * (center[2] - pos[2])
-            for bk, f in forces.items():
-                pos = lab_positions[bk]
-                pos[0] += LR * f[0]
-                pos[1] += LR * f[1]
-                pos[2] += LR * f[2]
+        # 顺序执行 C → D → K → E
+        for prefix in ['c_', 'd_', 'k_', 'e_']:
+            alpha = LEVEL_ALPHA.get(prefix, 0.0)
+            if alpha == 0.0:
+                continue   # 不移动，直接跳过
+            level_paths = get_level_paths((self.root_key,), prefix)
+            for node_path in level_paths:
+                b_list = node_b_cache['|'.join(node_path)]
+                if not b_list:
+                    continue
+                # 计算当前中心（使用当前 lab_positions）
+                n = len(b_list)
+                center = [0.0, 0.0, 0.0]
+                for bk in b_list:
+                    pos = lab_positions[bk]
+                    center[0] += pos[0]
+                    center[1] += pos[1]
+                    center[2] += pos[2]
+                center = [c / n for c in center]
+                # 对每个下属 b 施加位移
+                for bk in b_list:
+                    pos = lab_positions[bk]
+                    pos[0] += alpha * (center[0] - pos[0])
+                    pos[1] += alpha * (center[1] - pos[1])
+                    pos[2] += alpha * (center[2] - pos[2])
 
         # ---------- 4. 量化到整数 LAB 并检测重复 ----------
         int_lab = {}
@@ -317,9 +303,13 @@ class ColorAllocator:
             key = (L_int, a_int, b_int)
             color_map.setdefault(key, []).append(bk)
 
+        collisions = 0
         for lab_key, bks in color_map.items():
             if len(bks) > 1:
+                collisions += 1
                 print(f"⚠️ 重复颜色 LAB{lab_key} 出现在员工: {', '.join(bks)}")
+        if collisions == 0:
+            print("✅ 无颜色重复")
 
         # ---------- 5. 转换为 sRGB 并存储 ----------
         self.b_colors.clear()
