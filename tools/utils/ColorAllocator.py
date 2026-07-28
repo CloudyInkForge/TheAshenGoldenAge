@@ -1,4 +1,5 @@
 import re
+import math
 import colorsys
 from typing import List, Tuple, Dict, Optional
 
@@ -129,11 +130,10 @@ class ColorAllocator:
         的子节点颜色完全重合。偏移方向按深度交替，使相邻层级的父节点产生明暗差异，
         进一步增强层级可辨识度。
 
-        优化三（d节点交错取色）：
-        为d节点不恒取中心，而是在S轴和L轴上使用跳跃排列进行交错分布，
-        使同一k下的不同d在S-L二维平面上最大化分散，易于区分；
-        同时根据所属k的序号添加跨k的S轴微小偏移，避免不同k中的d
-        在S-L平面上意外重合，实现跨k可区分。
+        优化三（d节点环绕取色）：
+        为 d 节点在所属 k 节点的 S-L 平面上，以中点为中心进行环绕分布。
+        使用跳跃排列决定各 d 节点的环绕角度，使同 k 内相邻 d 在角度上相距最大，
+        同时通过跨 k 角度微调避免不同 k 中 d 节点的颜色重合。
         """
         # 取出当前节点的原始数据
         node = self.tree
@@ -155,41 +155,59 @@ class ColorAllocator:
             else:
                 child_axis = 'H'
 
-        # 计算当前节点的颜色（中点）
+        # 计算当前节点的默认中点颜色
         h_mid = (h_range[0] + h_range[1]) / 2.0
         s_mid = (s_range[0] + s_range[1]) / 2.0
         l_mid = (l_range[0] + l_range[1]) / 2.0
 
-        # === 优化三：d节点专属交错取色 ===
-        # 不恒取中心，在S和L轴上按跳跃排列交错分布，实现同k内d可区分
-        # 同时通过k序号偏移实现跨k可区分
+        # === 优化三：d节点专属环绕取色 ===
+        # 同k内d节点在S-L平面上以中点为中心环绕分布，最大化二维区分度
+        # 同时通过跨k角度微调避免不同k的d节点重合
         is_d_node = node_name.startswith('d_')
         d_staggered = False
 
         if is_d_node and d_index is not None and d_count is not None:
+            # 计算S-L平面的中心点
+            s_center = (s_range[0] + s_range[1]) / 2.0
+            l_center = (l_range[0] + l_range[1]) / 2.0
+
             if d_count > 1:
                 d_staggered = True
+                # 使用跳跃排列决定各d的环绕顺序，使相邻d在角度上相距最大
+                order = self._leapfrog_order(d_count)
+                rank = order.index(d_index)      # 当前d在跳跃排列中的位置
+                base_angle = 2.0 * math.pi * rank / d_count
 
-                # S轴：使用跳跃排列，让同k中不同d在S方向上最大化间距
-                s_lf = self._leapfrog_order(d_count)
-                s_rank = s_lf.index(d_index)
-                s_mid = s_range[0] + (s_range[1] - s_range[0]) * (s_rank + 0.5) / d_count
+                # 跨k区分：根据k_index对环绕角度进行微小旋转
+                if k_index is not None and k_count is not None and k_count > 1:
+                    # 旋转角度偏移量，使用质数7避免与等分角度产生周期性重合
+                    angle_offset = 2.0 * math.pi * 0.03 * (k_index % 7)
+                    base_angle += angle_offset
 
-                # L轴：使用偏移半位的跳跃排列，确保S-L二维空间中对角线分散
-                # 即S高的d对应L低，S低的d对应L高，最大化二维欧氏距离
-                l_rank = (s_rank + d_count // 2) % d_count
-                l_mid = l_range[0] + (l_range[1] - l_range[0]) * (l_rank + 0.5) / d_count
+                # 计算环绕半径：取S和L范围半宽的较小值乘以系数，确保所有点均在范围内
+                s_half = (s_range[1] - s_range[0]) / 2.0
+                l_half = (l_range[1] - l_range[0]) / 2.0
+                radius = min(s_half, l_half) * 0.5   # 0.5倍半宽使d节点始终簇拥在中心周围
 
-            # 跨k区分：根据k_index添加微小S轴偏移
-            # 使用三态循环模式(-4%, 0%, +4%)，避免不同k中的d在S-L平面上重合
-            # 即使d_count==1（无需同k内交错），跨k偏移仍然生效
-            if k_index is not None and k_count is not None and k_count > 1:
-                offset_pattern = [-0.04, 0.0, 0.04]
-                k_s_offset = offset_pattern[k_index % 3] * (s_range[1] - s_range[0])
-                s_mid = max(s_range[0], min(s_range[1], s_mid + k_s_offset))
+                # 根据角度和半径计算具体位置
+                s_mid = s_center + radius * math.cos(base_angle)
+                l_mid = l_center + radius * math.sin(base_angle)
+
+                # 裁剪到有效范围，防止浮点误差越界
+                s_mid = max(s_range[0], min(s_range[1], s_mid))
+                l_mid = max(l_range[0], min(l_range[1], l_mid))
+            else:
+                # 单个d节点：直接取中点，但可应用跨k微调（仍取中点，添加微小S偏移以保留原设计意图）
+                if k_index is not None and k_count is not None and k_count > 1:
+                    offset_pattern = [-0.04, 0.0, 0.04]
+                    k_s_offset = offset_pattern[k_index % 3] * (s_range[1] - s_range[0])
+                    s_mid = max(s_range[0], min(s_range[1], s_center + k_s_offset))
+                    l_mid = l_center
+                # 单个d节点不设置d_staggered，以便仍然可以应用父节点偏移（如需）
+                # 这里保持 d_staggered = False，与原有逻辑一致
 
         # 优化二：为父节点添加微小偏移，避免与中心子节点颜色完全重合
-        # d节点已使用交错逻辑（d_staggered=True）时跳过，避免干扰精心设计的交错位置
+        # d节点已使用环绕逻辑（d_staggered=True）时跳过，避免干扰精心设计的环绕位置
         if child_axis is not None and not d_staggered:
             depth = len(path)
             sign = 1 if depth % 2 == 0 else -1
@@ -259,7 +277,7 @@ class ColorAllocator:
                 child_l_range = (current_start, current_start + interval_length)
             current_start += interval_length
 
-            # === 传递上下文索引信息给子节点（用于d节点交错取色） ===
+            # === 传递上下文索引信息给子节点（用于d节点环绕取色） ===
             # orig_idx: 当前子节点在原始顺序中的索引（跳跃排列前的位置）
             orig_idx = lf_order[j]
             new_d_index = d_index
@@ -268,10 +286,10 @@ class ColorAllocator:
             new_k_count = k_count
 
             if cname.startswith('d_'):
-                # 记录此d在兄弟d中的原始序号和总数，供交错取色使用
+                # 记录此d在兄弟d中的原始序号和总数，供环绕取色使用
                 new_d_index = orig_idx
                 new_d_count = n_children
-                # k信息保持不变，传递下去用于跨k偏移
+                # k信息保持不变，传递下去用于跨k角度微调
             elif cname.startswith('k_'):
                 # 记录此k在兄弟k中的原始序号和总数
                 new_k_index = orig_idx

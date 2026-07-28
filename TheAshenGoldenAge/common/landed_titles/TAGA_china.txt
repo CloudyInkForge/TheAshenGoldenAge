@@ -43,7 +43,7 @@ h_taga_hanjin = {
 			capital = c_taga_jiankang
 
 			d_taga_danyang = {
-				color = { 114 192 145 }
+				color = { 92 208 138 }
 
 				capital = c_taga_jiankang
 
@@ -147,7 +147,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_jinling = {
-				color = { 41 129 97 }
+				color = { 77 178 142 }
 
 				capital = c_taga_dantu
 
@@ -201,7 +201,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_wuxing = {
-				color = { 98 174 118 }
+				color = { 51 204 92 }
 
 				capital = c_taga_wuxing
 
@@ -273,7 +273,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_yixing = {
-				color = { 42 162 126 }
+				color = { 58 153 125 }
 				capital = c_taga_yangxian
 
 				c_taga_yangxian = {
@@ -302,7 +302,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_wu = {
-				color = { 132 208 173 }
+				color = { 102 197 153 }
 
 				capital = c_taga_wu
 
@@ -392,7 +392,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_xuancheng = {
-				color = { 42 196 164 }
+				color = { 47 163 139 }
 
 				capital = c_taga_wanling
 
@@ -481,7 +481,7 @@ h_taga_hanjin = {
 			capital = c_taga_huainan
 
 			d_taga_huainan = {
-				color = { 126 206 137 }
+				color = { 103 202 118 }
 
 				capital = c_taga_huainan
 
@@ -511,7 +511,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_lujiang = {
-				color = { 100 180 106 }
+				color = { 59 206 70 }
 
 				capital = c_taga_lujiang
 
@@ -582,7 +582,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_liyang = {
-				color = { 40 138 58 }
+				color = { 73 172 91 }
 
 				capital = c_taga_liyang
 
@@ -610,7 +610,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_zhongli = {
-				color = { 40 189 71 }
+				color = { 49 156 71 }
 
 				capital = c_taga_zhongli
 
@@ -632,7 +632,7 @@ h_taga_hanjin = {
 			capital = c_taga_kuaiji
 
 			d_taga_kuaiji = {
-				color = { 101 194 195 }
+				color = { 103 202 203 }
 
 				capital = c_taga_kuaiji
 
@@ -711,7 +711,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_xinan = {
-				color = { 35 124 138 }
+				color = { 59 140 153 }
 
 				capital = c_taga_xinan
 
@@ -760,7 +760,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_dongyang = {
-				color = { 82 173 164 }
+				color = { 67 207 193 }
 
 				capital = c_taga_changshan
 
@@ -837,7 +837,7 @@ h_taga_hanjin = {
 			}
 
 			d_taga_linhai = {
-				color = { 124 205 213 }
+				color = { 85 174 183 }
 
 				capital = c_taga_zhangan
 
@@ -879,7 +879,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_yongjia = {
-				color = { 35 151 179 }
+				color = { 47 145 169 }
 
 				capital = c_taga_yongjia
 				c_taga_yongjia = {
@@ -922,7 +922,7 @@ h_taga_hanjin = {
 			capital = c_hongzhou
 
 			d_taga_yuzhang = {
-				color = { 124 160 202 }
+				color = { 97 140 191 }
 
 				capital = c_taga_nanchang
 
@@ -1022,7 +1022,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_luling = {
-				color = { 104 156 181 }
+				color = { 95 171 207 }
 
 				capital = c_taga_shiyang
 
@@ -1091,7 +1091,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_linchuan = {
-				color = { 136 159 211 }
+				color = { 79 110 179 }
 
 				capital = c_taga_linru
 				c_taga_linru = {
@@ -1154,7 +1154,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_ancheng = {
-				color = { 42 53 162 }
+				color = { 49 59 157 }
 
 				capital = c_taga_pingdu
 				c_taga_pingdu = {
@@ -1208,7 +1208,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_wuchang = {
-				color = { 95 151 170 }
+				color = { 75 175 208 }
 
 				capital = c_taga_wuchang
 
@@ -1245,7 +1245,7 @@ h_taga_hanjin = {
 			}
 			
 			d_taga_xunyang = {
-				color = { 40 60 123 }
+				color = { 67 89 161 }
 
 				capital = c_taga_chaisang
 
@@ -1285,7 +1285,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_poyang = {
-				color = { 42 43 182 }
+				color = { 47 48 175 }
 
 				capital = c_taga_poyang
 				c_taga_poyang = {
@@ -1343,7 +1343,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_nankang = {
-				color = { 114 159 192 }
+				color = { 103 160 201 }
 
 				capital = c_taga_yudu
 
@@ -1400,7 +1400,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_jinan = {
-				color = { 42 59 142 }
+				color = { 56 73 152 }
 
 				capital = c_taga_dongye
 				c_taga_dongye = {
@@ -1467,7 +1467,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_jianan = {
-				color = { 54 41 204 }
+				color = { 63 50 201 }
 
 				capital = c_taga_jianan
 
@@ -1536,7 +1536,7 @@ h_taga_hanjin = {
 
 			capital = c_taga_yiyang
 			d_taga_yiyang = {
-				color = { 194 115 112 }
+				color = { 204 57 51 }
 
 				capital = c_taga_yiyang
 
@@ -1589,7 +1589,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_anfeng = {
-				color = { 163 54 41 }
+				color = { 178 88 77 }
 
 				capital = c_taga_anfeng
 
@@ -1637,7 +1637,7 @@ h_taga_hanjin = {
 			capital = c_tangzhou
 
 			d_taga_nanyang = {
-				color = { 188 114 192 }
+				color = { 201 92 208 }
 
 				capital = c_tangzhou
 				c_tangzhou = {
@@ -1672,7 +1672,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_xiangyang = {
-				color = { 129 41 126 }
+				color = { 178 77 175 }
 
 				capital = c_xiangyang
 
@@ -1702,7 +1702,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_xinye = {
-				color = { 165 98 174 }
+				color = { 187 51 204 }
 
 				capital = c_dengzhou_1
 				c_dengzhou_1 = {
@@ -1732,7 +1732,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_nanxiang = {
-				color = { 162 42 152 }
+				color = { 153 58 145 }
 
 				capital = c_junzhou
 				c_junzhou = {
@@ -1762,7 +1762,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_shangyong = {
-				color = { 208 132 208 }
+				color = { 196 102 197 }
 
 				capital = c_taga_shangyong
 				c_taga_shangyong = {
@@ -1791,7 +1791,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_xincheng = {
-				color = { 196 42 178 }
+				color = { 163 47 150 }
 
 				capital = c_fangzhou_1
 				c_fangzhou_1 = {
@@ -1817,7 +1817,7 @@ h_taga_hanjin = {
 			capital = c_jiangling
 
 			d_taga_nan = {
-				color = { 147 123 204 }
+				color = { 130 102 197 }
 
 				capital = c_jiangling
 
@@ -1873,7 +1873,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_jingling = {
-				color = { 117 102 183 }
+				color = { 106 84 208 }
 
 				capital = c_yingzhou_2
 				c_yingzhou_2 = {
@@ -1904,7 +1904,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_sui = {
-				color = { 161 134 213 }
+				color = { 124 91 186 }
 
 				capital = c_suizhou_1
 
@@ -1920,7 +1920,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_yiyang_j = {
-				color = { 131 41 163 }
+				color = { 126 52 152 }
 
 				capital = c_taga_yiyang_j
 
@@ -1935,7 +1935,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_yidu = {
-				color = { 104 93 172 }
+				color = { 79 59 206 }
 
 				capital = c_xiazhou_1
 				c_xiazhou_1 = {
@@ -1959,7 +1959,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_jianping = {
-				color = { 70 39 124 }
+				color = { 110 73 172 }
 
 				capital = c_guizhou
 				c_guizhou = {
@@ -1983,7 +1983,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_jiangxia = {
-				color = { 152 40 184 }
+				color = { 137 48 163 }
 
 				capital = c_anzhou
 
@@ -2036,7 +2036,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_nanping = {
-				color = { 131 112 194 }
+				color = { 124 100 205 }
 				capital = c_liyang
 
 				c_liyang = {
@@ -2065,7 +2065,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_wuling = {
-				color = { 98 40 143 }
+				color = { 114 62 156 }
 
 				capital = c_langzhou
 
@@ -2257,7 +2257,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_tianmen = {
-				color = { 180 39 206 }
+				color = { 164 48 186 }
 				capital = c_shangxi
 				c_shangxi = {
 					color = { 169 63 188 }
@@ -2291,7 +2291,7 @@ h_taga_hanjin = {
 			capital = c_tanzhou
 
 			d_taga_changsha = {
-				color = { 200 111 166 }
+				color = { 197 102 161 }
 
 				capital = c_tanzhou
 
@@ -2318,7 +2318,7 @@ h_taga_hanjin = {
 
 			}
 			d_taga_hengyang = {
-				color = { 144 37 80 }
+				color = { 152 55 94 }
 
 				capital = c_taga_xiangnan
 				c_taga_xiangnan = {
@@ -2356,7 +2356,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_baling = {
-				color = { 181 93 160 }
+				color = { 208 89 179 }
 
 				capital = c_yuezhou_1
 				c_yuezhou_1 = {
@@ -2380,7 +2380,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_shaoling = {
-				color = { 208 121 171 }
+				color = { 187 92 147 }
 
 				capital = c_shaozhou
 				c_shaozhou = {
@@ -2414,7 +2414,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_xiangdong = {
-				color = { 162 37 81 }
+				color = { 156 49 86 }
 
 				capital = c_hengzhou
  				c_hengzhou = {
@@ -2438,7 +2438,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_guiyang = {
-				color = { 170 85 155 }
+				color = { 207 67 182 }
 
 				capital = c_chenzhou_1
 				c_chenzhou_1 = {
@@ -2491,7 +2491,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_lingling = {
-				color = { 216 132 175 }
+				color = { 175 75 127 }
 
 				capital = c_yongzhou
 
@@ -2535,7 +2535,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_yingyang = {
-				color = { 181 37 82 }
+				color = { 173 47 87 }
 
 				capital = c_daozhou
 				c_daozhou = {
@@ -2559,7 +2559,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_linhe = {
-				color = { 190 102 163 }
+				color = { 205 101 173 }
 
 				capital = c_zhaozhou_1
 
@@ -2622,7 +2622,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_shian = {
-				color = { 126 36 77 }
+				color = { 159 65 108 }
 
 				capital = c_guizhou_1
 				c_guizhou_1 = {
@@ -2651,7 +2651,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_shixing = {
-				color = { 201 36 74 }
+				color = { 196 49 83 }
 
 				capital = c_shaozhou_1
 				c_shaozhou_1 = {
@@ -2740,7 +2740,7 @@ h_taga_hanjin = {
 			capital = c_guangzhou_1
 
 			d_lingnan = {
-				color = { 191 142 105 }
+				color = { 207 145 97 }
 
 				capital = c_guangzhou_1
 
@@ -2895,7 +2895,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_huixun = {
-				color = { 136 117 38 }
+				color = { 160 142 65 }
 
 				capital = c_huizhou_1
 
@@ -3033,7 +3033,7 @@ h_taga_hanjin = {
 			}
 
 			d_guiguan = {
-				color = { 169 105 86 }
+				color = { 204 85 51 }
 
 				capital = c_liuzhou
 
@@ -3121,7 +3121,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_rongguan = {
-				color = { 210 179 126 }
+				color = { 190 155 95 }
 
 				capital = c_rongzhou_2
 
@@ -3189,7 +3189,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_yongguan = {
-				color = { 169 176 38 }
+				color = { 152 158 48 }
 
 				capital = c_yongzhou_1
 
@@ -3331,7 +3331,7 @@ h_taga_hanjin = {
 			capital = c_thang_long
 
 			d_hai_dong = {
-				color = { 165 213 129 }
+				color = { 127 183 85 }
 
 				capital = c_hai_dong
 
@@ -3385,7 +3385,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_nghe_an = {
-				color = { 160 186 99 }
+				color = { 174 207 93 }
 
 				capital = c_nghe_an
 				c_nghe_an = {
@@ -3454,7 +3454,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_lam_tay = {
-				color = { 69 130 37 }
+				color = { 97 159 65 }
 
 				capital = c_lam_tay
 
@@ -3513,7 +3513,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_thang_long = {
-				color = { 152 169 86 }
+				color = { 176 206 59 }
 
 				capital = c_thang_long
 
@@ -3563,7 +3563,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_indrapura = {
-				color = { 67 159 38 }
+				color = { 76 153 51 }
 						
 				capital = c_indrapura
 				c_indrapura = {
@@ -3623,7 +3623,7 @@ h_taga_hanjin = {
 			}
 
 			d_qiongguan = {
-				color = { 162 200 113 }
+				color = { 157 199 103 }
 
 				capital = c_yazhou
 
@@ -3724,7 +3724,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_gaoliang = {
-				color = { 50 189 37 }
+				color = { 58 175 47 }
 
 				capital = c_gaozhou
 
@@ -3859,7 +3859,7 @@ h_taga_hanjin = {
 			capital = c_taga_guangling
 
 			d_taga_guangling = {
-				color = { 194 112 122 }
+				color = { 204 51 70 }
 
 				capital = c_taga_guangling
 				c_taga_guangling = {
@@ -3897,7 +3897,7 @@ h_taga_hanjin = {
 				}
 			}
 			d_taga_linhuai = {
-				color = { 163 41 46 }
+				color = { 178 77 81 }
 
 				capital = c_taga_linhuai
 				c_taga_linhuai = {
