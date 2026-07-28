@@ -5,27 +5,27 @@ h_taga_hanjin = {
 	capital = c_taga_luoyang
 
 	e_taga_si = {
-		color = { 232 0 116 }
+		color = { 0 77 0 }
 
 		capital = c_taga_luoyang
 
 		k_taga_henan = {
-			color = { 232 0 116 }
+			color = { 0 77 0 }
 
 			capital = c_taga_luoyang
 
 			d_taga_henan = {
-				color = { 232 0 116 }
+				color = { 0 77 0 }
 
 				capital = c_taga_luoyang
 
 				c_taga_luoyang = {
-					color = { 232 0 116 }
+					color = { 0 77 0 }
 
 					b_taga_luoyang = {
 						province = 9780
 
-						color = { 232 0 116 }
+						color = { 0 77 0 }
 					}
 				}
 			}
@@ -33,442 +33,442 @@ h_taga_hanjin = {
 	}
 
 	e_taga_yang = {
-		color = { 57 34 52 }
+		color = { 0 142 163 }
 
 		capital = c_taga_jiankang
 
 		k_taga_yang = {
-			color = { 43 30 66 }
+			color = { 0 185 243 }
 
 			capital = c_taga_jiankang
 
 			d_taga_danyang = {
-				color = { 19 15 63 }
+				color = { 0 176 253 }
 
 				capital = c_taga_jiankang
 
 				c_taga_jiankang = {
-					color = { 18 14 50 }
+					color = { 0 175 254 }
 					b_taga_jiankangcheng = {
 						province = 8977
 
-						color = { 11 8 50 }
+						color = { 0 175 255 }
 					}
 					b_taga_jiankang = {
 						province = 10332
 
-						color = { 26 8 50 }
+						color = { 0 175 250 }
 					}
 					b_taga_moling = {
 						province = 8976
 
-						color = { 11 19 50 }
+						color = { 0 175 255 }
 					}
 					b_taga_jiangning = {
 						province = 13012
 
-						color = { 26 19 50 }
+						color = { 0 174 250 }
 					}
 				}
 
 				c_taga_gourong = {
-					color = { 18 32 62 }
+					color = { 0 172 254 }
 
 					b_taga_gourong = {
 						province = 10331
 
-						color = { 11 32 62 }
+						color = { 0 172 255 }
 
 					}
 					b_taga_hushu = {
 						province = 12995
 
-						color = { 26 32 62 }
+						color = { 0 172 250 }
 					}
 				}
 
 				c_taga_yuhu = {
-					color = { 18 7 78 }
+					color = { 0 180 255 }
 
 					b_taga_yuhu = {
 						province = 10337
 
-						color = { 11 7 78 }
+						color = { 0 180 255 }
 					}
 
 					b_taga_wuhu = {
 						province = 13097
 
-						color = { 26 7 78 }
+						color = { 0 180 255 }
 					}
 				}
 
 				c_taga_danyang = {
-					color = { 44 7 78 }
+					color = { 0 174 229 }
 
 					b_taga_danyang = {
 						province = 10338
 
-						color = { 44 7 78 }
+						color = { 0 174 229 }
 					}
 
 				}
 
 				c_taga_jiangcheng = {
-					color = { 10 19 78 }
+					color = { 0 172 229 }
 
 					b_taga_jiangcheng = {
 						province = 10333
 
-						color = { 10 19 78 }
+						color = { 0 172 229 }
 					}
 				}
 					
 				c_taga_lishui = {
-					color = { 16 11 62 }
+					color = { 0 184 255 }
 
 					b_taga_liyang = {
 						province = 8848
 
-						color = { 11 7 62 }
+						color = { 0 184 255 }
 					}
 
 					b_taga_yongshi = {
 						province = 8987
 
-						color = { 26 7 62 }
+						color = { 0 184 255 }
 					}
 					b_taga_pingling = {
 						province = 13014
 
-						color = { 11 18 62 }
+						color = { 0 183 255 }
 					}
 				}
 			}
 
 			d_taga_jinling = {
-				color = { 17 12 92 }
+				color = { 0 169 255 }
 
 				capital = c_taga_dantu
 
 				c_taga_dantu = {
-					color = { 18 12 87 }
+					color = { 0 166 255 }
 
 					b_taga_jingkou = {
 						province = 12950
 
-						color = { 11 7 87 }
+						color = { 0 167 255 }
 					}
 
 					b_taga_qve = {
 						province = 10370
 
-						color = { 26 7 87 }
+						color = { 0 166 252 }
 
 					} 
 					b_taga_yanling = {
 						province = 10334
 
-						color = { 11 18 87 }
+						color = { 0 166 255 }
 					}
 					b_taga_wujin = {
 						province = 10329
 
-						color = { 26 18 87 }
+						color = { 0 165 253 }
 					}
 				}
 				c_taga_jinling = {
-					color = { 16 11 98 }
+					color = { 0 175 255 }
 
 					b_taga_jinling = {
 						province = 10330
 
-						color = { 11 7 98 }
+						color = { 0 175 255 }
 					}
 
 					b_taga_wuxi = {
 						province = 12951
 
-						color = { 26 7 98 }
+						color = { 0 175 255 }
 					}
 
 					b_taga_jiyang = {
 						province = 8834
 
-						color = { 11 18 98 }
+						color = { 0 174 255 }
 					}
 				}
 			}
 
 			d_taga_wuxing = {
-				color = { 74 53 60 }
+				color = { 0 205 255 }
 
 				capital = c_taga_wuxing
 
 				c_taga_wuxing = {
-					color = { 76 54 50 }
+					color = { 0 207 255 }
 
 					b_taga_wucheng = {
 						province = 10344
 
-						color = { 68 49 50 }
+						color = { 0 207 255 }
 					}
 
 					b_taga_changcheng = {
 						province = 10342
 
-						color = { 83 49 50 }
+						color = { 0 207 255 }
 					}
 
 					b_taga_wukang = {
 						province = 10343
 
-						color = { 68 60 50 }
+						color = { 0 210 255 }
 					}
 					b_taga_dongqian = {
 						province = 8803
 
-						color = { 83 60 50 }
+						color = { 0 210 255 }
 					}
 				}
 
 				c_taga_yuhang = {
-					color = { 72 52 61 }
+					color = { 0 205 255 }
 
 					b_taga_yuhang = {
 						province = 10345
 
-						color = { 67 48 61 }
+						color = { 0 203 255 }
 					}
 					b_taga_linshui = {
 						province = 8811
 
-						color = { 83 48 61 }
+						color = { 0 202 255 }
 					}
 
 					b_taga_yuqian = {
 						province = 8812
 
-						color = { 67 60 61 }
+						color = { 0 208 255 }
 					}
 				}
 				c_taga_zhang = {
-					color = { 72 52 72 }
+					color = { 0 203 255 }
 
 					b_taga_guzhang = {
 						province = 8805
 
-						color = { 67 48 72 }
+						color = { 0 200 255 }
 					}
 					b_taga_anji = {
 						province = 8807
 
-						color = { 83 48 72 }
+						color = { 0 200 255 }
 					}
 					b_taga_yuanxiang = {
 						province = 12952
 
-						color = { 67 60 72 }
+						color = { 0 206 255 }
 					}
 				}
 			}
 			d_taga_yixing = {
-				color = { 56 13 87 }
+				color = { 0 160 205 }
 				capital = c_taga_yangxian
 
 				c_taga_yangxian = {
-					color = { 56 13 87 }
+					color = { 0 160 205 }
 					b_taga_yangxian = {
 						province = 8804
 
-						color = { 49 7 87 }
+						color = { 0 161 208 }
 					}
 					b_taga_yixiang = {
 						province = 8802
 
-						color = { 64 7 87 }
+						color = { 0 161 201 }
 					}
 					b_taga_linjin = {
 						province = 8823
 
-						color = { 49 19 87 }
+						color = { 0 160 208 }
 					}
 					b_taga_guoshan = {
 						province = 10335
 
-						color = { 64 19 87 }
+						color = { 0 160 201 }
 					}
 				}
 			}
 
 			d_taga_wu = {
-				color = { 75 15 60 }
+				color = { 0 202 238 }
 
 				capital = c_taga_wu
 
 				c_taga_wu = {
 
-					color = { 76 14 50 }
+					color = { 0 200 236 }
 
 					b_taga_wu = {
 						province = 10326
 
-						color = { 68 8 50 }
+						color = { 0 201 239 }
 					}
 
 					b_taga_jiaxing = {
 						province = 10328
 
-						color = { 83 8 50 }
+						color = { 0 200 232 }
 					}
 
 					b_taga_yanglou = {
 						province = 10324
 
-						color = { 68 19 50 }
+						color = { 0 200 239 }
 					}
 
 					b_taga_haiyu = {
 						province = 10325
 
-						color = { 83 19 50 }
+						color = { 0 200 232 }
 					}
 
 				}
 				
 				c_taga_haiyan = {
-					color = { 76 32 61 }
+					color = { 0 197 236 }
 
 					b_taga_yanguan = {
 						province = 8841
 
-						color = { 68 32 61 }
+						color = { 0 197 239 }
 					}
 
 					b_taga_haiyan = {
 						province = 12953
 
-						color = { 83 32 61 }
+						color = { 0 197 232 }
 					}
 				}
 
 				c_taga_qiantang = {
-					color = { 76 7 78 }
+					color = { 0 206 244 }
 
 					b_taga_qiantang = {
 						province = 10346
 
-						color = { 68 7 78 }
+						color = { 0 206 248 }
 					}
 
 					b_taga_fuchun = {
 						province = 10348
 
-						color = { 83 7 78 }
+						color = { 0 206 241 }
 					}
 				}
 
 				c_taga_tonglu = {
-					color = { 73 11 61 }
+					color = { 0 209 248 }
 
 					b_taga_tonglu = {
 						province = 10327
 
-						color = { 68 7 61 }
+						color = { 0 210 250 }
 					}
 					
 					b_taga_jiande = {
 						province = 10349
 
-						color = { 83 7 61 }
+						color = { 0 210 242 }
 					}
 					
 					b_taga_shouchang = {
 						province = 10350
 
-						color = { 68 19 61 }
+						color = { 0 209 250 }
 					}
 				}
 			}
 
 			d_taga_xuancheng = {
-				color = { 21 60 57 }
+				color = { 0 173 185 }
 
 				capital = c_taga_wanling
 
 				c_taga_wanling = {
-					color = { 19 54 49 }
+					color = { 0 171 182 }
 					b_taga_wanling = {
 						province = 10340
 
-						color = { 11 49 49 }
+						color = { 0 172 186 }
 					}
 
 					b_taga_guangde = {
 						province = 8846
 
-						color = { 27 49 49 }
+						color = { 0 171 179 }
 					}
 
 					b_taga_ningguo = {
 						province = 10341
 
-						color = { 11 60 49 }
+						color = { 0 171 186 }
 					}
 
 					b_taga_huaian = {
 						province = 8847
 
-						color = { 27 60 49 }
+						color = { 0 170 179 }
 					}
 				}
 				c_taga_xuancheng = {
-					color = { 19 54 61 }
+					color = { 0 180 191 }
 
 					b_taga_xuancheng = {
 						province = 10372
 
-						color = { 11 49 61 }
+						color = { 0 180 194 }
 					}
 
 					b_taga_anwu = {
 						province = 10373
 
-						color = { 27 49 61 }
+						color = { 0 180 187 }
 					}
 					b_taga_jing = {
 						province = 8820
 
-						color = { 11 60 61 }
+						color = { 0 179 194 }
 					}
 					b_taga_lingyang = {
 						province = 12949
 
-						color = { 27 60 61 }
+						color = { 0 179 187 }
 					}
 
 				}
 				c_taga_shicheng = {
-					color = { 19 73 61 }
+					color = { 0 168 183 }
 
 					b_taga_lincheng = {
 						province = 10375
 
-						color = { 11 73 61 }
+						color = { 0 168 186 }
 					}
 
 					b_taga_shicheng = {
 						province = 10374
 
-						color = { 27 73 61 }
+						color = { 0 168 179 }
 					}
 				}
 				c_taga_chungu = {
-					color = { 44 73 61 }
+					color = { 0 177 200 }
 					b_taga_chungu = {
 						province = 10339
 
-						color = { 44 73 61 }
+						color = { 0 177 200 }
 
 					}
 				}
@@ -476,34 +476,34 @@ h_taga_hanjin = {
 		}
 
 		k_taga_jiangxi = {
-			color = { 24 104 58 }
+			color = { 0 92 2 }
 
 			capital = c_taga_huainan
 
 			d_taga_huainan = {
-				color = { 51 101 48 }
+				color = { 0 109 35 }
 
 				capital = c_taga_huainan
 
 				c_taga_huainan = {
-					color = { 51 101 48 }
+					color = { 0 109 35 }
 
 					b_taga_shouchun = {
 						province = 10249
 
-						color = { 46 97 48 }
+						color = { 0 109 37 }
 					}
 
 					b_taga_hefei = {
 						province = 8941
 
-						color = { 62 97 48 }
+						color = { 0 109 29 }
 					}
 
 					b_taga_yinling = {
 						province = 9690
 
-						color = { 46 108 48 }
+						color = { 0 109 37 }
 					}
 
 
@@ -511,3436 +511,3436 @@ h_taga_hanjin = {
 			}
 
 			d_taga_lujiang = {
-				color = { 16 107 57 }
+				color = { 0 90 14 }
 
 				capital = c_taga_lujiang
 
 				c_taga_lujiang = {
-					color = { 14 102 49 }
+					color = { 0 85 11 }
 
 					b_taga_shu = {
 						province = 13002
 
-						color = { 9 98 49 }
+						color = { 0 85 14 }
 					}
 					b_taga_qian = {
 						province = 8946
 
-						color = { 24 98 49 }
+						color = { 0 85 3 }
 					}
 					b_taga_longshu = {
 						province = 8945
 
-						color = { 9 109 49 }
+						color = { 0 85 14 }
 					}
 				}
 
 				c_taga_yangquan = {
-					color = { 16 122 49 }
+					color = { 0 96 16 }
 
 					b_taga_yangquan = {
 						province = 10394
 
-						color = { 9 122 49 }
+						color = { 0 96 21 }
 					}
 					b_taga_liuan = {
 						province = 8942
 
-						color = { 24 122 49 }
+						color = { 0 96 11 }
 					}
 				}
 
 				c_taga_wan = {
-					color = { 16 97 66 }
+					color = { 0 95 17 }
 
 					b_taga_wan = {
 						province = 8943
 
-						color = { 9 97 66 }
+						color = { 0 95 22 }
 					}
 
 					b_taga_juchao = {
 						province = 8944
 
-						color = { 24 97 66 }
+						color = { 0 95 11 }
 					}
 				}
 				c_taga_linhu = {
-					color = { 16 110 66 }
+					color = { 0 83 6 }
 
 					b_taga_linhu = {
 						province = 8940
 
-						color = { 9 110 66 }
+						color = { 0 83 12 }
 					}
 					b_taga_xiangan = {
 						province = 13001
 
-						color = { 24 110 66 }
+						color = { 0 83 1 }
 					}
 				}
 			}
 
 			d_taga_liyang = {
-				color = { 14 101 67 }
+				color = { 0 88 0 }
 
 				capital = c_taga_liyang
 
 				c_taga_liyang = {
-					color = { 14 101 67 }
+					color = { 0 88 0 }
 
 					b_taga_liliyang = {
 						province = 8939
 
-						color = { 9 97 67 }
+						color = { 0 88 0 }
 					}
 
 					b_taga_quanjiao = {
 						province = 8937
 
-						color = { 24 97 67 }
+						color = { 0 90 0 }
 					}
 
 					b_taga_wujiang = {
 						province = 8938
 
-						color = { 9 108 67 }
+						color = { 0 87 0 }
 					}
 				}
 			}
 
 			d_taga_zhongli = {
-				color = { 45 96 67 }
+				color = { 0 82 0 }
 
 				capital = c_taga_zhongli
 
 				c_taga_zhongli = {
-					color = { 45 96 67 }
+					color = { 0 82 0 }
 
 					b_taga_zhongli = {
 						province = 13009
 
-						color = { 45 96 67 }
+						color = { 0 82 0 }
 					}
 				}
 			}
 		}
 
 		k_taga_kuaiji = {
-			color = { 135 25 67 }
+			color = { 0 181 115 }
 
 			capital = c_taga_kuaiji
 
 			d_taga_kuaiji = {
-				color = { 124 18 57 }
+				color = { 0 172 105 }
 
 				capital = c_taga_kuaiji
 
 				c_taga_kuaiji = {
-					color = { 122 13 50 }
+					color = { 0 169 110 }
 
 					b_taga_shanyin = {
 						province = 8828
 
-						color = { 115 7 50 }
+						color = { 0 170 113 }
 					}
 
 					b_taga_yongxing = {
 						province = 8831
 
-						color = { 130 7 50 }
+						color = { 0 169 113 }
 					}
 
 					b_taga_shangyu = {
 						province = 8827
 
-						color = { 115 19 50 }
+						color = { 0 169 106 }
 					}
 
 					b_taga_yuyao = {
 						province = 8826
 
-						color = { 130 19 50 }
+						color = { 0 169 106 }
 					}
 				}
 
 				c_taga_shan = {
-					color = { 122 32 61 }
+					color = { 0 169 84 }
 					b_taga_shan = {
 						province = 10262
 
-						color = { 115 32 61 }
+						color = { 0 169 84 }
 					}
 
 					b_taga_shining = {
 						province = 8835
 
-						color = { 130 32 61 }
+						color = { 0 168 84 }
 					}
 				}
 
 				c_taga_gouzhang = {
-					color = { 119 11 61 }
+					color = { 0 178 119 }
 					b_taga_gouzhang = {
 						province = 8825
 
-						color = { 114 7 61 }
+						color = { 0 178 121 }
 					}
 
 					b_taga_mao = {
 						province = 10316
 
-						color = { 129 7 61 }
+						color = { 0 177 121 }
 					}
 
 					b_taga_yin = {
 						province = 10421
 
-						color = { 114 18 61 }
+						color = { 0 178 114 }
 					}
 				}
 
 				c_taga_zhuji = {
-					color = { 147 32 61 }
+					color = { 0 178 91 }
 					b_taga_zhuji = {
 						province = 8829
 
-						color = { 147 32 61 }
+						color = { 0 178 91 }
 					}
 				}
 			}
 
 			d_taga_xinan = {
-				color = { 176 11 70 }
+				color = { 0 198 139 }
 
 				capital = c_taga_xinan
 
 				c_taga_xinan = {
-					color = { 178 6 68 }
+					color = { 0 195 144 }
 
 					b_taga_shixin = {
 						province = 10347
 
-						color = { 170 6 68 }
+						color = { 0 195 144 }
 					}
 
 					b_taga_suian = {
 						province = 10351
 
-						color = { 186 6 68 }
+						color = { 0 194 144 }
 					}
 
 				}
 
 				c_taga_she = {
-					color = { 178 19 68 }
+					color = { 0 195 127 }
 
 					b_taga_she = {
 						province = 10368
 
-						color = { 170 19 68 }
+						color = { 0 195 127 }
 					}
 
 					b_taga_haining = {
 						province = 10369
 
-						color = { 186 19 68 }
+						color = { 0 194 127 }
 					}
 				}
 
 				c_taga_you = {
-					color = { 169 6 79 }
+					color = { 0 207 154 }
 
 					b_taga_you = {
 						province = 10371
 
-						color = { 169 6 79 }
+						color = { 0 207 154 }
 					}
 				}
 			}
 
 			d_taga_dongyang = {
-				color = { 123 18 76 }
+				color = { 0 166 106 }
 
 				capital = c_taga_changshan
 
 				c_taga_changshan = {
-					color = { 119 11 69 }
+					color = { 0 163 114 }
 
 					b_taga_changshan = {
 						province = 8836
 
-						color = { 114 7 69 }
+						color = { 0 164 116 }
 					}
 
 					b_taga_wushang = {
 						province = 8839
 
-						color = { 129 7 69 }
+						color = { 0 163 116 }
 					}
 
 					b_taga_wuning = {
 						province = 8838
 
-						color = { 114 18 69 }
+						color = { 0 164 109 }
 					}
 
 				}
 				c_taga_dongxinan = {
-					color = { 119 11 80 }
+					color = { 0 172 122 }
 
 					b_taga_xinan = {
 						province = 8809
 
-						color = { 114 7 80 }
+						color = { 0 172 123 }
 					}
 
 					b_taga_taimo = {
 						province = 12968
 
-						color = { 129 7 80 }
+						color = { 0 171 123 }
 					}
 
 					b_taga_dingyang = {
 						province = 10270
 
-						color = { 114 18 80 }
+						color = { 0 172 116 }
 					}
 
 				}
 				c_taga_fengan = {
-					color = { 147 32 80 }
+					color = { 17 172 92 }
 
 					b_taga_fengan = {
 						province = 10384
 
-						color = { 147 32 80 }
+						color = { 17 172 92 }
 					}
 
 				}
 
 				c_taga_suichang = {
-					color = { 122 32 80 }
+					color = { 29 163 85 }
 
 					b_taga_suichang = {
 						province = 12956
 
-						color = { 115 32 80 }
+						color = { 19 163 85 }
 					}
 					
 					b_taga_yongkang = {
 						province = 8837 
 
-						color = { 130 32 80 }
+						color = { 42 162 85 }
 					}
 				}
 			}
 
 			d_taga_linhai = {
-				color = { 160 54 68 }
+				color = { 0 199 102 }
 
 				capital = c_taga_zhangan
 
 				c_taga_zhangan = {
-					color = { 151 60 68 }
+					color = { 0 206 107 }
 
 					b_taga_zhangan = {
 						province = 8830
 
-						color = { 151 60 68 }
+						color = { 0 206 107 }
 					}
 				}
 
 				c_taga_linhai = {
-					color = { 160 48 68 }
+					color = { 0 197 99 }
 
 					b_taga_linhai = {
 						province = 10383
 
-						color = { 152 48 68 }
+						color = { 0 197 99 }
 					}
 					b_taga_shifeng = {
 						province = 8845
 
-						color = { 167 48 68 }
+						color = { 0 196 99 }
 					}
 				}
 
 				c_taga_ninghai = {
-					color = { 168 60 68 }
+					color = { 0 204 107 }
 
 					b_taga_ninghai = {
 						province = 10291
 
-						color = { 168 60 68 }
+						color = { 0 204 107 }
 					}
 				}
 
 
 			}
 			d_taga_yongjia = {
-				color = { 118 50 71 }
+				color = { 0 192 145 }
 
 				capital = c_taga_yongjia
 				c_taga_yongjia = {
-					color = { 119 52 68 }
+					color = { 0 189 141 }
 
 					b_taga_yongning = {
 						province = 8832
 
-						color = { 114 48 68 }
+						color = { 0 189 142 }
 					}
 
 					b_taga_angu = {
 						province = 10292
 
-						color = { 129 48 68 }
+						color = { 0 188 142 }
 					}
 
 					b_taga_hengyang = {
 						province = 12969
 
-						color = { 114 59 68 }
+						color = { 0 189 135 }
 					}
 				}
 
 				c_taga_songyang = {
-					color = { 113 47 79 }
+					color = { 0 201 157 }
 
 					b_taga_songyang = {
 						province = 8833
 
-						color = { 113 47 79 }
+						color = { 0 201 157 }
 					}
 				}
 			}
 		}
 
 		k_taga_jiang = {
-			color = { 43 27 36 }
+			color = { 0 111 161 }
 
 			capital = c_hongzhou
 
 			d_taga_yuzhang = {
-				color = { 17 14 30 }
+				color = { 0 106 185 }
 
 				capital = c_taga_nanchang
 
 				c_taga_nanchang = {
-					color = { 16 11 10 }
+					color = { 0 97 175 }
 
 					b_taga_nanchang = {
 						province = 8990
 
-						color = { 11 7 10 }
+						color = { 0 97 177 }
 					}
 					b_taga_zhongling = {
 						province = 10366
 
-						color = { 26 7 10 }
+						color = { 0 96 170 }
 					}
 					b_taga_fengcheng = {
 						province = 13098
 
-						color = { 11 18 10 }
+						color = { 0 97 177 }
 					}
 				}
 				c_taga_yongxiu = {
-					color = { 16 11 21 }
+					color = { 0 107 186 }
 					b_taga_ai = {
 						province = 13104
 
-						color = { 11 7 21 }
+						color = { 0 107 188 }
 					}
 
 					b_taga_yuning = {
 						province = 8991
 
-						color = { 26 7 21 }
+						color = { 0 107 181 }
 					}
 					b_taga_yongxiu = {
 						province = 13042
 
-						color = { 11 18 21 }
+						color = { 0 107 188 }
 					}
 				}
 				c_taga_jiancheng = {
-					color = { 18 12 33 }
+					color = { 0 114 191 }
 
 					b_taga_jiancheng = {
 						province = 13043
 
-						color = { 11 7 33 }
+						color = { 0 115 196 }
 					}
 					b_taga_kangle = {
 						province = 12994
 
-						color = { 26 7 33 }
+						color = { 0 115 188 }
 					}
 					b_taga_wangcai = {
 						province = 13103
 
-						color = { 11 18 33 }
+						color = { 0 115 196 }
 					}
 					b_taga_yifeng = {
 						province = 10443
 
-						color = { 26 18 33 }
+						color = { 0 114 188 }
 					}
 				}
 				c_taga_xingan = {
-					color = { 18 31 44 }
+					color = { 0 113 191 }
 
 					b_taga_xingan = {
 						province = 12993
 
-						color = { 11 31 44 }
+						color = { 0 113 196 }
 					}
 					b_taga_wuping = {
 						province = 9459
 
-						color = { 26 31 44 }
+						color = { 0 112 188 }
 					}
 				}
 				c_taga_haihun = {
-					color = { 16 11 44 }
+					color = { 0 98 178 }
 					b_taga_haihun = {
 						province = 10271
 
-						color = { 11 7 44 }
+						color = { 0 98 180 }
 					}
 					b_taga_xinwu = {
 						province = 10367
 
-						color = { 26 7 44 }
+						color = { 0 97 173 }
 					}
 					b_taga_jianchang = {
 						province = 9683
 
-						color = { 11 18 44 }
+						color = { 0 100 182 }
 					}
 				}
 			}
 			d_taga_luling = {
-				color = { 60 15 15 }
+				color = { 0 99 134 }
 
 				capital = c_taga_shiyang
 
 				c_taga_shiyang = {
-					color = { 57 12 9 }
+					color = { 0 99 141 }
 
 					b_taga_shiyang = {
 						province = 9536
 
-						color = { 49 7 9 }
+						color = { 0 97 138 }
 					}
 					b_taga_gaochang = {
 						province = 8842
 
-						color = { 65 7 9 }
+						color = { 0 99 141 }
 					}
 					b_taga_dongchang = {
 						province = 8817
 
-						color = { 49 18 9 }
+						color = { 0 96 138 }
 					}
 					b_taga_jiyang_lul = {
 						province = 8814
 
-						color = { 65 18 9 }
+						color = { 0 99 141 }
 					}
 				}
 
 				c_taga_xingping = {
-					color = { 57 31 9 }
+					color = { 0 99 126 }
 					b_taga_xingping = {
 						province = 13108
 
-						color = { 49 31 9 }
+						color = { 0 96 124 }
 					}
 					b_taga_yangfeng = {
 						province = 10433
 
-						color = { 65 31 9 }
+						color = { 0 99 126 }
 					}
 				}
 
 				c_taga_xichang = {
-					color = { 57 7 26 }
+					color = { 0 98 126 }
 
 					b_taga_xichang = {
 						province = 9460
 
-						color = { 49 7 26 }
+						color = { 0 95 124 }
 					}
 					b_taga_suixing = {
 						province = 8808
 
-						color = { 65 7 26 }
+						color = { 0 98 126 }
 					}
 
 				}
 				c_taga_baqiu = {
-					color = { 82 7 26 }
+					color = { 0 110 151 }
 
 					b_taga_baqiu = {
 						province = 13135
 
-						color = { 82 7 26 }
+						color = { 0 110 151 }
 					}
 				}
 			}
 			d_taga_linchuan = {
-				color = { 18 11 53 }
+				color = { 0 100 138 }
 
 				capital = c_taga_linru
 				c_taga_linru = {
-					color = { 18 11 50 }
+					color = { 0 93 130 }
 
 					b_taga_linru = {
 						province = 9669
 
-						color = { 11 7 47 }
+						color = { 0 93 134 }
 					}
 					b_taga_xifeng = {
 						province = 10260
 
-						color = { 26 7 47 }
+						color = { 0 93 127 }
 					}
 					b_taga_xining = {
 						province = 13100
 
-						color = { 11 18 47 }
+						color = { 0 93 134 }
 					}
 					b_taga_yihuang = {
 						province = 13101
 
-						color = { 26 18 47 }
+						color = { 0 92 127 }
 					}
 					b_taga_xinjian = {
 						province = 9673
 
-						color = { 11 7 57 }
+						color = { 0 96 136 }
 					}
 					b_taga_anpu = {
 						province = 13105
 
-						color = { 26 7 57 }
+						color = { 0 95 130 }
 					}
 				}
 				c_taga_nancheng = {
-					color = { 18 12 58 }
+					color = { 0 108 146 }
 
 					b_taga_nancheng = {
 						province = 9674
 
-						color = { 11 7 58 }
+						color = { 0 108 149 }
 					}
 					b_taga_nanfeng = {
 						province = 9675
 
-						color = { 26 7 58 }
+						color = { 0 108 143 }
 					}
 					b_taga_yongcheng = {
 						province = 13099
 
-						color = { 11 18 58 }
+						color = { 0 108 149 }
 					}
 					b_taga_dongxing = {
 						province = 10261
 
-						color = { 26 18 58 }
+						color = { 0 107 143 }
 					}
 				}
 			}
 			d_taga_ancheng = {
-				color = { 55 12 53 }
+				color = { 0 135 218 }
 
 				capital = c_taga_pingdu
 				c_taga_pingdu = {
-					color = { 56 6 58 }
+					color = { 0 141 222 }
 
 					b_taga_pingdu = {
 						province = 13109
 
-						color = { 48 6 58 }
+						color = { 0 141 226 }
 					}
 					b_taga_anfu = {
 						province = 10436
 
-						color = { 64 6 58 }
+						color = { 0 140 219 }
 					}
 				}
 				c_taga_yichun = {
-					color = { 53 11 46 }
+					color = { 0 130 214 }
 
 					b_taga_yichun = {
 						province = 9329
 
-						color = { 48 7 46 }
+						color = { 0 130 216 }
 					}
 					b_taga_xinyu = {
 						province = 8992
 
-						color = { 64 7 46 }
+						color = { 0 130 209 }
 					}
 
 					b_taga_pingxiang = {
 						province = 9458
 
-						color = { 48 18 46 }
+						color = { 0 129 216 }
 					}
 				}
 
 				c_taga_yongxin = {
-					color = { 56 19 58 }
+					color = { 0 139 222 }
 
 					b_taga_yongxin = {
 						province = 10434
 
-						color = { 48 19 58 }
+						color = { 0 139 226 }
 					}
 					b_taga_guangxing = {
 						province = 8843
 
-						color = { 64 19 58 }
+						color = { 0 138 219 }
 					}
 				}
 			}
 			d_taga_wuchang = {
-				color = { 92 11 48 }
+				color = { 0 126 166 }
 
 				capital = c_taga_wuchang
 
 				c_taga_wuchang = {
-					color = { 92 11 48 }
+					color = { 0 126 166 }
 
 					b_taga_wuchang = {
 						province = 10396
 
-						color = { 86 7 46 }
+						color = { 0 127 170 }
 					}
 					b_taga_shaxian = {
 						province = 10395
 
-						color = { 101 7 46 }
+						color = { 0 126 163 }
 					}
 					b_taga_e = {
 						province = 10397
 
-						color = { 86 18 46 }
+						color = { 0 126 170 }
 					}
 
 					b_taga_shayang = {
 						province = 10398
 
-						color = { 101 18 46 }
+						color = { 0 126 163 }
 					}
 					b_taga_yangxin = {
 						province = 10401
 
-						color = { 86 7 57 }
+						color = { 0 132 175 }
 					}
 				}
 			}
 			
 			d_taga_xunyang = {
-				color = { 91 38 46 }
+				color = { 0 86 86 }
 
 				capital = c_taga_chaisang
 
 				c_taga_chaisang = {
-					color = { 85 34 46 }
+					color = { 0 86 91 }
 
 					b_taga_chaisang = {
 						province = 8986
 
-						color = { 85 34 46 }
+						color = { 0 86 91 }
 					}
 
 				}
 
 				c_taga_pengze = {
-					color = { 102 34 46 }
+					color = { 0 86 77 }
 
 
 					b_taga_pengze = {
 						province = 9685
 
-						color = { 102 34 46 }
+						color = { 0 86 77 }
 					}
 
 				}
 				c_taga_xunyang = {
-					color = { 85 46 46 }
+					color = { 0 85 91 }
 
 
 					b_taga_xunyang = {
 						province = 13011
 
-						color = { 85 46 46 }
+						color = { 0 85 91 }
 					}
 
 
 				}
 			}
 			d_taga_poyang = {
-				color = { 78 52 14 }
+				color = { 0 97 181 }
 
 				capital = c_taga_poyang
 				c_taga_poyang = {
-					color = { 76 54 9 }
+					color = { 0 97 186 }
 					b_taga_guangjin = {
 						province = 8988
 
-						color = { 68 48 9 }
+						color = { 0 95 183 }
 					}
 					b_taga_poyang = {
 						province = 8989
 
-						color = { 83 48 9 }
+						color = { 0 97 186 }
 					}
 
 					b_taga_lean = {
 						province = 13016
 
-						color = { 68 59 9 }
+						color = { 0 94 183 }
 					}
 
 					b_taga_liling = {
 						province = 9684
 
-						color = { 83 59 9 }
+						color = { 0 96 186 }
 					}
 				}
 
 				c_taga_yuhan = {
-					color = { 73 52 20 }
+					color = { 0 93 168 }
 					b_taga_yuhan = {
 						province = 13015
 
-						color = { 68 48 20 }
+						color = { 0 91 165 }
 					}
 					b_taga_shangrao = {
 						province = 9679
 
-						color = { 83 48 20 }
+						color = { 0 96 171 }
 					}
 
 					b_taga_geyang = {
 						province = 9682
 
-						color = { 68 59 20 }
+						color = { 0 90 165 }
 					}
 				}
 				c_taga_qiaoyang = {
-					color = { 101 48 20 }
+					color = { 0 108 197 }
 					b_taga_qiaoyang = {
 						province = 12996
 
-						color = { 101 48 20 }
+						color = { 0 108 197 }
 					}
 				}
 			}
 			d_taga_nankang = {
-				color = { 17 39 53 }
+				color = { 0 135 149 }
 
 				capital = c_taga_yudu
 
 				c_taga_yudu = {
-					color = { 16 38 46 }
+					color = { 0 130 146 }
 
 					b_taga_yudu = {
 						province = 9543
 
-						color = { 11 34 46 }
+						color = { 0 130 147 }
 					}
 
 					b_taga_ningdu = {
 						province = 12947
 
-						color = { 26 34 46 }
+						color = { 0 130 141 }
 					}
 					b_taga_beiyang = {
 						province = 9544
 
-						color = { 11 45 46 }
+						color = { 0 130 148 }
 					}
 
 				}
 				c_taga_gan = {
-					color = { 18 34 58 }
+					color = { 0 141 153 }
 
 					b_taga_gan = {
 						province = 9546
 
-						color = { 11 34 58 }
+						color = { 0 142 156 }
 					}
 					b_taga_pinggu = {
 						province = 13052
 
-						color = { 26 34 58 }
+						color = { 0 141 150 }
 					}
 				}
 
 				c_taga_nanye = {
-					color = { 18 46 58 }
+					color = { 0 140 153 }
 
 					b_taga_nanye = {
 						province = 9545
 
-						color = { 11 46 58 }
+						color = { 0 140 156 }
 					}
 
 					b_taga_nankang = {
 						province = 13053
 
-						color = { 26 46 58 }
+						color = { 0 140 150 }
 					}
 				}
 			}
 			d_taga_jinan = {
-				color = { 21 56 15 }
+				color = { 0 139 213 }
 
 				capital = c_taga_dongye
 				c_taga_dongye = {
-					color = { 19 73 9 }
+					color = { 0 145 222 }
 
 					b_taga_houguan = {
 						province = 8824
 
-						color = { 11 73 9 }
+						color = { 0 146 226 }
 					}
 					b_taga_yuanfeng = {
 						province = 1470
 
-						color = { 27 73 9 }
+						color = { 0 145 217 }
 					}
 
 				}
 				c_taga_wenma = {
-					color = { 19 48 26 }
+					color = { 0 144 222 }
 
 					b_taga_wenma = {
 						province = 10336
 
-						color = { 11 48 26 }
+						color = { 0 144 226 }
 					}
 
 					b_taga_luojiang = {
 						province = 8822
 
-						color = { 27 48 26 }
+						color = { 0 143 217 }
 					}
 				}
 				c_taga_jinan = {
-					color = { 16 52 9 }
+					color = { 0 134 213 }
 
 					b_taga_jinan = {
 						province = 1469
 
-						color = { 11 48 9 }
+						color = { 0 134 214 }
 					}
 					b_taga_tongan = {
 						province = 3222
 
-						color = { 26 48 9 }
+						color = { 0 134 207 }
 					}
 					b_taga_wanping = {
 						province = 8806
 
-						color = { 11 60 9 }
+						color = { 0 134 214 }
 					}
 
 				}
 
 				c_taga_xinluo = {
-					color = { 44 48 26 }
+					color = { 0 133 187 }
 
 					b_taga_xinluo = {
 						province = 8810
 
-						color = { 44 48 26 }
+						color = { 0 133 187 }
 					}
 
 				}
 
 			}
 			d_taga_jianan = {
-				color = { 55 39 51 }
+				color = { 0 94 89 }
 
 				capital = c_taga_jianan
 
 				c_taga_jianan = {
-					color = { 56 34 46 }
+					color = { 0 89 83 }
 
 					b_taga_jianan = {
 						province = 8818
 
-						color = { 48 34 46 }
+						color = { 0 89 86 }
 					}
 
 
 					b_taga_jianyang = {
 						province = 8819
 
-						color = { 64 34 46 }
+						color = { 0 89 79 }
 					}
 				}
 				c_taga_jiangle = {
-					color = { 56 46 46 }
+					color = { 0 88 83 }
 					b_taga_jiangle = {
 						province = 8816
 
-						color = { 48 46 46 }
+						color = { 0 88 86 }
 					}
 					b_taga_suian_jianan = {
 						province = 8815
 
-						color = { 64 46 46 }
+						color = { 0 88 79 }
 					}
 
 				}
 				c_taga_yanping = {
-					color = { 56 34 58 }
+					color = { 0 100 92 }
 					b_taga_yanping = {
 						province = 8813
 
-						color = { 48 34 58 }
+						color = { 0 100 95 }
 					}
 					b_taga_shaowu = {
 						province = 10263
 
-						color = { 64 34 58 }
+						color = { 0 100 89 }
 					}
 				}
 				c_taga_wuxing_jianan = {
-					color = { 48 46 58 }
+					color = { 0 99 100 }
 
 					b_taga_wuxing = {
 						province = 8844
 
-						color = { 48 46 58 }
+						color = { 0 99 100 }
 					}
 				}
 			}
 		}
 	}
 	e_taga_yu = {
-		color = { 148 6 130 }
+		color = { 121 0 158 }
 
 		capital = c_taga_anfeng
 
 		k_taga_yiyang = {
-			color = { 148 6 130 }
+			color = { 121 0 158 }
 
 			capital = c_taga_yiyang
 			d_taga_yiyang = {
-				color = { 149 7 125 }
+				color = { 111 0 179 }
 
 				capital = c_taga_yiyang
 
 				c_taga_yiyang = {
-					color = { 150 2 130 }
+					color = { 111 0 180 }
 
 					b_taga_yiyang = {
 						province = 10254
 
-						color = { 142 2 130 }
+						color = { 108 0 183 }
 					}
 					b_taga_qisi = {
 						province = 10253
 
-						color = { 158 2 130 }
+						color = { 113 0 176 }
 					}
 
 
 				}
 				c_taga_xiyang = {
-					color = { 150 14 130 }
+					color = { 122 0 180 }
 					b_taga_xiyang = {
 						province = 10255
 
-						color = { 142 14 130 }
+						color = { 120 0 183 }
 					}
 					b_taga_dai = {
 						province = 10256
 
-						color = { 158 14 130 }
+						color = { 125 0 177 }
 					}
 				}
 				c_taga_xiling = {
-					color = { 147 6 119 }
+					color = { 102 0 175 }
 					b_taga_xiling = {
 						province = 10432
 
-						color = { 142 2 119 }
+						color = { 99 0 176 }
 					}
 					b_taga_qichun = {
 						province = 8973
 
-						color = { 157 2 119 }
+						color = { 105 0 170 }
 					}
 					b_taga_zhu = {
 						province = 8974
 
-						color = { 142 13 119 }
+						color = { 104 0 176 }
 					}
 				}
 			}
 			d_taga_anfeng = {
-				color = { 148 4 136 }
+				color = { 133 0 132 }
 
 				capital = c_taga_anfeng
 
 				c_taga_anfeng = {
-					color = { 150 1 143 }
+					color = { 137 0 136 }
 					b_taga_anfeng = {
 						province = 13010
 
-						color = { 142 1 143 }
+						color = { 136 0 139 }
 					}
 					b_taga_songzi = {
 						province = 8821
 
-						color = { 157 1 143 }
+						color = { 139 0 133 }
 					}
 				}
 				c_taga_lu = {
-					color = { 147 6 131 }
+					color = { 128 0 129 }
 					b_taga_lu = {
 						province = 10250
 
-						color = { 142 2 131 }
+						color = { 126 0 130 }
 					}
 					b_taga_anfeng_n = {
 						province = 10251
 
-						color = { 157 2 131 }
+						color = { 129 0 124 }
 					}
 					b_taga_yulou = {
 						province = 10252
 
-						color = { 142 13 131 }
+						color = { 130 0 130 }
 					}
 				}
 			}
 		}
 	}
 	e_taga_jing = {
-		color = { 51 178 48 }
+		color = { 194 176 234 }
 
 		capital = c_xiangyang
 		k_taga_nanyang = {
-			color = { 117 173 54 }
+			color = { 228 129 255 }
 
 			capital = c_tangzhou
 
 			d_taga_nanyang = {
-				color = { 99 162 49 }
+				color = { 195 125 255 }
 
 				capital = c_tangzhou
 				c_tangzhou = {
-					color = { 99 162 49 }
+					color = { 195 125 255 }
 					b_nanyang = {
 						province = 10041
 
-						color = { 93 158 47 }
+						color = { 190 126 255 }
 					}
 
 					b_biyang_1 = {
 						province = 13025
 
-						color = { 108 158 47 }
+						color = { 196 125 255 }
 					}
 					b_beiyang = {
 						province = 10039
 
-						color = { 93 169 47 }
+						color = { 196 123 255 }
 					}
 					b_fangcheng = {
 						province = 10038
 
-						color = { 108 169 47 }
+						color = { 202 122 255 }
 					}
 					b_tongbai = {
 						province = 13026
 
-						color = { 93 158 58 }
+						color = { 196 132 255 }
 					}
 				}
 
 			}
 			d_taga_xiangyang = {
-				color = { 138 164 47 }
+				color = { 228 151 255 }
 
 				capital = c_xiangyang
 
 				c_xiangyang = {
-					color = { 138 164 47 }
+					color = { 228 151 255 }
 
 					b_xiangyang = {
 						province = 10043
 
-						color = { 131 159 47 }
+						color = { 222 153 255 }
 					}
 					b_lexiang = {
 						province = 10044
 
-						color = { 146 159 47 }
+						color = { 227 152 255 }
 					}
 					b_nanzhang = {
 						province = 13027
 
-						color = { 131 170 47 }
+						color = { 228 150 255 }
 					}
 					b_yicheng = {
 						province = 10037
 
-						color = { 146 170 47 }
+						color = { 233 149 255 }
 					}
 				}
 			}
 			d_taga_xinye = {
-				color = { 100 192 47 }
+				color = { 232 111 255 }
 
 				capital = c_dengzhou_1
 				c_dengzhou_1 = {
-					color = { 100 192 47 }
+					color = { 232 111 255 }
 					b_xinye = {
 						province = 13030
 
-						color = { 93 186 47 }
+						color = { 230 111 255 }
 					}
 					b_rang = {
 						province = 10040
 
-						color = { 108 186 47 }
+						color = { 235 110 255 }
 					}
 
 					b_tangcheng = {
 						province = 10035
 
-						color = { 93 197 47 }
+						color = { 233 114 255 }
 					}
 					b_zaoyang = {
 						province = 10036
 
-						color = { 108 197 47 }
+						color = { 238 113 255 }
 					}
 
 				}
 			}
 			d_taga_nanxiang = {
-				color = { 138 192 47 }
+				color = { 228 125 248 }
 
 				capital = c_junzhou
 				c_junzhou = {
-					color = { 138 192 47 }
+					color = { 228 125 248 }
 
 					b_wudang = {
 						province = 10046
 
-						color = { 131 186 47 }
+						color = { 225 127 248 }
 					}
 					b_gucheng = {
 						province = 10045
 
-						color = { 146 186 47 }
+						color = { 228 130 251 }
 					}
 					b_jutan = {
 						province = 10042
 
-						color = { 131 197 47 }
+						color = { 230 124 248 }
 					}
 					b_neixiang = {
 						province = 13029
 
-						color = { 146 197 47 }
+						color = { 233 127 251 }
 					}
 
 				}
 			}
 			d_taga_shangyong = {
-				color = { 100 164 72 }
+				color = { 255 146 255 }
 
 				capital = c_taga_shangyong
 				c_taga_shangyong = {
-					color = { 100 164 72 }
+					color = { 255 146 255 }
 
 					b_zhushan = {
 						province = 10018
 
-						color = { 93 159 72 }
+						color = { 252 148 255 }
 					}
 					b_shangyong = {
 						province = 13061
 
-						color = { 108 159 72 }
+						color = { 255 148 255 }
 					}
 					b_yunxiang = {
 						province = 10047
 
-						color = { 93 170 72 }
+						color = { 255 145 255 }
 					}
 					b_fengli = {
 						province = 10048
 
-						color = { 108 170 72 }
+						color = { 255 145 255 }
 					}
 				}
 			}
 			d_taga_xincheng = {
-				color = { 138 157 72 }
+				color = { 252 99 232 }
 
 				capital = c_fangzhou_1
 				c_fangzhou_1 = {
-					color = { 138 157 72 }
+					color = { 252 99 232 }
 
 					b_fangling = {
 						province = 10017
 
-						color = { 131 157 72 }
+						color = { 250 99 235 }
 					}
 					b_yongqing = {
 						province = 10016
 
-						color = { 146 157 72 }
+						color = { 253 98 228 }
 					}
 				}
 			}
 		}
 
 		k_taga_jing = {
-			color = { 47 182 21 }
+			color = { 133 187 255 }
 
 			capital = c_jiangling
 
 			d_taga_nan = {
-				color = { 94 169 10 }
+				color = { 75 213 255 }
 
 				capital = c_jiangling
 
 				c_jiangling = {
-					color = { 94 164 10 }
+					color = { 49 215 255 }
 
 					b_jiangling = {
 						province = 10022
 
-						color = { 86 160 7 }
+						color = { 0 216 255 }
 					}
 					b_dangyang = {
 						province = 10023
 
-						color = { 102 160 7 }
+						color = { 56 215 255 }
 					}
 					b_jingmen = {
 						province = 13007
 
-						color = { 86 171 7 }
+						color = { 52 214 255 }
 					}
 					b_zhijiang = {
 						province = 13008
 
-						color = { 102 171 7 }
+						color = { 80 214 255 }
 					}
 					b_qianjiang = {
 						province = 13005
 
-						color = { 86 160 17 }
+						color = { 9 219 255 }
 					}
 					b_changshou = {
 						province = 10032
 
-						color = { 102 160 17 }
+						color = { 62 218 255 }
 					}
 
 				}
 				c_fuzhou_3 = {
-					color = { 94 184 7 }
+					color = { 118 205 255 }
 
 					b_jianli = {
 						province = 10029
 
-						color = { 86 184 7 }
+						color = { 111 205 255 }
 					}
 					b_yusha = {
 						province = 13006
 
-						color = { 102 184 7 }
+						color = { 125 205 255 }
 					}
 				}
 
 			}
 			d_taga_jingling = {
-				color = { 56 220 6 }
+				color = { 200 196 255 }
 
 				capital = c_yingzhou_2
 				c_yingzhou_2 = {
-					color = { 56 220 6 }
+					color = { 200 196 255 }
 					b_jingling = {
 						province = 10031
 
-						color = { 48 215 6 }
+						color = { 193 198 255 }
 					}
 
 					b_mianyang = {
 						province = 10030
 
-						color = { 64 215 6 }
+						color = { 198 197 255 }
 					}
 
 					b_fushui = {
 						province = 10033
 
-						color = { 48 226 6 }
+						color = { 202 195 255 }
 					}
 					b_jingshan = {
 						province = 13028
 
-						color = { 64 226 6 }
+						color = { 207 194 255 }
 					}
 				}
 
 			}
 			d_taga_sui = {
-				color = { 9 186 44 }
+				color = { 164 176 255 }
 
 				capital = c_suizhou_1
 
 				c_suizhou_1 = {
-					color = { 9 186 44 }
+					color = { 164 176 255 }
 
 					b_sui = {
 						province = 10034
 
-						color = { 9 186 44 }
+						color = { 164 176 255 }
 					}
 
 				}
 			}
 			d_taga_yiyang_j = {
-				color = { 28 186 44 }
+				color = { 188 174 255 }
 
 				capital = c_taga_yiyang_j
 
 				c_taga_yiyang_j = {
-					color = { 28 186 44 }
+					color = { 188 174 255 }
 
 					b_guanghua = {
 						province = 13062
 
-						color = { 28 186 44 }
+						color = { 188 174 255 }
 					}
 				}
 			}
 			d_taga_yidu = {
-				color = { 91 218 6 }
+				color = { 205 212 255 }
 
 				capital = c_xiazhou_1
 				c_xiazhou_1 = {
-					color = { 91 218 6 }
+					color = { 205 212 255 }
 
 					b_yiling = {
 						province = 10020
 
-						color = { 86 214 6 }
+						color = { 202 212 255 }
 					}
 					b_yuanan = {
 						province = 10019
 
-						color = { 101 214 6 }
+						color = { 207 212 255 }
 					}
 					b_yidu_1 = {
 						province = 10021
 
-						color = { 86 225 6 }
+						color = { 209 210 255 }
 					}
 				}
 			}
 			d_taga_jianping = {
-				color = { 16 163 44 }
+				color = { 162 199 255 }
 
 				capital = c_guizhou
 				c_guizhou = {
-					color = { 16 163 44 }
+					color = { 162 199 255 }
 
 					b_zigui = {
 						province = 10015
 
-						color = { 11 159 44 }
+						color = { 160 199 255 }
 					}
 					b_badong = {
 						province = 10014
 
-						color = { 26 159 44 }
+						color = { 169 199 255 }
 					}
 					b_xingshan = {
 						province = 10453
 
-						color = { 11 170 44 }
+						color = { 163 202 255 }
 					}
 				}
 			}
 			d_taga_jiangxia = {
-				color = { 17 219 12 }
+				color = { 148 215 255 }
 
 				capital = c_anzhou
 
 				c_anzhou = {
-					color = { 18 220 7 }
+					color = { 147 209 255 }
 
 					b_anlu = {
 						province = 8981
 
-						color = { 11 214 7 }
+						color = { 137 210 255 }
 					}
 					b_yingshan = {
 						province = 8982
 
-						color = { 26 214 7 }
+						color = { 145 209 255 }
 					}
 					b_yunmeng = {
 						province = 8980
 
-						color = { 11 226 7 }
+						color = { 146 208 255 }
 					}
 					b_xiaochang = {
 						province = 13013
 
-						color = { 26 226 7 }
+						color = { 154 208 255 }
 					}
 				}
 				c_huangzhou = {
-					color = { 10 226 18 }
+					color = { 160 218 255 }
 
 					b_huangpi = {
 						province = 8975
 
-						color = { 10 226 18 }
+						color = { 160 218 255 }
 					}
 				}
 				c_hanyang = {
-					color = { 18 214 18 }
+					color = { 147 222 255 }
 
 					b_hanyang = {
 						province = 8978
 
-						color = { 11 214 18 }
+						color = { 142 222 255 }
 					}
 					b_hanchuan = {
 						province = 8979
 
-						color = { 26 214 18 }
+						color = { 151 222 255 }
 					}
 				}
 			}
 			d_taga_nanping = {
-				color = { 56 165 44 }
+				color = { 157 156 255 }
 				capital = c_liyang
 
 				c_liyang = {
-					color = { 56 165 44 }
+					color = { 157 156 255 }
 
 					b_liyang_1 = {
 						province = 10027
 
-						color = { 48 159 44 }
+						color = { 150 154 255 }
 					}
 					b_anxiang = {
 						province = 13054
 
-						color = { 64 159 44 }
+						color = { 158 153 255 }
 					}
 					b_gongan = {
 						province = 10024
 
-						color = { 48 171 44 }
+						color = { 153 157 255 }
 					}
 					b_huarong = {
 						province = 10323
 
-						color = { 64 171 44 }
+						color = { 161 156 255 }
 					}
 				}
 			}
 			d_taga_wuling = {
-				color = { 34 175 20 }
+				color = { 93 177 255 }
 
 				capital = c_langzhou
 
 				c_langzhou = {
-					color = { 54 166 8 }
+					color = { 51 191 255 }
 
 					b_wuling = {
 						province = 10028
 
-						color = { 46 160 8 }
+						color = { 0 192 255 }
 					}
 					b_longyang = {
 						province = 13154
 
-						color = { 62 160 8 }
+						color = { 48 192 255 }
 					}
 					b_taoyuan = {
 						province = 13022
 
-						color = { 46 172 8 }
+						color = { 44 191 255 }
 					}
 					b_yuanjiang = {
 						province = 13021
 
-						color = { 62 172 8 }
+						color = { 71 190 255 }
 					}
 				}
 				c_luxi = {
-					color = { 19 165 10 }
+					color = { 0 175 255 }
 
 					b_yuanling = {
 						province = 9852
 
-						color = { 13 160 8 }
+						color = { 0 176 255 }
 					}
 					b_chenxi = {
 						province = 9996
 
-						color = { 28 160 8 }
+						color = { 0 175 255 }
 					}
 					b_xupu = {
 						province = 9857
 
-						color = { 13 172 8 }
+						color = { 0 174 255 }
 					}
 					b_xuangu = {
 						province = 13148
 
-						color = { 28 172 8 }
+						color = { 38 174 255 }
 					}
 					b_chipeng = {
 						province = 10001
 
-						color = { 13 160 18 }
+						color = { 0 179 255 }
 					}
 				}
 				c_lingxi = {
-					color = { 17 189 8 }
+					color = { 78 169 255 }
 
 					b_daxiang = {
 						province = 9836
 
-						color = { 12 185 8 }
+						color = { 73 169 255 }
 					}
 					b_danting = {
 						province = 9841
 
-						color = { 28 185 8 }
+						color = { 90 169 255 }
 					}
 					b_huixi = {
 						province = 13149
 
-						color = { 12 196 8 }
+						color = { 77 172 255 }
 					}
 				}
 				c_tanyang = {
-					color = { 54 190 8 }
+					color = { 95 176 255 }
 
 					b_longbiao = {
 						province = 9997
 
-						color = { 46 185 8 }
+						color = { 84 174 255 }
 					}
 					b_tanyang = {
 						province = 9999
 
-						color = { 62 185 8 }
+						color = { 91 179 255 }
 					}
 					b_langxi = {
 						province = 9998
 
-						color = { 46 196 8 }
+						color = { 96 172 255 }
 					}
 					b_tongdao = {
 						province = 13083
 
-						color = { 62 196 8 }
+						color = { 103 178 255 }
 					}
 				}
 				c_luyang = {
-					color = { 17 164 30 }
+					color = { 114 189 255 }
 
 					b_luyang = {
 						province = 9833
 
-						color = { 12 160 30 }
+						color = { 107 190 255 }
 					}
 					b_changfeng = {
 						province = 9835
 
-						color = { 28 160 30 }
+						color = { 118 190 255 }
 					}
 					b_zhaoyu = {
 						province = 9834
 
-						color = { 12 171 30 }
+						color = { 118 188 255 }
 					}
 				}
 				c_yezhou = {
-					color = { 51 164 30 }
+					color = { 130 167 252 }
 
 					b_eshan = {
 						province = 10000
 
-						color = { 46 160 30 }
+						color = { 128 167 253 }
 					}
 					b_zijiang = {
 						province = 10407
 
-						color = { 62 160 30 }
+						color = { 136 166 246 }
 					}
 					b_weixi = {
 						province = 10409
 
-						color = { 46 171 30 }
+						color = { 131 170 255 }
 					}
 				}
 				c_guzhou = {
-					color = { 17 189 30 }
+					color = { 113 172 239 }
 
 					b_leshan = {
 						province = 10239
 
-						color = { 12 185 30 }
+						color = { 109 173 239 }
 					}
 					b_lexing = {
 						province = 10240
 
-						color = { 28 185 30 }
+						color = { 112 176 241 }
 					}
 					b_gushu = {
 						province = 10241
 
-						color = { 12 196 30 }
+						color = { 119 171 239 }
 					}
 				}
 				c_huangzhou_1 = {
-					color = { 20 160 53 }
+					color = { 111 162 255 }
 
 					b_bianxi = {
 						province = 10408
 
-						color = { 13 160 53 }
+						color = { 105 162 255 }
 					}
 					b_tonggu_1 = {
 						province = 10427
 
-						color = { 28 160 53 }
+						color = { 116 162 255 }
 					}
 				}
 				c_yingzhou_4 = {
-					color = { 51 189 30 }
+					color = { 109 184 255 }
 
 					b_dushang = {
 						province = 10410
 
-						color = { 46 185 30 }
+						color = { 102 185 255 }
 					}
 					b_tuolong = {
 						province = 10195
 
-						color = { 62 185 30 }
+						color = { 115 184 255 }
 					}
 					b_yingjiang = {
 						province = 13102
 
-						color = { 46 196 30 }
+						color = { 114 183 255 }
 					}
 				}
 			}
 			d_taga_tianmen = {
-				color = { 94 165 44 }
+				color = { 197 152 240 }
 				capital = c_shangxi
 				c_shangxi = {
-					color = { 94 165 44 }
+					color = { 197 152 240 }
 					b_cili = {
 						province = 10025
 
-						color = { 86 159 44 }
+						color = { 192 150 241 }
 					}
 
 					b_shanxi = {
 						province = 13145
 
-						color = { 102 159 44 }
+						color = { 196 150 234 }
 					}
 					b_anfu = {
 						province = 13146
 
-						color = { 86 171 44 }
+						color = { 194 153 244 }
 					}
 					b_baoshun = {
 						province = 13147
 
-						color = { 102 171 44 }
+						color = { 199 152 237 }
 					}
 				}
 			}
 		}
 		k_taga_xiang = {
-			color = { 31 175 74 }
+			color = { 217 179 168 }
 
 			capital = c_tanzhou
 
 			d_taga_changsha = {
-				color = { 14 190 81 }
+				color = { 252 170 145 }
 
 				capital = c_tanzhou
 
 				c_tanzhou = {
-					color = { 14 190 81 }
+					color = { 252 170 145 }
 
 					b_xiangtan = {
 						province = 12988
 
-						color = { 9 186 81 }
+						color = { 250 171 147 }
 					}
 					b_you = {
 						province = 8969
 
-						color = { 24 186 81 }
+						color = { 251 171 140 }
 					}
 
 					b_liuyang = {
 						province = 8972
 
-						color = { 9 197 81 }
+						color = { 254 169 147 }
 					}
 			}
 
 			}
 			d_taga_hengyang = {
-				color = { 17 204 53 }
+				color = { 212 148 167 }
 
 				capital = c_taga_xiangnan
 				c_taga_xiangnan = {
-					color = { 17 204 53 }
+					color = { 212 148 167 }
 					b_anhua_1 = {
 						province = 13037
 
-						color = { 9 200 50 }
+						color = { 210 149 170 }
 					}
 					b_hengshan = {
 						province = 13137
 
-						color = { 25 200 50 }
+						color = { 212 148 163 }
 					}
 					b_xiangxiang = {
 						province = 13144
 
-						color = { 9 211 50 }
+						color = { 214 146 170 }
 					}
 					b_changsha = {
 						province = 12989
 
-						color = { 25 211 50 }
+						color = { 217 146 163 }
 					}
 					b_xiangyin = {
 						province = 13159
 
-						color = { 9 200 60 }
+						color = { 212 151 173 }
 					}
 					b_hengyang_1 = {
 						province = 8970
 
-						color = { 25 200 60 }
+						color = { 215 151 166 }
 					}
 				}
 			}
 			d_taga_baling = {
-				color = { 51 190 81 }
+				color = { 255 184 159 }
 
 				capital = c_yuezhou_1
 				c_yuezhou_1 = {
-					color = { 51 190 81 }
+					color = { 255 184 159 }
 
 					b_baling = {
 						province = 10399
 
-						color = { 46 186 81 }
+						color = { 255 185 160 }
 					}
 					b_changjiang = {
 						province = 10400
 
-						color = { 62 186 81 }
+						color = { 255 185 153 }
 					}
 					b_linxiang = {
 						province = 12984
 
-						color = { 46 197 81 }
+						color = { 255 182 161 }
 					}
 				}
 			}
 			d_taga_shaoling = {
-				color = { 52 204 51 }
+				color = { 225 146 120 }
 
 				capital = c_shaozhou
 				c_shaozhou = {
-					color = { 52 204 51 }
+					color = { 225 146 120 }
 
 					b_shaoyang = {
 						province = 8952
 
-						color = { 46 200 49 }
+						color = { 223 147 124 }
 					}
 					b_xinhua = {
 						province = 12991
 
-						color = { 62 200 49 }
+						color = { 224 147 117 }
 					}
 					b_wugang = {
 						province = 8954
 
-						color = { 46 211 49 }
+						color = { 227 145 124 }
 					}
 					b_suining = {
 						province = 12990
 
-						color = { 62 211 49 }
+						color = { 229 144 117 }
 					}
 					b_xinning = {
 						province = 12986
 
-						color = { 46 200 60 }
+						color = { 226 150 126 }
 					}
 				}
 			}
 			d_taga_xiangdong = {
-				color = { 14 162 106 }
+				color = { 208 220 221 }
 
 				capital = c_hengzhou
  				c_hengzhou = {
-					color = { 14 162 106 }
+					color = { 208 220 221 }
 
 					b_chaling = {
 						province = 13138
 
-						color = { 9 158 106 }
+						color = { 205 221 223 }
 					}
 					b_changning = {
 						province = 13035
 
-						color = { 24 158 106 }
+						color = { 209 221 216 }
 					}
 					b_leiyang = {
 						province = 8968
 
-						color = { 9 169 106 }
+						color = { 211 219 223 }
 					}
 				}
 			}
 			d_taga_guiyang = {
-				color = { 15 162 86 }
+				color = { 198 195 199 }
 
 				capital = c_chenzhou_1
 				c_chenzhou_1 = {
-					color = { 15 163 83 }
+					color = { 191 197 197 }
 
 					b_chen = {
 						province = 8965
 
-						color = { 9 158 81 }
+						color = { 184 195 198 }
 					}
 					b_zixing = {
 						province = 8967
 
-						color = { 24 158 81 }
+						color = { 188 194 191 }
 					}
 					b_yongxing_1 = {
 						province = 13122
 
-						color = { 9 170 81 }
+						color = { 190 200 204 }
 					}
 					b_gaoting = {
 						province = 13123
 
-						color = { 24 170 81 }
+						color = { 193 200 196 }
 					}
 					b_yizhang = {
 						province = 8966
 
-						color = { 9 158 91 }
+						color = { 190 193 198 }
 					}
 				}
 				c_guiyang = {
-					color = { 14 162 92 }
+					color = { 210 187 197 }
 
 					b_pingyang = {
 						province = 13142
 
-						color = { 9 158 92 }
+						color = { 209 187 199 }
 					}
 					b_lanshan = {
 						province = 12992
 
-						color = { 24 158 92 }
+						color = { 212 187 191 }
 					}
 					b_linwu = {
 						province = 8964
 
-						color = { 9 170 92 }
+						color = { 212 190 201 }
 					}
 				}
 			}
 			d_taga_lingling = {
-				color = { 51 162 86 }
+				color = { 246 180 203 }
 
 				capital = c_yongzhou
 
 				c_yongzhou = {
-					color = { 51 162 81 }
+					color = { 240 175 197 }
 
 					b_lingling = {
 						province = 8956
 
-						color = { 46 158 81 }
+						color = { 238 176 199 }
 					}
 					b_qiyang = {
 						province = 8955
 
-						color = { 62 158 81 }
+						color = { 240 175 192 }
 					}
 					b_dongan = {
 						province = 8953
 
-						color = { 46 169 81 }
+						color = { 243 173 199 }
 					}
 				}
 				c_quanzhou_2 = {
-					color = { 51 162 92 }
+					color = { 249 183 206 }
 
 					b_xiangyuan_1 = {
 						province = 8957
 
-						color = { 46 158 92 }
+						color = { 246 184 208 }
 					}
 					b_xiyan = {
 						province = 13143
 
-						color = { 62 158 92 }
+						color = { 249 184 200 }
 					}
 					b_guanyang = {
 						province = 13141
 
-						color = { 46 169 92 }
+						color = { 251 182 208 }
 					}
 				}
 			}
 			d_taga_yingyang = {
-				color = { 51 162 106 }
+				color = { 229 219 170 }
 
 				capital = c_daozhou
 				c_daozhou = {
-					color = { 51 162 106 }
+					color = { 229 219 170 }
 
 					b_hongdao = {
 						province = 8959
 
-						color = { 46 158 106 }
+						color = { 226 219 172 }
 					}
 					b_dali = {
 						province = 8958
 
-						color = { 62 158 106 }
+						color = { 229 219 165 }
 					}
 					b_jianghua = {
 						province = 8960
 
-						color = { 46 169 106 }
+						color = { 232 218 172 }
 					}
 				}
 			}
 			d_taga_linhe = {
-				color = { 51 162 62 }
+				color = { 215 189 147 }
 
 				capital = c_zhaozhou_1
 
 				c_zhaozhou_1 = {
-					color = { 51 162 50 }
+					color = { 203 194 146 }
 
 					b_pingle = {
 						province = 10426
 
-						color = { 46 158 50 }
+						color = { 203 194 148 }
 					}
 					b_yangshuo = {
 						province = 10276
 
-						color = { 62 158 50 }
+						color = { 205 193 141 }
 					}
 					b_longpimg = {
 						province = 10277
 
-						color = { 46 169 50 }
+						color = { 205 196 151 }
 					}
 				}
 				c_wuzhou_1 = {
-					color = { 51 162 62 }
+					color = { 215 189 147 }
 
 					b_cangwu = {
 						province = 10274
 
-						color = { 46 158 62 }
+						color = { 215 190 149 }
 					}
 					b_linhe_1 = {
 						province = 10272
 
-						color = { 62 158 62 }
+						color = { 217 189 141 }
 					}
 					b_fuchuan_1 = {
 						province = 10273
 
-						color = { 46 169 62 }
+						color = { 218 192 151 }
 					}
 				}
 				c_gongzhou = {
-					color = { 51 162 73 }
+					color = { 227 185 147 }
 
 					b_pingnan = {
 						province = 10387
 
-						color = { 46 158 73 }
+						color = { 227 185 149 }
 					}
 					b_wulang = {
 						province = 10279
 
-						color = { 62 158 73 }
+						color = { 229 185 142 }
 					}
 					b_wulin = {
 						province = 10388
 
-						color = { 46 169 73 }
+						color = { 230 188 152 }
 					}
 				}
 			}
 			d_taga_shian = {
-				color = { 17 192 106 }
+				color = { 252 206 219 }
 
 				capital = c_guizhou_1
 				c_guizhou_1 = {
-					color = { 17 192 106 }
+					color = { 252 206 219 }
 
 					b_lingui = {
 						province = 10056
 
-						color = { 9 186 106 }
+						color = { 249 207 222 }
 					}
 					b_lingchuan = {
 						province = 10055
 
-						color = { 25 186 106 }
+						color = { 252 207 215 }
 					}
 					b_lipu = {
 						province = 10058
 
-						color = { 9 197 106 }
+						color = { 254 205 222 }
 					}
 					b_liding = {
 						province = 10057
 
-						color = { 25 197 106 }
+						color = { 255 205 215 }
 					}
 				}
 			}
 			d_taga_shixing = {
-				color = { 15 167 59 }
+				color = { 171 162 145 }
 
 				capital = c_shaozhou_1
 				c_shaozhou_1 = {
-					color = { 15 163 52 }
+					color = { 162 164 158 }
 
 					b_qujiang_1 = {
 						province = 8905
 
-						color = { 9 159 50 }
+						color = { 158 165 161 }
 					}
 					b_lechang = {
 						province = 8906
 
-						color = { 24 159 50 }
+						color = { 161 164 154 }
 					}
 					b_wengyuan = {
 						province = 8904
 
-						color = { 9 170 50 }
+						color = { 164 163 161 }
 					}
 					b_shixing = {
 						province = 13130
 
-						color = { 24 170 50 }
+						color = { 167 163 154 }
 					}
 					b_zhenchang = {
 						province = 13131
 
-						color = { 9 159 61 }
+						color = { 163 170 166 }
 					}
 				}				
 				c_lianzhou = {
-					color = { 15 163 64 }
+					color = { 174 163 125 }
 
 					b_guiyang = {
 						province = 8961
 
-						color = { 9 159 62 }
+						color = { 171 164 129 }
 					}
 					b_huaiji = {
 						province = 12982
 
-						color = { 24 159 62 }
+						color = { 173 163 122 }
 					}
 					b_huameng = {
 						province = 8901
 
-						color = { 9 170 62 }
+						color = { 176 162 129 }
 					}
 
 					b_lianshan = {
 						province = 8962
 
-						color = { 24 170 62 }
+						color = { 178 162 122 }
 					}
 					b_yangshan = {
 						province = 8963
 
-						color = { 9 159 72 }
+						color = { 176 169 134 }
 					}
 				}
 				c_yingde = {
-					color = { 16 183 62 }
+					color = { 182 157 156 }
 
 					b_zhenyang = {
 						province = 8902
 
-						color = { 9 183 62 }
+						color = { 181 157 160 }
 					}
 					b_hankuang = {
 						province = 8903
 
-						color = { 24 183 62 }
+						color = { 184 157 153 }
 					}
 				}
 			}
 		}
 	}
 	e_taga_jiao = {
-		color = { 48 34 165 }
+		color = { 101 83 114 }
 		capital = c_guangzhou_1
 
 		k_taga_guang = {
-			color = { 51 46 144 }
+			color = { 37 82 175 }
 
 			capital = c_guangzhou_1
 
 			d_lingnan = {
-				color = { 18 71 155 }
+				color = { 0 80 166 }
 
 				capital = c_guangzhou_1
 
 				c_guangzhou_1 = {
-					color = { 18 70 126 }
+					color = { 0 75 166 }
 
 					b_nanhai = {
 						province = 8892
 
-						color = { 11 64 126 }
+						color = { 0 76 170 }
 					}
 					b_qingyuan_1 = {
 						province = 12983
 
-						color = { 26 64 126 }
+						color = { 0 75 163 }
 					}
 					b_zengcheng = {
 						province = 12979
 
-						color = { 11 75 126 }
+						color = { 0 75 170 }
 					}
 					b_xiangshan_1 = {
 						province = 10382
 
-						color = { 26 75 126 }
+						color = { 0 74 163 }
 					}
 				}
 				c_duanzhou = {
-					color = { 18 88 183 }
+					color = { 2 67 137 }
 
 					b_gaoyao = {
 						province = 8924
 
-						color = { 11 88 183 }
+						color = { 0 67 140 }
 					}
 					b_sihui = {
 						province = 12980
 
-						color = { 26 88 183 }
+						color = { 19 67 134 }
 					}
 				}
 
 				c_kangzhou = {
-					color = { 18 70 137 }
+					color = { 0 84 177 }
 
 					b_duanxi = {
 						province = 8925
 
-						color = { 11 64 137 }
+						color = { 0 85 181 }
 					}
 					b_yuecheng_1 = {
 						province = 10381
 
-						color = { 26 64 137 }
+						color = { 0 85 174 }
 					}
 					b_fengchuan = {
 						province = 12981
 
-						color = { 11 75 137 }
+						color = { 0 84 181 }
 					}
 					b_kaijian = {
 						province = 8927
 
-						color = { 26 75 137 }
+						color = { 0 83 174 }
 					}
 				}
 				c_xinzhou_1 = {
-					color = { 18 70 149 }
+					color = { 0 91 186 }
 
 					b_xinxing = {
 						province = 8921
 
-						color = { 11 64 149 }
+						color = { 0 92 189 }
 					}
 					b_pingxing = {
 						province = 8923
 
-						color = { 26 64 149 }
+						color = { 0 92 182 }
 					}
 					b_yongshun = {
 						province = 8922
 
-						color = { 11 75 149 }
+						color = { 0 91 189 }
 					}
 					b_xinhui = {
 						province = 10294
 
-						color = { 26 75 149 }
+						color = { 0 90 182 }
 					}
 				}
 				c_shuangzhou = {
-					color = { 18 70 160 }
+					color = { 0 75 172 }
 
 					b_shuangshui = {
 						province = 8928
 
-						color = { 11 64 160 }
+						color = { 0 73 172 }
 					}
 					b_jinshui_1 = {
 						province = 8929
 
-						color = { 26 64 160 }
+						color = { 0 72 166 }
 					}
 					b_jinkang = {
 						province = 8926
 
-						color = { 11 75 160 }
+						color = { 0 77 178 }
 					}
 					b_zhennan = {
 						province = 8930
 
-						color = { 26 75 160 }
+						color = { 0 76 171 }
 					}
 				}
 				c_chunzhou = {
-					color = { 16 68 172 }
+					color = { 0 78 149 }
 
 					b_yangchun = {
 						province = 8919
 
-						color = { 11 64 172 }
+						color = { 0 76 146 }
 					}
 					b_luoshui = {
 						province = 8918
 
-						color = { 26 64 172 }
+						color = { 0 81 151 }
 					}
 					b_fulin = {
 						province = 8920
 
-						color = { 11 75 172 }
+						color = { 0 75 146 }
 					}
 				}
 				c_enzhou = {
-					color = { 16 68 183 }
+					color = { 0 90 159 }
 
 					b_enping = {
 						province = 10295
 
-						color = { 11 64 183 }
+						color = { 0 90 160 }
 					}
 					b_yangjiang = {
 						province = 8907
 
-						color = { 26 64 183 }
+						color = { 0 90 154 }
 					}
 					b_duling = {
 						province = 8908
 
-						color = { 11 75 183 }
+						color = { 0 89 160 }
 					}
 				}
 			}
 			d_huixun = {
-				color = { 31 23 129 }
+				color = { 0 105 191 }
 
 				capital = c_huizhou_1
 
 				c_huizhou_1 = {
-					color = { 20 14 127 }
+					color = { 0 110 206 }
 
 					b_guishan = {
 						province = 8900
 
-						color = { 12 10 124 }
+						color = { 0 111 210 }
 					}
 					b_boluo = {
 						province = 8897
 
-						color = { 28 10 124 }
+						color = { 0 110 203 }
 					}
 					b_heyuan = {
 						province = 12998
 
-						color = { 12 21 124 }
+						color = { 0 109 210 }
 					}
 					b_haifeng = {
 						province = 8896
 
-						color = { 28 21 124 }
+						color = { 0 109 203 }
 					}
 					b_luan_2 = {
 						province = 12997
 
-						color = { 12 10 134 }
+						color = { 0 113 213 }
 					}
 					b_xinle = {
 						province = 12972
 
-						color = { 28 10 134 }
+						color = { 0 113 206 }
 					}
 				}
 				c_xunzhou = {
-					color = { 52 14 126 }
+					color = { 16 107 175 }
 
 					b_leixiang = {
 						province = 8898
 
-						color = { 46 10 124 }
+						color = { 0 108 179 }
 					}
 					b_xingning = {
 						province = 8899
 
-						color = { 62 10 124 }
+						color = { 24 108 172 }
 					}
 					b_qichang = {
 						province = 13132
 
-						color = { 46 21 124 }
+						color = { 19 107 179 }
 					}
 					b_changle_1 = {
 						province = 12999
 
-						color = { 62 21 124 }
+						color = { 43 106 172 }
 					}
 					b_shikeng = {
 						province = 13000
 
-						color = { 46 10 134 }
+						color = { 0 111 182 }
 					}
 				}
 				c_chaozhou = {
-					color = { 18 39 126 }
+					color = { 0 102 206 }
 
 					b_haiyang = {
 						province = 8894
 
-						color = { 12 34 124 }
+						color = { 0 103 210 }
 					}
 					b_chaoyang = {
 						province = 8893
 
-						color = { 27 34 124 }
+						color = { 0 103 203 }
 					}
 					b_jieyang = {
 						province = 12970
 
-						color = { 12 46 124 }
+						color = { 0 101 210 }
 					}
 					b_wanchuan = {
 						province = 13118
 
-						color = { 27 46 124 }
+						color = { 29 101 203 }
 					}
 					b_haining = {
 						province = 12971
 
-						color = { 12 34 134 }
+						color = { 0 106 213 }
 					}
 				}
 				c_meizhou_1 = {
-					color = { 51 38 124 }
+					color = { 74 97 175 }
 
 					b_chengxiang = {
 						province = 8895
 
-						color = { 46 34 124 }
+						color = { 69 98 176 }
 					}
 					b_likeng = {
 						province = 13116
 
-						color = { 61 34 124 }
+						color = { 78 98 170 }
 					}
 					b_songkou = {
 						province = 13117
 
-						color = { 46 45 124 }
+						color = { 78 96 176 }
 					}
 				}
 				c_dongguan = {
-					color = { 17 14 146 }
+					color = { 86 107 186 }
 
 					b_dongguan = {
 						province = 10293
 
-						color = { 12 10 146 }
+						color = { 81 108 187 }
 					}
 					b_baoan_1 = {
 						province = 10297
 
-						color = { 27 10 146 }
+						color = { 89 107 180 }
 					}
 					b_tunmen = {
 						province = 10296
 
-						color = { 12 21 146 }
+						color = { 89 106 187 }
 					}
 				}
 
 			}
 
 			d_guiguan = {
-				color = { 54 68 140 }
+				color = { 109 93 215 }
 
 				capital = c_liuzhou
 
 
 				c_liuzhou = {
-					color = { 56 70 125 }
+					color = { 101 84 210 }
 
 					b_maping = {
 						province = 10244
 
-						color = { 48 64 125 }
+						color = { 92 87 214 }
 					}
 					b_luorong = {
 						province = 10245
 
-						color = { 64 64 125 }
+						color = { 99 84 214 }
 					}
 					b_luocao = {
 						province = 10246
 
-						color = { 48 75 125 }
+						color = { 100 86 207 }
 					}
 					b_longcheng_1 = {
 						province = 10393
 
-						color = { 64 75 125 }
+						color = { 107 83 207 }
 					}
 				}
 				c_rongshui = {
-					color = { 53 68 136 }
+					color = { 101 94 222 }
 
 					b_rongshui = {
 						province = 10243
 
-						color = { 48 64 136 }
+						color = { 96 95 224 }
 					}
 					b_wuyang_1 = {
 						province = 10242
 
-						color = { 64 64 136 }
+						color = { 104 92 224 }
 					}
 					b_leshan_2 = {
 						province = 10392
 
-						color = { 48 75 136 }
+						color = { 105 94 217 }
 					}
 				}
 				c_xiangshan = {
-					color = { 53 68 148 }
+					color = { 113 104 234 }
 
 					b_yangshou = {
 						province = 10247
 
-						color = { 48 64 148 }
+						color = { 108 105 236 }
 					}
 					b_wuxian = {
 						province = 10248
 
-						color = { 64 64 148 }
+						color = { 116 102 236 }
 					}
 					b_laibin = {
 						province = 10285
 
-						color = { 48 75 148 }
+						color = { 117 104 229 }
 					}
 				}
 				c_qingyuan = {
-					color = { 53 68 158 }
+					color = { 122 86 191 }
 
 					b_longshui = {
 						province = 10389
 
-						color = { 48 64 158 }
+						color = { 120 87 191 }
 					}
 					b_dumeng = {
 						province = 10391
 
-						color = { 64 64 158 }
+						color = { 126 84 191 }
 					}
 					b_yimeng = {
 						province = 10390
 
-						color = { 48 75 158 }
+						color = { 123 89 194 }
 					}
 				}
 			}
 			d_rongguan = {
-				color = { 92 68 134 }
+				color = { 101 59 115 }
 
 				capital = c_rongzhou_2
 
 				c_rongzhou_2 = {
-					color = { 94 70 124 }
+					color = { 95 51 107 }
 
 					b_puning_1 = {
 						province = 10237
 
-						color = { 86 64 124 }
+						color = { 90 53 110 }
 					}
 					b_beiliu = {
 						province = 10235
 
-						color = { 102 64 124 }
+						color = { 93 52 104 }
 					}
 					b_longhua = {
 						province = 10233
 
-						color = { 86 75 124 }
+						color = { 94 50 111 }
 					}
 					b_luchuan_1 = {
 						province = 13020
 
-						color = { 102 75 124 }
+						color = { 98 50 104 }
 					}
 				}
 				c_tengzhou = {
-					color = { 91 68 135 }
+					color = { 101 62 119 }
 
 					b_tanjin = {
 						province = 10275
 
-						color = { 86 64 135 }
+						color = { 98 63 121 }
 					}
 					b_rongcheng_1 = {
 						province = 10278
 
-						color = { 101 64 135 }
+						color = { 102 62 114 }
 					}
 					b_cenxi = {
 						province = 10238
 
-						color = { 86 75 135 }
+						color = { 103 60 121 }
 					}
 				}
 				c_yulin = {
-					color = { 91 68 147 }
+					color = { 109 69 127 }
 
 					b_yuping = {
 						province = 10234
 
-						color = { 86 64 147 }
+						color = { 106 70 128 }
 					}
 					b_xingye = {
 						province = 8917
 
-						color = { 101 64 147 }
+						color = { 110 69 122 }
 					}
 					b_nanliu = {
 						province = 12978
 
-						color = { 86 75 147 }
+						color = { 111 68 128 }
 					}
 				}
 			}
 			d_yongguan = {
-				color = { 92 15 154 }
+				color = { 55 61 172 }
 
 				capital = c_yongzhou_1
 
 				c_yongzhou_1 = {
-					color = { 94 14 126 }
+					color = { 18 56 168 }
 
 					b_xuanhua = {
 						province = 9784
 
-						color = { 86 9 126 }
+						color = { 0 59 172 }
 					}
 					b_ruhe = {
 						province = 9783
 
-						color = { 102 9 126 }
+						color = { 19 58 165 }
 					}
 					b_wuyaun_1 = {
 						province = 9781
 
-						color = { 86 20 126 }
+						color = { 5 56 172 }
 					}
 					b_langning = {
 						province = 9840
 
-						color = { 102 20 126 }
+						color = { 36 55 165 }
 					}
 				}
 				c_binzhou_1 = {
-					color = { 91 13 137 }
+					color = { 11 67 183 }
 
 					b_lingfang = {
 						province = 10282
 
-						color = { 86 9 137 }
+						color = { 0 68 184 }
 					}
 					b_shanglin = {
 						province = 10281
 
-						color = { 101 9 137 }
+						color = { 29 68 178 }
 					}
 					b_heshui = {
 						province = 10283
 
-						color = { 86 20 137 }
+						color = { 21 66 184 }
 					}
 				}
 				c_hengzhou_1 = {
-					color = { 94 33 172 }
+					color = { 80 64 188 }
 
 					b_ningpu = {
 						province = 9785
 
-						color = { 86 33 172 }
+						color = { 75 65 191 }
 					}
 					b_yongding = {
 						province = 10284
 
-						color = { 102 33 172 }
+						color = { 84 64 184 }
 					}
 				}
 
 				c_rangzhou = {
-					color = { 91 13 149 }
+					color = { 33 74 191 }
 
 					b_rangjiang = {
 						province = 9843
 
-						color = { 86 9 149 }
+						color = { 16 75 193 }
 					}
 					b_wule = {
 						province = 9844
 
-						color = { 101 9 149 }
+						color = { 43 74 186 }
 					}
 					b_xianchuan = {
 						province = 9845
 
-						color = { 86 20 149 }
+						color = { 38 73 193 }
 					}
 				}
 				c_xunzhou_2 = {
-					color = { 91 13 160 }
+					color = { 55 51 174 }
 
 					b_guiping = {
 						province = 13133
 
-						color = { 86 9 160 }
+						color = { 51 51 176 }
 					}
 					b_dabin = {
 						province = 10280
 
-						color = { 101 9 160 }
+						color = { 63 50 169 }
 					}
 					b_yulin_1 = {
 						province = 9762
 
-						color = { 86 20 160 }
+						color = { 55 54 179 }
 					}
 				}
 				c_tianzhou = {
-					color = { 94 8 188 }
+					color = { 90 49 153 }
 
 					b_dujiu = {
 						province = 9842
 
-						color = { 86 8 188 }
+						color = { 87 47 150 }
 					}
 					b_hengshan_1 = {
 						province = 9839
 
-						color = { 102 8 188 }
+						color = { 92 52 155 }
 					}
 				}
 				c_shukunzhou = {
-					color = { 91 13 172 }
+					color = { 64 57 150 }
 
 					b_shukun = {
 						province = 10188
 
-						color = { 86 9 172 }
+						color = { 61 58 150 }
 					}
 					b_gongrao = {
 						province = 13090
 
-						color = { 101 9 172 }
+						color = { 64 61 152 }
 					}
 					b_wande = {
 						province = 13091
 
-						color = { 86 20 172 }
+						color = { 68 56 150 }
 					}
 				}
 			}
 		}
 
 		k_taga_jiao = {
-			color = { 45 21 191 }
+			color = { 116 84 37 }
 
 			capital = c_thang_long
 
 			d_hai_dong = {
-				color = { 53 38 178 }
+				color = { 156 88 68 }
 
 				capital = c_hai_dong
 
 				c_hai_dong = {
-					color = { 52 38 183 }
+					color = { 159 88 50 }
 
 					b_hai_dong = {
 						province = 10847
 
-						color = { 47 34 183 }
+						color = { 155 86 48 }
 					}
 					b_lan_song = {
 						province = 10848
 
-						color = { 63 34 183 }
+						color = { 161 91 53 }
 					}
 					b_van_asia = {
 						province = 10849
 
-						color = { 47 45 183 }
+						color = { 159 84 48 }
 					}
 				}
 				c_binh_nguyen = {
-					color = { 54 38 175 }
+					color = { 155 89 78 }
 
 					b_binh_nguyen = {
 						province = 10852
 
-						color = { 48 34 173 }
+						color = { 150 87 77 }
 					}
 					b_vi_long = {
 						province = 10853
 
-						color = { 63 34 173 }
+						color = { 156 92 82 }
 					}
 					b_thuong_nguyen = {
 						province = 10854
 
-						color = { 48 45 173 }
+						color = { 154 84 77 }
 					}
 					b_quang_nguyen = {
 						province = 10851
 
-						color = { 63 45 173 }
+						color = { 160 89 82 }
 					}
 					b_nung = {
 						province = 10850
 
-						color = { 48 34 182 }
+						color = { 151 87 70 }
 					}
 				}
 			}
 			d_nghe_an = {
-				color = { 18 44 179 }
+				color = { 130 118 90 }
 
 				capital = c_nghe_an
 				c_nghe_an = {
-					color = { 18 40 172 }
+					color = { 124 119 97 }
 					b_nghe_an = {
 						province = 10839
 
 
-						color = { 11 34 172 }
+						color = { 123 120 97 }
 					}
 					b_dien_chau = {
 						province = 10840
 
-						color = { 26 34 172 }
+						color = { 125 122 99 }
 					}
 					b_nghe_an_2 = {
 						province = 12509
 
 
-						color = { 11 46 172 }
+						color = { 128 118 97 }
 					}
 					b_tra_lan = {
 						province = 12545
 
 
-						color = { 26 46 172 }
+						color = { 130 121 99 }
 					}
 				}
 				c_sam_nuea = {
-					color = { 18 59 183 }
+					color = { 140 114 97 }
 
 					b_sam_nuea = {
 						province = 11446
 
-						color = { 11 59 183 }
+						color = { 140 114 97 }
 					}
 					b_hua_muong = {
 						province = 11491
 
-						color = { 26 59 183 }
+						color = { 143 116 100 }
 					}
 				}
 				c_nam_dinh = {
-					color = { 18 40 183 }
+					color = { 129 119 81 }
 
 					b_nam_dinh = {
 						province = 10843
 
-						color = { 11 34 183 }
+						color = { 127 119 81 }
 					}
 					b_thanh_hoa = {
 						province = 10841
 
-						color = { 26 34 183 }
+						color = { 130 122 84 }
 					}
 					b_lam_son = {
 						province = 11492
 
-						color = { 11 46 183 }
+						color = { 132 118 82 }
 					}
 					b_truong_yen = {
 						province = 10842
 
-						color = { 26 46 183 }
+						color = { 135 120 84 }
 					}
 				}
 			}
 			d_lam_tay = {
-				color = { 94 40 178 }
+				color = { 86 70 0 }
 
 				capital = c_lam_tay
 
 				c_lam_tay = {
-					color = { 94 40 172 }
+					color = { 85 70 0 }
 
 
 					b_lam_tay = {
 						province = 10855
 
-						color = { 86 34 172 }
+						color = { 83 71 0 }
 					}
 					b_tam_giang = {
 						province = 10859
 
 
-						color = { 101 34 172 }
+						color = { 85 73 0 }
 					}
 					b_chau_phong = {
 						province = 10862
 
-						color = { 86 45 172 }
+						color = { 86 69 0 }
 					}
 					b_ha_giang = {
 						province = 11499
 
-						color = { 101 45 172 }
+						color = { 89 72 0 }
 					}
 				}
 				c_quoc_oai = {
-					color = { 94 40 183 }
+					color = { 87 70 0 }
 
 
 					b_quoc_oai = {
 						province = 10860
 
 
-						color = { 86 34 183 }
+						color = { 84 71 0 }
 					}
 					b_hoang_giang = {
 						province = 10858
 
 
-						color = { 101 34 183 }
+						color = { 86 73 0 }
 					}
 					b_son_la = {
 						province = 11445
 
-						color = { 86 45 183 }
+						color = { 88 69 0 }
 					}
 					b_muong_lay = {
 						province = 11500
 
-						color = { 101 45 183 }
+						color = { 90 72 0 }
 					}
 				}
 			}
 			d_thang_long = {
-				color = { 15 10 210 }
+				color = { 109 94 0 }
 
 				capital = c_thang_long
 
 
 				c_thang_long = {
-					color = { 15 10 204 }
+					color = { 108 94 0 }
 
 
 					b_thang_long = {
 						province = 10861
 
 
-						color = { 10 6 204 }
+						color = { 104 92 0 }
 					}
 					b_ha_bac = {
 						province = 10857
 
 
-						color = { 25 6 204 }
+						color = { 110 97 0 }
 					}
 					b_phu_luong = {
 						province = 10856
 
 
-						color = { 10 17 204 }
+						color = { 109 91 0 }
 					}
 				}
 				c_long_hung = {
-					color = { 15 10 215 }
+					color = { 110 94 0 }
 
 					b_long_hung = {
 						province = 10844
 
 
-						color = { 10 6 215 }
+						color = { 105 92 0 }
 					}
 					b_kien_xuong = {
 						province = 10845
 
-						color = { 25 6 215 }
+						color = { 111 97 0 }
 					}
 					b_tan_hung = {
 						province = 10846
 
-						color = { 10 17 215 }
+						color = { 110 91 0 }
 					}
 				}
 			}
 			d_indrapura = {
-				color = { 90 10 184 }
+				color = { 142 116 42 }
 						
 				capital = c_indrapura
 				c_indrapura = {
-					color = { 90 10 173 }
+					color = { 134 119 42 }
 						
 
 					b_dong_duong = {
 						province = 10830
-						color = { 85 6 173 }
+						color = { 131 117 41 }
 						
 					}
 					b_my_son = {
 						province = 10831
-						color = { 100 6 173 }
+						color = { 136 122 46 }
 
 					}
 					b_quang_ngai = {
 						province = 10829
-						color = { 85 17 173 }
+						color = { 132 117 32 }
 
 					}
 				}
 				c_simhapura = {
-					color = { 90 10 184 }
+					color = { 142 116 42 }
 
 					b_simhapura = {
 						province = 10828
-						color = { 85 6 184 }
+						color = { 139 113 42 }
 					}
 					b_tan_xuyen = {
 						province = 11464
-						color = { 100 6 184 }
+						color = { 145 118 47 }
 					}
 					b_hve = {
 						province = 10833
-						color = { 85 17 184 }
+						color = { 140 113 33 }
 						
 					}
 				}
 				c_ma_linh = {
-					color = { 90 10 196 }
+					color = { 152 112 43 }
 
 
 					b_ma_linh = {
 						province = 10836
-						color = { 85 6 196 }
+						color = { 149 109 43 }
 					}
 					b_dia_ly = {
 						province = 10837
-						color = { 100 6 196 }
+						color = { 155 114 48 }
 					}
 					b_bo_chinh = {
 						province = 10838
-						color = { 85 17 196 }
+						color = { 150 109 34 }
 					}
 				}
 			}
 
 			d_qiongguan = {
-				color = { 52 10 197 }
+				color = { 121 52 40 }
 
 				capital = c_yazhou
 
 				c_yazhou = {
-					color = { 52 10 174 }
+					color = { 114 52 49 }
 
 					b_shecheng = {
 						province = 12930
 
-						color = { 47 6 174 }
+						color = { 113 53 49 }
 					}
 					b_siqiongshan = {
 						province = 12931
 
-						color = { 63 6 174 }
+						color = { 115 55 51 }
 					}
 					b_wenchang = {
 						province = 12932
 
-						color = { 47 17 174 }
+						color = { 116 50 49 }
 					}
 				}
 				c_danzhou_1 = {
-					color = { 52 10 185 }
+					color = { 116 51 35 }
 
 					b_yilun = {
 						province = 12940
 
-						color = { 47 6 185 }
+						color = { 115 52 34 }
 					}
 					b_changhua_1 = {
 						province = 12941
 
-						color = { 63 6 185 }
+						color = { 117 55 37 }
 					}
 					b_ganen = {
 						province = 12942
 
-						color = { 47 17 185 }
+						color = { 118 50 35 }
 					}
 				}
 				c_yazhou_1 = {
-					color = { 52 10 197 }
+					color = { 117 51 19 }
 
 					b_ningyuan = {
 						province = 12937
 
-						color = { 47 6 197 }
+						color = { 116 52 19 }
 					}
 					b_yande = {
 						province = 12938
 
-						color = { 63 6 197 }
+						color = { 119 54 21 }
 					}
 					b_jiyang = {
 						province = 12939
 
-						color = { 47 17 197 }
+						color = { 120 49 19 }
 					}
 				}
 				c_wanan = {
-					color = { 52 10 208 }
+					color = { 127 40 45 }
 
 					b_wanan_1 = {
 						province = 12934
 
-						color = { 47 6 208 }
+						color = { 127 40 46 }
 					}
 					b_lehui = {
 						province = 12935
 
-						color = { 63 6 208 }
+						color = { 130 42 48 }
 					}
 					b_lingshui = {
 						province = 12936
 
-						color = { 47 17 208 }
+						color = { 128 40 40 }
 					}
 				}
 				c_lidong = {
-					color = { 52 10 219 }
+					color = { 131 66 57 }
 
 					b_liodong = {
 						province = 12944
 
-						color = { 47 6 219 }
+						color = { 129 67 59 }
 					}
 					b_limu = {
 						province = 12933
 
-						color = { 63 6 219 }
+						color = { 131 67 52 }
 					}
 					b_chengmai = {
 						province = 12943
 
-						color = { 47 17 219 }
+						color = { 133 64 59 }
 					}
 				}
 			}
 			d_gaoliang = {
-				color = { 16 10 203 }
+				color = { 88 77 37 }
 
 				capital = c_gaozhou
 
 				c_gaozhou = {
-					color = { 15 10 175 }
+					color = { 77 74 48 }
 
 					b_dianbai = {
 						province = 8910
 
-						color = { 10 6 175 }
+						color = { 74 72 46 }
 					}
 					b_maoming = {
 						province = 8916
 
-						color = { 25 6 175 }
+						color = { 78 76 50 }
 					}
 					b_baoning = {
 						province = 8909
 
-						color = { 10 17 175 }
+						color = { 78 70 46 }
 					}
 				}
 				c_leizhou = {
-					color = { 15 10 186 }
+					color = { 81 73 33 }
 
 					b_haikang = {
 						province = 9803
 
-						color = { 10 6 186 }
+						color = { 77 71 31 }
 					}
 					b_xuwen = {
 						province = 9802
 
-						color = { 25 6 186 }
+						color = { 82 76 35 }
 					}
 					b_suixi = {
 						province = 10425
 
-						color = { 10 17 186 }
+						color = { 81 70 31 }
 					}
 				}
 				c_luozhou = {
-					color = { 18 12 197 }
+					color = { 87 75 18 }
 
 					b_lianjiang_1 = {
 						province = 8912
 
-						color = { 10 6 197 }
+						color = { 82 74 15 }
 					}
 					b_shilong = {
 						province = 8914
 
-						color = { 25 6 197 }
+						color = { 84 76 17 }
 					}
 					b_wuchuan_1 = {
 						province = 8911
 
-						color = { 10 17 197 }
+						color = { 86 72 15 }
 					}
 					b_linglu = {
 						province = 8913
 
-						color = { 25 17 197 }
+						color = { 88 74 18 }
 					}
 				}
 				c_qinzhou_2 = {
-					color = { 15 10 208 }
+					color = { 94 68 44 }
 
 					b_qinjiang = {
 						province = 9817
 
-						color = { 10 6 208 }
+						color = { 91 65 43 }
 					}
 					b_lingshan = {
 						province = 9815
 
-						color = { 25 6 208 }
+						color = { 96 70 47 }
 					}
 					b_anjing = {
 						province = 9816
 
-						color = { 10 17 208 }
+						color = { 92 65 37 }
 					}
 				}
 				c_lianzhou_1 = {
-					color = { 15 10 220 }
+					color = { 91 85 54 }
 
 					b_hepu_1 = {
 						province = 9757
 
-						color = { 10 6 220 }
+						color = { 89 86 56 }
 					}
 					b_dalian = {
 						province = 10231
 
-						color = { 25 6 220 }
+						color = { 90 86 49 }
 					}
 					b_fengshan = {
 						province = 12977
 
-						color = { 10 17 220 }
+						color = { 93 84 56 }
 					}
 				}
 				c_baizhou = {
-					color = { 15 10 231 }
+					color = { 98 87 29 }
 
 					b_bobai = {
 						province = 10232
 
-						color = { 10 6 231 }
+						color = { 97 88 29 }
 					}
 					b_zhouluo = {
 						province = 10236
 
-						color = { 25 6 231 }
+						color = { 99 90 32 }
 					}
 					b_longchi = {
 						province = 8915
 
-						color = { 10 17 231 }
+						color = { 101 86 30 }
 					}
 				}
 			}
 		}
 	}
 	e_taga_xv = {
-		color = { 197 7 131 }
+		color = { 159 0 40 }
 		capital = c_taga_guangling
 
 		k_taga_nanxv = {
-			color = { 197 7 131 }
+			color = { 159 0 40 }
 			capital = c_taga_guangling
 
 			d_taga_guangling = {
-				color = { 197 6 123 }
+				color = { 152 0 59 }
 
 				capital = c_taga_guangling
 				c_taga_guangling = {
-					color = { 197 6 123 }
+					color = { 152 0 59 }
 					b_jiangdu = {
 						province = 8933
 
-						color = { 189 2 120 }
+						color = { 151 0 62 }
 					}
 					b_hailing = {
 						province = 8932
 
-						color = { 205 2 120 }
+						color = { 151 0 56 }
 					}
 					b_rugao = {
 						province = 8869
 
-						color = { 189 13 120 }
+						color = { 154 0 62 }
 					}
 					b_jinghai = {
 						province = 8931
 
-						color = { 205 13 120 }
+						color = { 155 0 57 }
 					}
 					b_yancheng = {
 						province = 8947
 
-						color = { 189 2 130 }
+						color = { 154 0 64 }
 					}
 					b_gaoyou = {
 						province = 8951
 
-						color = { 205 2 130 }
+						color = { 154 0 59 }
 					}
 				}
 			}
 			d_taga_linhuai = {
-				color = { 197 8 138 }
+				color = { 162 0 23 }
 
 				capital = c_taga_linhuai
 				c_taga_linhuai = {
-					color = { 197 8 138 }
+					color = { 162 0 23 }
 					b_yongyang = {
 						province = 9707
 
-						color = { 189 3 132 }
+						color = { 157 0 24 }
 					}
 					b_qingliu = {
 						province = 8936
 
-						color = { 205 3 132 }
+						color = { 157 0 18 }
 					}
 					b_shanyang_2 = {
 						province = 8950
 
-						color = { 189 14 132 }
+						color = { 160 0 25 }
 					}
 					b_baoying = {
 						province = 8948
 
-						color = { 205 14 132 }
+						color = { 160 0 19 }
 					}
 					b_xuyi = {
 						province = 8949
 
-						color = { 189 3 143 }
+						color = { 163 0 28 }
 					}
 					b_tianchang = {
 						province = 8934
 
-						color = { 205 3 143 }
+						color = { 163 0 22 }
 					}
 					b_liuhe = {
 						province = 8935
 
-						color = { 189 14 143 }
+						color = { 166 0 28 }
 					}
 					b_zhaoyi = {
 						province = 9689
 
-						color = { 205 14 143 }
+						color = { 167 0 22 }
 					}
 				}
 			}

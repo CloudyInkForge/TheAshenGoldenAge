@@ -1,10 +1,70 @@
 import re
-import colorsys
-from typing import List, Tuple, Dict, Optional
 import math
+from typing import List, Tuple, Dict, Optional
 
-GRID_SIZE = 18
-MAX_POINTS = GRID_SIZE ** 3
+# -------------------- LAB ↔ sRGB 转换 --------------------
+# 参考白点 D65
+XYZ_N = (0.95047, 1.0, 1.08883)
+
+def lab_to_xyz(L: float, a: float, b: float) -> Tuple[float, float, float]:
+    """CIELAB (D65) → XYZ"""
+    delta = 6 / 29
+    fy = (L + 16) / 116.0
+    fx = a / 500.0 + fy
+    fz = fy - b / 200.0
+
+    def finv(t: float) -> float:
+        if t > delta:
+            return t ** 3
+        return 3 * delta ** 2 * (t - 4 / 29)
+
+    xr = finv(fx)
+    yr = finv(fy)
+    zr = finv(fz)
+
+    return xr * XYZ_N[0], yr * XYZ_N[1], zr * XYZ_N[2]
+
+
+def xyz_to_linear_rgb(X: float, Y: float, Z: float) -> Tuple[float, float, float]:
+    """XYZ → 线性 RGB (sRGB)"""
+    r =  3.2404542 * X - 1.5371385 * Y - 0.4985314 * Z
+    g = -0.9692660 * X + 1.8760108 * Y + 0.0415560 * Z
+    b =  0.0556434 * X - 0.2040259 * Y + 1.0572252 * Z
+    return r, g, b
+
+
+def linear_to_srgb(c: float) -> int:
+    """单个线性分量 → 8bit sRGB"""
+    if c <= 0.0031308:
+        srgb = 12.92 * c
+    else:
+        srgb = 1.055 * (c ** (1 / 2.4)) - 0.055
+    return max(0, min(255, int(round(srgb * 255))))
+
+
+def lab_to_rgb(L: float, a: float, b: float) -> Tuple[int, int, int]:
+    """CIELAB (D65) → 8bit sRGB"""
+    X, Y, Z = lab_to_xyz(L, a, b)
+    r, g, b = xyz_to_linear_rgb(X, Y, Z)
+    return linear_to_srgb(r), linear_to_srgb(g), linear_to_srgb(b)
+
+
+# -------------------- 三维旋转定义 --------------------
+# 6 种旋转：(尺寸变换函数, 点坐标变换函数)
+ROTATIONS = [
+    # 0: x, y, z → (x, y, z)
+    (lambda w, h, d: (w, h, d), lambda x, y, z: (x, y, z)),
+    # 1: 交换 x,y
+    (lambda w, h, d: (h, w, d), lambda x, y, z: (y, x, z)),
+    # 2: 交换 x,z
+    (lambda w, h, d: (d, h, w), lambda x, y, z: (z, y, x)),
+    # 3: 交换 y,z
+    (lambda w, h, d: (w, d, h), lambda x, y, z: (x, z, y)),
+    # 4: 循环 x→y, y→z, z→x
+    (lambda w, h, d: (h, d, w), lambda x, y, z: (y, z, x)),
+    # 5: 循环 x→z, z→y, y→x
+    (lambda w, h, d: (d, w, h), lambda x, y, z: (z, x, y)),
+]
 
 
 class ColorAllocator:
@@ -28,9 +88,11 @@ class ColorAllocator:
         self._allocate()
 
     def assign(self) -> Dict[str, Tuple[int, int, int]]:
+        """返回所有员工 (b_) 的 sRGB 颜色"""
         return self.b_colors
 
     def _parse_and_validate(self):
+        """原解析验证不变"""
         def calc_demand(node, path):
             if not isinstance(node, dict):
                 raise TypeError(f"节点 {path} 必须是字典")
@@ -54,232 +116,150 @@ class ColorAllocator:
         if total_demand <= 0:
             raise ValueError("总员工数必须大于0")
 
-    # ========== 全新点阵拼接 + 引力分配 ==========
+    # ==================== 核心分配逻辑 ====================
     def _allocate(self):
-        # 第一步：构建形状，返回每个b路径在局部坐标的最终位置（全局坐标由递归累加）
-        # 我们使用自底向上返回点集和包围盒，并在返回时平移点集。
-        def build_shape(node_name, path):
+        # ---------- 1. 自底向上构建三维点阵 ----------
+        def build_shape(path: Tuple[str, ...]):
+            """
+            递归构建形状，返回 (size, b_assignments)
+            size: (W, H, D) 该节点占据的完整长方体尺寸
+            b_assignments: [(b_key, local_x, local_y, local_z), ...]
+            """
             node = self.tree
             for part in path:
                 node = node[part]
-            if node_name.startswith('b_'):
-                # 单个点，局部坐标 (0,0,0)
-                return [(0, 0, 0)], (1, 1, 1)
+
+            # 叶子员工
+            if path[-1].startswith('b_'):
+                key = '|'.join(path)
+                return (1, 1, 1), [(key, 0, 0, 0)]
 
             # 收集子节点
-            children = {k: v for k, v in node.items() if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
-            child_items = []
+            children = {k: v for k, v in node.items()
+                        if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
+            child_items = []  # (cname, size, b_list)
             for cname in children:
                 cpath = path + (cname,)
-                pts, bbox = build_shape(cname, cpath)
-                child_items.append((cname, pts, bbox))
+                size, b_list = build_shape(cpath)
+                child_items.append((cname, size, b_list))
 
-            # 按体积降序
-            child_items.sort(key=lambda x: x[2][0] * x[2][1] * x[2][2], reverse=True)
+            # 按体积降序排序
+            child_items.sort(key=lambda x: x[1][0] * x[1][1] * x[1][2], reverse=True)
 
-            # 目标：将子块排列成接近正方体的形状
-            total_vol = sum(w * h * d for _, _, (w, h, d) in child_items)
-            # 目标边长（向上取整）
-            target_side = max(1, math.ceil(total_vol ** (1 / 3)))
+            # 三维装箱：贪心放置，支持旋转，目标最小化最长边
+            occupied = set()            # 已占用网格坐标集合
+            max_x = max_y = max_z = 0   # 当前包围盒尺寸
+            global_b_list = []          # 最终全局坐标的员工列表
 
-            # 放置参数
-            x_cursor = 0
-            y_cursor = 0
-            z_cursor = 0
-            row_max_h = 0
-            layer_max_y = 0
-            # 当前行的宽度限制：目标边长
-            row_limit = target_side
-            # 当前层的高度限制
-            layer_limit = target_side
+            for cname, (w, h, d), b_list in child_items:
+                best_placement = None
+                best_longest_side = float('inf')
+                best_volume = float('inf')
 
-            placed = []  # (cname, ox, oy, oz, w, h, d, original_pts)
+                # 尝试所有旋转与所有偏移
+                for rot_idx, (size_fn, rot_fn) in enumerate(ROTATIONS):
+                    rw, rh, rd = size_fn(w, h, d)
+                    for ox in range(max_x + 1):
+                        for oy in range(max_y + 1):
+                            for oz in range(max_z + 1):
+                                # 检查盒子是否与已占用格点重叠
+                                if any((ox + x, oy + y, oz + z) in occupied
+                                       for x in range(rw)
+                                       for y in range(rh)
+                                       for z in range(rd)):
+                                    continue
+                                # 新包围盒
+                                new_max_x = max(max_x, ox + rw)
+                                new_max_y = max(max_y, oy + rh)
+                                new_max_z = max(max_z, oz + rd)
+                                new_longest = max(new_max_x, new_max_y, new_max_z)
+                                new_vol = new_max_x * new_max_y * new_max_z
+                                if new_longest < best_longest_side or \
+                                   (new_longest == best_longest_side and new_vol < best_volume):
+                                    best_longest_side = new_longest
+                                    best_volume = new_vol
+                                    best_placement = (ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z)
+                if best_placement is None:
+                    raise RuntimeError(f"无法放置子块 {cname}，可能空间不足")
 
-            for cname, pts, (w, h, d) in child_items:
-                # 如果放不下，换行
-                if x_cursor + w > row_limit and x_cursor > 0:
-                    y_cursor += row_max_h
-                    row_max_h = 0
-                    x_cursor = 0
-                # 如果新行超出层高限制，换层
-                if y_cursor + h > layer_limit and y_cursor > 0:
-                    z_cursor += layer_max_y
-                    layer_max_y = 0
-                    y_cursor = 0
-                    x_cursor = 0
-                    row_max_h = 0
+                ox, oy, oz, rot_idx, new_max_x, new_max_y, new_max_z = best_placement
+                _, rot_fn = ROTATIONS[rot_idx]
+                # 更新占用
+                rw, rh, rd = ROTATIONS[rot_idx][0](w, h, d)
+                for x in range(rw):
+                    for y in range(rh):
+                        for z in range(rd):
+                            occupied.add((ox + x, oy + y, oz + z))
+                max_x, max_y, max_z = new_max_x, new_max_y, new_max_z
 
-                # 放置
-                placed.append((cname, x_cursor, y_cursor, z_cursor, w, h, d, pts))
-                x_cursor += w
-                row_max_h = max(row_max_h, h)
-                layer_max_y = max(layer_max_y, y_cursor + h)
+                # 为员工计算全局坐标
+                for b_key, lx, ly, lz in b_list:
+                    rx, ry, rz = rot_fn(lx, ly, lz)
+                    gx, gy, gz = ox + rx, oy + ry, oz + rz
+                    global_b_list.append((b_key, gx, gy, gz))
 
-            # 计算包围盒
-            if not placed:
-                return [], (0, 0, 0)
-            max_x = max(ox + w for _, ox, _, _, w, _, _, _ in placed)
-            max_y = max(oy + h for _, _, oy, _, _, h, _, _ in placed)
-            max_z = max(oz + d for _, _, _, oz, _, _, d, _ in placed)
-            # 确保至少为1
-            max_x = max(max_x, 1)
-            max_y = max(max_y, 1)
-            max_z = max(max_z, 1)
+            return (max_x, max_y, max_z), global_b_list
 
-            # 组合平移后的点集
-            all_pts = []
-            for cname, ox, oy, oz, _, _, _, pts in placed:
-                for (px, py, pz) in pts:
-                    all_pts.append((px + ox, py + oy, pz + oz))
+        # 根节点构建
+        root_path = (self.root_key,)
+        (size_x, size_y, size_z), global_b_assignments = build_shape(root_path)
 
-            return all_pts, (max_x, max_y, max_z)
+        # ---------- 2. 映射到 CIELAB 安全立方体 ----------
+        LAB_BOX = {
+            'L_min': 25.0, 'L_max': 90.0,
+            'a_min': -80.0, 'a_max': 80.0,
+            'b_min': -80.0, 'b_max': 80.0
+        }
 
-        # 从根开始构建
-        root_all_pts, root_bbox = build_shape(self.root_key, (self.root_key,))
-        # 现在 root_all_pts 是所有 b 点的最终全局坐标（尚未缩放）
-        # 同时我们需要知道每个b对应的路径，这里我们没有办法直接区分不同b的点，因为 build_shape 只返回了点集，没有路径映射。
-        # 因此我们需要另一种方式：自底向上构建并同时记录每个b的坐标。
-        # 重新实现：使用类变量存储b路径到坐标的映射，递归过程中直接更新。
+        def grid_to_lab(x, y, z):
+            L = LAB_BOX['L_min'] + (LAB_BOX['L_max'] - LAB_BOX['L_min']) * (x / max(size_x - 1, 1))
+            a_val = LAB_BOX['a_min'] + (LAB_BOX['a_max'] - LAB_BOX['a_min']) * (y / max(size_y - 1, 1))
+            b_val = LAB_BOX['b_min'] + (LAB_BOX['b_max'] - LAB_BOX['b_min']) * (z / max(size_z - 1, 1))
+            return L, a_val, b_val
 
-        # 清空之前的临时数据
-        self._temp_coords = {}  # b路径 -> [x, y, z] 初始坐标
+        # 初始化所有员工 LAB 坐标
+        lab_positions = {}  # b_key -> [L, a, b]
+        for b_key, x, y, z in global_b_assignments:
+            lab_positions[b_key] = list(grid_to_lab(x, y, z))
 
-        def build_and_assign(node_name, path, offset_x=0, offset_y=0, offset_z=0):
-            node = self.tree
-            for part in path:
-                node = node[part]
-            if node_name.startswith('b_'):
-                b_key = '|'.join(path)
-                self._temp_coords[b_key] = [offset_x, offset_y, offset_z]
-                return [(0, 0, 0)], (1, 1, 1)
+        # ---------- 3. 分层引力迭代 ----------
+        node_b_cache = {}
 
-            children = {k: v for k, v in node.items() if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
-            child_items = []
-            for cname in children:
-                cpath = path + (cname,)
-                # 先返回局部坐标的子形状（不应用本层偏移）
-                pts, bbox = build_and_assign(cname, cpath, 0, 0, 0)
-                child_items.append((cname, pts, bbox))
-
-            # 排序
-            child_items.sort(key=lambda x: x[2][0] * x[2][1] * x[2][2], reverse=True)
-
-            total_vol = sum(w * h * d for _, _, (w, h, d) in child_items)
-            target_side = max(1, math.ceil(total_vol ** (1 / 3)))
-
-            x_cursor = 0
-            y_cursor = 0
-            z_cursor = 0
-            row_max_h = 0
-            layer_max_y = 0
-            row_limit = target_side
-            layer_limit = target_side
-
-            placed = []
-            for cname, pts, (w, h, d) in child_items:
-                if x_cursor + w > row_limit and x_cursor > 0:
-                    y_cursor += row_max_h
-                    row_max_h = 0
-                    x_cursor = 0
-                if y_cursor + h > layer_limit and y_cursor > 0:
-                    z_cursor += layer_max_y
-                    layer_max_y = 0
-                    y_cursor = 0
-                    x_cursor = 0
-                    row_max_h = 0
-
-                # 记录本子块在本层中的偏移
-                placed.append((cname, x_cursor, y_cursor, z_cursor, w, h, d))
-                x_cursor += w
-                row_max_h = max(row_max_h, h)
-                layer_max_y = max(layer_max_y, y_cursor + h)
-
-            if not placed:
-                return [], (0, 0, 0)
-
-            max_x = max(ox + w for _, ox, _, _, w, _, _ in placed)
-            max_y = max(oy + h for _, _, oy, _, _, h, _ in placed)
-            max_z = max(oz + d for _, _, _, oz, _, _, d in placed)
-            max_x = max(max_x, 1)
-            max_y = max(max_y, 1)
-            max_z = max(max_z, 1)
-
-            # 对每个子块，将其内部b点的坐标加上本层的偏移，然后递归应用偏移
-            for cname, ox, oy, oz, _, _, _ in placed:
-                cpath = path + (cname,)
-                apply_offset(cpath, offset_x + ox, offset_y + oy, offset_z + oz)
-
-            # 合并点集（供上层使用，但坐标仍是本层局部，因为b坐标已通过 apply_offset 直接修改为全局）
-            all_pts = []
-            for cname, ox, oy, oz, _, _, _ in placed:
-                # 为上层提供本子块的点集（局部坐标），但上层还会再加它的偏移，会造成重复。
-                # 因此放弃合并点集，改用直接记录b坐标的方式，上层只需知道包围盒用于排列。
-                # 上面已经调用了 apply_offset，所以不需要返回点集了。
-                pass
-            # 返回空点集和包围盒，因为我们不需要再传递点集
-            return [], (max_x, max_y, max_z)
-
-        def apply_offset(subtree_path, dx, dy, dz):
-            node = self.tree
-            for part in subtree_path:
-                node = node[part]
-            if subtree_path[-1].startswith('b_'):
-                key = '|'.join(subtree_path)
-                # 如果已存在，则累加；否则初始化为 (0,0,0) 再加偏移
-                if key not in self._temp_coords:
-                    self._temp_coords[key] = [0, 0, 0]
-                self._temp_coords[key][0] += dx
-                self._temp_coords[key][1] += dy
-                self._temp_coords[key][2] += dz
-                return
-            children = {k: v for k, v in node.items() if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
-            for cname in children:
-                apply_offset(subtree_path + (cname,), dx, dy, dz)
-
-        # 执行构建
-        self._temp_coords = {}
-        _, root_bbox = build_and_assign(self.root_key, (self.root_key,))
-        max_x, max_y, max_z = root_bbox
-
-        # 各轴独立缩放，填满 0-255
-        scale_x = 255.0 / max_x if max_x > 0 else 1
-        scale_y = 255.0 / max_y if max_y > 0 else 1
-        scale_z = 255.0 / max_z if max_z > 0 else 1
-
-        scaled = {}
-        for bk, (x, y, z) in self._temp_coords.items():
-            sx = int(round(x * scale_x))
-            sy = int(round(y * scale_y))
-            sz = int(round(z * scale_z))
-            scaled[bk] = [max(0, min(255, sx)), max(0, min(255, sy)), max(0, min(255, sz))]
-
-        # 第二步：分层引力收缩
         def collect_b_paths(node_path):
             node = self.tree
             for part in node_path:
                 node = node[part]
             if node_path[-1].startswith('b_'):
                 return ['|'.join(node_path)]
-            children = {k: v for k, v in node.items() if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
+            children = {k: v for k, v in node.items()
+                        if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
             res = []
             for cname in children:
                 res.extend(collect_b_paths(node_path + (cname,)))
             return res
 
-        node_b_cache = {}
-        def get_b_list(node_path):
+        def populate_cache(node_path):
             key = '|'.join(node_path)
             if key not in node_b_cache:
                 node_b_cache[key] = collect_b_paths(node_path)
-            return node_b_cache[key]
+            node = self.tree
+            for part in node_path:
+                node = node[part]
+            children = {k: v for k, v in node.items()
+                        if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
+            for cname in children:
+                populate_cache(node_path + (cname,))
 
-        # 引力层配置（无h，h只有一个，跳过）
-        levels = [
-            ('e_', 0.1),
-            ('k_', 0.1),
-            ('d_', 0.1),
-            ('c_', 0.1)
+        populate_cache((self.root_key,))
+
+        LEVEL_CONFIG = [
+            ('c_', 0.16),
+            ('d_', 0.08),
+            ('k_', 0.04),
+            ('e_', 0.015),
         ]
+        ITERATIONS = 100
+        LR = 0.05
 
         def get_level_paths(start_path, prefix):
             res = []
@@ -288,45 +268,79 @@ class ColorAllocator:
                 node = node[part]
             if start_path[-1].startswith(prefix):
                 res.append(start_path)
-            children = {k: v for k, v in node.items() if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
+            children = {k: v for k, v in node.items()
+                        if k.startswith(('e_', 'k_', 'd_', 'c_', 'b_'))}
             for cname in children:
                 res.extend(get_level_paths(start_path + (cname,), prefix))
             return res
 
-        for prefix, alpha in levels:
-            level_paths = get_level_paths((self.root_key,), prefix)
-            for node_path in level_paths:
-                b_list = get_b_list(node_path)
-                if not b_list:
-                    continue
-                n = len(b_list)
-                cx = sum(scaled[bk][0] for bk in b_list) / n
-                cy = sum(scaled[bk][1] for bk in b_list) / n
-                cz = sum(scaled[bk][2] for bk in b_list) / n
-                for bk in b_list:
-                    pt = scaled[bk]
-                    pt[0] = pt[0] + alpha * (cx - pt[0])
-                    pt[1] = pt[1] + alpha * (cy - pt[1])
-                    pt[2] = pt[2] + alpha * (cz - pt[2])
+        level_nodes = []
+        for prefix, alpha in LEVEL_CONFIG:
+            paths = get_level_paths((self.root_key,), prefix)
+            level_nodes.append((paths, alpha))
 
-        # 最终取整
-        for bk, pt in scaled.items():
-            r = max(0, min(255, int(round(pt[0]))))
-            g = max(0, min(255, int(round(pt[1]))))
-            b = max(0, min(255, int(round(pt[2]))))
-            self.b_colors[bk] = (r, g, b)
+        # 迭代引力
+        for _ in range(ITERATIONS):
+            forces = {bk: [0.0, 0.0, 0.0] for bk in lab_positions}
+            for paths, alpha in level_nodes:
+                for node_path in paths:
+                    b_list = node_b_cache['|'.join(node_path)]
+                    if not b_list:
+                        continue
+                    n = len(b_list)
+                    center = [0.0, 0.0, 0.0]
+                    for bk in b_list:
+                        pos = lab_positions[bk]
+                        center[0] += pos[0]
+                        center[1] += pos[1]
+                        center[2] += pos[2]
+                    center = [c / n for c in center]
+                    for bk in b_list:
+                        pos = lab_positions[bk]
+                        forces[bk][0] += alpha * (center[0] - pos[0])
+                        forces[bk][1] += alpha * (center[1] - pos[1])
+                        forces[bk][2] += alpha * (center[2] - pos[2])
+            for bk, f in forces.items():
+                pos = lab_positions[bk]
+                pos[0] += LR * f[0]
+                pos[1] += LR * f[1]
+                pos[2] += LR * f[2]
 
-        # 上级代表色：取下属b最终颜色的平均值
-        for key, b_list in node_b_cache.items():
-            if not b_list or key.split('|')[-1].startswith('b_'):
+        # ---------- 4. 量化到整数 LAB 并检测重复 ----------
+        int_lab = {}
+        color_map = {}
+        for bk, (L, a_val, b_val) in lab_positions.items():
+            L_int = int(round(L))
+            a_int = int(round(a_val))
+            b_int = int(round(b_val))
+            int_lab[bk] = (L_int, a_int, b_int)
+            key = (L_int, a_int, b_int)
+            color_map.setdefault(key, []).append(bk)
+
+        for lab_key, bks in color_map.items():
+            if len(bks) > 1:
+                print(f"⚠️ 重复颜色 LAB{lab_key} 出现在员工: {', '.join(bks)}")
+
+        # ---------- 5. 转换为 sRGB 并存储 ----------
+        self.b_colors.clear()
+        for bk, (L_int, a_int, b_int) in int_lab.items():
+            self.b_colors[bk] = lab_to_rgb(L_int, a_int, b_int)
+
+        # ---------- 6. 计算上级节点颜色 ----------
+        self.node_colors.clear()
+        for node_path_str, b_list in node_b_cache.items():
+            if not b_list or node_path_str.split('|')[-1].startswith('b_'):
                 continue
+            sum_L = sum(int_lab[bk][0] for bk in b_list)
+            sum_a = sum(int_lab[bk][1] for bk in b_list)
+            sum_b = sum(int_lab[bk][2] for bk in b_list)
             n = len(b_list)
-            avg_r = int(round(sum(self.b_colors[bk][0] for bk in b_list) / n))
-            avg_g = int(round(sum(self.b_colors[bk][1] for bk in b_list) / n))
-            avg_b = int(round(sum(self.b_colors[bk][2] for bk in b_list) / n))
-            self.node_colors[key] = (avg_r, avg_g, avg_b)
+            avg_L = int(round(sum_L / n))
+            avg_a = int(round(sum_a / n))
+            avg_b = int(round(sum_b / n))
+            self.node_colors[node_path_str] = lab_to_rgb(avg_L, avg_a, avg_b)
 
-    # ========== 文件解析与输出（与之前相同） ==========
+    # ==================== 文件解析与输出（保持不变） ====================
     @staticmethod
     def parse_paradox_script(text: str) -> dict:
         if not isinstance(text, str):
