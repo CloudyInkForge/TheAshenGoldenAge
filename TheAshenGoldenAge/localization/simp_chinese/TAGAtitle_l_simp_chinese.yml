@@ -395,17 +395,49 @@
  k_taga_xiang:"湘州"
 
  d_taga_changsha:"长沙"
+ c_taga_changsha:"长沙"
+ b_taga_linxiang:"临湘"
+ b_taga_luo:"罗"
+ c_taga_liuyang:"浏阳"
+ b_taga_liuyang:"浏阳"
+ b_taga_wuchang_x:"吴昌"
+ c_taga_you_x:"攸"
+ b_taga_you_x:"攸"
+ b_taga_liling_x:"醴陵"
+ b_taga_jianning:"建宁"
 
  d_taga_hengyang:"衡阳"
  c_taga_xiangnan:"衡阳"
 
  d_taga_baling:"巴陵"
+ c_taga_baling:"巴陵"
+ b_taga_baling:"巴陵"
+ b_taga_xiajuan:"下隽"
+ b_taga_puqi:"蒲圻"
 
  d_taga_shaoling:"邵陵"
 
  d_taga_xiangdong:"湘东"
+ c_taga_linzheng:"临烝"
+ b_taga_linzheng:"临烝"
+ b_taga_xinping:"新平"
+ b_taga_xining_x:"新宁"
+ c_taga_chaling:"茶陵"
+ b_taga_chaling:"茶陵"
+ c_taga_ling:"酃"
+ b_taga_ling:"酃"
+ b_taga_yinshan:"阴山"
+ b_taga_liyang_x:"利阳"
 
  d_taga_guiyang:"桂阳"
+ c_taga_chen:"郴"
+ b_taga_chen:"郴"
+ b_taga_jinning:"晋宁"
+ b_taga_bian:"便"
+ b_taga_leiyang:"耒阳"
+ c_taga_nanping:"南平"
+ b_taga_nanping:"南平"
+ b_taga_linwu:"临武"
 
  d_taga_lingling:"零陵"
 
@@ -416,6 +448,16 @@
  d_taga_shian:"始安"
 
  d_taga_shixing:"始兴"
+ c_taga_shixing:"始兴"
+ b_taga_qvjiang:"曲江"
+ b_taga_shixing:"始兴"
+ c_taga_hankuang:"含洭"
+ b_taga_hankuang:"含洭"
+ b_taga_guiyang:"桂阳"
+ b_taga_yangshan:"阳山"
+ c_taga_zhenyang:"浈阳"
+ b_taga_zhenyang:"浈阳"
+ b_taga_zhongsu:"中宿"
 
  e_taga_jiao:"交州"
 
