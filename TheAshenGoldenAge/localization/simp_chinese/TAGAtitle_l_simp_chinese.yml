@@ -9,6 +9,15 @@
  c_taga_luoyang:"洛阳"
  b_taga_luoyang:"洛阳"
 
+ d_taga_xingyang:"荥阳"
+ c_taga_xingyang:"荥阳"
+
+ d_taga_hongnong:"弘农"
+ c_taga_hongnong:"弘农"
+
+ d_taga_shangluo:"上洛"
+ c_taga_shangluo:"上洛"
+
  e_taga_yang:"扬州"
 
  k_taga_yang:"扬州"
@@ -108,6 +117,7 @@
  b_taga_shouchun:"寿春"
  b_taga_hefei:"合肥"
  b_taga_yinling:"阴陵"
+ b_taga_xiacai:"下蔡"
 
  d_taga_lujiang:"庐江"
  c_taga_lujiang:"庐江"
@@ -332,6 +342,32 @@
 
  e_taga_yu:"豫州"
 
+ k_taga_yu:"豫州"
+
+ d_taga_yingchuan:"颍川"
+ c_taga_yingchuan:"颍川"
+
+ d_taga_runan:"汝南"
+ c_taga_runan:"汝南"
+
+ d_taga_xiangcheng:"襄城"
+ c_taga_xiangcheng:"襄城"
+
+ d_taga_liang:"梁"
+ c_taga_liang:"梁"
+ c_taga_chen_y:"陈"
+
+ k_taga_pei:"沛"
+
+ d_taga_pei:"沛"
+ c_taga_pei:"沛"
+
+ d_taga_qiao:"谯"
+ c_taga_qiao:"谯"
+
+ d_taga_lu:"鲁"
+ c_taga_lu_y:"鲁"
+
  k_taga_yiyang:"弋阳"
 
  d_taga_yiyang:"弋阳"
@@ -354,6 +390,9 @@
  b_taga_lu:"蓼"
  b_taga_anfeng_n:"安丰"
  b_taga_yulou:"雩娄"
+
+ d_taga_ruyin:"汝阴"
+ c_taga_ruyin:"汝阴"
 
  e_taga_jing:"荆州"
 
@@ -577,3 +616,33 @@
 
  d_taga_chengyang:"城阳"
  c_yaga_chengyang:"城阳"
+
+ e_taga_yan:"兖州"
+
+ k_taga_puyang:"濮阳"
+
+ d_taga_puyang:"濮阳"
+ c_taga_puyang:"濮阳"
+
+ d_taga_chenliu:"陈留"
+ c_taga_chenliu:"陈留"
+
+ d_taga_jiyin:"济阴"
+ c_taga_jiyin:"济阴"
+
+ k_taga_gaoping:"高平"
+
+ d_taga_gaoping:"高平"
+ c_taga_gaoping:"高平"
+
+ d_taga_rencheng:"任城"
+ c_taga_rencheng:"任城"
+
+ d_taga_dongping:"东平"
+ c_taga_dongping:"东平"
+
+ d_taga_jibei:"济北"
+ c_taga_jibei:"济北"
+
+ d_taga_taishan:"泰山"
+ c_taga_taishan:"泰山"
