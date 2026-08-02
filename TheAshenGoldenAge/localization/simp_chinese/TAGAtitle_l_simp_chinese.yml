@@ -486,6 +486,9 @@
 
  d_taga_xincheng:"新城"
 
+ d_taga_weixing:"魏兴"
+ c_taga_weixing:"魏兴"
+
  k_taga_jing:"荆州"
 
  d_taga_nan:"南"
@@ -788,3 +791,71 @@
 
  d_taga_beidi:"北地"
  c_taga_beidi:"北地"
+
+ e_taga_liang:"凉州"
+
+ k_taga_yong:"雍州"
+
+ d_taga_jingzhao:"京兆"
+ c_taga_jingzhao:"京兆"
+
+ d_taga_fengyi:"冯翊"
+ c_taga_fengyi:"冯翊"
+
+ d_taga_fufeng:"扶风"
+ c_taga_fufeng:"扶风"
+
+ d_taga_anding:"安定"
+ c_taga_anding:"安定"
+
+ d_taga_shiping:"始平"
+ c_taga_shiping:"始平"
+
+ d_taga_xinping:"新平"
+ c_taga_xinping:"新平"
+
+ k_taga_liang:"凉州"
+
+ d_taga_wuwei:"武威"
+ c_taga_wuwei:"武威"
+
+ d_taga_xiping:"西平"
+ c_taga_xiping_l:"西平"
+
+ d_taga_jincheng:"金城"
+ c_taga_jincheng:"金城"
+
+ d_taga_zhangye:"张掖"
+ c_taga_zhangye:"张掖"
+
+ d_taga_xi:"西"
+ c_taga_xi:"西"
+
+ d_taga_jiuquan:"酒泉"
+ c_taga_jiuquan:"酒泉"
+
+ d_taga_dunhuang:"敦煌"
+ c_taga_dunhuang:"敦煌"
+
+ d_taga_xihai:"西海"
+ c_taga_xihai:"西海"
+
+ k_taga_qin:"秦"
+
+ d_taga_tianshui:"天水"
+ c_taga_tianshui:"天水"
+
+ d_taga_longxi:"陇西"
+ c_taga_longxi:"陇西"
+
+ d_taga_nanan:"南安"
+ c_taga_nanan:"南安"
+
+ d_taga_lueyang:"略阳"
+ c_taga_lueyang:"略阳"
+
+ d_taga_wudu:"武都"
+ c_taga_wudu:"武都"
+
+ d_taga_yinping:"阴平"
+ c_taga_yinping:"阴平"
