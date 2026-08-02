@@ -48,7 +48,7 @@
  d_taga_dunqiu:"顿丘"
  c_taga_dunqiu:"顿丘"
 
- e_taga_ji:"冀"
+ e_taga_ji:"冀州"
 
  k_taga_ji:"冀州"
 
@@ -749,6 +749,26 @@
 
  d_taga_liaoxi:"辽西"
  c_taga_liaoxi:"辽西"
+
+ k_taga_ping:"平州"
+
+ d_taga_liaodong:"辽东"
+ c_taga_shenyang:"辽东"
+
+ d_taga_xuantu:"玄菟"
+ c_taga_xuantu:"玄菟"
+
+ d_taga_changli:"昌黎"
+ c_taga_changli:"昌黎"
+
+ d_taga_lelang:"乐浪"
+ c_taga_lelang:"乐浪"
+
+ d_taga_lintun:"临屯"
+ c_taga_lintun:"临屯"
+
+ d_taga_daifang:"带方"
+ c_taga_daifang:"带方"
 
  e_taga_bing:"并州"
 
