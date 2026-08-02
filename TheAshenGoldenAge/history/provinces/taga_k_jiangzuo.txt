@@ -3743,6 +3743,616 @@
 	religion = daoxue
 	holding = castle_holding
 }
+12422 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9694 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12421 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11785 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11784 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11786 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11787 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11788 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11790 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11791 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11792 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11793 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11794 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11789 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11795 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11796 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11799 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11798 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11800 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11797 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11782 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11781 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11783 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11803 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11759 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11761 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11772 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11758 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12424 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11760 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12423 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11775 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11773 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11776 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11774 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11765 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11766 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11771 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11762 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11763 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11764 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9906 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9905 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9907 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9945 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9911 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9909 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9908 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9910 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9922 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9915 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9919 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9920 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9921 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9912 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9913 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9914 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9916 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9917 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9918 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9873 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9874 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9875 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9870 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9872 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9879 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9876 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9877 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9878 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9880 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9881 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9882 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9887 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9888 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12454 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9889 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9890 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9891 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9892 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9893 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9894 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9895 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9896 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9899 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9900 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9897 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9898 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9902 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9901 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9903 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9904 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9883 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9884 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9885 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9886 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9939 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9928 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9929 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9925 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9924 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9923 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9946 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9948 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9947 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9858 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9859 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9860 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9971 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9862 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9861 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9863 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9864 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9865 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9868 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9866 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9867 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9926 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9931 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9930 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9932 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9871 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9869 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
 10073 = {
 	culture = TAGA_jin
 	religion = daoxue
@@ -5039,6 +5649,1366 @@
 	holding = castle_holding
 }
 12364 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10216 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10218 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10217 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10219 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10318 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9715 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9714 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9716 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12958 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9721 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9726 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9727 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9713 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10321 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10322 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10220 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10317 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10320 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10214 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10215 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10211 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10319 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10224 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10225 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10221 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10438 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10223 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10222 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10212 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10213 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10199 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10210 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10198 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9767 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9768 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9769 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13064 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9766 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9765 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13066 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9753 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9751 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9752 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12954 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9771 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9772 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13107 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9774 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9773 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9740 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9741 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10406 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13073 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13136 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9739 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9547 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9737 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9742 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9743 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9770 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13106 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9738 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9746 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9745 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9744 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9747 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9748 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13048 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13049 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9750 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9749 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9718 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9719 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9720 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13036 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10439 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9717 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13074 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9776 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9779 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9777 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9778 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9722 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13019 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9724 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9725 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9734 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9735 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9736 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9732 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9733 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10446 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10207 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10209 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9728 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9729 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9730 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9731 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10413 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10226 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10227 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9763 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13023 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9761 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9764 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9759 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9760 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9758 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9755 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9754 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9756 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10447 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10006 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10008 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10007 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12955 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9828 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9827 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13155 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13024 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9826 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10440 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13050 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13051 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10010 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10009 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10011 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10414 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10416 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9830 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9831 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9832 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10002 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10012 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10013 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10003 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10004 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10005 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10424 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10435 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10191 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13153 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13152 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13150 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13151 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10192 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10203 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13057 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13058 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10412 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10206 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10204 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10205 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10411 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10202 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10386 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10229 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13055 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13056 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10230 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10197 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10200 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13059 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10201 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10880 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13060 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10882 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10415 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10290 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10289 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10288 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10193 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10196 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10286 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10194 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10287 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10190 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10449 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13093 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10189 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+13092 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9837 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+9838 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11468 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10976 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11486 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10975 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11452 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10901 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10899 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10900 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10897 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11470 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12544 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11472 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11479 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11329 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10987 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11480 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10988 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10989 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10984 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10981 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10982 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10983 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10985 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10986 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10979 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10977 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10978 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11481 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10991 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10990 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10980 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11473 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10894 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10895 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12540 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10892 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11471 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11482 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11484 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12541 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11483 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10869 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12863 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11490 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10865 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10866 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10863 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10867 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10875 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10876 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10870 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10884 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10885 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10886 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10874 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10888 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10887 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10868 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10883 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10871 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10877 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10881 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11476 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11488 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10905 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10904 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10902 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10906 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10864 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10903 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10873 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11474 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10445 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11475 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10444 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10448 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10872 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10437 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11487 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10891 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11489 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10890 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11477 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10450 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10907 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10467 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+11478 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+12508 = {
+	culture = TAGA_jin
+	religion = daoxue
+	holding = castle_holding
+}
+10889 = {
 	culture = TAGA_jin
 	religion = daoxue
 	holding = castle_holding
