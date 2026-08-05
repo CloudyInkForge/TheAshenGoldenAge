@@ -38,6 +38,35 @@ def regenerate_localization(landed_titles_path, loc_file_path, keep_empty=True):
 
     translations = {k: existing_translations.get(k, "") for k in ordered_keys}
 
+    # ---- 统计 b_ 头衔翻译进度（带百分比和鞭策） ----
+    b_all = [k for k in ordered_keys if k.startswith('b_')]
+    b_translated = [k for k in b_all if translations.get(k, '') != '']
+    if b_all:
+        total = len(b_all)
+        done = len(b_translated)
+        undone = total - done
+        percent = done / total * 100
+
+        # 输出进度
+        print(f"男爵领 (b_) 翻译进度: {done} / {total} ({percent:.1f}%)")
+
+        # 鞭策性评语
+        if percent >= 100:
+            print("🎉 完美！所有男爵领已翻译！")
+        elif percent >= 80:
+            print(f"✅ 快完成了！还剩 {undone} 个，再加把劲！")
+        elif percent >= 60:
+            print(f"💪 进度不错，但还有 {undone} 个未翻译，继续加油！")
+        elif percent >= 40:
+            print(f"⏳ 刚过半，仍需努力！剩余 {undone} 个，别偷懒！")
+        elif percent >= 20:
+            print(f"🐢 才完成 {percent:.0f}%？还有 {undone} 个，提速啊！")
+        else:
+            print(f"🔥 翻译进度严重不足！只剩 {undone} 个未翻，快动手！")
+    else:
+        print("没有以 b_ 开头的头衔。")
+    # -----------------------------------------
+
     # 如果 keep_empty 为 False，过滤掉翻译为空的键
     if not keep_empty:
         ordered_keys = [k for k in ordered_keys if translations[k] != ""]
