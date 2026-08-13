@@ -231,7 +231,7 @@ if __name__ == '__main__':
     processor = LocMapProcessor(LANDED_TITLES, DEFINITION_CSV, PROVINCES_PNG)
 
     # 指定要处理的头衔（请替换为实际存在的头衔键）
-    TITLE_KEY = "d_taga_shu"
+    TITLE_KEY = "e_taga_yu"
 
     try:
         # 一键执行完整流程：获取省份ID → 生成掩码 → 计算最大内切圆 → 更新定位文件
