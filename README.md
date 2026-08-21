@@ -178,6 +178,7 @@ h_taga_hanjin = {
 	}
 }
 
+
 ```
 TheAshenGoldenAge
 ├─ 📁.vscode
@@ -213,6 +214,7 @@ TheAshenGoldenAge
 │  │  └─ 📁map
 │  │     └─ 📁map_object_data
 │  │        ├─ 📄building_locators.txt
+│  │        ├─ 📄changan_building.txt
 │  │        ├─ 📄combat_locators.txt
 │  │        ├─ 📄player_stack_locators.txt
 │  │        ├─ 📄siege_locators.txt
@@ -228,9 +230,14 @@ TheAshenGoldenAge
 │  ├─ 📁map_data
 │  │  ├─ 📄definition.csv
 │  │  ├─ 📄provinces.png
-│  │  └─ 📄provinces.psd
+│  │  ├─ 📄provinces.psd
+│  │  ├─ 📄provinces备份.psd
+│  │  └─ 📄provinces备份2.psd
 │  └─ 📄TheAshenGoldenAge.mod
 ├─ 📁tools
+│  ├─ 📁provincedata
+│  │  ├─ 📄apply.py
+│  │  └─ 📄main.xlsx
 │  ├─ 📁utils
 │  │  ├─ 📁__pycache__
 │  │  │  ├─ 📄get_color.cpython-313.pyc
