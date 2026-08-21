@@ -1,5 +1,15 @@
 # iso.py
+import sys
+import os
+from openpyxl import load_workbook
+
+# 将 tools/ 目录加入 Python 路径，以便导入 config 和 locabetter
+tools_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 即 tools/
+if tools_dir not in sys.path:
+    sys.path.insert(0, tools_dir)
+
 import config
+from locabetter import LocatorPositionReader
 
 
 class _Polyline:
@@ -99,7 +109,62 @@ class ISO:
 
     __call__ = classify
 
+
 iso = ISO()
 
-coords = [(6832, 2618), (7178, 2498), (6338, 2298)]
-print(iso.classify(coords))
+
+def process_main_xlsx():
+    xlsx_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "main.xlsx")
+
+    wb = load_workbook(xlsx_path)
+    ws = wb.active
+
+    id_list = []
+    row_list = []
+
+    # 从第 2 行开始读，跳过第 1 行表头，第一列为 ID
+    for row in range(2, ws.max_row + 1):
+        cell_val = ws.cell(row=row, column=1).value
+        if cell_val is None:
+            continue
+
+        # 尝试转为整数
+        try:
+            pid = int(cell_val)
+        except (ValueError, TypeError):
+            continue
+
+        id_list.append(pid)
+        row_list.append(row)
+
+    if not id_list:
+        print("main.xlsx 第一列没有可用的 ID")
+        wb.close()
+        return
+
+    # 使用 LocatorPositionReader 通过 ID 获取坐标
+    reader = LocatorPositionReader()
+    try:
+        coords = reader.get_positions(id_list)
+    except ValueError as e:
+        print(f"获取坐标失败: {e}")
+        wb.close()
+        return
+
+    results = iso.classify(coords)
+
+    if len(results) != len(row_list):
+        print(f"警告：结果数量 {len(results)} 与有效行数 {len(row_list)} 不一致")
+
+    for row, res in zip(row_list, results):
+        prec, gdd = res
+        ws.cell(row=row, column=4, value=prec)
+        ws.cell(row=row, column=5, value=gdd)
+
+    wb.save(xlsx_path)
+    wb.close()
+    print(f"处理完成，已写入 {len(row_list)} 行到 D/E 列")
+
+
+if __name__ == "__main__":
+    process_main_xlsx()

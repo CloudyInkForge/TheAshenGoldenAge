@@ -179,6 +179,7 @@ h_taga_hanjin = {
 }
 
 
+
 ```
 TheAshenGoldenAge
 ├─ 📁.vscode
@@ -236,7 +237,11 @@ TheAshenGoldenAge
 │  └─ 📄TheAshenGoldenAge.mod
 ├─ 📁tools
 │  ├─ 📁provincedata
+│  │  ├─ 📁__pycache__
+│  │  │  └─ 📄config.cpython-313.pyc
 │  │  ├─ 📄apply.py
+│  │  ├─ 📄config.py
+│  │  ├─ 📄iso.py
 │  │  └─ 📄main.xlsx
 │  ├─ 📁utils
 │  │  ├─ 📁__pycache__
@@ -251,7 +256,12 @@ TheAshenGoldenAge
 │  │  ├─ 📄LocatorPositionUpdater.py
 │  │  ├─ 📄match_color.py
 │  │  └─ 📄shortest_point.py
+│  ├─ 📁__pycache__
+│  │  ├─ 📄loca.cpython-313.pyc
+│  │  └─ 📄loc_mapobjects.cpython-313.pyc
 │  ├─ 📄check_duplicates.py
+│  ├─ 📄loca.py
+│  ├─ 📄locabetter.py
 │  ├─ 📄loc_mapobjects.py
 │  ├─ 📄province_history.py
 │  └─ 📄regenerate_localization.py
