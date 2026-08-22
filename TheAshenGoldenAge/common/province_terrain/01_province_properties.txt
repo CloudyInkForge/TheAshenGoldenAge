@@ -39230,11 +39230,11 @@
 }
 # b_Liao_Kaizhou
 11795 ={
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 # b_Liao_Dandong
 11796 ={
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 ## c_LIAO_guidezhou
 # b_Liao_Guidezhou
@@ -43182,43 +43182,43 @@
 	winter_severity_bias = 0.55
 }
 8854 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8855 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8856 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8857 = {
 	winter_severity_bias = 0.45
 }
 8858 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8859 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8860 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8861 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8862 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8863 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8864 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8865 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8866 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8867 = {
 	winter_severity_bias = 0.45
@@ -43236,10 +43236,10 @@
 	winter_severity_bias = 0.45
 }
 8872 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8873 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8874 = {
 	winter_severity_bias = 0.45
@@ -43293,25 +43293,25 @@
 	winter_severity_bias = 0.45
 }
 8891 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8892 = {
 	winter_severity_bias = 0.20
 }
 8893 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8894 = {
 	winter_severity_bias = 0.20
 }
 8895 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8896 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8897 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8898 = {
 	winter_severity_bias = 0.45
@@ -43416,7 +43416,7 @@
 	winter_severity_bias = 0.45
 }
 8932 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 8933 = {
 	winter_severity_bias = 0.45
@@ -44332,16 +44332,16 @@
 	winter_severity_bias = 0.45
 }
 9719 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9720 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9721 = {
 	winter_severity_bias = 0.30
 }
 9722 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9724 = {
 	winter_severity_bias = 0.45
@@ -44422,7 +44422,7 @@
 	winter_severity_bias = 0.45
 }
 9750 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9751 = {
 	winter_severity_bias = 0.45
@@ -44509,19 +44509,19 @@
 	winter_severity_bias = 0.45
 }
 9779 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9780 = {
 	winter_severity_bias = 0.45
 }
 9781 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9782 = {
 	winter_severity_bias = 0.45
 }
 9783 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9784 = {
 	winter_severity_bias = 0.20
@@ -44683,10 +44683,10 @@
 	winter_severity_bias = 0.30
 }
 9839 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9840 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9841 = {
 	winter_severity_bias = 0.45
@@ -44698,7 +44698,7 @@
 	winter_severity_bias = 0.20
 }
 9844 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 9845 = {
 	winter_severity_bias = 0.55
@@ -45616,10 +45616,10 @@
 	winter_severity_bias = 0.20
 }
 10296 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 10297 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 10298 = {
 	winter_severity_bias = 0.55
@@ -45700,7 +45700,7 @@
 	winter_severity_bias = 0.30
 }
 10324 = {
-	winter_severity_bias = 0.45
+	winter_severity_bias = 0.30
 }
 10325 = {
 	winter_severity_bias = 0.45
@@ -45883,7 +45883,7 @@
 	winter_severity_bias = 0.30
 }
 10385 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 10386 = {
 	winter_severity_bias = 0.45
@@ -45988,7 +45988,7 @@
 	winter_severity_bias = 0.30
 }
 10422 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 10423 = {
 	winter_severity_bias = 0.45
@@ -49651,7 +49651,7 @@
 	winter_severity_bias = 0.55
 }
 12958 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12959 = {
 	winter_severity_bias = 0.70
@@ -49666,16 +49666,16 @@
 	winter_severity_bias = 0.70
 }
 12963 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12964 = {
 	winter_severity_bias = 0.45
 }
 12966 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12967 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12968 = {
 	winter_severity_bias = 0.30
@@ -49690,7 +49690,7 @@
 	winter_severity_bias = 0.45
 }
 12972 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12973 = {
 	winter_severity_bias = 0.55
@@ -49759,10 +49759,10 @@
 	winter_severity_bias = 0.45
 }
 12997 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12998 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 12999 = {
 	winter_severity_bias = 0.45
@@ -49825,7 +49825,7 @@
 	winter_severity_bias = 0.55
 }
 13019 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13020 = {
 	winter_severity_bias = 0.20
@@ -49876,7 +49876,7 @@
 	winter_severity_bias = 0.30
 }
 13036 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13037 = {
 	winter_severity_bias = 0.30
@@ -50038,10 +50038,10 @@
 	winter_severity_bias = 0.70
 }
 13090 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13091 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13092 = {
 	winter_severity_bias = 0.45
@@ -50116,13 +50116,13 @@
 	winter_severity_bias = 0.45
 }
 13116 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13117 = {
 	winter_severity_bias = 0.20
 }
 13118 = {
-	winter_severity_bias = 0.55
+	winter_severity_bias = 0.45
 }
 13119 = {
 	winter_severity_bias = 0.45
