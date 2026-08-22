@@ -37289,15 +37289,15 @@
 ## c_maowun  #Mao/Shgvini
 # b_maowun  #Fengyi/Shgvini
 9458 ={
-	winter_severity_bias = 0.90
+	winter_severity_bias = 0.30
 }
 # b_sumshul  #Diexi
 9459 ={
-	winter_severity_bias = 0.90
+	winter_severity_bias = 0.30
 }
 # b_wunchoin  #Wenchuan
 9460 ={
-	winter_severity_bias = 0.90
+	winter_severity_bias = 0.30
 }
 ## c_sungqu  #Songpan
 # b_sungqu  #Songpan
@@ -37342,7 +37342,7 @@
 }
 # b_jagsam 
 9329 ={
-	winter_severity_bias = 0.90
+	winter_severity_bias = 0.30
 }
 # b_shade 
 9332 ={
@@ -38083,32 +38083,32 @@
 ## c_xingqing 
 # b_xingqing  #Yinchuan/Iryai
 9546 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 # b_dingzhou  #Helan
 9544 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 # b_shizuizi  #Shizuishan
 9543 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 # b_dingyuanying  #Bayanhot
 9536 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 ## c_shunzhou 
 # b_shunzhou  #Qingtongxia
 9545 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 # b_shapotou 
 9534 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 # b_xiping 
 9547 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 ### d_wuluhai 
 ## c_wuluhai 
@@ -38118,11 +38118,11 @@
 }
 # b_wuyuan 
 9538 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 # b_dengkou 
 9539 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 ## c_wuda 
 # b_wuda  #Ud
@@ -38131,11 +38131,11 @@
 }
 # b_zhongcun 
 9540 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 # b_wuliji 
 9541 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 ### d_zhenfan 
 ## c_zhenfan  #Minqin/Sogo Khoto
@@ -38225,7 +38225,7 @@
 }
 # b_wushengyi 
 9526 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 # b_tianzhu 
 9524 ={
@@ -38256,7 +38256,7 @@
 }
 # b_yadzi  #Xunhua
 9420 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 ### d_qilin 
 ## c_qilin 
@@ -38275,7 +38275,7 @@
 }
 # b_yeniugou 
 9497 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 ### d_ganzhou 
 ## c_ganzhou 
@@ -38325,7 +38325,7 @@
 ## c_suzhou 
 # b_jiayuguan 
 9493 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 # b_suzhou  #Jiuquan
 9494 ={
@@ -38356,34 +38356,34 @@
 }
 # b_juyan  #Sogo
 9507 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 ## c_wentugaole 
 # b_wentugaole 
 9510 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 # b_gurinai 
 9548 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 ## c_heihe 
 # b_jinguan 
 9505 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 # b_heihe 
 9504 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 ## c_mazongshan 
 # b_mazongshan 
 9489 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 # b_saihantaolai 
 9508 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 ### d_guiyi  #Guazhou
 ## c_guazhou 
@@ -38415,16 +38415,16 @@
 }
 # b_qidun 
 9488 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 # b_xihu 
 9484 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 ## c_shazhou 
 # b_shazhou  #Dunhuang/Dukhan
 9476 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 # b_mogao 
 9477 ={
@@ -38450,7 +38450,7 @@
 }
 # b_yanchiwan 
 9480 ={
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 ### d_aksay 
 ## c_aksay 
@@ -39008,15 +39008,15 @@
 ## c_LIAO_chaoyang
 # b_Liao_Chaoyang
 11759 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Chengzhou
 11758 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Liping
 11760 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Jianzhou
 11753 ={
@@ -39029,53 +39029,53 @@
 ## c_LIAO_jinzhou
 # b_Liao_Jinzhou
 11774 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Xizhou
 11776 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Andefu
 11775 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Yizhou3
 11773 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Qianzhou2
 11772 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 ## c_LIAO_liaozhou
 # b_Liao_Liaozhou
 11765 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Qianzhou
 11764 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Suizhou
 11766 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Shuangzhou
 11771 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 ## c_LIAO_xianzhou
 # b_Liao_Xianzhou
 11762 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Chuanzhou
 11761 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Haibeizhou
 11763 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 ### d_LIAO_shangjing
 ## c_LIAO_wuzhou
@@ -39167,91 +39167,91 @@
 ## c_LIAO_shenyang
 # b_Liao_Shenyang
 11785 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Tangzhou
 11784 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Liaoyang
 11786 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Haizhou
 11787 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Yaozhou
 11788 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 ## c_LIAO_yinzhou
 # b_Liao_Yinzhou
 11782 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Qizhou
 11781 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Guangzhou
 11783 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_FIC_Liao_Huangcaocun
 11803 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 ## c_LIAO_zhenzhou
 # b_Liao_Zhenzhou
 11790 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Fuping
 11791 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_Liao_Suning
 11792 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 # b_FIC_Liao_Biliujiang
 11793 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.45
 }
 ## c_LIAO_diezhou
 # b_Liao_Diezhou
 11794 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Tongzhou
 11789 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Kaizhou
 11795 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Dandong
 11796 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 ## c_LIAO_guidezhou
 # b_Liao_Guidezhou
 11799 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Xiyuan
 11798 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_Liao_Fengcheng
 11800 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 # b_FIC_Liao_Shaozijiang
 11797 ={
-	winter_severity_bias = 0.60
+	winter_severity_bias = 0.55
 }
 
 #### k_balhae
@@ -40910,7 +40910,7 @@
 	winter_severity_bias = 0.0
 }
 1470 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8623 = {
 	winter_severity_bias = 0.0
@@ -42900,7 +42900,7 @@
 	winter_severity_bias = 0.0
 }
 1469 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 3390 = {
 	winter_severity_bias = 0.0
@@ -43026,577 +43026,577 @@
 ###################
 
 8802 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8803 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8804 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8805 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8806 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8807 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8808 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8809 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8810 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8811 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8812 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8813 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8814 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8815 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8816 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8817 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8818 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8819 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8820 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8821 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8822 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8823 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8824 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8825 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8826 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8827 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8828 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8829 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8830 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8831 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8832 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8833 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8834 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8835 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8836 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8837 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8838 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8839 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8840 = {
 	winter_severity_bias = 0.0
 }
 8841 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8842 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8843 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8844 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8845 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8846 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8847 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8848 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8849 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8850 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8851 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8852 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8853 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8854 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8855 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8856 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8857 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8858 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8859 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8860 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8861 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8862 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8863 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8864 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8865 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8866 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8867 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8868 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8869 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8870 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8871 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8872 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8873 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8874 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8875 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8876 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8877 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8878 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8879 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8880 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8881 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8882 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8883 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8884 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8885 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8886 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8887 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8888 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8889 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8890 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8891 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8892 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8893 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8894 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8895 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8896 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8897 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8898 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8899 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8900 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8901 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8902 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8903 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8904 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8905 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8906 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8907 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8908 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8909 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8910 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8911 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8912 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8913 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8914 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8915 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8916 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8917 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8918 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8919 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8920 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8921 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8922 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8923 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8924 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8925 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8926 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8927 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8928 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8929 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8930 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8931 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8932 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 8933 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8934 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8935 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8936 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8937 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8938 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8939 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8940 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8941 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8942 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8943 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8944 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8945 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8946 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8947 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8948 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8949 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8950 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8951 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8952 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8953 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8954 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8955 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8956 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8957 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8958 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8959 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8960 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8961 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8962 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 8963 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8964 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8965 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8966 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8967 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8968 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8969 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8970 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8971 = {
 	winter_severity_bias = 0.0
 }
 8972 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8973 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8974 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8975 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8976 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8977 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8978 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8979 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8980 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8981 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8982 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8983 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8984 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8985 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8986 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8987 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8988 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8989 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8990 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 8991 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 8992 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 # korea
 # c_myeongju
@@ -43616,73 +43616,73 @@
 9870 = { winter_severity_bias = 0.60 }
 9872 = { winter_severity_bias = 0.60 }
 # c_gyoju
-9873 = { winter_severity_bias = 0.50 }
-9874 = { winter_severity_bias = 0.50 }
-9875 = { winter_severity_bias = 0.50 }
+9873 = { winter_severity_bias = 0.70 }
+9874 = { winter_severity_bias = 0.70 }
+9875 = { winter_severity_bias = 0.70 }
 # c_dongju
-9876 = { winter_severity_bias = 0.60 }
-9877 = { winter_severity_bias = 0.50 }
-9878 = { winter_severity_bias = 0.50 }
-9879 = { winter_severity_bias = 0.50 }
+9876 = { winter_severity_bias = 0.70 }
+9877 = { winter_severity_bias = 0.70 }
+9878 = { winter_severity_bias = 0.55 }
+9879 = { winter_severity_bias = 0.70 }
 # c_chunju
 9880 = { winter_severity_bias = 0.50 }
 9881 = { winter_severity_bias = 0.50 }
 9882 = { winter_severity_bias = 0.50 }
 # c_yeongwon
-9883 = { winter_severity_bias = 0.60 }
-9884 = { winter_severity_bias = 0.60 }
-9885 = { winter_severity_bias = 0.60 }
-9886 = { winter_severity_bias = 0.60 }
+9883 = { winter_severity_bias = 0.55 }
+9884 = { winter_severity_bias = 0.55 }
+9885 = { winter_severity_bias = 0.45 }
+9886 = { winter_severity_bias = 0.45 }
 # c_jangjeong
-9887 = { winter_severity_bias = 0.60 }
-9888 = { winter_severity_bias = 0.60 }
-12454 = { winter_severity_bias = 0.60 }
+9887 = { winter_severity_bias = 0.55 }
+9888 = { winter_severity_bias = 0.45 }
+12454 = { winter_severity_bias = 0.55 }
 # c_ulju
-9889 = { winter_severity_bias = 0.60 }
-9890 = { winter_severity_bias = 0.50 }
+9889 = { winter_severity_bias = 0.55 }
+9890 = { winter_severity_bias = 0.45 }
 # c_gwiju
-9891 = { winter_severity_bias = 0.60 }
-9892 = { winter_severity_bias = 0.50 }
-9893 = { winter_severity_bias = 0.60 }
+9891 = { winter_severity_bias = 0.55 }
+9892 = { winter_severity_bias = 0.55 }
+9893 = { winter_severity_bias = 0.55 }
 # c_taeju
-9894 = { winter_severity_bias = 0.60 }
-9895 = { winter_severity_bias = 0.60 }
-9896 = { winter_severity_bias = 0.60 }
+9894 = { winter_severity_bias = 0.45 }
+9895 = { winter_severity_bias = 0.45 }
+9896 = { winter_severity_bias = 0.55 }
 # c_seogyeong
-9897 = { winter_severity_bias = 0.50 }
-9898 = { winter_severity_bias = 0.50 }
-9899 = { winter_severity_bias = 0.50 }
-9900 = { winter_severity_bias = 0.50 }
+9897 = { winter_severity_bias = 0.45 }
+9898 = { winter_severity_bias = 0.55 }
+9899 = { winter_severity_bias = 0.55 }
+9900 = { winter_severity_bias = 0.45 }
 # c_seongju
-9901 = { winter_severity_bias = 0.50 }
-9902 = { winter_severity_bias = 0.50 }
-9903 = { winter_severity_bias = 0.60 }
-9904 = { winter_severity_bias = 0.60 }
+9901 = { winter_severity_bias = 0.55 }
+9902 = { winter_severity_bias = 0.55 }
+9903 = { winter_severity_bias = 0.55 }
+9904 = { winter_severity_bias = 0.55 }
 # c_gaeseong
-9905 = { winter_severity_bias = 0.50 }
-9906 = { winter_severity_bias = 0.50 }
-9907 = { winter_severity_bias = 0.50 }
-9945 = { winter_severity_bias = 0.50 }
+9905 = { winter_severity_bias = 0.45 }
+9906 = { winter_severity_bias = 0.55 }
+9907 = { winter_severity_bias = 0.55 }
+9945 = { winter_severity_bias = 0.55 }
 # c_gokju
-9908 = { winter_severity_bias = 0.50 }
-9909 = { winter_severity_bias = 0.50 }
-9910 = { winter_severity_bias = 0.50 }
-9911 = { winter_severity_bias = 0.50 }
+9908 = { winter_severity_bias = 0.70 }
+9909 = { winter_severity_bias = 0.70 }
+9910 = { winter_severity_bias = 0.55 }
+9911 = { winter_severity_bias = 0.55 }
 # c_hwangju
-9912 = { winter_severity_bias = 0.50 }
-9913 = { winter_severity_bias = 0.50 }
-9914 = { winter_severity_bias = 0.50 }
-9915 = { winter_severity_bias = 0.50 }
+9912 = { winter_severity_bias = 0.55 }
+9913 = { winter_severity_bias = 0.70 }
+9914 = { winter_severity_bias = 0.70 }
+9915 = { winter_severity_bias = 0.55 }
 # c_pungju
-9916 = { winter_severity_bias = 0.50 }
-9917 = { winter_severity_bias = 0.50 }
-9918 = { winter_severity_bias = 0.50 }
+9916 = { winter_severity_bias = 0.55 }
+9917 = { winter_severity_bias = 0.70 }
+9918 = { winter_severity_bias = 0.70 }
 # c_haeju
-9919 = { winter_severity_bias = 0.50 }
-9920 = { winter_severity_bias = 0.50 }
+9919 = { winter_severity_bias = 0.70 }
+9920 = { winter_severity_bias = 0.55 }
 # c_pyeongju
-9921 = { winter_severity_bias = 0.50 }
-9922 = { winter_severity_bias = 0.50 }
+9921 = { winter_severity_bias = 0.70 }
+9922 = { winter_severity_bias = 0.55 }
 # c_gwangju
 9923 = { winter_severity_bias = 0.50 }
 9924 = { winter_severity_bias = 0.50 }
@@ -44173,7 +44173,7 @@
 12820 = { winter_severity_bias = 1.00 }
 
 3222 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9663 = {
 	winter_severity_bias = 0.0
@@ -44188,7 +44188,7 @@
 	winter_severity_bias = 0.70
 }
 9669 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9670 = {
 	winter_severity_bias = 0.70
@@ -44200,19 +44200,19 @@
 	winter_severity_bias = 0.0
 }
 9673 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9674 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9675 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9676 = {
 	winter_severity_bias = 0.0
 }
 9679 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9680 = {
 	winter_severity_bias = 0.0
@@ -44221,487 +44221,487 @@
 	winter_severity_bias = 0.0
 }
 9682 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9683 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9684 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9685 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9686 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9687 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9688 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9689 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9690 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9691 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9692 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9693 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9694 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9695 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9696 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9697 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9698 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9699 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9700 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9701 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9702 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9703 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9704 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9705 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9706 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9707 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9708 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9709 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9710 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9711 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9712 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9713 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.70
 }
 9714 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9715 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9716 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 9717 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9718 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9719 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.55
 }
 9720 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.55
 }
 9721 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9722 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9724 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9725 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9726 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9727 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9728 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9729 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9730 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9731 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9732 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9733 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9734 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9735 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9736 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9737 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 9738 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9739 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9740 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 9741 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9742 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9743 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9744 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 9745 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 9746 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 9747 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9748 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9749 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9750 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9751 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9752 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9753 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9754 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9755 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9756 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9757 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9758 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9759 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9760 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9761 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9762 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9763 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9764 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 9765 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9766 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9767 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9768 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 9769 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9770 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9771 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9772 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9773 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9774 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9775 = {
 	winter_severity_bias = 0.70
 }
 9776 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.55
 }
 9777 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9778 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 9779 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.55
 }
 9780 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9781 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9782 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 9783 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9784 = {
-	winter_severity_bias = 0.0
-}
-9785 = {
-	winter_severity_bias = 0.0
-}
-9786 = {
-	winter_severity_bias = 0.70
-}
-9787 = {
-	winter_severity_bias = 0.70
-}
-9788 = {
-	winter_severity_bias = 0.70
-}
-9789 = {
-	winter_severity_bias = 0.70
-}
-9790 = {
-	winter_severity_bias = 0.70
-}
-9791 = {
-	winter_severity_bias = 0.70
-}
-9792 = {
-	winter_severity_bias = 0.70
-}
-9793 = {
-	winter_severity_bias = 0.70
-}
-9794 = {
-	winter_severity_bias = 0.70
-}
-9795 = {
-	winter_severity_bias = 0.70
-}
-9796 = {
-	winter_severity_bias = 0.70
-}
-9797 = {
-	winter_severity_bias = 0.70
-}
-9798 = {
-	winter_severity_bias = 0.70
-}
-9800 = {
-	winter_severity_bias = 0.70
-}
-9801 = {
-	winter_severity_bias = 0.70
-}
-9802 = {
-	winter_severity_bias = 0.0
-}
-9803 = {
-	winter_severity_bias = 0.0
-}
-9804 = {
-	winter_severity_bias = 0.70
-}
-9805 = {
-	winter_severity_bias = 0.70
-}
-9806 = {
-	winter_severity_bias = 0.70
-}
-9807 = {
-	winter_severity_bias = 0.70
-}
-9808 = {
-	winter_severity_bias = 0.70
-}
-9809 = {
-	winter_severity_bias = 0.70
-}
-9810 = {
-	winter_severity_bias = 0.70
-}
-9811 = {
-	winter_severity_bias = 0.70
-}
-9812 = {
-	winter_severity_bias = 0.70
-}
-9813 = {
-	winter_severity_bias = 0.70
-}
-9814 = {
-	winter_severity_bias = 0.70
-}
-9815 = {
-	winter_severity_bias = 0.0
-}
-9816 = {
-	winter_severity_bias = 0.0
-}
-9817 = {
-	winter_severity_bias = 0.0
-}
-9818 = {
-	winter_severity_bias = 0.70
-}
-9819 = {
-	winter_severity_bias = 0.70
-}
-9820 = {
-	winter_severity_bias = 0.70
-}
-9821 = {
-	winter_severity_bias = 0.70
-}
-9822 = {
-	winter_severity_bias = 0.70
-}
-9823 = {
-	winter_severity_bias = 0.70
-}
-9824 = {
-	winter_severity_bias = 0.70
-}
-9825 = {
-	winter_severity_bias = 0.70
-}
-9826 = {
 	winter_severity_bias = 0.20
 }
+9785 = {
+	winter_severity_bias = 0.20
+}
+9786 = {
+	winter_severity_bias = 0.45
+}
+9787 = {
+	winter_severity_bias = 0.45
+}
+9788 = {
+	winter_severity_bias = 0.45
+}
+9789 = {
+	winter_severity_bias = 0.45
+}
+9790 = {
+	winter_severity_bias = 0.45
+}
+9791 = {
+	winter_severity_bias = 0.45
+}
+9792 = {
+	winter_severity_bias = 0.45
+}
+9793 = {
+	winter_severity_bias = 0.45
+}
+9794 = {
+	winter_severity_bias = 0.45
+}
+9795 = {
+	winter_severity_bias = 0.45
+}
+9796 = {
+	winter_severity_bias = 0.45
+}
+9797 = {
+	winter_severity_bias = 0.45
+}
+9798 = {
+	winter_severity_bias = 0.45
+}
+9800 = {
+	winter_severity_bias = 0.45
+}
+9801 = {
+	winter_severity_bias = 0.45
+}
+9802 = {
+	winter_severity_bias = 0.20
+}
+9803 = {
+	winter_severity_bias = 0.45
+}
+9804 = {
+	winter_severity_bias = 0.45
+}
+9805 = {
+	winter_severity_bias = 0.45
+}
+9806 = {
+	winter_severity_bias = 0.45
+}
+9807 = {
+	winter_severity_bias = 0.45
+}
+9808 = {
+	winter_severity_bias = 0.45
+}
+9809 = {
+	winter_severity_bias = 0.45
+}
+9810 = {
+	winter_severity_bias = 0.45
+}
+9811 = {
+	winter_severity_bias = 0.45
+}
+9812 = {
+	winter_severity_bias = 0.45
+}
+9813 = {
+	winter_severity_bias = 0.45
+}
+9814 = {
+	winter_severity_bias = 0.45
+}
+9815 = {
+	winter_severity_bias = 0.20
+}
+9816 = {
+	winter_severity_bias = 0.20
+}
+9817 = {
+	winter_severity_bias = 0.20
+}
+9818 = {
+	winter_severity_bias = 0.45
+}
+9819 = {
+	winter_severity_bias = 0.45
+}
+9820 = {
+	winter_severity_bias = 0.45
+}
+9821 = {
+	winter_severity_bias = 0.45
+}
+9822 = {
+	winter_severity_bias = 0.45
+}
+9823 = {
+	winter_severity_bias = 0.45
+}
+9824 = {
+	winter_severity_bias = 0.45
+}
+9825 = {
+	winter_severity_bias = 0.45
+}
+9826 = {
+	winter_severity_bias = 0.45
+}
 9827 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 9828 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9830 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9831 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9832 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9833 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9834 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9835 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9836 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9837 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9838 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9839 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9840 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9841 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9842 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9843 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 9844 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9845 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 9846 = {
 	winter_severity_bias = 0.0
@@ -44722,196 +44722,196 @@
 	winter_severity_bias = 0.0
 }
 9852 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9857 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9996 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9997 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 9998 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 9999 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10000 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10001 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10002 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10003 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10004 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10005 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10006 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10007 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10008 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10009 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10010 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10011 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10012 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10013 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10014 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10015 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10016 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10017 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10018 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10019 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10020 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10021 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10022 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10023 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10024 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10025 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10027 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10028 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10029 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10030 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10031 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10032 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10033 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10034 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10035 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10036 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10037 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10038 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10039 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10040 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10041 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10042 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10043 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10044 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10045 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10046 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10047 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10048 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10049 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10050 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10051 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10052 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10053 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10054 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10055 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10056 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10057 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10058 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10059 = {
 	winter_severity_bias = 0.70
@@ -44923,10 +44923,10 @@
 	winter_severity_bias = 0.70
 }
 10063 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10064 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10065 = {
 	winter_severity_bias = 0.70
@@ -44935,67 +44935,67 @@
 	winter_severity_bias = 0.70
 }
 10067 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10068 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 10069 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10070 = {
 	winter_severity_bias = 0.70
 }
 10071 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10072 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10073 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10074 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10075 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10076 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10077 = {
 	winter_severity_bias = 0.70
 }
 10078 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10079 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10080 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10081 = {
 	winter_severity_bias = 0.70
 }
 10082 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10083 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10084 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10085 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10086 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10087 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10088 = {
 	winter_severity_bias = 0.70
@@ -45046,19 +45046,19 @@
 	winter_severity_bias = 0.70
 }
 10104 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10105 = {
 	winter_severity_bias = 0.70
 }
 10106 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10107 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10108 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10109 = {
 	winter_severity_bias = 0.70
@@ -45067,19 +45067,19 @@
 	winter_severity_bias = 0.70
 }
 10111 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10112 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10113 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10114 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10115 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10116 = {
 	winter_severity_bias = 0.70
@@ -45091,76 +45091,76 @@
 	winter_severity_bias = 0.70
 }
 10119 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 10120 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10121 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 10122 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10123 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10124 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10125 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10126 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10127 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10128 = {
 	winter_severity_bias = 0.70
 }
 10129 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10130 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10131 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10132 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10133 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10134 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10135 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10136 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10137 = {
 	winter_severity_bias = 0.70
 }
 10138 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10139 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10140 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10141 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10142 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10143 = {
 	winter_severity_bias = 0.70
@@ -45169,355 +45169,355 @@
 	winter_severity_bias = 0.70
 }
 10145 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10146 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10147 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10148 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10149 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10150 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10151 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10152 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10153 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10154 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10155 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10156 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10157 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10158 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10159 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10160 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10161 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10162 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10163 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10164 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10165 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10166 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10167 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10168 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10169 = {
 	winter_severity_bias = 0.70
 }
 10170 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10171 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10172 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10173 = {
 	winter_severity_bias = 0.70
 }
 10174 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10175 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10176 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10177 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10178 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10179 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10180 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10181 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10182 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10183 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10184 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10185 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10187 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10188 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10189 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10190 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10191 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10192 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10193 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10194 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10195 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10196 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10197 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10198 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10199 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10200 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10201 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10202 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10203 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10204 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10205 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10206 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10207 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10209 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10210 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.55
 }
 10211 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10212 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10213 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10214 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.70
 }
 10215 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.55
 }
 10216 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10217 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10218 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10219 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.30
 }
 10220 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10221 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10222 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10223 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10224 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10225 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10226 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10227 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10228 = {
 	winter_severity_bias = 0.0
 }
 10229 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10230 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10231 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10232 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10233 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10234 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10235 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10236 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10237 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10238 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10239 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10240 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10241 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10242 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10243 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10244 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10245 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10246 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10247 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10248 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10249 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10250 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10251 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10252 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10253 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10254 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10255 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10256 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10257 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10258 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10259 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10260 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10261 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10262 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10263 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10264 = {
 	winter_severity_bias = 0.70
@@ -45526,553 +45526,553 @@
 	winter_severity_bias = 0.70
 }
 10266 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10267 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10268 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10269 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10270 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10271 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10272 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10273 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10274 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10275 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10276 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10277 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10278 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10279 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10280 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10281 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10282 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10283 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10284 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10285 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10286 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10287 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10288 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10289 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10290 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10291 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10292 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10293 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10294 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10295 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10296 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 10297 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 10298 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10299 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10300 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10301 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10302 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10303 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10304 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10305 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10306 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10307 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10308 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10309 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10310 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10311 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10312 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10313 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10314 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10315 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10316 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10317 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10318 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.30
 }
 10319 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10320 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10321 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.55
 }
 10322 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.70
 }
 10323 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10324 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10325 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10326 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10327 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10328 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10329 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10330 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10331 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10332 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10333 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10334 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10335 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10336 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10337 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10338 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10339 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10340 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10341 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10342 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10343 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10344 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10345 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10346 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10347 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10348 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10349 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10350 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10351 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10352 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10353 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10354 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10355 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10356 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10357 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10358 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10359 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10360 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10361 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10362 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10363 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10364 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10365 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10366 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 10367 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10368 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10369 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10370 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10371 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10372 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10373 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 10374 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10375 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10376 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10377 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10378 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10379 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10380 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10381 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10382 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 10383 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10384 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10385 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10386 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10387 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10388 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10389 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10390 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10391 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10392 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10393 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10394 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10395 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10396 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10397 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10398 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10400 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10401 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10402 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10403 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10404 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10405 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10406 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10407 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10408 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10409 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10410 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10411 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10412 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10413 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10414 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10415 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10416 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10417 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10418 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10419 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10421 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10422 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10423 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10424 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10425 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10426 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10427 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10428 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10429 = {
 	winter_severity_bias = 0.70
 }
 10430 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10431 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10432 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10433 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10434 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10435 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10436 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10437 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10438 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10439 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.55
 }
 10440 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10441 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 10442 = {
 	winter_severity_bias = 0.70
 }
 10443 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 10444 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10445 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10446 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10447 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 10448 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10449 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10450 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10451 = {
 	winter_severity_bias = 0.0
@@ -46081,7 +46081,7 @@
 	winter_severity_bias = 0.0
 }
 10453 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 10455 = {
 	winter_severity_bias = 0.70
@@ -46117,7 +46117,7 @@
 	winter_severity_bias = 0.0
 }
 10467 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10473 = {
 	winter_severity_bias = 0.0
@@ -46210,22 +46210,22 @@
 	winter_severity_bias = 0.0
 }
 10828 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10829 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10830 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10831 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10832 = {
 	winter_severity_bias = 0.0
 }
 10833 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10834 = {
 	winter_severity_bias = 0.0
@@ -46234,214 +46234,214 @@
 	winter_severity_bias = 0.0
 }
 10836 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10837 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10838 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10839 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10840 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10841 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10842 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10843 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10844 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10845 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10846 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10847 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10848 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10849 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10850 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10851 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10852 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10853 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10854 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10855 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10856 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10857 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10858 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10859 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10860 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10861 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 10862 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10863 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10864 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10865 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10866 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10867 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10868 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10869 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10870 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10871 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10872 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10873 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10874 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10875 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 10876 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10877 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10880 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10881 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10882 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10883 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10884 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10885 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10886 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10887 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10888 = {
-	winter_severity_bias = 1.0
+	winter_severity_bias = 0.45
 }
 10889 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10890 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10891 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10892 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10893 = {
 	winter_severity_bias = 0.0
 }
 10894 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10895 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10896 = {
 	winter_severity_bias = 0.0
 }
 10897 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10898 = {
 	winter_severity_bias = 0.0
 }
 10899 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10900 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10901 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10902 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10903 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10904 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10905 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10906 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10907 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10908 = {
 	winter_severity_bias = 0.0
@@ -46645,55 +46645,55 @@
 	winter_severity_bias = 0.0
 }
 10975 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10976 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 10977 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10978 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10979 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10980 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10981 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10982 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10983 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10984 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10985 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10986 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10987 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10988 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10989 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10990 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10991 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 10992 = {
 	winter_severity_bias = 0.0
@@ -47707,7 +47707,7 @@
 	winter_severity_bias = 0.0
 }
 11329 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11330 = {
 	winter_severity_bias = 0.0
@@ -48055,10 +48055,10 @@
 	winter_severity_bias = 0.0
 }
 11445 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 11446 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 11447 = {
 	winter_severity_bias = 0.0
@@ -48076,7 +48076,7 @@
 	winter_severity_bias = 0.0
 }
 11452 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11454 = {
 	winter_severity_bias = 1.0
@@ -48097,7 +48097,7 @@
 	winter_severity_bias = 0.0
 }
 11464 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11465 = {
 	winter_severity_bias = 0.0
@@ -48109,76 +48109,76 @@
 	winter_severity_bias = 0.0
 }
 11468 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11470 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11471 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11472 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11473 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11474 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11475 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11476 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11477 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11478 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11479 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11480 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11481 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11482 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11483 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11484 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11485 = {
 	winter_severity_bias = 0.0
 }
 11486 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11487 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11488 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11489 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11490 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 11491 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 11492 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 11493 = {
 	winter_severity_bias = 0.0
@@ -48199,10 +48199,10 @@
 	winter_severity_bias = 0.0
 }
 11499 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 11500 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 11933 = {
 	winter_severity_bias = 0.0
@@ -48241,40 +48241,40 @@
 	winter_severity_bias = 0.70
 }
 12170 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12172 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12174 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12176 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12177 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12247 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12339 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12348 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12349 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12351 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12352 = {
 	winter_severity_bias = 0.70
 }
 12353 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12354 = {
 	winter_severity_bias = 0.70
@@ -48283,7 +48283,7 @@
 	winter_severity_bias = 0.70
 }
 12356 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12357 = {
 	winter_severity_bias = 0.70
@@ -48325,7 +48325,7 @@
 	winter_severity_bias = 0.70
 }
 12387 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12391 = {
 	winter_severity_bias = 0.70
@@ -48334,7 +48334,7 @@
 	winter_severity_bias = 0.70
 }
 12393 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12394 = {
 	winter_severity_bias = 0.70
@@ -48349,19 +48349,19 @@
 	winter_severity_bias = 0.70
 }
 12401 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12402 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12403 = {
 	winter_severity_bias = 0.70
 }
 12404 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12405 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12406 = {
 	winter_severity_bias = 0.70
@@ -48403,22 +48403,22 @@
 	winter_severity_bias = 0.70
 }
 12419 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12420 = {
 	winter_severity_bias = 0.70
 }
 12421 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12422 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12423 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12424 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12425 = {
 	winter_severity_bias = 0.70
@@ -48502,10 +48502,10 @@
 	winter_severity_bias = 0.0
 }
 12508 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12509 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12510 = {
 	winter_severity_bias = 0.0
@@ -48580,10 +48580,10 @@
 	winter_severity_bias = 0.0
 }
 12540 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12541 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12542 = {
 	winter_severity_bias = 0.0
@@ -48592,10 +48592,10 @@
 	winter_severity_bias = 0.0
 }
 12544 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12545 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12546 = {
 	winter_severity_bias = 0.0
@@ -49501,7 +49501,7 @@
 	winter_severity_bias = 0.0
 }
 12863 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12864 = {
 	winter_severity_bias = 0.0
@@ -49576,127 +49576,127 @@
 	winter_severity_bias = 0.0
 }
 12930 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12931 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12932 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12933 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12934 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12935 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12936 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12937 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12938 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12939 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12940 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12941 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12942 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12943 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12944 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12947 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12949 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12950 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 12951 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 12952 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12953 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.30
 }
 12954 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12955 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12956 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12957 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12958 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12959 = {
 	winter_severity_bias = 0.70
 }
 12960 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12961 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12962 = {
 	winter_severity_bias = 0.70
 }
 12963 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12964 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 12966 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12967 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12968 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12969 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12970 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12971 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12972 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12973 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12974 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 12975 = {
 	winter_severity_bias = 0.70
@@ -49705,202 +49705,202 @@
 	winter_severity_bias = 0.70
 }
 12977 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12978 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12979 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12980 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12981 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12982 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 12983 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12984 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 12986 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 12988 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12989 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12990 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12991 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12992 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12993 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 12994 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 12995 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 12996 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 12997 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12998 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 12999 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13000 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13001 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13002 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13003 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13004 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13005 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13006 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13007 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13008 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13009 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13010 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13011 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13012 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13013 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13014 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 13015 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13016 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13017 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13018 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13019 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 13020 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 13021 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13022 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13023 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13024 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13025 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13026 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13027 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13028 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13029 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13030 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13031 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13032 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.20
 }
 13033 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13034 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13035 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13036 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.55
 }
 13037 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13038 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13039 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13040 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13041 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13042 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13043 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13044 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13045 = {
 	winter_severity_bias = 0.70
@@ -49909,88 +49909,88 @@
 	winter_severity_bias = 0.70
 }
 13047 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 13048 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13049 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.45
 }
 13050 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13051 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13052 = {
-	winter_severity_bias = 0.0
-}
-13053 = {
-	winter_severity_bias = 0.0
-}
-13054 = {
 	winter_severity_bias = 0.20
 }
+13053 = {
+	winter_severity_bias = 0.20
+}
+13054 = {
+	winter_severity_bias = 0.30
+}
 13055 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13056 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13057 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13058 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13059 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13060 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13061 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13062 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13063 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13064 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13065 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13066 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13067 = {
 	winter_severity_bias = 0.70
 }
 13068 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13069 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13070 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13071 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13072 = {
 	winter_severity_bias = 0.70
 }
 13073 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13074 = {
-	winter_severity_bias = 0.20
+	winter_severity_bias = 0.55
 }
 13075 = {
 	winter_severity_bias = 0.70
@@ -50014,16 +50014,16 @@
 	winter_severity_bias = 0.70
 }
 13082 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13083 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13084 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.30
 }
 13085 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13086 = {
 	winter_severity_bias = 0.70
@@ -50038,106 +50038,106 @@
 	winter_severity_bias = 0.70
 }
 13090 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 13091 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 13092 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13093 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13094 = {
 	winter_severity_bias = 0.70
 }
 13095 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13096 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13097 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13098 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13099 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13100 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13101 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13102 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13103 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13104 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13105 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13106 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13107 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13108 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13109 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13110 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13111 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13112 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13113 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13114 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13115 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13116 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 13117 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 13118 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.55
 }
 13119 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13120 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13121 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.45
 }
 13122 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13123 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13124 = {
 	winter_severity_bias = 0.70
@@ -50152,82 +50152,82 @@
 	winter_severity_bias = 0.70
 }
 13128 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13130 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 13131 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13132 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 13133 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.20
 }
 13135 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13136 = {
 	winter_severity_bias = 0.70
 }
 13137 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13138 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13139 = {
-	winter_severity_bias = 0.70
+	winter_severity_bias = 0.55
 }
 13140 = {
 	winter_severity_bias = 0.70
 }
 13141 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13142 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13143 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13144 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13145 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13146 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13147 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.45
 }
 13148 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13149 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13150 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13151 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13152 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.30
 }
 13153 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13154 = {
-	winter_severity_bias = 0.10
+	winter_severity_bias = 0.30
 }
 13155 = {
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.45
 }
 13156 = {
 	winter_severity_bias = 0.70
@@ -50561,4 +50561,10 @@
 }
 13269 = {
 	winter_severity_bias = 0.0
+}
+10399 = {
+	winter_severity_bias = 0.30
+}
+13159 = {
+	winter_severity_bias = 0.30
 }

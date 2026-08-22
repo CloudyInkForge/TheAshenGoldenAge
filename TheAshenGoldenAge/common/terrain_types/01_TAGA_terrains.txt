@@ -1,0 +1,524 @@
+TAGA_DSR = {
+    color = hsv { 0.5 1 1 }
+    travel_danger_color = hsv { 0.5 1 1 }
+    travel_danger_score = 75
+    provision_cost = 150
+    county_fertility = 10
+
+    province_modifier = {
+        supply_limit_mult = -0.5
+        travel_danger = 20
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.5
+    }
+
+    defender_combat_effects = {
+        advantage = 5
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.3
+        retreat_losses = 0.2
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.3
+    }
+
+    movement_speed = 0.5
+    combat_width = 0.6
+    audio_parameter = 1.0
+}
+
+TAGA_GOB = {
+    color = hsv { 0.56 0.64 0.75 }
+    travel_danger_color = hsv { 0.56 0.64 0.75 }
+    travel_danger_score = 50
+    provision_cost = 120
+    county_fertility = 10
+
+    province_modifier = {
+        supply_limit_mult = -0.5
+        travel_danger = 30
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.4
+    }
+
+    defender_combat_effects = {
+        advantage = 5
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.1
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.2
+    }
+
+    movement_speed = 0.5
+    combat_width = 0.8
+    audio_parameter = 1.0
+}
+
+TAGA_JGL = {
+    color = hsv { 0.63 0.83 0.85 }
+    travel_danger_color = hsv { 0.63 0.83 0.85 }
+    travel_danger_score = 50
+    provision_cost = 120
+    county_fertility = 10
+
+    province_modifier = {
+        supply_limit_mult = -0.6
+        travel_danger = 30
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.4
+    }
+
+    defender_combat_effects = {
+        advantage = 12
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.2
+        retreat_losses = 0.1
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.2
+        retreat_losses = -0.1
+    }
+
+    movement_speed = 0.5
+    combat_width = 0.6
+    audio_parameter = 1.0
+}
+
+TAGA_CT_PLT = {
+    color = hsv { 0.37 1 1 }
+    travel_danger_color = hsv { 0.37 1 1 }
+    travel_danger_score = 30
+    provision_cost = 80
+    county_fertility = 20
+
+    province_modifier = {
+        supply_limit_mult = 0
+        travel_danger = 30
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.1
+    }
+
+    defender_combat_effects = {
+        advantage = 4
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.3
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.4
+    }
+
+    movement_speed = 1
+    combat_width = 0.9
+    audio_parameter = 1.0
+}
+
+TAGA_CT_HIL = {
+    color = hsv { 0.37 0.63 0.55 }
+    travel_danger_color = hsv { 0.37 0.63 0.55 }
+    travel_danger_score = 30
+    provision_cost = 100
+    county_fertility = 15
+
+    province_modifier = {
+        supply_limit_mult = -0.1
+        travel_danger = 40
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.25
+    }
+
+    defender_combat_effects = {
+        advantage = 12
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.2
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.4
+        retreat_losses = -0.4
+    }
+
+    movement_speed = 0.7
+    combat_width = 0.7
+    audio_parameter = 1.0
+}
+
+TAGA_WT_FLD = {
+    color = hsv { 0.16 1 1 }
+    travel_danger_color = hsv { 0.16 1 1 }
+    travel_danger_score = 15
+    provision_cost = 25
+    county_fertility = 40
+
+    province_modifier = {
+        supply_limit_mult = 0.5
+        travel_danger = 5
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = 0.2
+    }
+
+    defender_combat_effects = {
+        advantage = 3
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.3
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.4
+    }
+
+    movement_speed = 1
+    combat_width = 0.9
+    audio_parameter = 1.0
+}
+
+TAGA_WT_PLN = {
+    color = hsv { 0.16 0.71 0.84 }
+    travel_danger_color = hsv { 0.16 0.71 0.84 }
+    travel_danger_score = 15
+    provision_cost = 30
+    county_fertility = 40
+
+    province_modifier = {
+        supply_limit_mult = 0.35
+        travel_danger = 10
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.1
+    }
+
+    defender_combat_effects = {
+        advantage = 3
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.2
+        retreat_losses = 0.4
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.5
+    }
+
+    movement_speed = 1
+    combat_width = 1
+    audio_parameter = 1.0
+}
+
+TAGA_WT_HIL = {
+    color = hsv { 0.16 0.53 0.6 }
+    travel_danger_color = hsv { 0.16 0.53 0.6 }
+    travel_danger_score = 15
+    provision_cost = 70
+    county_fertility = 30
+
+    province_modifier = {
+        supply_limit_mult = 0.35
+        travel_danger = 40
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = 0.1
+    }
+
+    defender_combat_effects = {
+        advantage = 6
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.1
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.3
+        retreat_losses = -0.5
+    }
+
+    movement_speed = 0.8
+    combat_width = 0.75
+    audio_parameter = 1.0
+}
+
+TAGA_NST_PLN = {
+    color = hsv { 0.09 1 1 }
+    travel_danger_color = hsv { 0.09 1 1 }
+    travel_danger_score = 10
+    provision_cost = 25
+    county_fertility = 40
+
+    province_modifier = {
+        supply_limit_mult = 0.35
+        travel_danger = 10
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = 0.2
+    }
+
+    defender_combat_effects = {
+        advantage = 3
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.2
+        retreat_losses = 0.3
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = 0.1
+        retreat_losses = 0.4
+    }
+
+    movement_speed = 1
+    combat_width = 0.9
+    audio_parameter = 1.0
+}
+
+TAGA_NST_HIL = {
+    color = hsv { 0.09 0.56 0.76 }
+    travel_danger_color = hsv { 0.09 0.56 0.76 }
+    travel_danger_score = 10
+    provision_cost = 60
+    county_fertility = 25
+
+    province_modifier = {
+        supply_limit_mult = 0.2
+        travel_danger = 40
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = 0.1
+    }
+
+    defender_combat_effects = {
+        advantage = 6
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.2
+        retreat_losses = 0.1
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.2
+        retreat_losses = -0.4
+    }
+
+    movement_speed = 0.8
+    combat_width = 0.75
+    audio_parameter = 1.0
+}
+
+TAGA_MST_PLN = {
+    color = hsv { 0.97 1 1 }
+    travel_danger_color = hsv { 0.97 1 1 }
+    travel_danger_score = 20
+    provision_cost = 40
+    county_fertility = 40
+
+    province_modifier = {
+        supply_limit_mult = 0.35
+        travel_danger = 10
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.05
+    }
+
+    defender_combat_effects = {
+        advantage = 4
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.3
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = 0.4
+    }
+
+    movement_speed = 1
+    combat_width = 0.9
+    audio_parameter = 1.0
+}
+
+TAGA_MST_HIL = {
+    color = hsv { 0.97 0.65 0.77 }
+    travel_danger_color = hsv { 0.97 0.65 0.77 }
+    travel_danger_score = 20
+    provision_cost = 80
+    county_fertility = 20
+
+    province_modifier = {
+        supply_limit_mult = 0.1
+        travel_danger = 40
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.25
+    }
+
+    defender_combat_effects = {
+        advantage = 12
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.3
+        retreat_losses = 0.2
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.4
+        retreat_losses = -0.5
+    }
+
+    movement_speed = 0.7
+    combat_width = 0.6
+    audio_parameter = 1.0
+}
+
+TAGA_MST_VLY = {
+    color = hsv { 0.97 0.6 0.5 }
+    travel_danger_color = hsv { 0.97 0.6 0.5 }
+    travel_danger_score = 20
+    provision_cost = 100
+    county_fertility = 15
+
+    province_modifier = {
+        supply_limit_mult = -0.2
+        travel_danger = 50
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.25
+    }
+
+    defender_combat_effects = {
+        advantage = 6
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.5
+        retreat_losses = 0.5
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.5
+        retreat_losses = -0.3
+    }
+
+    movement_speed = 0.5
+    combat_width = 0.5
+    audio_parameter = 1.0
+}
+
+TAGA_SST_BSN = {
+    color = hsv { 0.82 1 1 }
+    travel_danger_color = hsv { 0.82 1 1 }
+    travel_danger_score = 30
+    provision_cost = 60
+    county_fertility = 25
+
+    province_modifier = {
+        supply_limit_mult = -0.1
+        travel_danger = 20
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.05
+    }
+
+    defender_combat_effects = {
+        advantage = 5
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.4
+        retreat_losses = 0.4
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.1
+        retreat_losses = -0.2
+    }
+
+    movement_speed = 0.7
+    combat_width = 0.8
+    audio_parameter = 1.0
+}
+
+TAGA_SST_HIL = {
+    color = hsv { 0.82 0.5 0.53 }
+    travel_danger_color = hsv { 0.82 0.5 0.53 }
+    travel_danger_score = 30
+    provision_cost = 100
+    county_fertility = 15
+
+    province_modifier = {
+        supply_limit_mult = -0.3
+        travel_danger = 40
+    }
+
+    county_capital_modifier = {
+        development_growth_factor = -0.25
+    }
+
+    defender_combat_effects = {
+        advantage = 12
+    }
+
+    attacker_modifier = {
+        hard_casualty_modifier = 0.6
+        retreat_losses = 0.2
+    }
+
+    defender_modifier = {
+        hard_casualty_modifier = -0.5
+        retreat_losses = -0.6
+    }
+
+    movement_speed = 0.5
+    combat_width = 0.5
+    audio_parameter = 1.0
+}

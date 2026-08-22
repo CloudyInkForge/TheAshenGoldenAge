@@ -178,11 +178,54 @@ h_taga_hanjin = {
 	}
 }
 
+00_province_terrain.txt
+```
+11607=hills
+11608=mountains
+11609=hills
+11610=forest
+11611=hills
+11612=mountains
+11613=hills
+11614=mountains
+11615=mountains
+11616=mountains
+11617=hills
+11618=mountains
+11619=steppe
+11620=steppe
+11621=steppe
+11622=steppe
+11623=steppe
+11624=steppe
 
+```
+01_probince_properties.txt
+```
+8990 = {
+	winter_severity_bias = 0.0
+}
+8991 = {
+	winter_severity_bias = 0.0
+}
+8992 = {
+	winter_severity_bias = 0.0
+}
+# korea
+# c_myeongju
+9858 = { winter_severity_bias = 0.60 }
+9859 = { winter_severity_bias = 0.50 }
+9860 = { winter_severity_bias = 0.60 }
+# c_goseong
+9862 = { winter_severity_bias = 0.50 }
+9863 = { winter_severity_bias = 0.50 }
+9864 = { winter_severity_bias = 0.40 }
+```
 
 ```
 TheAshenGoldenAge
 ├─ 📁.vscode
+│  └─ 📄settings.json
 ├─ 📁examples
 │  └─ 📄02_china.txt
 ├─ 📁MISC
@@ -204,9 +247,12 @@ TheAshenGoldenAge
 │  │  │     └─ 📄TAGA_heritage.txt
 │  │  ├─ 📁landed_titles
 │  │  │  └─ 📄TAGA_china.txt
-│  │  └─ 📁province_terrain
-│  │     ├─ 📄00_province_terrain.txt
-│  │     └─ 📄01_province_properties.txt
+│  │  ├─ 📁province_terrain
+│  │  │  ├─ 📄00_province_terrain.txt
+│  │  │  └─ 📄01_province_properties.txt
+│  │  └─ 📁terrain_types
+│  │     ├─ 📄00_terrains.txt
+│  │     └─ 📄01_TAGA_terrains.txt
 │  ├─ 📁gfx
 │  │  ├─ 📁interface
 │  │  │  └─ 📁icons
@@ -238,9 +284,14 @@ TheAshenGoldenAge
 ├─ 📁tools
 │  ├─ 📁provincedata
 │  │  ├─ 📁__pycache__
-│  │  │  └─ 📄config.cpython-313.pyc
+│  │  │  ├─ 📄config.cpython-313.pyc
+│  │  │  └─ 📄hight.cpython-313.pyc
 │  │  ├─ 📄apply.py
+│  │  ├─ 📄apply_end.py
+│  │  ├─ 📄apply_hight.py
+│  │  ├─ 📄apply_iso.py
 │  │  ├─ 📄config.py
+│  │  ├─ 📄hight.py
 │  │  ├─ 📄iso.py
 │  │  └─ 📄main.xlsx
 │  ├─ 📁utils
@@ -258,6 +309,7 @@ TheAshenGoldenAge
 │  │  └─ 📄shortest_point.py
 │  ├─ 📁__pycache__
 │  │  ├─ 📄loca.cpython-313.pyc
+│  │  ├─ 📄locabetter.cpython-313.pyc
 │  │  └─ 📄loc_mapobjects.cpython-313.pyc
 │  ├─ 📄check_duplicates.py
 │  ├─ 📄loca.py
