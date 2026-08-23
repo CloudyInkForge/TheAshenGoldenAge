@@ -1,0 +1,6 @@
+taga_xian_holding = {
+	primary_building = taga_xian_01
+	buildings = {
+
+	}
+}

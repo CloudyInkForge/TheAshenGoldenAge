@@ -1,6855 +1,6855 @@
 ﻿10905 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9780 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11488 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9782 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10864 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10903 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9788 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10906 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9787 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10904 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9790 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9786 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10902 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13033 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9821 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11471 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9820 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10892 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9822 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10895 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12540 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10257 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10418 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10985 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9789 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10259 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10986 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10052 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10258 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10051 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10402 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10404 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10308 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10403 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10307 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10982 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10309 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10983 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10303 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10176 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10173 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10174 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10177 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10304 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10978 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10305 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12247 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10306 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10172 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10979 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10977 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10159 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10989 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10981 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10990 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10980 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10405 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10991 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11481 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11473 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10356 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11480 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10987 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10988 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10355 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10984 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10112 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10354 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10897 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11470 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12544 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10353 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11472 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10352 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11479 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10364 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11484 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12541 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11483 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10358 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11486 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10179 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10975 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11452 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10181 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10876 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10870 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10180 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10866 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10162 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10885 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10886 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10178 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10888 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10887 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10182 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10357 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13056 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10873 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11474 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10310 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11759 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12424 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11764 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11762 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11763 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11760 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10311 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12423 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11775 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10363 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10360 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11785 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10417 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11784 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10362 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11786 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11787 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11788 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8872 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11795 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11796 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10302 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8873 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8891 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9888 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9887 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10299 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9892 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9893 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10300 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9894 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9895 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10301 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10298 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11803 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9712 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9709 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9711 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9900 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9706 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9898 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9710 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9897 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9708 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9901 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9903 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9902 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10361 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11790 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11791 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10359 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11793 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11792 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10085 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12401 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12404 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12402 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10084 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13082 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13110 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10064 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9915 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10187 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9885 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9886 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10087 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9884 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10086 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9883 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10184 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11761 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10315 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11758 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10185 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11772 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10183 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11771 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11765 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11773 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11776 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10312 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9890 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10314 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10313 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8977 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10332 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8976 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13012 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10331 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12995 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10337 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13097 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10338 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10333 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8848 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8987 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13014 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12950 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10370 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10334 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10329 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10330 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12951 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8834 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10344 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10342 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10343 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8803 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10345 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8811 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8812 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8805 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8807 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12952 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8804 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8802 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8823 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10335 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10326 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10328 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10324 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10325 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8841 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12953 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10346 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10348 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10327 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10349 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10350 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10340 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8846 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10341 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8847 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10372 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10373 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8820 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12949 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10375 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10374 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10339 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10249 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11468 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8941 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10907 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8937 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10122 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10377 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10127 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8938 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9690 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10126 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10414 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10204 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13002 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8946 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8945 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10394 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8942 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8943 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8944 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8940 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13001 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8939 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10123 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13009 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8828 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8831 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8827 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8826 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10262 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8835 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8825 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10316 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10421 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8829 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10347 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10351 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10368 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10369 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10371 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8836 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8839 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8838 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8809 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12968 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10270 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10384 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12956 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8837 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8830 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10383 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8845 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10291 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8832 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10292 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12969 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8833 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8990 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10366 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13098 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13104 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8991 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13042 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13043 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12994 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13103 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10443 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12993 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9459 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10271 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10367 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9683 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9536 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8842 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8817 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8814 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13108 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10433 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9460 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8808 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13135 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9669 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10260 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13100 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13101 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9673 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13105 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9674 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9675 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13099 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10261 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13109 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10436 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9329 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8992 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9458 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10434 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8843 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10396 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10395 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10397 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10398 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10401 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8986 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9685 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13011 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8988 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8989 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13016 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9684 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13015 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9679 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9682 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12996 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9543 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12947 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9544 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9546 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13052 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9545 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13053 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8824 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 1470 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10336 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8822 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 1469 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 3222 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8806 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8810 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8818 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8819 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8816 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8815 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8813 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10263 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8844 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9795 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9794 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9728 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9729 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9725 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9724 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10441 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10227 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10226 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9797 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10317 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9732 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9733 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10211 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10880 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13060 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10376 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10320 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10212 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10213 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10882 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10198 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10415 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10378 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9792 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10221 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9791 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10223 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9796 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9727 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10222 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9810 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10203 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13057 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9814 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9808 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10412 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9811 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9807 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9813 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13058 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9818 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13120 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10289 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10005 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13121 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10290 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9691 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10193 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9693 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10004 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9801 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9804 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9805 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10010 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13112 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9692 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10009 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8881 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10196 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13004 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10286 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8880 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10194 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10254 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10253 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10255 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10256 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8974 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10432 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8973 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13010 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8821 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10250 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10251 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10252 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9798 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10197 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9806 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10200 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9793 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13059 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9800 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10201 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10039 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9827 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13155 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13024 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10038 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9830 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10041 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9835 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13026 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9831 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9832 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13025 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10427 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13102 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10043 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9836 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13027 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10037 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9841 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10044 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13030 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10040 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13083 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9999 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9998 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10042 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10046 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10045 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9996 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9857 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13029 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13148 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10001 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10022 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10023 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13008 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13005 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10032 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13007 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13006 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10029 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10239 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10240 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10408 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10033 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13028 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10030 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10031 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10034 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13062 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8983 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8984 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10035 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10036 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8985 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10020 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10019 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10021 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10015 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10014 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10453 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10440 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13050 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13051 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9826 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13147 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8981 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8980 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13013 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8982 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8975 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8978 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8979 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13054 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10323 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10027 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10024 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13022 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13154 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10028 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13021 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9852 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13149 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9997 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10241 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10002 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9828 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10121 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10119 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10120 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10025 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13146 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13145 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10068 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13047 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12988 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12992 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8972 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8966 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8969 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8901 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8963 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12989 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13144 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9833 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13037 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13159 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13137 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10000 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8970 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10409 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10399 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10400 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12984 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12991 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12986 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10410 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8952 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12990 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8954 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10195 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8968 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8904 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13131 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13035 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9834 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8906 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13138 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8965 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8967 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13122 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13123 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13142 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8964 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8956 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8953 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8955 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10279 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8957 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13143 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13141 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8959 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8958 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8960 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10387 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10272 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10274 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10273 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10426 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10276 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10277 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10055 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10058 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10057 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10056 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10388 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8905 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13130 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8903 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8961 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8962 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8902 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12982 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8892 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8900 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13132 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8894 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13117 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10293 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8921 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8923 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8922 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10294 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8925 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10381 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12981 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8927 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8926 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8928 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8929 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8930 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10275 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10278 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10234 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8917 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12978 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9784 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10282 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9762 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13133 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10280 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10281 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10283 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10247 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10248 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10285 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10243 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10242 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10389 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10391 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10390 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8919 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8918 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8920 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8908 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8910 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8916 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8909 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10295 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9785 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10246 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10393 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10284 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10244 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10245 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10846 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10844 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10231 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12977 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10856 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9815 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10845 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9817 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10847 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10848 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10849 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10861 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10857 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9816 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9757 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13020 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9802 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10425 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10855 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10860 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10858 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11445 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11500 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10852 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10841 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11492 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10842 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11446 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11491 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10843 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10839 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10840 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12509 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12545 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13032 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10831 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10830 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10829 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10833 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10836 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10392 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12932 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8907 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10238 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9843 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9842 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10188 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12941 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12980 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8924 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9688 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9771 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9772 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9753 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12954 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9751 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9752 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9687 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10380 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9743 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9742 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9770 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13106 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9738 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10423 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9754 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9756 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10447 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8868 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9769 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9755 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8866 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12958 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9779 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9718 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9719 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9720 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13036 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9722 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13019 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13114 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9747 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10422 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9748 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10379 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9750 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9749 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8870 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13048 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9686 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13049 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12964 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8951 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8933 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9758 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8932 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8947 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9760 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8931 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8869 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8871 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9759 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9707 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8936 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10209 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9689 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13113 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13115 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8950 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8949 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8935 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8948 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8934 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8861 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8893 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8860 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13116 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8895 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8862 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8859 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8864 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9783 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9781 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8865 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9839 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13091 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13090 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8863 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9840 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12970 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8875 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12999 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12971 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8898 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8876 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13000 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8899 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13118 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12966 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12967 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9844 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8852 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10385 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8853 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8850 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8849 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8851 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9845 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10365 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8854 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12983 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12979 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10382 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8857 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12998 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8856 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10297 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10296 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8858 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8855 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8897 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12972 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8896 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12963 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12997 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8886 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9819 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13031 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8885 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13119 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9825 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10859 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10862 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11499 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9824 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10853 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9812 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10850 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9823 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10854 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10851 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8888 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8887 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8889 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8890 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10837 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10838 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9809 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10828 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11464 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13003 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9803 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8882 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8912 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10233 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8914 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12942 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12940 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13034 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8911 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8913 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8883 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10236 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8915 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8884 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10232 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10237 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10235 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8877 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12943 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8874 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12944 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12933 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12931 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12935 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12936 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8879 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12939 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12938 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8867 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12937 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 8878 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12930 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12934 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9702 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12174 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12172 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12176 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12419 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9699 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12177 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9701 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9697 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9698 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9703 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10082 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9700 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9705 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10083 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13081 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9704 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10428 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13018 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12422 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9695 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9694 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12403 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12170 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13128 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9879 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9876 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9877 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12405 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10063 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13127 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13080 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10062 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9921 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13111 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9875 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9913 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9914 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9919 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9917 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9918 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9874 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13017 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12421 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9696 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11794 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11789 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11799 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11798 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11800 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11797 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11782 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11781 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11783 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11774 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11766 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12454 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9896 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9904 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9899 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9889 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9891 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9920 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9910 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9922 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9873 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9878 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9912 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9916 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10073 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9907 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9945 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10074 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9909 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9911 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10077 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10079 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10078 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10170 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9906 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10166 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9905 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10158 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10156 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10157 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10171 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13041 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10160 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10161 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10167 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10168 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13040 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10164 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10075 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10076 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10165 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10163 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13044 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10065 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10429 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13068 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12387 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10059 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10061 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13067 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13079 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9908 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13070 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13069 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10081 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13046 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10080 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12386 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13045 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12391 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12393 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9493 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12392 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9531 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9528 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9524 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12396 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9525 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9529 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10109 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9533 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9535 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10067 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13095 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12974 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12961 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9539 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12975 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9537 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9540 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9541 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10096 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10098 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10097 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10169 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10069 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10070 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10072 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10071 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10066 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10175 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10102 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10103 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13077 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13078 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13139 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10431 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10106 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13071 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10107 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10105 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10104 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13157 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13094 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13156 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13088 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13125 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10455 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10093 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9538 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12973 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12398 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10092 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10110 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13076 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10108 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13075 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13072 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10144 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10101 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10099 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10100 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10136 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13124 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10143 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10137 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10135 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10155 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10154 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10141 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10142 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10116 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10118 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10117 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10091 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12959 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13086 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13087 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10088 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10090 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13089 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13140 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12960 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10089 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12957 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13096 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10094 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10095 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13126 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10430 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10150 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12351 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9534 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10149 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10147 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10145 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13038 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10113 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10115 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10153 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13039 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10139 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10140 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10138 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10419 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10152 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10146 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10151 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10132 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10133 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10129 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10130 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10131 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10128 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13085 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10111 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10114 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12962 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12352 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10148 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12348 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12349 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10134 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12353 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10124 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10125 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9521 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9523 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9522 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9518 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9516 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9517 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9519 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9416 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9418 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9417 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9415 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9512 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12360 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12363 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12364 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12368 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12362 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9500 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9513 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9501 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9503 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9515 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9509 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9520 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9549 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9514 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9494 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9498 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9496 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9502 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9499 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9495 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9487 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9491 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9492 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9474 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9473 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9475 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9486 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9485 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9483 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9481 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9477 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9482 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9478 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9479 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9506 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12358 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9490 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9497 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9419 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9511 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9420 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12359 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12365 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10264 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12366 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12367 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12354 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9530 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9527 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9526 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12357 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12356 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12355 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10266 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10268 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10267 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10269 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10265 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12339 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12361 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9775 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13084 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10216 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10218 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10217 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10219 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10318 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10220 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9726 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10224 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10319 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10438 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10225 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9713 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10322 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13073 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13136 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10321 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10439 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13074 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9776 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10214 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10215 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10199 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10210 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9731 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9730 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10413 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10206 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10205 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10411 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10202 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10386 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10868 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10883 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10871 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10877 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10881 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10288 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10011 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10416 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10012 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10013 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10003 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10287 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9767 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13064 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9768 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13066 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9766 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9765 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10018 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13061 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13065 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11478 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12508 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10407 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10017 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10189 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13092 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10016 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10054 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10053 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10047 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10048 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10050 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10049 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13063 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9778 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9717 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9777 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13107 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9774 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9773 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9734 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9735 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9736 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9715 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9714 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9716 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9721 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10006 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10008 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10007 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12955 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10207 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10446 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9744 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9746 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9745 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9739 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9741 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9740 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9547 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10406 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9737 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9761 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9763 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13023 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9764 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11475 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10444 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10448 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10445 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10437 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10872 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11487 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10229 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10230 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13055 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10424 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10435 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10191 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13150 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13153 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13152 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13151 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10192 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11490 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10869 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 12863 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10875 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10884 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10874 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10865 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10863 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10867 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11489 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10891 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10890 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11477 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10449 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10190 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 13093 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9837 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9838 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10450 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10467 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10889 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10900 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10901 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10899 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11476 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10976 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 10894 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11482 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 11329 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9484 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9488 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9476 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9480 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9507 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9505 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9504 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9510 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9548 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9489 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }
 9508 = {
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }

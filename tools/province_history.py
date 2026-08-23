@@ -28,8 +28,8 @@ class ProvinceAppender:
     # 每个省份的固定条目模板
     ENTRY_TEMPLATE = """{province_id} = {{
 	culture = TAGA_jin
-	religion = daoxue
-	holding = castle_holding
+	religion = jingxue
+	holding = taga_xian_holding
 }}
 """
 
