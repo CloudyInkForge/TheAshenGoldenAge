@@ -1,6 +1,20 @@
 taga_xian_holding = {
 	primary_building = taga_xian_01
 	buildings = {
-
+		taga_ag_jgl_01
+		taga_ag_gob_01
+		taga_ag_dsr_01
+		taga_ag_ct_plt_01
+		taga_ag_ct_hil_01
+		taga_ag_wt_fld_01
+		taga_ag_wt_pln_01
+		taga_ag_wt_hil_01
+		taga_ag_nst_pln_01
+		taga_ag_nst_hil_01
+		taga_ag_mst_pln_01
+		taga_ag_mst_hil_01
+		taga_ag_mst_vly_01
+		taga_ag_sst_bsn_01
+		taga_ag_sst_hil_01
 	}
 }
