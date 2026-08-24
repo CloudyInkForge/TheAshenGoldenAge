@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ taga_hanjin_government: "汉晋制"
+ taga_hanjin_government_desc: "\n$game_concept_clan_desc$\n\n#F 帝国无比重视乡誉、这是官僚选拔系统的关键，功绩和能力有时候也同等重要。尽管有着庞大复杂的行政制度和律法，但帝国仍需要行省长官们通过威望进行治理，然而，过高的威望极容易反噬帝国，不过，真正腐朽帝国的，是错杂蔓延的人情。#!"
+ taga_hanjin_government_adjective: "汉晋制"
+ taga_hanjin_government_realm: "州郡"

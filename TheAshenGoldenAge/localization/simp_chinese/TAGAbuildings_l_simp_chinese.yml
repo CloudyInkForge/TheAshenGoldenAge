@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ building_type_taga_xian_01: "县廷"
+ building_type_taga_xian_01_desc: "这种帝国的底层行政区维持起来并不容易，但也是帝国的租调徭役所系，庞大的官署区配合上英明的令长，或能有所成效。"
+ building_taga_xian_01: "寺曹"
+ building_taga_xian_01_desc: "官署区是县的根本，创造了它的权力，也带来了不小的成本。"
+ building_taga_xian_02: "中型县"
+ building_taga_xian_02_desc: "逐渐壮大的县成熟了起来，强大的组织能力令他敢于面对大部分不虞。"
+ building_taga_xian_03: "大型县"
+ building_taga_xian_03_desc: "以万计的农户聚集在了行政区内，这是发展的动力，不过县令精力有限，行政成本因而增加。"
+ building_taga_xian_04: "巨型县"
+ building_taga_xian_04_desc: "西汉的中原，宋时的江南，这样的县只会出现在帝国的核心区，成本巨大，收益颇丰。"

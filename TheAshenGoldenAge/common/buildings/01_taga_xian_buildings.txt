@@ -425,12 +425,16 @@ taga_xian_01 = {
 	max_garrison = 100
 	garrison_reinforcement_factor = 0.02
 	province_modifier = {
-		monthly_income = 1
+		monthly_income = 0.5
 		fort_level = 1
 		stationed_maa_damage_mult = 0.05
 		stationed_maa_toughness_mult = 0.05
 		stationed_siege_weapon_siege_value_mult = 0.05
 		travel_danger = -5
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
 	}
 
 	province_terrain_modifier = {
@@ -939,12 +943,16 @@ taga_xian_02 = {
 	max_garrison = 300
 	garrison_reinforcement_factor = 0.02
 	province_modifier = {
-		monthly_income = 2
+		monthly_income = 1
 		fort_level = 4
 		stationed_maa_damage_mult = 0.15
 		stationed_maa_toughness_mult = 0.15
 		stationed_siege_weapon_siege_value_mult = 0.15
 		travel_danger = -15
+	}
+
+	character_modifier = {
+		monthly_prestige = 5
 	}
 
 	province_terrain_modifier = {
@@ -1426,15 +1434,20 @@ taga_xian_03 = {
 	next_building = taga_xian_04
 
 	levy = 150
-	max_garrison = 1000
+	max_garrison = 500
 	garrison_reinforcement_factor = 0.02
 	province_modifier = {
-		monthly_income = 2.5
+		monthly_income = 1.5
 		fort_level = 7
 		stationed_maa_damage_mult = 0.2
 		stationed_maa_toughness_mult = 0.2
 		stationed_siege_weapon_siege_value_mult = 0.2
 		travel_danger = -25
+	
+	}
+
+	character_modifier = {
+		monthly_prestige = 10
 	}
 
 	province_terrain_modifier = {
@@ -1904,18 +1917,22 @@ taga_xian_04 = {
 		japan_castle_construction_trigger = yes
 	}
 
-	cost_gold = 120
+	cost_gold = 300
 
 	levy = 300
-	max_garrison = 2000
+	max_garrison = 1000
 	garrison_reinforcement_factor = 0.03
 	province_modifier = {
-		monthly_income = 3
-		fort_level = 0.3
+		monthly_income = 2.5
+		fort_level = 9
 		stationed_maa_damage_mult = 0.3
 		stationed_maa_toughness_mult = 0.3
 		stationed_siege_weapon_siege_value_mult = 0.3
 		travel_danger = -30
+	}
+
+	character_modifier = {
+		monthly_prestige = 30
 	}
 
 	province_terrain_modifier = {
