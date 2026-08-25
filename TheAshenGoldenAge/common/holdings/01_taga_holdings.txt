@@ -16,5 +16,7 @@ taga_xian_holding = {
 		taga_ag_mst_vly_01
 		taga_ag_sst_bsn_01
 		taga_ag_sst_hil_01
+		taga_ds_wall_01
+		taga_da_fort_01
 	}
 }

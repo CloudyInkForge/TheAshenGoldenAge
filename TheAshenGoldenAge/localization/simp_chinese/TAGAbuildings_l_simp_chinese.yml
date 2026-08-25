@@ -10,137 +10,265 @@
  building_taga_xian_04: "巨型县"
  building_taga_xian_04_desc: "西汉的中原，宋时的江南，这样的县只会出现在帝国的核心区，成本巨大，收益颇丰。"
 
- building_taga_ag_jgl_01: "牧田初辟"
- building_taga_ag_jgl_01_desc: "在牧草地中辟出的小片田地，多种黍。租税微薄，聊胜于无，但开辟所费尚轻。"
- building_taga_ag_jgl_02: "青稞黍田"
- building_taga_ag_jgl_02_desc: "牧田渐熟，添种青稞，农牧相兼。租税稍稳，聚落生聚略有起色。"
- building_taga_ag_jgl_03: "粟黍深畴"
- building_taga_ag_jgl_03_desc: "青稞、黍、粟轮作，地力渐厚。税入增加，只是生聚之效仍缓。"
- building_taga_ag_jgl_04: "丰稔牧畴"
- building_taga_ag_jgl_04_desc: "牧田尽化沃壤，青稞、黍、粟丰登。税入可观，成为一方农牧之本。"
+ building_type_taga_ag_jgl_01: "牧田"
+ building_type_taga_ag_jgl_01_desc: "草原边缘的耕作地，农牧兼用，地力一般。"
  
- building_taga_ag_gob_01: "试种牧地"
- building_taga_ag_gob_01_desc: "在牧场中试种黍，农牧兼营。租税甚微，但改造成本极低。"
- building_taga_ag_gob_02: "青稞牧场"
- building_taga_ag_gob_02_desc: "青稞与黍并植，牧场渐熟。产出略有起色，畜牧仍可并行不废。"
- building_taga_ag_gob_03: "精耕牧畴"
- building_taga_ag_gob_03_desc: "精耕细作之后，青稞、黍稳产。税入平稳，为聚落添一份常赋。"
- building_taga_ag_gob_04: "沃野牧原"
- building_taga_ag_gob_04_desc: "牧场化为沃野，青稞与黍丰登。地方生聚渐显，是农牧结合的典范。"
+ building_taga_ag_jgl_01: "草畦"
+ building_taga_ag_jgl_01_desc: "刚开垦的草地小田，漫撒耐旱杂粮，靠天收成。"
  
- building_taga_ag_dsr_01: "薄田"
- building_taga_ag_dsr_01_desc: "贫瘠薄田，仅宜青稞。租税微薄，聊补生计，开辟工本不高。"
- building_taga_ag_dsr_02: "青稞薄畴"
- building_taga_ag_dsr_02_desc: "薄田稍治，添种黍，青稞、黍相济。产出小幅提升，然生聚仍缓。"
- building_taga_ag_dsr_03: "深耕薄壤"
- building_taga_ag_dsr_03_desc: "深耕薄壤，地力渐复。青稞与黍收成趋稳，税入略增。"
- building_taga_ag_dsr_04: "丰饶薄畴"
- building_taga_ag_dsr_04_desc: "连年培肥之后，薄田终成丰饶之地。青稞、黍稳产，为一方可靠农源。"
+ building_taga_ag_jgl_02: "围篱田"
+ building_taga_ag_jgl_02_desc: "用简易围篱保护耕地，青稞与黍并种，开始选种。"
  
- building_taga_ag_ct_plt_01: "粟田"
- building_taga_ag_ct_plt_01_desc: "旱田初辟，单种粟米。租税尚可，是旱作区重要的起点，工本较低。"
- building_taga_ag_ct_plt_02: "粟麦熟田"
- building_taga_ag_ct_plt_02_desc: "旱田渐熟，粟与夏麦轮作。产出提高，税入增加，改造成本仍然适中。"
- building_taga_ag_ct_plt_03: "精耕旱畴"
- building_taga_ag_ct_plt_03_desc: "精耕细作后，粟、夏麦并茂。税入趋稳，旱作优势进一步发挥。"
- building_taga_ag_ct_plt_04: "豆麦丰野"
- building_taga_ag_ct_plt_04_desc: "豆麦夏种，旱田化为沃野。税入跃升，为当地发展提供强劲动力。"
+ building_taga_ag_jgl_03: "间作田"
+ building_taga_ag_jgl_03_desc: "黍、粟、青稞分地块种植，施行轮歇，保持地力。"
  
- building_taga_ag_ct_hil_01: "小旱田"
- building_taga_ag_ct_hil_01_desc: "小旱田初辟，单种黍米。租税虽薄，但开垦成本极低，适合山地聚落。"
- building_taga_ag_ct_hil_02: "粟熟小旱"
- building_taga_ag_ct_hil_02_desc: "改种粟后，小旱田产出明显提升。税入渐丰，地方生聚保持稳定。"
- building_taga_ag_ct_hil_03: "粟麦精耕"
- building_taga_ag_ct_hil_03_desc: "小旱田增种夏麦，粟麦轮作。税入渐丰，成为山地间难得的精耕地。"
- building_taga_ag_ct_hil_04: "小旱丰稔"
- building_taga_ag_ct_hil_04_desc: "小旱田精耕至熟，粟、夏麦稳产。农产已足，为山地聚落所赖。"
+ building_taga_ag_jgl_04: "熟化牧田"
+ building_taga_ag_jgl_04_desc: "多年耕作使土壤熟化，仍一年一熟，但收成趋于稳定。"
  
- building_taga_ag_wt_fld_01: "良田"
- building_taga_ag_wt_fld_01_desc: "良田初治，粟麦并种。租税已属可观，是上好的耕作根基。"
- building_taga_ag_wt_fld_02: "豆麦良田"
- building_taga_ag_wt_fld_02_desc: "豆麦轮作，良田地力愈肥。税入与地方生聚均有明显增益。"
- building_taga_ag_wt_fld_03: "膏腴良畴"
- building_taga_ag_wt_fld_03_desc: "深耕至膏腴，粟麦稳产。良田成为区域农业的核心，税入丰厚。"
- building_taga_ag_wt_fld_04: "沃野良田"
- building_taga_ag_wt_fld_04_desc: "良田尽为沃野，粟麦丰登。这般田土在关中或郑国渠旁并不稀奇，但在边郡却是难得的膏腴。"
+ building_type_taga_ag_gob_01: "牧场"
+ building_type_taga_ag_gob_01_desc: "以放牧为主，农耕稀少，土地产出低。"
  
- building_taga_ag_wt_pln_01: "农田"
- building_taga_ag_wt_pln_01_desc: "农田初辟，粟麦并种。产出稳定，是聚落日常所系。"
- building_taga_ag_wt_pln_02: "豆麦农田"
- building_taga_ag_wt_pln_02_desc: "豆麦轮作后农田渐熟。税入增加，地方生聚稍有提升。"
- building_taga_ag_wt_pln_03: "精耕农畴"
- building_taga_ag_wt_pln_03_desc: "精耕农亩，粟麦并茂。产出再上台阶，税入可观。"
- building_taga_ag_wt_pln_04: "丰稔农田"
- building_taga_ag_wt_pln_04_desc: "农田化为丰稔之畴，粟麦稳产。为地方繁荣提供源源不断的给养。"
+ building_taga_ag_gob_01: "牧地小畦"
+ building_taga_ag_gob_01_desc: "牧地旁零星开垦的小块地，只种最耐旱的黍。"
  
- building_taga_ag_wt_hil_01: "小农田"
- building_taga_ag_wt_hil_01_desc: "小农田初垦，粟麦间作。规模虽有限，但胜在开垦便宜。"
- building_taga_ag_wt_hil_02: "麦熟小田"
- building_taga_ag_wt_hil_02_desc: "专种麦后，小农田产出渐稳。税入略增，升级成本适中。"
- building_taga_ag_wt_hil_03: "豆麦精耕"
- building_taga_ag_wt_hil_03_desc: "豆麦轮作，小农田地力改善。税入持续上升。"
- building_taga_ag_wt_hil_04: "小亩丰稔"
- building_taga_ag_wt_hil_04_desc: "小农田精耕至熟，粟麦皆宜。成为丘陵间稳定的农产来源。"
+ building_taga_ag_gob_02: "定居牧田"
+ building_taga_ag_gob_02_desc: "半定居者开辟的固定田块，黍与青稞并种，补充牧业。"
  
- building_taga_ag_nst_pln_01: "水旱田"
- building_taga_ag_nst_pln_01_desc: "水旱田初辟，专种水稻。租税已颇丰厚，但前期改造不菲。"
- building_taga_ag_nst_pln_02: "稻粟水旱"
- building_taga_ag_nst_pln_02_desc: "稻粟轮作，水旱田渐熟。税入与地方生聚同步提升。"
- building_taga_ag_nst_pln_03: "稻麦深畴"
- building_taga_ag_nst_pln_03_desc: "水旱田深耕细作，稻麦两宜。产出能力进一步增强。"
- building_taga_ag_nst_pln_04: "水旱丰稔"
- building_taga_ag_nst_pln_04_desc: "水旱田化为丰稔之畴，稻麦稳产。堪称当地的粮仓。"
+ building_taga_ag_gob_03: "轮歇牧田"
+ building_taga_ag_gob_03_desc: "耕地与撂荒地轮换，靠休耕恢复地力，畜粪为肥。"
  
- building_taga_ag_nst_hil_01: "水旱梯田"
- building_taga_ag_nst_hil_01_desc: "水旱梯田初辟，单种水稻。租税尚可，开垦难度较低。"
- building_taga_ag_nst_hil_02: "稻粟熟阶"
- building_taga_ag_nst_hil_02_desc: "梯阶渐熟，稻粟轮作。产出与地方生聚均有起色。"
- building_taga_ag_nst_hil_03: "稻麦精耕"
- building_taga_ag_nst_hil_03_desc: "稻麦精耕，水旱梯田的耕作强度与产出同步提升。"
- building_taga_ag_nst_hil_04: "水旱丰梯"
- building_taga_ag_nst_hil_04_desc: "梯田尽熟，稻麦稳产。成为山地间难得的丰稔之阶。"
+ building_taga_ag_gob_04: "精管牧田"
+ building_taga_ag_gob_04_desc: "虽仍以牧为主，但田块已有简单灌溉，青稞黍收成较稳。"
  
- building_taga_ag_mst_pln_01: "水田"
- building_taga_ag_mst_pln_01_desc: "水田初辟，稻粟轮作。租税丰厚，惟开垦与维护成本高昂。"
- building_taga_ag_mst_pln_02: "稻麦熟泽"
- building_taga_ag_mst_pln_02_desc: "水田渐熟，稻麦两宜。产出继续提升，地方生聚略有增加。"
- building_taga_ag_mst_pln_03: "双季深田"
- building_taga_ag_mst_pln_03_desc: "深耕后双季连作，水田产出跃升，成为区域最重要的农地。"
- building_taga_ag_mst_pln_04: "稻粟丰泽"
- building_taga_ag_mst_pln_04_desc: "水田化为丰泽，双季稻与粟轮作不辍。税入极丰，发展增益显著。"
+ building_type_taga_ag_dsr_01: "薄田"
+ building_type_taga_ag_dsr_01_desc: "沙漠边缘的零星耕地，依赖人工灌溉。"
  
- building_taga_ag_mst_hil_01: "水梯田"
- building_taga_ag_mst_hil_01_desc: "水梯田初辟，单种水稻。租税尚稳，适合山地聚落经营。"
- building_taga_ag_mst_hil_02: "稻粟熟梯"
- building_taga_ag_mst_hil_02_desc: "梯阶渐熟，稻粟轮作。产出与地方生聚皆有所提升。"
- building_taga_ag_mst_hil_03: "稻麦精耕"
- building_taga_ag_mst_hil_03_desc: "稻麦精耕，水梯田的耕作效率与税入进一步提高。"
- building_taga_ag_mst_hil_04: "双季丰梯"
- building_taga_ag_mst_hil_04_desc: "水梯田可种双季稻，产出丰盈，成为山地农业的典范。"
+ building_taga_ag_dsr_01: "沙缘小畦"
+ building_taga_ag_dsr_01_desc: "在沙地边缘开辟的极小田块，全靠沟渠引水。"
  
- building_taga_ag_mst_vly_01: "小水田"
- building_taga_ag_mst_vly_01_desc: "小水田初垦，单种水稻。租税尚可，改造成本较低。"
- building_taga_ag_mst_vly_02: "稻麦熟田"
- building_taga_ag_mst_vly_02_desc: "稻麦轮作后，小水田产出接近翻倍。地方生聚渐起。"
- building_taga_ag_mst_vly_03: "双季深泽"
- building_taga_ag_mst_vly_03_desc: "深耕后双季稻连作，小水田产出趋稳。农产已足。"
- building_taga_ag_mst_vly_04: "小水丰稔"
- building_taga_ag_mst_vly_04_desc: "小水田终成丰稔之地，双季稻稳产。发展增益持续。"
+ building_taga_ag_dsr_02: "坎井田"
+ building_taga_ag_dsr_02_desc: "利用地下暗渠引水，减少蒸发，可种青稞与黍。"
  
- building_taga_ag_sst_bsn_01: "圩田"
- building_taga_ag_sst_bsn_01_desc: "新筑圩田，单种水稻。租税不低，但筑圩成本很高。"
- building_taga_ag_sst_bsn_02: "双季稻熟"
- building_taga_ag_sst_bsn_02_desc: "圩田初熟，双季稻连作。税入几乎翻倍，地方生聚开始抬头。"
- building_taga_ag_sst_bsn_03: "稻豆精耕"
- building_taga_ag_sst_bsn_03_desc: "稻豆精耕，圩田产出再上层楼。圩岸设施渐趋完善。"
- building_taga_ag_sst_bsn_04: "稻麦丰圩"
- building_taga_ag_sst_bsn_04_desc: "稻麦丰圩，圩田成为沿河低地最丰饶的农地。这般圩田在江淮水乡并不罕见，但在边地却是难得的丰饶。"
+ building_taga_ag_dsr_03: "绿洲田"
+ building_taga_ag_dsr_03_desc: "小片绿洲中的耕地，沟渠纵横，作物开始多样化。"
  
- building_taga_ag_sst_hil_01: "梯田"
- building_taga_ag_sst_hil_01_desc: "梯田初垦，单种水稻。租税尚可，但开垦成本较高。"
- building_taga_ag_sst_hil_02: "稻熟梯阶"
- building_taga_ag_sst_hil_02_desc: "梯阶渐熟，水稻稳产。产出略有提升，地方生聚仍缓。"
- building_taga_ag_sst_hil_03: "双季深梯"
- building_taga_ag_sst_hil_03_desc: "梯田可种双季稻。税入明显提高，地方生聚开始显现。"
- building_taga_ag_sst_hil_04: "稻豆丰梯"
- building_taga_ag_sst_hil_04_desc: "稻豆轮作，梯田产出更加多元。成为山地间的重要农地。"
+ building_taga_ag_dsr_04: "沃洲田"
+ building_taga_ag_dsr_04_desc: "经多年淤灌，沙地变为可稳定耕作的土壤，但面积仍有限。"
+ 
+ building_type_taga_ag_ct_plt_01: "旱田"
+ building_type_taga_ag_ct_plt_01_desc: "高原上的雨养耕地，以粟为主，后来加入麦类。"
+ 
+ building_taga_ag_ct_plt_01: "坡耕地"
+ building_taga_ag_ct_plt_01_desc: "原始的坡地开垦，烧荒后撒播粟种，产量低。"
+ 
+ building_taga_ag_ct_plt_02: "垄作田"
+ building_taga_ag_ct_plt_02_desc: "采用垄沟种植，保墒耐旱，牛耕渐多。"
+ 
+ building_taga_ag_ct_plt_03: "麦粟轮作田"
+ building_taga_ag_ct_plt_03_desc: "粟与夏麦隔年轮作，避免连作障碍，石磨普及。"
+ 
+ building_taga_ag_ct_plt_04: "豆麦复种田"
+ building_taga_ag_ct_plt_04_desc: "麦收后复种豆类，固氮养地，地力得以维持。"
+ 
+ building_type_taga_ag_ct_hil_01: "小旱田"
+ building_type_taga_ag_ct_hil_01_desc: "丘陵间的小块旱地，地块破碎，以人力耕作为主。"
+ 
+ building_taga_ag_ct_hil_01: "丘坡地"
+ building_taga_ag_ct_hil_01_desc: "顺坡开垦的小块地，易水土流失，种黍。"
+ 
+ building_taga_ag_ct_hil_02: "平治田"
+ building_taga_ag_ct_hil_02_desc: "稍加平整的小块地，转种粟，产量略有提高。"
+ 
+ building_taga_ag_ct_hil_03: "堰地"
+ building_taga_ag_ct_hil_03_desc: "沿等高线筑堰拦水，减缓冲刷，开始麦粟并种。"
+ 
+ building_taga_ag_ct_hil_04: "石坎梯田"
+ building_taga_ag_ct_hil_04_desc: "用石块垒坎成梯，地块虽小但保水保肥，夏麦加入。"
+ 
+ building_type_taga_ag_wt_fld_01: "良田"
+ building_type_taga_ag_wt_fld_01_desc: "土质肥沃的大田，适宜精耕细作。"
+ 
+ building_taga_ag_wt_fld_01: "畎亩"
+ building_taga_ag_wt_fld_01_desc: "开沟起垄的田制，粟麦并种，地力基础好。"
+ 
+ building_taga_ag_wt_fld_02: "麦豆田"
+ building_taga_ag_wt_fld_02_desc: "冬麦收获后种豆，豆科养地，一年两收。"
+ 
+ building_taga_ag_wt_fld_03: "粟麦复种田"
+ building_taga_ag_wt_fld_03_desc: "麦收后及时整地种粟，形成稳定两熟制。"
+ 
+ building_taga_ag_wt_fld_04: "上腴之田"
+ building_taga_ag_wt_fld_04_desc: "灌溉与施肥配合，粟麦轮作成熟，产量居前。"
+ 
+ building_type_taga_ag_wt_pln_01: "农田"
+ building_type_taga_ag_wt_pln_01_desc: "开阔平原上的大田，便于统一灌溉与耕作。"
+ 
+ building_taga_ag_wt_pln_01: "平畴"
+ building_taga_ag_wt_pln_01_desc: "平整的大片田地，以粟麦为主，沟渠初具。"
+ 
+ building_taga_ag_wt_pln_02: "阡陌田"
+ building_taga_ag_wt_pln_02_desc: "田间道路与沟渠规整，豆麦复种开始出现。"
+ 
+ building_taga_ag_wt_pln_03: "沃野"
+ building_taga_ag_wt_pln_03_desc: "经过长期耕种，土壤熟化，粟麦两熟制推广。"
+ 
+ building_taga_ag_wt_pln_04: "渠灌农田"
+ building_taga_ag_wt_pln_04_desc: "干支渠配套，旱能灌涝能排，产量稳定。"
+ 
+ building_type_taga_ag_wt_hil_01: "小农田"
+ building_type_taga_ag_wt_hil_01_desc: "丘陵地带的小块农田，多依赖山泉或陂塘。"
+ 
+ building_taga_ag_wt_hil_01: "坡田"
+ building_taga_ag_wt_hil_01_desc: "在较缓坡地上开垦的小田，粟麦间作。"
+ 
+ building_taga_ag_wt_hil_02: "麦田"
+ building_taga_ag_wt_hil_02_desc: "因丘陵夏旱，转以冬麦为主，避开夏旱。"
+ 
+ building_taga_ag_wt_hil_03: "豆麦田"
+ building_taga_ag_wt_hil_03_desc: "麦后复种豆类，一年两收，地力不衰。"
+ 
+ building_taga_ag_wt_hil_04: "粟麦田"
+ building_taga_ag_wt_hil_04_desc: "梯田与陂塘改善，粟麦复种成为可能。"
+ 
+ building_type_taga_ag_nst_pln_01: "水旱田"
+ building_type_taga_ag_nst_pln_01_desc: "可水可旱的平原田，主要种植水稻与冬麦。"
+ 
+ building_taga_ag_nst_pln_01: "沤田"
+ building_taga_ag_nst_pln_01_desc: "长期淹水的稻田，一年一熟，耕作粗放。"
+ 
+ building_taga_ag_nst_pln_02: "稻粟田"
+ building_taga_ag_nst_pln_02_desc: "水稻收后排水种粟，开始水旱轮作。"
+ 
+ building_taga_ag_nst_pln_03: "稻麦田"
+ building_taga_ag_nst_pln_03_desc: "水稻后种冬麦，一年两熟，需要排灌及时。"
+ 
+ building_taga_ag_nst_pln_04: "陂塘灌田"
+ building_taga_ag_nst_pln_04_desc: "陂塘与沟渠配套，稻麦两熟稳定，收成丰厚。"
+ 
+ building_type_taga_ag_nst_hil_01: "水旱梯田"
+ building_type_taga_ag_nst_hil_01_desc: "丘陵中的水旱轮作梯田，需较强提水能力。"
+ 
+ building_taga_ag_nst_hil_01: "山坳田"
+ building_taga_ag_nst_hil_01_desc: "利用山泉灌溉的小块稻田，一年一熟。"
+ 
+ building_taga_ag_nst_hil_02: "稻粟梯田"
+ building_taga_ag_nst_hil_02_desc: "梯田成形，稻后种粟，水旱交替。"
+ 
+ building_taga_ag_nst_hil_03: "筒车梯田"
+ building_taga_ag_nst_hil_03_desc: "筒车提水上山，保证稻田需水，稻麦轮作。"
+ 
+ building_taga_ag_nst_hil_04: "稻麦梯田"
+ building_taga_ag_nst_hil_04_desc: "梯田保水与排水兼顾，冬麦成为固定冬作。"
+ 
+ building_type_taga_ag_mst_pln_01: "水田"
+ building_type_taga_ag_mst_pln_01_desc: "多雨区的水田，可发展多熟制。"
+ 
+ building_taga_ag_mst_pln_01: "稻田"
+ building_taga_ag_mst_pln_01_desc: "普通稻田，一年一熟，品种单一。"
+ 
+ building_taga_ag_mst_pln_02: "稻麦田"
+ building_taga_ag_mst_pln_02_desc: "稻后种麦，一年两熟，麦作南移。"
+ 
+ building_taga_ag_mst_pln_03: "双季稻田"
+ building_taga_ag_mst_pln_03_desc: "早稻晚稻连作，一年两收，需育秧移栽。"
+ 
+ building_taga_ag_mst_pln_04: "三熟田"
+ building_taga_ag_mst_pln_04_desc: "双季稻后再种一季短生粟，土地几乎不闲。"
+ 
+ building_type_taga_ag_mst_hil_01: "水梯田"
+ building_type_taga_ag_mst_hil_01_desc: "丘陵中的水田，依靠梯田蓄水。"
+ 
+ building_taga_ag_mst_hil_01: "山田"
+ building_taga_ag_mst_hil_01_desc: "依山开垦的小块稻田，水源不稳定。"
+ 
+ building_taga_ag_mst_hil_02: "稻粟梯田"
+ building_taga_ag_mst_hil_02_desc: "梯田巩固，稻后种粟，增加一季。"
+ 
+ building_taga_ag_mst_hil_03: "稻麦梯田"
+ building_taga_ag_mst_hil_03_desc: "冬麦引入，水旱轮作，减少病虫害。"
+ 
+ building_taga_ag_mst_hil_04: "双季梯田"
+ building_taga_ag_mst_hil_04_desc: "品种改良使双季稻可行，产量大增。"
+ 
+ building_type_taga_ag_mst_vly_01: "小水田"
+ building_type_taga_ag_mst_vly_01_desc: "河谷中的狭长水田，水源充足但地块小。"
+ 
+ building_taga_ag_mst_vly_01: "溪谷田"
+ building_taga_ag_mst_vly_01_desc: "沿溪流开垦的小田，种稻为主。"
+ 
+ building_taga_ag_mst_vly_02: "稻麦田"
+ building_taga_ag_mst_vly_02_desc: "利用河谷暖冬，稻后种麦，水旱轮作。"
+ 
+ building_taga_ag_mst_vly_03: "双季坝田"
+ building_taga_ag_mst_vly_03_desc: "筑坝拦水，保证双季稻用水。"
+ 
+ building_taga_ag_mst_vly_04: "恒产田"
+ building_taga_ag_mst_vly_04_desc: "双季稻稳定，地块虽小，产出可观。"
+ 
+ building_type_taga_ag_sst_bsn_01: "圩田"
+ building_type_taga_ag_sst_bsn_01_desc: "低洼盆地中筑堤围田，排水与灌溉并重。"
+ 
+ building_taga_ag_sst_bsn_01: "渚田"
+ building_taga_ag_sst_bsn_01_desc: "利用天然水渚种稻，易涝。"
+ 
+ building_taga_ag_sst_bsn_02: "圩埂田"
+ building_taga_ag_sst_bsn_02_desc: "筑圩埂挡水，内开沟渠，单季稻稳定。"
+ 
+ building_taga_ag_sst_bsn_03: "双季圩田"
+ building_taga_ag_sst_bsn_03_desc: "排灌系统完善，双季稻成为常态。"
+ 
+ building_taga_ag_sst_bsn_04: "三熟圩田"
+ building_taga_ag_sst_bsn_04_desc: "双季稻后复种冬作，豆麦轮换，地力不衰。"
+ 
+ building_type_taga_ag_sst_hil_01: "梯田"
+ building_type_taga_ag_sst_hil_01_desc: "高温丘陵上的梯田，开发难度大。"
+ 
+ building_taga_ag_sst_hil_01: "山梯"
+ building_taga_ag_sst_hil_01_desc: "简单的坡地梯田，种稻，产量低。"
+ 
+ building_taga_ag_sst_hil_02: "叠石梯田"
+ building_taga_ag_sst_hil_02_desc: "用石块叠坎，稳定田面，单季稻为主。"
+ 
+ building_taga_ag_sst_hil_03: "双季梯田"
+ building_taga_ag_sst_hil_03_desc: "早熟稻引入，双季稻开始推广。"
+ 
+ building_taga_ag_sst_hil_04: "豆稻梯田"
+ building_taga_ag_sst_hil_04_desc: "双季稻后种豆，养地与增产兼顾。"
+
+ building_type_taga_ds_wall_01: "城墙"
+ building_type_taga_ds_wall_01_desc: "围绕聚落的防御工事，随着历代增筑而愈发坚固。"
+ building_taga_ds_wall_01: "夯土城墙"
+ building_taga_ds_wall_01_desc: "最基础的夯筑土墙，能有效迟滞敌军，但难以抵御长期围攻。"
+ building_taga_ds_wall_02: "壕沟悬门"
+ building_taga_ds_wall_02_desc: "在城门处增挖壕沟并设可升降的悬门，守备更为严密。"
+ building_taga_ds_wall_03: "外郭鹿角"
+ building_taga_ds_wall_03_desc: "城外增设木制鹿角与外墙，扩大防御纵深。"
+ building_taga_ds_wall_04: "马面敌楼"
+ building_taga_ds_wall_04_desc: "城墙突出马面并建敌楼，便于交叉射击攻城之敌。"
+ building_taga_ds_wall_05: "瓮城暗门"
+ building_taga_ds_wall_05_desc: "城门外加筑瓮城，并设暗门以便守军突然出击。"
+ building_taga_ds_wall_06: "三合土"
+ building_taga_ds_wall_06_desc: "以三合土加固墙体，使城墙更加坚实耐久。"
+ building_taga_ds_wall_07: "包砖"
+ building_taga_ds_wall_07_desc: "在土墙外包砌砖石，足以抵御投石与冲撞。"
+ building_taga_ds_wall_08: "多重城墙"
+ building_taga_ds_wall_08_desc: "层层套叠的城垣体系，令攻方即使破城也寸步难行。"
+
+ building_type_taga_ds_fort_01: "堡垒"
+ building_type_taga_ds_fort_01_desc: "用于警戒、封锁与驻军的小型防御设施，多设于要道与边地。"
+ building_taga_ds_fort_01: "哨所"
+ building_taga_ds_fort_01_desc: "最基础的瞭望警戒点，仅有少量士卒驻守。"
+ building_taga_ds_fort_02: "烽燧"
+ building_taga_ds_fort_02_desc: "高台举火传讯，日夜可通警情，但无力阻挡敌军。"
+ building_taga_ds_fort_03: "障城"
+ building_taga_ds_fort_03_desc: "有墙障护的小型城障，可屯兵与储存军资。"
+ building_taga_ds_fort_04: "坞堡"
+ building_taga_ds_fort_04_desc: "豪强或驻军修筑的坚固坞壁，可自守一时。"
+ building_taga_ds_fort_05: "坞堡群"
+ building_taga_ds_fort_05_desc: "多座坞堡互为犄角，形成防御网络。"
+ building_taga_ds_fort_06: "城垒"
+ building_taga_ds_fort_06_desc: "规模更大的军事城垒，能容纳较多守军。"
+ building_taga_ds_fort_07: "城垒群"
+ building_taga_ds_fort_07_desc: "连片成群的城垒，控制大片区域。"
+ building_taga_ds_fort_08: "卫城"
+ building_taga_ds_fort_08_desc: "拱卫主城的强大支城，兵甲充足，易守难攻。"

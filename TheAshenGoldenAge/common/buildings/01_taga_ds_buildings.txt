@@ -1,0 +1,269 @@
+taga_ds_wall_01 = {
+    construction_time = 180
+    cost_gold = 80
+    max_garrison = 400
+    province_modifier = {
+        monthly_income = -0.4
+        fort_level = 3
+        travel_danger = -10
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.1
+        county_opinion_add = 5
+    }
+    ai_value = { base = 15 }
+    next_building = taga_ds_wall_02
+}
+
+taga_ds_wall_02 = {
+    construction_time = 90
+    cost_gold = 60
+    max_garrison = 700
+    province_modifier = {
+        monthly_income = -0.7
+        fort_level = 7
+        travel_danger = -10
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.1
+        county_opinion_add = 5
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_wall_03
+}
+
+taga_ds_wall_03 = {
+    construction_time = 60
+    cost_gold = 60
+    max_garrison = 1000
+    province_modifier = {
+        monthly_income = -1
+        fort_level = 9
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.2
+        county_opinion_add = 10
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_wall_04
+}
+
+taga_ds_wall_04 = {
+    construction_time = 730
+    cost_gold = 50
+    max_garrison = 1500
+    province_modifier = {
+        monthly_income = -1.5
+        fort_level = 11
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.2
+        county_opinion_add = 10
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_wall_05
+}
+
+taga_ds_wall_05 = {
+    construction_time = 365
+    cost_gold = 60
+    max_garrison = 3000
+    province_modifier = {
+        monthly_income = -3
+        fort_level = 15
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.2
+        county_opinion_add = 10
+    }
+    ai_value = { base = 8 }
+    next_building = taga_ds_wall_06
+}
+
+taga_ds_wall_06 = {
+    construction_time = 240
+    cost_gold = 100
+    max_garrison = 5000
+    province_modifier = {
+        monthly_income = -5
+        fort_level = 18
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.2
+        county_opinion_add = 10
+    }
+    ai_value = { base = 5 }
+    next_building = taga_ds_wall_07
+}
+
+taga_ds_wall_07 = {
+    construction_time = 730
+    cost_gold = 300
+    max_garrison = 10000
+    province_modifier = {
+        monthly_income = -10
+        fort_level = 20
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.2
+        county_opinion_add = 10
+    }
+    ai_value = { base = 3 }
+    next_building = taga_ds_wall_08
+}
+
+taga_ds_wall_08 = {
+    construction_time = 2190
+    cost_gold = 1000
+    max_garrison = 30000
+    province_modifier = {
+        monthly_income = -30
+        fort_level = 22
+        travel_danger = -15
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.5
+        county_opinion_add = 20
+    }
+    ai_value = { base = 1 }
+}
+
+taga_ds_fort_01 = {
+    construction_time = 210
+    cost_gold = 25
+    max_garrison = 100
+    province_modifier = {
+        monthly_income = -0.2
+        fort_level = 1
+        travel_danger = -5
+        defender_holding_advantage = 5
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = 0.1
+    }
+    ai_value = { base = 15 }
+    next_building = taga_ds_fort_02
+}
+
+taga_ds_fort_02 = {
+    construction_time = 155
+    cost_gold = 40
+    max_garrison = 100
+    province_modifier = {
+        monthly_income = -0.2
+        fort_level = 3
+        travel_danger = -15
+        defender_holding_advantage = 10
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_fort_03
+}
+
+taga_ds_fort_03 = {
+    construction_time = 730
+    cost_gold = 75
+    max_garrison = 200
+    province_modifier = {
+        monthly_income = -0.4
+        fort_level = 3
+        travel_danger = -15
+        defender_holding_advantage = 20
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_fort_04
+}
+
+taga_ds_fort_04 = {
+    construction_time = 730
+    cost_gold = 90
+    max_garrison = 400
+    province_modifier = {
+        monthly_income = -0.8
+        fort_level = 3
+        travel_danger = -20
+        defender_holding_advantage = 30
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 10 }
+    next_building = taga_ds_fort_05
+}
+
+taga_ds_fort_05 = {
+    construction_time = 730
+    cost_gold = 100
+    max_garrison = 500
+    province_modifier = {
+        monthly_income = -1
+        fort_level = 3
+        travel_danger = -25
+        defender_holding_advantage = 40
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 8 }
+    next_building = taga_ds_fort_06
+}
+
+taga_ds_fort_06 = {
+    construction_time = 1095
+    cost_gold = 150
+    max_garrison = 700
+    province_modifier = {
+        monthly_income = -1.4
+        fort_level = 5
+        travel_danger = -25
+        defender_holding_advantage = 50
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 5 }
+    next_building = taga_ds_fort_07
+}
+
+taga_ds_fort_07 = {
+    construction_time = 1825
+    cost_gold = 200
+    max_garrison = 900
+    province_modifier = {
+        monthly_income = -1.8
+        fort_level = 7
+        travel_danger = -25
+        defender_holding_advantage = 60
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 3 }
+    next_building = taga_ds_fort_08
+}
+
+taga_ds_fort_08 = {
+    construction_time = 3080
+    cost_gold = 300
+    max_garrison = 1500
+    province_modifier = {
+        monthly_income = -3
+        fort_level = 9
+        travel_danger = -30
+        defender_holding_advantage = 70
+    }
+    county_modifier = {
+        monthly_county_control_growth_add = -0.2
+    }
+    ai_value = { base = 1 }
+}
