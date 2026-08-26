@@ -1,0 +1,459 @@
+# ======================
+# 山虞 I（林业）
+# ======================
+taga_mi_forestry_01 = {
+    construction_time = 730
+    cost_gold = 30
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_HIL
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_SST_HIL
+            terrain = TAGA_MST_VLY
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -0.5
+        stationed_siege_weapon_siege_value_mult = 0.5   # 攻城武器围城值倍率 +50%
+        stationed_archers_damage_mult = 0.3             # 弓箭手伤害倍率 +30%
+        stationed_archers_toughness_mult = 0.3          # 弓箭手坚韧倍率 +30%
+        stationed_pikemen_damage_mult = 0.1             # 长枪兵伤害倍率 +10%
+        stationed_pikemen_toughness_mult = 0.1          # 长枪兵坚韧倍率 +10%
+    }
+
+    next_building = taga_mi_forestry_02
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 木官 II（林业）
+# ======================
+taga_mi_forestry_02 = {
+    construction_time = 730
+    cost_gold = 50
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_HIL
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_SST_HIL
+            terrain = TAGA_MST_VLY
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -0.8
+        stationed_siege_weapon_siege_value_mult = 0.8
+        stationed_archers_damage_mult = 0.5
+        stationed_archers_toughness_mult = 0.5
+        stationed_pikemen_damage_mult = 0.3
+        stationed_pikemen_toughness_mult = 0.3
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 楼船官 I（水军）
+# ======================
+taga_mi_navy_01 = {
+    construction_time = 730
+    cost_gold = 50
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -0.8
+        stationed_skirmishers_damage_mult = 0.3   # 散兵伤害倍率 +30%
+        stationed_skirmishers_toughness_mult = 0.3 # 散兵坚韧倍率 +30%
+    }
+
+    character_modifier = {
+        movement_speed = 0.5
+        character_travel_speed_mult = 0.5
+    }
+
+    next_building = taga_mi_navy_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+# ======================
+# 船屯 II（水军）
+# ======================
+taga_mi_navy_02 = {
+    construction_time = 730
+    cost_gold = 80
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -1.2
+        stationed_skirmishers_damage_mult = 0.8
+        stationed_skirmishers_toughness_mult = 0.8
+    }
+
+    character_modifier = {
+        movement_speed = 0.8
+        character_travel_speed_mult = 0.8
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 工官 I（军械）
+# ======================
+taga_mi_arsenal_01 = {
+    construction_time = 730
+    cost_gold = 50
+
+    can_construct_potential = {
+        # 地形：全部，不设地形限制
+    }
+
+    province_modifier = {
+        monthly_income = -0.8
+        stationed_pikemen_damage_mult = 0.3
+        stationed_pikemen_toughness_mult = 0.3
+        stationed_heavy_infantry_damage_mult = 0.2
+        stationed_heavy_infantry_toughness_mult = 0.2
+    }
+
+    next_building = taga_mi_arsenal_02
+
+    ai_value = {
+        base = 12
+    }
+}
+
+# ======================
+# 发弩官 II（军械）
+# ======================
+taga_mi_arsenal_02 = {
+    construction_time = 730
+    cost_gold = 80
+
+    province_modifier = {
+        monthly_income = -1.2
+        stationed_pikemen_damage_mult = 0.5
+        stationed_pikemen_toughness_mult = 0.5
+        stationed_heavy_infantry_damage_mult = 0.3
+        stationed_heavy_infantry_toughness_mult = 0.3
+        stationed_archers_damage_mult = 0.3
+        stationed_archers_toughness_mult = 0.3
+    }
+
+    next_building = taga_mi_arsenal_03
+
+    ai_value = {
+        base = 9
+    }
+}
+
+# ======================
+# 武库 III（军械）
+# ======================
+taga_mi_arsenal_03 = {
+    construction_time = 1460
+    cost_gold = 120
+
+    province_modifier = {
+        monthly_income = -1.5
+        stationed_pikemen_damage_mult = 0.7
+        stationed_pikemen_toughness_mult = 0.7
+        stationed_heavy_infantry_damage_mult = 0.65
+        stationed_heavy_infantry_toughness_mult = 0.65
+        stationed_archers_damage_mult = 0.4
+        stationed_archers_toughness_mult = 0.4
+        stationed_heavy_cavalry_damage_mult = 0.4
+        stationed_heavy_cavalry_toughness_mult = 0.4
+    }
+
+    ai_value = {
+        base = 9
+    }
+}
+
+# ======================
+# 苑令 I（牧场）
+# ======================
+taga_mi_pasturage_01 = {
+    construction_time = 730
+    cost_gold = 80
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -1.0
+        stationed_light_cavalry_damage_mult = 0.5
+        stationed_light_cavalry_toughness_mult = 0.5
+        stationed_heavy_cavalry_damage_mult = 0.2
+        stationed_heavy_cavalry_toughness_mult = 0.2
+        stationed_light_cavalry_pursuit_mult = 0.15
+    }
+
+    character_modifier = {
+        movement_speed = 0.2
+        character_travel_speed_mult = 0.2
+    }
+
+    next_building = taga_mi_pasturage_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+# ======================
+# 牧官 II（牧场）
+# ======================
+taga_mi_pasturage_02 = {
+    construction_time = 730
+    cost_gold = 120
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+        }
+    }
+
+    province_modifier = {
+        monthly_income = -1.5
+        stationed_light_cavalry_damage_mult = 0.8
+        stationed_light_cavalry_toughness_mult = 0.8
+        stationed_heavy_cavalry_damage_mult = 0.4
+        stationed_heavy_cavalry_toughness_mult = 0.4
+        stationed_light_cavalry_pursuit_mult = 0.3
+    }
+
+    character_modifier = {
+        movement_speed = 0.5
+        character_travel_speed_mult = 0.5
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 小型军营 I
+# ======================
+taga_mi_castra_01 = {
+    construction_time = 730
+    cost_gold = 30
+
+    province_modifier = {
+        monthly_income = -0.2
+        stationed_maa_damage_mult = 0.1       # 所有驻扎兵士伤害 +10%
+        stationed_maa_toughness_mult = 0.1    # 所有驻扎兵士坚韧 +10%
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.05
+    }
+
+    next_building = taga_mi_castra_02
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 中型军营 II
+# ======================
+taga_mi_castra_02 = {
+    construction_time = 730
+    cost_gold = 50
+
+    province_modifier = {
+        monthly_income = -0.5
+        stationed_maa_damage_mult = 0.2
+        stationed_maa_toughness_mult = 0.2
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.10
+    }
+
+    next_building = taga_mi_castra_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 大型军营 III
+# ======================
+taga_mi_castra_03 = {
+    construction_time = 730
+    cost_gold = 80
+
+    province_modifier = {
+        monthly_income = -0.8
+        stationed_maa_damage_mult = 0.3
+        stationed_maa_toughness_mult = 0.3
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.15
+    }
+
+    next_building = taga_mi_castra_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 镇所 IV（军营最高级）
+# ======================
+taga_mi_castra_04 = {
+    construction_time = 1460
+    cost_gold = 100
+
+    province_modifier = {
+        monthly_income = -1.2
+        stationed_maa_damage_mult = 0.4
+        stationed_maa_toughness_mult = 0.4
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.20
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 民屯 I
+# ======================
+taga_mi_colonia_01 = {
+    construction_time = 730
+    cost_gold = 50
+
+    province_modifier = {
+        monthly_income = -0.5
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.30
+    }
+
+    next_building = taga_mi_colonia_02
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 军屯 II
+# ======================
+taga_mi_colonia_02 = {
+    construction_time = 730
+    cost_gold = 80
+
+    province_modifier = {
+        monthly_income = -0.8
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.45
+    }
+
+    next_building = taga_mi_colonia_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 中型军屯 III
+# ======================
+taga_mi_colonia_03 = {
+    construction_time = 1460
+    cost_gold = 100
+
+    province_modifier = {
+        monthly_income = -1.2
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.60
+    }
+
+    next_building = taga_mi_colonia_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# ======================
+# 大型军屯 IV（屯田最高级）
+# ======================
+taga_mi_colonia_04 = {
+    construction_time = 1460
+    cost_gold = 120
+
+    province_modifier = {
+        monthly_income = -1.5
+    }
+
+    character_modifier = {
+        army_maintenance_mult = -0.75
+    }
+
+    ai_value = {
+        base = 10
+    }
+}

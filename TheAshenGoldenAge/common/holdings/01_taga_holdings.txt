@@ -18,5 +18,11 @@ taga_xian_holding = {
 		taga_ag_sst_hil_01
 		taga_ds_wall_01
 		taga_ds_fort_01
+		taga_mi_forestry_01
+		taga_mi_navy_01
+		taga_mi_arsenal_01
+		taga_mi_pasturage_01
+		taga_mi_castra_01
+		taga_mi_colonia_01						
 	}
 }

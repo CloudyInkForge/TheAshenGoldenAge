@@ -1,0 +1,5 @@
+﻿taga_development_income_scaling = {
+    icon = economy_positive
+
+    tax_mult = 0.1
+}

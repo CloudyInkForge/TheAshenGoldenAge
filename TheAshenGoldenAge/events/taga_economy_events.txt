@@ -1,0 +1,25 @@
+﻿namespace = taga_economy_events
+
+taga_economy_events.0001 = {
+    title = "taga_economy_events.0001.t"
+    desc = "taga_economy_events.0001.desc"
+
+    trigger = {
+        is_landed = yes
+    }
+
+    option = {
+        name = "taga_economy_events.0001.a"
+
+        every_realm_county = {
+            remove_county_modifier = taga_development_income_scaling
+        }
+        # 再为所有伯爵领添加新修正
+        every_realm_county = {
+            add_county_modifier = {
+                modifier = taga_development_income_scaling
+                years = 1
+            }
+        }
+    }
+}

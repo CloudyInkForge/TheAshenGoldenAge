@@ -1,0 +1,5 @@
+﻿on_yearly_playable = {
+    events = {
+        taga_economy_events.0001
+    }
+}
