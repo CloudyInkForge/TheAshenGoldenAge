@@ -12,13 +12,67 @@ taga_economy_events.0001 = {
         name = "taga_economy_events.0001.a"
 
         every_realm_county = {
+            # 清除所有档位的旧修正（不存在的会被自动忽略）
             remove_county_modifier = taga_development_income_scaling
-        }
-        # 再为所有伯爵领添加新修正
-        every_realm_county = {
-            add_county_modifier = {
-                modifier = taga_development_income_scaling
-                years = 1
+            remove_county_modifier = taga_development_income_scaling_1
+            remove_county_modifier = taga_development_income_scaling_2
+            remove_county_modifier = taga_development_income_scaling_3
+            remove_county_modifier = taga_development_income_scaling_4
+            remove_county_modifier = taga_development_income_scaling_5
+            remove_county_modifier = taga_development_income_scaling_6
+            remove_county_modifier = taga_development_income_scaling_7
+            remove_county_modifier = taga_development_income_scaling_8
+            remove_county_modifier = taga_development_income_scaling_9
+            remove_county_modifier = taga_development_income_scaling_10
+
+            # 0-14：+90%
+            if = {
+                limit = { development_level < 15 }
+                add_county_modifier = { modifier = taga_development_income_scaling_1 years = 1 }
+            }
+            # 15-29：+180%
+            else_if = {
+                limit = { development_level < 30 }
+                add_county_modifier = { modifier = taga_development_income_scaling_2 years = 1 }
+            }
+            # 30-44：+270%
+            else_if = {
+                limit = { development_level < 45 }
+                add_county_modifier = { modifier = taga_development_income_scaling_3 years = 1 }
+            }
+            # 45-54：+360%
+            else_if = {
+                limit = { development_level < 55 }
+                add_county_modifier = { modifier = taga_development_income_scaling_4 years = 1 }
+            }
+            # 55-64：+450%
+            else_if = {
+                limit = { development_level < 65 }
+                add_county_modifier = { modifier = taga_development_income_scaling_5 years = 1 }
+            }
+            # 65-74：+540%
+            else_if = {
+                limit = { development_level < 75 }
+                add_county_modifier = { modifier = taga_development_income_scaling_6 years = 1 }
+            }
+            # 75-84：+630%
+            else_if = {
+                limit = { development_level < 85 }
+                add_county_modifier = { modifier = taga_development_income_scaling_7 years = 1 }
+            }
+            # 85-89：+720%
+            else_if = {
+                limit = { development_level < 90 }
+                add_county_modifier = { modifier = taga_development_income_scaling_8 years = 1 }
+            }
+            # 90-94：+810%
+            else_if = {
+                limit = { development_level < 95 }
+                add_county_modifier = { modifier = taga_development_income_scaling_9 years = 1 }
+            }
+            # 95 以上（含 100+）：+900%
+            else = {
+                add_county_modifier = { modifier = taga_development_income_scaling_10 years = 1 }
             }
         }
     }

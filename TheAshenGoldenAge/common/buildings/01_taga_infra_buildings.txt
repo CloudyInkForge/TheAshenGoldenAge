@@ -1,0 +1,143 @@
+# 仓储
+taga_infra_horreum_01 = {
+    construction_time = 365
+    cost_gold = 30
+
+    province_modifier = {
+        monthly_income = -0.2
+    }
+    county_modifier = {
+        development_growth_factor = 0.1
+    }
+    next_building = taga_infra_horreum_02
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_horreum_02 = {
+    construction_time = 730
+    cost_gold = 50
+
+    province_modifier = {
+        monthly_income = -0.4
+    }
+    county_modifier = {
+        development_growth_factor = 0.3
+    }
+    next_building = taga_infra_horreum_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_horreum_03 = {
+    construction_time = 3650
+    cost_gold = 80
+
+    province_modifier = {
+        monthly_income = -0.6
+    }
+    county_modifier = {
+        development_growth_factor = 0.5
+    }
+    next_building = taga_infra_horreum_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_horreum_04 = {
+    construction_time = 7300
+    cost_gold = 100
+
+    province_modifier = {
+        monthly_income = -0.8
+    }
+    county_modifier = {
+        development_growth_factor = 0.7
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 道路
+taga_infra_via_01 = {
+    construction_time = 365
+    cost_gold = 50
+
+    province_modifier = {
+        monthly_income = -0.05
+        supply_limit_mult = 0.1
+        travel_danger = 5
+    }
+    county_modifier = {
+        development_growth_factor = 0.05
+    }
+    next_building = taga_infra_via_02
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_via_02 = {
+    construction_time = 730
+    cost_gold = 80
+
+    province_modifier = {
+        monthly_income = -0.1
+        supply_limit_mult = 0.2
+        travel_danger = 10
+    }
+    county_modifier = {
+        development_growth_factor = 0.05
+    }
+    next_building = taga_infra_via_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_via_03 = {
+    construction_time = 3650
+    cost_gold = 100
+
+    province_modifier = {
+        monthly_income = -0.15
+        supply_limit_mult = 0.3
+        travel_danger = 15
+    }
+    county_modifier = {
+        development_growth_factor = 0.1
+    }
+    next_building = taga_infra_via_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_infra_via_04 = {
+    construction_time = 7300
+    cost_gold = 120
+
+    province_modifier = {
+        monthly_income = -0.2
+        supply_limit_mult = 0.4
+        travel_danger = 20
+    }
+    county_modifier = {
+        development_growth_factor = 0.2
+    }
+
+    ai_value = {
+        base = 10
+    }
+}

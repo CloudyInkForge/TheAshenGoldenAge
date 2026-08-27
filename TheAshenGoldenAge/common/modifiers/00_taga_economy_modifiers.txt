@@ -1,5 +1,76 @@
-﻿taga_development_income_scaling = {
+﻿# 旧的基础修正（保留用于兼容旧存档，从未发布过可删除）
+taga_development_income_scaling = {
     icon = economy_positive
 
     tax_mult = 0.1
+}
+
+# 发展度 0-14：+90%
+taga_development_income_scaling_1 = {
+    icon = economy_positive
+
+    tax_mult = 0.9
+}
+
+# 发展度 15-29：+180%
+taga_development_income_scaling_2 = {
+    icon = economy_positive
+
+    tax_mult = 1.8
+}
+
+# 发展度 30-44：+270%
+taga_development_income_scaling_3 = {
+    icon = economy_positive
+
+    tax_mult = 2.7
+}
+
+# 发展度 45-54：+360%
+taga_development_income_scaling_4 = {
+    icon = economy_positive
+
+    tax_mult = 3.6
+}
+
+# 发展度 55-64：+450%
+taga_development_income_scaling_5 = {
+    icon = economy_positive
+
+    tax_mult = 4.5
+}
+
+# 发展度 65-74：+540%
+taga_development_income_scaling_6 = {
+    icon = economy_positive
+
+    tax_mult = 5.4
+}
+
+# 发展度 75-84：+630%
+taga_development_income_scaling_7 = {
+    icon = economy_positive
+
+    tax_mult = 6.3
+}
+
+# 发展度 85-89：+720%
+taga_development_income_scaling_8 = {
+    icon = economy_positive
+
+    tax_mult = 7.2
+}
+
+# 发展度 90-94：+810%
+taga_development_income_scaling_9 = {
+    icon = economy_positive
+
+    tax_mult = 8.1
+}
+
+# 发展度 95 以上：+900%
+taga_development_income_scaling_10 = {
+    icon = economy_positive
+
+    tax_mult = 9.0
 }

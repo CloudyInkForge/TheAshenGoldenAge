@@ -1,0 +1,729 @@
+# 大麻
+taga_fc_hemp_01 = {
+    construction_time = 365
+    cost_gold = 50
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.1
+    }
+    county_modifier = {
+        development_growth_factor = -0.1
+    }
+    next_building = taga_fc_hemp_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+taga_fc_hemp_02 = {
+    construction_time = 730
+    cost_gold = 100
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.15
+    }
+    county_modifier = {
+        development_growth_factor = -0.2
+    }
+    next_building = taga_fc_hemp_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_hemp_03 = {
+    construction_time = 3650
+    cost_gold = 150
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.2
+    }
+    county_modifier = {
+        development_growth_factor = -0.3
+    }
+    next_building = taga_fc_hemp_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_hemp_04 = {
+    construction_time = 7300
+    cost_gold = 200
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.25
+    }
+    county_modifier = {
+        development_growth_factor = -0.4
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 苎麻
+taga_fc_ramie_01 = {
+    construction_time = 365
+    cost_gold = 100
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.15
+    }
+    county_modifier = {
+        development_growth_factor = -0.2
+    }
+    next_building = taga_fc_ramie_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+taga_fc_ramie_02 = {
+    construction_time = 730
+    cost_gold = 200
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.25
+    }
+    county_modifier = {
+        development_growth_factor = -0.3
+    }
+    next_building = taga_fc_ramie_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_ramie_03 = {
+    construction_time = 3650
+    cost_gold = 300
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.35
+    }
+    county_modifier = {
+        development_growth_factor = -0.4
+    }
+    next_building = taga_fc_ramie_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_ramie_04 = {
+    construction_time = 7300
+    cost_gold = 400
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.45
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 丝绸
+taga_fc_silk_01 = {
+    construction_time = 365
+    cost_gold = 150
+
+    province_modifier = {
+        monthly_income = 0.35
+    }
+    county_modifier = {
+        development_growth_factor = -0.3
+    }
+    next_building = taga_fc_silk_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+taga_fc_silk_02 = {
+    construction_time = 730
+    cost_gold = 300
+
+    province_modifier = {
+        monthly_income = 0.5
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_fc_silk_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_silk_03 = {
+    construction_time = 3650
+    cost_gold = 450
+
+    province_modifier = {
+        monthly_income = 0.7
+    }
+    county_modifier = {
+        development_growth_factor = -0.7
+    }
+    next_building = taga_fc_silk_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_silk_04 = {
+    construction_time = 7300
+    cost_gold = 600
+
+    province_modifier = {
+        monthly_income = 1.0
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 棉花
+taga_fc_cotton_01 = {
+    construction_time = 365
+    cost_gold = 120
+
+    province_modifier = {
+        monthly_income = 0.2
+    }
+    county_modifier = {
+        development_growth_factor = -0.2
+    }
+    next_building = taga_fc_cotton_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+taga_fc_cotton_02 = {
+    construction_time = 730
+    cost_gold = 240
+
+    province_modifier = {
+        monthly_income = 0.4
+    }
+    county_modifier = {
+        development_growth_factor = -0.4
+    }
+    next_building = taga_fc_cotton_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_cotton_03 = {
+    construction_time = 3650
+    cost_gold = 360
+
+    province_modifier = {
+        monthly_income = 0.6
+    }
+    county_modifier = {
+        development_growth_factor = -0.6
+    }
+    next_building = taga_fc_cotton_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_cotton_04 = {
+    construction_time = 7300
+    cost_gold = 480
+
+    province_modifier = {
+        monthly_income = 0.8
+    }
+    county_modifier = {
+        development_growth_factor = -0.8
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 牧场
+taga_fc_wool_01 = {
+    construction_time = 365
+    cost_gold = 60
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.3
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_fc_wool_02
+
+    ai_value = {
+        base = 15
+    }
+}
+
+taga_fc_wool_02 = {
+    construction_time = 730
+    cost_gold = 120
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.6
+    }
+    county_modifier = {
+        development_growth_factor = -0.65
+    }
+    next_building = taga_fc_wool_03
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_wool_03 = {
+    construction_time = 3650
+    cost_gold = 180
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.9
+    }
+    county_modifier = {
+        development_growth_factor = -0.8
+    }
+    next_building = taga_fc_wool_04
+
+    ai_value = {
+        base = 10
+    }
+}
+
+taga_fc_wool_04 = {
+    construction_time = 7300
+    cost_gold = 240
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.2
+    }
+    county_modifier = {
+        development_growth_factor = -0.95
+    }
+
+    ai_value = {
+        base = 10
+    }
+}
+
+# 葡萄园
+taga_cc_grape_01 = {
+    construction_time = 730
+    cost_gold = 200
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.3
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_cc_grape_02
+
+    ai_value = {
+        base = 5
+    }
+}
+
+taga_cc_grape_02 = {
+    construction_time = 7300
+    cost_gold = 400
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_JGL
+            terrain = TAGA_GOB
+            terrain = TAGA_DSR
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.7
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 3
+    }
+}
+
+# 山梨园
+taga_cc_pear_01 = {
+    construction_time = 730
+    cost_gold = 600
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.5
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_cc_pear_02
+
+    ai_value = {
+        base = 5
+    }
+}
+
+taga_cc_pear_02 = {
+    construction_time = 7300
+    cost_gold = 1000
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_CT_PLT
+            terrain = TAGA_CT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.8
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 3
+    }
+}
+
+# 果树林
+taga_cc_peach_01 = {
+    construction_time = 730
+    cost_gold = 1000
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 0.9
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_cc_peach_02
+
+    ai_value = {
+        base = 5
+    }
+}
+
+taga_cc_peach_02 = {
+    construction_time = 7300
+    cost_gold = 1500
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_WT_FLD
+            terrain = TAGA_WT_PLN
+            terrain = TAGA_WT_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.2
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 3
+    }
+}
+
+# 柑橘园
+taga_cc_citrus_01 = {
+    construction_time = 730
+    cost_gold = 1200
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.0
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_cc_citrus_02
+
+    ai_value = {
+        base = 5
+    }
+}
+
+taga_cc_citrus_02 = {
+    construction_time = 7300
+    cost_gold = 1800
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_NST_PLN
+            terrain = TAGA_NST_HIL
+            terrain = TAGA_MST_PLN
+            terrain = TAGA_MST_HIL
+            terrain = TAGA_MST_VLY
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.4
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 3
+    }
+}
+
+# 水果园
+taga_cc_lychee_01 = {
+    construction_time = 730
+    cost_gold = 1500
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.2
+    }
+    county_modifier = {
+        development_growth_factor = -0.5
+    }
+    next_building = taga_cc_lychee_02
+
+    ai_value = {
+        base = 5
+    }
+}
+
+taga_cc_lychee_02 = {
+    construction_time = 7300
+    cost_gold = 2000
+
+    can_construct_potential = {
+        OR = {
+            terrain = TAGA_SST_BSN
+            terrain = TAGA_SST_HIL
+        }
+    }
+
+    province_modifier = {
+        monthly_income = 1.5
+    }
+    county_modifier = {
+        development_growth_factor = -0.9
+    }
+
+    ai_value = {
+        base = 3
+    }
+}

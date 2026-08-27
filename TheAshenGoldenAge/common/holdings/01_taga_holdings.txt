@@ -23,6 +23,18 @@ taga_xian_holding = {
 		taga_mi_arsenal_01
 		taga_mi_pasturage_01
 		taga_mi_castra_01
-		taga_mi_colonia_01						
+		taga_mi_colonia_01
+		taga_fc_hemp_01
+		taga_fc_ramie_01
+		taga_fc_silk_01
+		taga_fc_cotton_01
+		taga_fc_wool_01
+		taga_cc_grape_01
+		taga_cc_pear_01
+		taga_cc_peach_01
+		taga_cc_citrus_01
+		taga_cc_lychee_01
+		taga_infra_horreum_01
+		taga_infra_via_01						
 	}
 }
