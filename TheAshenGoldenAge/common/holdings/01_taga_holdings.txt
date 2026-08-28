@@ -35,6 +35,6 @@ taga_xian_holding = {
 		taga_cc_citrus_01
 		taga_cc_lychee_01
 		taga_infra_horreum_01
-		taga_infra_via_01						
+		taga_infra_via_01									
 	}
 }

@@ -435,3 +435,103 @@
  building_taga_cc_lychee_01_desc: "新辟荔园，树苗尚稀，所产多为土人食用。"
  building_taga_cc_lychee_02: "大片荔枝园"
  building_taga_cc_lychee_02_desc: "荔树成林，岁收珍果，商贩争趋，然采运颇难。"
+
+# 楼亭系列
+ building_type_taga_dc_pavilion_01: "园"
+ building_type_taga_dc_pavilion_01_desc: "高台重檐，宴饮宾朋之所，彰显主家声望与风雅。"
+ building_taga_dc_pavilion_01: "亭"
+ building_taga_dc_pavilion_01_desc: "一座雅致的小亭，往来名士在此谈笑风生，为主人带来声望。"
+ building_taga_dc_pavilion_02: "楼"
+ building_taga_dc_pavilion_02_desc: "高楼广厦，四方贤达竞相投帖，主家的名望与日俱增。"
+ building_taga_dc_pavilion_03: "阁"
+ building_taga_dc_pavilion_03_desc: "高台凌云，尽览山河，宾客如云，主人的声望至此臻于顶峰。"
+
+# 军府系列
+ building_type_taga_dc_garrison_01: "军府"
+ building_type_taga_dc_garrison_01_desc: "军府森严，节制一方兵马，稳固郡国统治。"
+ building_taga_dc_garrison_01: "镇府"
+ building_taga_dc_garrison_01_desc: "精兵驻扎，整饬军备，地方秩序渐趋安定。"
+ building_taga_dc_garrison_02: "都督府"
+ building_taga_dc_garrison_02_desc: "都督持节，总揽军政，辖境之内号令严明。"
+ building_taga_dc_garrison_03: "大都督府"
+ building_taga_dc_garrison_03_desc: "大都督威震一方，军政皆出其门，地方控制固若金汤。"
+
+# 市集系列
+ building_type_taga_dc_market_01: "市集"
+ building_type_taga_dc_market_01_desc: "商贾辐辏，货殖流通，为公府带来源源不断的收入。"
+ building_taga_dc_market_01: "草市"
+ building_taga_dc_market_01_desc: "乡野间的定期集市，虽不繁华，却也初具规模。"
+ building_taga_dc_market_02: "集市"
+ building_taga_dc_market_02_desc: "城中常设之市，百物杂陈，交易兴旺，税收渐丰。"
+ building_taga_dc_market_03: "商埠"
+ building_taga_dc_market_03_desc: "通衢要道上的大型商埠，舟车往来，财货山积。"
+
+# 霸府系列
+ building_type_taga_dc_bakufu_01: "霸府"
+ building_type_taga_dc_bakufu_01_desc: "权臣开府，隐握朝纲，府中谋士如云，暗控天下。"
+ building_taga_dc_bakufu_01: "霸府别院"
+ building_taga_dc_bakufu_01_desc: "霸府之外另置的别院，耳目爪牙多会于此。"
+ building_taga_dc_bakufu_02: "霸府正堂"
+ building_taga_dc_bakufu_02_desc: "霸府正堂，政令所出，权谋机变尽在其中。"
+ building_taga_dc_bakufu_03: "霸府内廷"
+ building_taga_dc_bakufu_03_desc: "霸府内廷，深不可测，一举一动皆可撼动朝局。"
+
+# 郡学系列
+ building_type_taga_dc_schools_01: "郡学"
+ building_type_taga_dc_schools_01_desc: "郡国学府，传道授业，崇文重教，化育一方。"
+ building_taga_dc_schools_01: "郡学"
+ building_taga_dc_schools_01_desc: "郡守倡建之学，招收郡中子弟，弦歌不辍。"
+ building_taga_dc_schools_02: "书院"
+ building_taga_dc_schools_02_desc: "名儒讲学之书院，四方学子负笈而来，文风鼎盛。"
+ building_taga_dc_schools_03: "学宫"
+ building_taga_dc_schools_03_desc: "规模宏大的学宫，藏书万卷，贤才辈出，德泽深远。"
+
+ # 洛阳
+ building_type_taga_core_luoyang_01: "洛阳城"
+ building_type_taga_core_luoyang_01_desc: "洛阳控遏三川，富甲三河，往往是定都的不二之选。"
+ building_taga_core_luoyang_01: "坊肆与街道"
+ building_taga_core_luoyang_01_desc: "这座繁荣的城池即将得到天子的亲睐。"
+ building_taga_core_luoyang_02: "二宫与公府"
+ building_taga_core_luoyang_02_desc: "巍峨的南北宫建立了起来，帝国的行政机构也搬了进来。"
+ building_taga_core_luoyang_03: "寺庙与宗庙"
+ building_taga_core_luoyang_03_desc: "天子七庙，白马寺。"
+
+ # 建康
+ building_type_taga_core_jiankang_01: "建康城"
+ building_type_taga_core_jiankang_01_desc: "建康控遏三川，富甲三河，往往是定都的不二之选。"
+ building_taga_core_jiankang_01: "坊肆与街道"
+ building_taga_core_jiankang_01_desc: "这座繁荣的城池即将得到天子的亲睐。"
+ building_taga_core_jiankang_02: "二宫与公府"
+ building_taga_core_jiankang_02_desc: "巍峨的建康宫建立了起来，帝国的行政机构也搬了进来。"
+ building_taga_core_jiankang_03: "寺庙与宗庙"
+ building_taga_core_jiankang_03_desc: "天子七庙，同泰寺。"
+
+ # 邺
+ building_type_taga_core_ye_01: "邺城"
+ building_type_taga_core_ye_01_desc: "邺控遏三川，富甲三河，往往是定都的不二之选。"
+ building_taga_core_ye_01: "坊肆与街道"
+ building_taga_core_ye_01_desc: "这座繁荣的城池即将得到天子的亲睐。"
+ building_taga_core_ye_02: "二宫与公府"
+ building_taga_core_ye_02_desc: "巍峨的南北宫建立了起来，帝国的行政机构也搬了进来。"
+ building_taga_core_ye_03: "寺庙与宗庙"
+ building_taga_core_ye_03_desc: "天子七庙，白马寺。"
+
+ # 长安
+ building_type_taga_core_changan_01: "长安城"
+ building_type_taga_core_changan_01_desc: "长安控遏二川，富甲关内，往往是定都的不二之选。"
+ building_taga_core_changan_01: "坊肆与街道"
+ building_taga_core_changan_01_desc: "这座繁荣的城池即将得到天子的亲睐。"
+ building_taga_core_changan_02: "二宫与公府"
+ building_taga_core_changan_02_desc: "巍峨的长乐共、未央宫建立了起来，帝国的行政机构也搬了进来。"
+ building_taga_core_changan_03: "寺庙与宗庙"
+ building_taga_core_changan_03_desc: "天子七庙，白马寺。"
+
+ # 成都
+ building_type_taga_core_chengdu_01: "成都城"
+ building_type_taga_core_chengdu_01_desc: "成都控遏三川，富甲三河，往往是定都的不二之选。"
+ building_taga_core_chengdu_01: "坊肆与街道"
+ building_taga_core_chengdu_01_desc: "这座繁荣的城池即将得到天子的亲睐。"
+ building_taga_core_chengdu_02: "二宫与公府"
+ building_taga_core_chengdu_02_desc: "巍峨的南北宫建立了起来，帝国的行政机构也搬了进来。"
+ building_taga_core_chengdu_03: "寺庙与宗庙"
+ building_taga_core_chengdu_03_desc: "天子七庙，白马寺。"

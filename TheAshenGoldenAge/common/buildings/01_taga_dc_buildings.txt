@@ -1,0 +1,332 @@
+# 楼亭（外交/威望）
+taga_dc_pavilion_01 = {
+	construction_time = 365
+	cost_gold = 1000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.20
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.3
+	}
+
+	ai_value = {
+		base = 20
+	}
+	next_building = taga_dc_pavilion_02
+}
+
+taga_dc_pavilion_02 = {
+	construction_time = 730
+	cost_gold = 1500
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.30
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.6
+	}
+
+	ai_value = {
+		base = 15
+	}
+	next_building = taga_dc_pavilion_03
+}
+
+taga_dc_pavilion_03 = {
+	construction_time = 730
+	cost_gold = 2000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.50
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.9
+	}
+
+	ai_value = {
+		base = 15
+	}
+}
+
+# 军府（军事/控制）
+taga_dc_garrison_01 = {
+	construction_time = 365
+	cost_gold = 1000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.3
+	}
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_add = 0.20
+	}
+
+	ai_value = {
+		base = 20
+	}
+	next_building = taga_dc_garrison_02
+}
+
+taga_dc_garrison_02 = {
+	construction_time = 730
+	cost_gold = 1500
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.6
+	}
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_add = 0.30
+	}
+
+	ai_value = {
+		base = 15
+	}
+	next_building = taga_dc_garrison_03
+}
+
+taga_dc_garrison_03 = {
+	construction_time = 730
+	cost_gold = 2000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.9
+	}
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_add = 0.50
+	}
+
+	ai_value = {
+		base = 15
+	}
+}
+
+# 市集（管理/收入）
+taga_dc_market_01 = {
+	construction_time = 365
+	cost_gold = 1000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	province_modifier = {
+		monthly_income = 1.5
+	}
+	character_modifier = {
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.3
+	}
+
+	ai_value = {
+		base = 20
+	}
+	next_building = taga_dc_market_02
+}
+
+taga_dc_market_02 = {
+	construction_time = 730
+	cost_gold = 1500
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	province_modifier = {
+		monthly_income = 2.0
+	}
+	character_modifier = {
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.6
+	}
+
+	ai_value = {
+		base = 15
+	}
+	next_building = taga_dc_market_03
+}
+
+taga_dc_market_03 = {
+	construction_time = 730
+	cost_gold = 2000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	province_modifier = {
+		monthly_income = 2.5
+	}
+	character_modifier = {
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.9
+	}
+
+	ai_value = {
+		base = 15
+	}
+}
+
+# 霸府（谋略/发展）
+taga_dc_bakufu_01 = {
+	construction_time = 365
+	cost_gold = 1000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.3
+	}
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.2
+	}
+
+	ai_value = {
+		base = 20
+	}
+	next_building = taga_dc_bakufu_02
+}
+
+taga_dc_bakufu_02 = {
+	construction_time = 730
+	cost_gold = 1500
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.6
+	}
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.3
+	}
+
+	ai_value = {
+		base = 15
+	}
+	next_building = taga_dc_bakufu_03
+}
+
+taga_dc_bakufu_03 = {
+	construction_time = 730
+	cost_gold = 2000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.9
+	}
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.5
+	}
+
+	ai_value = {
+		base = 15
+	}
+}
+
+# 郡学（学识/虔诚）
+taga_dc_schools_01 = {
+	construction_time = 365
+	cost_gold = 1000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.20
+		monthly_learning_lifestyle_xp_gain_mult = 0.3
+	}
+
+	ai_value = {
+		base = 20
+	}
+	next_building = taga_dc_schools_02
+}
+
+taga_dc_schools_02 = {
+	construction_time = 730
+	cost_gold = 1500
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.30
+		monthly_learning_lifestyle_xp_gain_mult = 0.6
+	}
+
+	ai_value = {
+		base = 15
+	}
+	next_building = taga_dc_schools_03
+}
+
+taga_dc_schools_03 = {
+	construction_time = 730
+	cost_gold = 2000
+	type = duchy_capital
+
+	is_enabled = {
+		county.holder = { has_title = prev.duchy }
+	}
+	show_disabled = yes
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.50
+		monthly_learning_lifestyle_xp_gain_mult = 0.9
+	}
+
+	ai_value = {
+		base = 15
+	}
+}

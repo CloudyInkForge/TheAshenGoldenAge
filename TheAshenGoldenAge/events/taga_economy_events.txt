@@ -11,19 +11,7 @@ taga_economy_events.0001 = {
     option = {
         name = "taga_economy_events.0001.a"
 
-        every_realm_county = {
-            # 清除所有档位的旧修正（不存在的会被自动忽略）
-            remove_county_modifier = taga_development_income_scaling
-            remove_county_modifier = taga_development_income_scaling_1
-            remove_county_modifier = taga_development_income_scaling_2
-            remove_county_modifier = taga_development_income_scaling_3
-            remove_county_modifier = taga_development_income_scaling_4
-            remove_county_modifier = taga_development_income_scaling_5
-            remove_county_modifier = taga_development_income_scaling_6
-            remove_county_modifier = taga_development_income_scaling_7
-            remove_county_modifier = taga_development_income_scaling_8
-            remove_county_modifier = taga_development_income_scaling_9
-            remove_county_modifier = taga_development_income_scaling_10
+        capital_county = {
 
             # 0-14：+90%
             if = {
