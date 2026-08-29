@@ -21,3 +21,6337 @@
 		}
 	}
 }
+
+e_taga_si = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_henan = {
+	281.1.1 = {
+		liege = e_taga_si
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_henan = {
+	281.1.1 = {
+		liege = k_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_luoyang = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chenggao = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinan_s = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_luhun = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liang_s = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangzhai = {
+	281.1.1 = {
+		liege = d_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xingyang = {
+	281.1.1 = {
+		liege = k_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xingyang = {
+	281.1.1 = {
+		liege = d_taga_xingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangwu = {
+	281.1.1 = {
+		liege = d_taga_xingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_kaifeng = {
+	281.1.1 = {
+		liege = d_taga_xingyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hongnong = {
+	281.1.1 = {
+		liege = k_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hongnong = {
+	281.1.1 = {
+		liege = d_taga_hongnong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shan_s = {
+	281.1.1 = {
+		liege = d_taga_hongnong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shangluo = {
+	281.1.1 = {
+		liege = k_taga_henan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shangluo = {
+	281.1.1 = {
+		liege = d_taga_shangluo
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_hedong = {
+	281.1.1 = {
+		liege = e_taga_si
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hedong = {
+	281.1.1 = {
+		liege = k_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hedong = {
+	281.1.1 = {
+		liege = d_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_puban = {
+	281.1.1 = {
+		liege = d_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hebei = {
+	281.1.1 = {
+		liege = d_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuan = {
+	281.1.1 = {
+		liege = d_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_pingyang = {
+	281.1.1 = {
+		liege = k_taga_hedong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingyang = {
+	281.1.1 = {
+		liege = d_taga_pingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_duanshi = {
+	281.1.1 = {
+		liege = d_taga_pingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pishi = {
+	281.1.1 = {
+		liege = d_taga_pingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiang = {
+	281.1.1 = {
+		liege = d_taga_pingyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangling = {
+	281.1.1 = {
+		liege = d_taga_pingyang
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_henei = {
+	281.1.1 = {
+		liege = e_taga_si
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_henei = {
+	281.1.1 = {
+		liege = k_taga_henei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_henei = {
+	281.1.1 = {
+		liege = d_taga_henei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhi = {
+	281.1.1 = {
+		liege = d_taga_henei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huai = {
+	281.1.1 = {
+		liege = d_taga_henei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_ji = {
+	281.1.1 = {
+		liege = k_taga_henei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ji = {
+	281.1.1 = {
+		liege = d_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhaoge = {
+	281.1.1 = {
+		liege = d_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_sanwei = {
+	281.1.1 = {
+		liege = e_taga_si
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wei = {
+	281.1.1 = {
+		liege = k_taga_sanwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wei = {
+	281.1.1 = {
+		liege = d_taga_wei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dangyin = {
+	281.1.1 = {
+		liege = d_taga_wei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_neihuang = {
+	281.1.1 = {
+		liege = d_taga_wei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yangping = {
+	281.1.1 = {
+		liege = k_taga_sanwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guantao = {
+	281.1.1 = {
+		liege = d_taga_yangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangping = {
+	281.1.1 = {
+		liege = d_taga_yangping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guangping = {
+	281.1.1 = {
+		liege = k_taga_sanwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qvliang = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangping = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_handan = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuan = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ren = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangguo = {
+	281.1.1 = {
+		liege = d_taga_guangping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dunqiu = {
+	281.1.1 = {
+		liege = k_taga_sanwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dunqiu = {
+	281.1.1 = {
+		liege = d_taga_dunqiu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yinan = {
+	281.1.1 = {
+		liege = d_taga_dunqiu
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_ji = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_ji = {
+	281.1.1 = {
+		liege = e_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_anping = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xindu_j = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jing = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangzong = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiabo = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyi = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wusui = {
+	281.1.1 = {
+		liege = d_taga_anping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_pingyuan = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingyuan = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ge = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xipingchang = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_boping = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaotang = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chiping = {
+	281.1.1 = {
+		liege = d_taga_pingyuan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_leling = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yanci_j = {
+	281.1.1 = {
+		liege = d_taga_leling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangxin = {
+	281.1.1 = {
+		liege = d_taga_leling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinle = {
+	281.1.1 = {
+		liege = d_taga_leling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_bohai = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanpi = {
+	281.1.1 = {
+		liege = d_taga_bohai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chonghe = {
+	281.1.1 = {
+		liege = d_taga_bohai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tiao = {
+	281.1.1 = {
+		liege = d_taga_bohai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangchuan = {
+	281.1.1 = {
+		liege = d_taga_bohai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhangwu = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhangwu = {
+	281.1.1 = {
+		liege = d_taga_zhangwu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongpingshu = {
+	281.1.1 = {
+		liege = d_taga_zhangwu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hejian = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lecheng = {
+	281.1.1 = {
+		liege = d_taga_hejian
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_mo = {
+	281.1.1 = {
+		liege = d_taga_hejian
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyuan_j = {
+	281.1.1 = {
+		liege = d_taga_hejian
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_gaoyang = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_boling = {
+	281.1.1 = {
+		liege = d_taga_gaoyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_beixincheng = {
+	281.1.1 = {
+		liege = d_taga_gaoyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_qinghe = {
+	281.1.1 = {
+		liege = k_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qinghe = {
+	281.1.1 = {
+		liege = d_taga_qinghe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shu_j = {
+	281.1.1 = {
+		liege = d_taga_qinghe
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_ding = {
+	281.1.1 = {
+		liege = e_taga_ji
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhongshan = {
+	281.1.1 = {
+		liege = k_taga_ding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lvnu = {
+	281.1.1 = {
+		liege = d_taga_zhongshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wangdu = {
+	281.1.1 = {
+		liege = d_taga_zhongshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_beiping = {
+	281.1.1 = {
+		liege = d_taga_zhongshan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_changshan = {
+	281.1.1 = {
+		liege = k_taga_ding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhending = {
+	281.1.1 = {
+		liege = d_taga_changshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jingxing = {
+	281.1.1 = {
+		liege = d_taga_changshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lingshou = {
+	281.1.1 = {
+		liege = d_taga_changshan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhao = {
+	281.1.1 = {
+		liege = k_taga_ding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fangzi = {
+	281.1.1 = {
+		liege = d_taga_zhao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuanshi = {
+	281.1.1 = {
+		liege = d_taga_zhao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhongqiu = {
+	281.1.1 = {
+		liege = d_taga_zhao
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_julu = {
+	281.1.1 = {
+		liege = k_taga_ding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yingtao = {
+	281.1.1 = {
+		liege = d_taga_julu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiao_j = {
+	281.1.1 = {
+		liege = d_taga_julu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_julu = {
+	281.1.1 = {
+		liege = d_taga_julu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiaqvyang = {
+	281.1.1 = {
+		liege = d_taga_julu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingxiang = {
+	281.1.1 = {
+		liege = d_taga_julu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_boling = {
+	281.1.1 = {
+		liege = k_taga_ding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anping = {
+	281.1.1 = {
+		liege = d_taga_boling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anguo = {
+	281.1.1 = {
+		liege = d_taga_boling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanshenze = {
+	281.1.1 = {
+		liege = d_taga_boling
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_yang = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_yang = {
+	281.1.1 = {
+		liege = e_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_danyang = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiankang = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gourong = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuhu = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_danyang = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiangcheng = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lishui = {
+	281.1.1 = {
+		liege = d_taga_danyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jinling = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dantu = {
+	281.1.1 = {
+		liege = d_taga_jinling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jinling = {
+	281.1.1 = {
+		liege = d_taga_jinling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuxing = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuxing = {
+	281.1.1 = {
+		liege = d_taga_wuxing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuhang = {
+	281.1.1 = {
+		liege = d_taga_wuxing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhang = {
+	281.1.1 = {
+		liege = d_taga_wuxing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yixing = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangxian = {
+	281.1.1 = {
+		liege = d_taga_yixing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wu = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wu = {
+	281.1.1 = {
+		liege = d_taga_wu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haiyan = {
+	281.1.1 = {
+		liege = d_taga_wu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiantang = {
+	281.1.1 = {
+		liege = d_taga_wu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tonglu = {
+	281.1.1 = {
+		liege = d_taga_wu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xuancheng = {
+	281.1.1 = {
+		liege = k_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wanling = {
+	281.1.1 = {
+		liege = d_taga_xuancheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xuancheng = {
+	281.1.1 = {
+		liege = d_taga_xuancheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shicheng = {
+	281.1.1 = {
+		liege = d_taga_xuancheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chungu = {
+	281.1.1 = {
+		liege = d_taga_xuancheng
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_jiangxi = {
+	281.1.1 = {
+		liege = e_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_huainan = {
+	281.1.1 = {
+		liege = k_taga_jiangxi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huainan = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hefei = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_quanjiao = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiacai = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yicheng_y = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yinling = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dangtu = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongcheng = {
+	281.1.1 = {
+		liege = d_taga_huainan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lujiang = {
+	281.1.1 = {
+		liege = k_taga_jiangxi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lujiang = {
+	281.1.1 = {
+		liege = d_taga_lujiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangquan = {
+	281.1.1 = {
+		liege = d_taga_lujiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wan = {
+	281.1.1 = {
+		liege = d_taga_lujiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linhu = {
+	281.1.1 = {
+		liege = d_taga_lujiang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_liyang = {
+	281.1.1 = {
+		liege = k_taga_jiangxi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liyang = {
+	281.1.1 = {
+		liege = d_taga_liyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhongli = {
+	281.1.1 = {
+		liege = k_taga_jiangxi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhongli = {
+	281.1.1 = {
+		liege = d_taga_zhongli
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_kuaiji = {
+	281.1.1 = {
+		liege = e_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_kuaiji = {
+	281.1.1 = {
+		liege = k_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_kuaiji = {
+	281.1.1 = {
+		liege = d_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shan = {
+	281.1.1 = {
+		liege = d_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gouzhang = {
+	281.1.1 = {
+		liege = d_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuji = {
+	281.1.1 = {
+		liege = d_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinan = {
+	281.1.1 = {
+		liege = k_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinan = {
+	281.1.1 = {
+		liege = d_taga_xinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_she = {
+	281.1.1 = {
+		liege = d_taga_xinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_you = {
+	281.1.1 = {
+		liege = d_taga_xinan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dongyang = {
+	281.1.1 = {
+		liege = k_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changshan = {
+	281.1.1 = {
+		liege = d_taga_dongyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongxinan = {
+	281.1.1 = {
+		liege = d_taga_dongyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fengan = {
+	281.1.1 = {
+		liege = d_taga_dongyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_suichang = {
+	281.1.1 = {
+		liege = d_taga_dongyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_linhai = {
+	281.1.1 = {
+		liege = k_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhangan = {
+	281.1.1 = {
+		liege = d_taga_linhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linhai = {
+	281.1.1 = {
+		liege = d_taga_linhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ninghai = {
+	281.1.1 = {
+		liege = d_taga_linhai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yongjia = {
+	281.1.1 = {
+		liege = k_taga_kuaiji
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongjia = {
+	281.1.1 = {
+		liege = d_taga_yongjia
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_songyang = {
+	281.1.1 = {
+		liege = d_taga_yongjia
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_jiang = {
+	281.1.1 = {
+		liege = e_taga_yang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yuzhang = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanchang = {
+	281.1.1 = {
+		liege = d_taga_yuzhang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongxiu = {
+	281.1.1 = {
+		liege = d_taga_yuzhang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiancheng = {
+	281.1.1 = {
+		liege = d_taga_yuzhang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xingan = {
+	281.1.1 = {
+		liege = d_taga_yuzhang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haihun = {
+	281.1.1 = {
+		liege = d_taga_yuzhang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_luling = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shiyang = {
+	281.1.1 = {
+		liege = d_taga_luling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xingping = {
+	281.1.1 = {
+		liege = d_taga_luling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xichang = {
+	281.1.1 = {
+		liege = d_taga_luling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_baqiu = {
+	281.1.1 = {
+		liege = d_taga_luling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_linchuan = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linru = {
+	281.1.1 = {
+		liege = d_taga_linchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinning = {
+	281.1.1 = {
+		liege = d_taga_linchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinjian = {
+	281.1.1 = {
+		liege = d_taga_linchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nancheng = {
+	281.1.1 = {
+		liege = d_taga_linchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongcheng = {
+	281.1.1 = {
+		liege = d_taga_linchuan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_ancheng = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingdu = {
+	281.1.1 = {
+		liege = d_taga_ancheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yichun = {
+	281.1.1 = {
+		liege = d_taga_ancheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongxin = {
+	281.1.1 = {
+		liege = d_taga_ancheng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuchang = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuchang = {
+	281.1.1 = {
+		liege = d_taga_wuchang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xunyang = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chaisang = {
+	281.1.1 = {
+		liege = d_taga_xunyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pengze = {
+	281.1.1 = {
+		liege = d_taga_xunyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xunyang = {
+	281.1.1 = {
+		liege = d_taga_xunyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_poyang = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_poyang = {
+	281.1.1 = {
+		liege = d_taga_poyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuhan = {
+	281.1.1 = {
+		liege = d_taga_poyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiaoyang = {
+	281.1.1 = {
+		liege = d_taga_poyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nankang = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yudu = {
+	281.1.1 = {
+		liege = d_taga_nankang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gan = {
+	281.1.1 = {
+		liege = d_taga_nankang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanye = {
+	281.1.1 = {
+		liege = d_taga_nankang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jinan = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongye = {
+	281.1.1 = {
+		liege = d_taga_jinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wenma = {
+	281.1.1 = {
+		liege = d_taga_jinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jinan = {
+	281.1.1 = {
+		liege = d_taga_jinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinluo = {
+	281.1.1 = {
+		liege = d_taga_jinan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jianan = {
+	281.1.1 = {
+		liege = k_taga_jiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jianan = {
+	281.1.1 = {
+		liege = d_taga_jianan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiangle = {
+	281.1.1 = {
+		liege = d_taga_jianan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yanping = {
+	281.1.1 = {
+		liege = d_taga_jianan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuxing_jianan = {
+	281.1.1 = {
+		liege = d_taga_jianan
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_yu = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_yu = {
+	281.1.1 = {
+		liege = e_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yingchuan = {
+	281.1.1 = {
+		liege = k_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xvchang = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yanling = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changping = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linyin = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yan_y = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhaoling = {
+	281.1.1 = {
+		liege = d_taga_yingchuan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_runan = {
+	281.1.1 = {
+		liege = k_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinxi = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ancheng = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangan = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shangcai = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wufang = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingyu = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nandun = {
+	281.1.1 = {
+		liege = d_taga_runan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiangcheng = {
+	281.1.1 = {
+		liege = k_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangcheng = {
+	281.1.1 = {
+		liege = d_taga_xiangcheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fu = {
+	281.1.1 = {
+		liege = d_taga_xiangcheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dingling = {
+	281.1.1 = {
+		liege = d_taga_xiangcheng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_liang = {
+	281.1.1 = {
+		liege = k_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liang = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chen_y = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiayi = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gushu = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ku = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangjia = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiang = {
+	281.1.1 = {
+		liege = d_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_pei = {
+	281.1.1 = {
+		liege = e_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_pei = {
+	281.1.1 = {
+		liege = k_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pei = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiang_y = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiao = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fuli = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiao = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gongqiu = {
+	281.1.1 = {
+		liege = d_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_qiao = {
+	281.1.1 = {
+		liege = k_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiao = {
+	281.1.1 = {
+		liege = d_taga_qiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chengfu = {
+	281.1.1 = {
+		liege = d_taga_qiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_longkang = {
+	281.1.1 = {
+		liege = d_taga_qiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zan = {
+	281.1.1 = {
+		liege = d_taga_qiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhi_y = {
+	281.1.1 = {
+		liege = d_taga_qiao
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lu = {
+	281.1.1 = {
+		liege = k_taga_pei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lu_y = {
+	281.1.1 = {
+		liege = d_taga_lu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xue = {
+	281.1.1 = {
+		liege = d_taga_lu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bian = {
+	281.1.1 = {
+		liege = d_taga_lu
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_yiyang = {
+	281.1.1 = {
+		liege = e_taga_yu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yiyang = {
+	281.1.1 = {
+		liege = k_taga_yiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yiyang = {
+	281.1.1 = {
+		liege = d_taga_yiyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiyang = {
+	281.1.1 = {
+		liege = k_taga_yiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiyang = {
+	281.1.1 = {
+		liege = d_taga_xiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiling = {
+	281.1.1 = {
+		liege = d_taga_xiyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_anfeng = {
+	281.1.1 = {
+		liege = k_taga_yiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anfeng = {
+	281.1.1 = {
+		liege = d_taga_anfeng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lu = {
+	281.1.1 = {
+		liege = d_taga_anfeng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_ruyin = {
+	281.1.1 = {
+		liege = k_taga_yiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ruyin = {
+	281.1.1 = {
+		liege = d_taga_ruyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_song = {
+	281.1.1 = {
+		liege = d_taga_ruyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xincai = {
+	281.1.1 = {
+		liege = d_taga_ruyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gushi = {
+	281.1.1 = {
+		liege = d_taga_ruyin
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_jing = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_nanyang = {
+	281.1.1 = {
+		liege = e_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nanyang = {
+	281.1.1 = {
+		liege = k_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuan_j = {
+	281.1.1 = {
+		liege = d_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bowang = {
+	281.1.1 = {
+		liege = d_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guanjun = {
+	281.1.1 = {
+		liege = d_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_biyang = {
+	281.1.1 = {
+		liege = d_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_luyang = {
+	281.1.1 = {
+		liege = d_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiangyang = {
+	281.1.1 = {
+		liege = k_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangyang = {
+	281.1.1 = {
+		liege = d_taga_xiangyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shandou = {
+	281.1.1 = {
+		liege = d_taga_xiangyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yicheng = {
+	281.1.1 = {
+		liege = d_taga_xiangyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linju = {
+	281.1.1 = {
+		liege = d_taga_xiangyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinye = {
+	281.1.1 = {
+		liege = k_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinye = {
+	281.1.1 = {
+		liege = d_taga_xinye
+		government = taga_hanjin_government
+	}
+}
+
+c_dengzhou_1 = {
+	281.1.1 = {
+		liege = d_taga_xinye
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nanxiang = {
+	281.1.1 = {
+		liege = k_taga_nanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_cuo = {
+	281.1.1 = {
+		liege = d_taga_nanxiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shunyang = {
+	281.1.1 = {
+		liege = d_taga_nanxiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_danshui = {
+	281.1.1 = {
+		liege = d_taga_nanxiang
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_jing = {
+	281.1.1 = {
+		liege = e_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nan = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiangling = {
+	281.1.1 = {
+		liege = d_taga_nan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ruo = {
+	281.1.1 = {
+		liege = d_taga_nan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhouling = {
+	281.1.1 = {
+		liege = d_taga_nan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huarong = {
+	281.1.1 = {
+		liege = d_taga_nan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jingling = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yundu = {
+	281.1.1 = {
+		liege = d_taga_jingling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jingling = {
+	281.1.1 = {
+		liege = d_taga_jingling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_sui = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sui = {
+	281.1.1 = {
+		liege = d_taga_sui
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yiyang_j = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yiyang_j = {
+	281.1.1 = {
+		liege = d_taga_yiyang_j
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anchang = {
+	281.1.1 = {
+		liege = d_taga_yiyang_j
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chaoyang = {
+	281.1.1 = {
+		liege = d_taga_yiyang_j
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yidu = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yidu = {
+	281.1.1 = {
+		liege = d_taga_yidu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jianping = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wu_j = {
+	281.1.1 = {
+		liege = d_taga_jianping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jianshi = {
+	281.1.1 = {
+		liege = d_taga_jianping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zigui = {
+	281.1.1 = {
+		liege = d_taga_jianping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiangxia = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anlu = {
+	281.1.1 = {
+		liege = d_taga_jiangxia
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingchun = {
+	281.1.1 = {
+		liege = d_taga_jiangxia
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tunyang = {
+	281.1.1 = {
+		liege = d_taga_jiangxia
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nanping = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanping_j = {
+	281.1.1 = {
+		liege = d_taga_nanping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chanling = {
+	281.1.1 = {
+		liege = d_taga_nanping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiangan = {
+	281.1.1 = {
+		liege = d_taga_nanping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuling = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linyuan = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hanshou = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuanling = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiuyang = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyang = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tancheng = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qianling = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qianyang = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_yuanling = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_qiuyang = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_qianling = {
+	281.1.1 = {
+		liege = d_taga_wuling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_tianmen = {
+	281.1.1 = {
+		liege = k_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tianmen = {
+	281.1.1 = {
+		liege = d_taga_tianmen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_louzhong = {
+	281.1.1 = {
+		liege = d_taga_tianmen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_chong = {
+	281.1.1 = {
+		liege = d_taga_tianmen
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_xiang = {
+	281.1.1 = {
+		liege = e_taga_jing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_changsha = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changsha = {
+	281.1.1 = {
+		liege = d_taga_changsha
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liuyang = {
+	281.1.1 = {
+		liege = d_taga_changsha
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_you_x = {
+	281.1.1 = {
+		liege = d_taga_changsha
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hengyang = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangnan = {
+	281.1.1 = {
+		liege = d_taga_hengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinkang = {
+	281.1.1 = {
+		liege = d_taga_hengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangxi = {
+	281.1.1 = {
+		liege = d_taga_hengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhengyang = {
+	281.1.1 = {
+		liege = d_taga_hengyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_baling = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_baling = {
+	281.1.1 = {
+		liege = d_taga_baling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shaoling = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shaoling = {
+	281.1.1 = {
+		liege = d_taga_shaoling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shaoyang = {
+	281.1.1 = {
+		liege = d_taga_shaoling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_duliang = {
+	281.1.1 = {
+		liege = d_taga_shaoling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiangdong = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ling = {
+	281.1.1 = {
+		liege = d_taga_xiangdong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linzheng = {
+	281.1.1 = {
+		liege = d_taga_xiangdong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chaling = {
+	281.1.1 = {
+		liege = d_taga_xiangdong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guiyang = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chen = {
+	281.1.1 = {
+		liege = d_taga_guiyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanping = {
+	281.1.1 = {
+		liege = d_taga_guiyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lingling = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_quanling = {
+	281.1.1 = {
+		liege = d_taga_lingling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiyang = {
+	281.1.1 = {
+		liege = d_taga_lingling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lingling = {
+	281.1.1 = {
+		liege = d_taga_lingling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yingyang = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yingyang = {
+	281.1.1 = {
+		liege = d_taga_yingyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_linhe = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linhe = {
+	281.1.1 = {
+		liege = d_taga_linhe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fuchuan = {
+	281.1.1 = {
+		liege = d_taga_linhe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingchen = {
+	281.1.1 = {
+		liege = d_taga_linhe
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shian = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shian = {
+	281.1.1 = {
+		liege = d_taga_shian
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiping = {
+	281.1.1 = {
+		liege = d_taga_shian
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lipu = {
+	281.1.1 = {
+		liege = d_taga_shian
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shixing = {
+	281.1.1 = {
+		liege = k_taga_xiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shixing = {
+	281.1.1 = {
+		liege = d_taga_shixing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hankuang = {
+	281.1.1 = {
+		liege = d_taga_shixing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhenyang = {
+	281.1.1 = {
+		liege = d_taga_shixing
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_jiao = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_guang = {
+	281.1.1 = {
+		liege = e_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nanhai = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sihui = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fanyu = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zengcheng = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_boluo = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_longchuan = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingyi_g = {
+	281.1.1 = {
+		liege = d_taga_nanhai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dongguan_g = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_baoan = {
+	281.1.1 = {
+		liege = d_taga_dongguan_g
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haifeng = {
+	281.1.1 = {
+		liege = d_taga_dongguan_g
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_cangwu = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_duanxi = {
+	281.1.1 = {
+		liege = d_taga_cangwu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangxin = {
+	281.1.1 = {
+		liege = d_taga_cangwu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_mengling = {
+	281.1.1 = {
+		liege = d_taga_cangwu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yulin = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anshi = {
+	281.1.1 = {
+		liege = d_taga_yulin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anguang = {
+	281.1.1 = {
+		liege = d_taga_yulin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lingfang = {
+	281.1.1 = {
+		liege = d_taga_yulin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bushan = {
+	281.1.1 = {
+		liege = d_taga_yulin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuxi = {
+	281.1.1 = {
+		liege = d_taga_yulin
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guilin = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tanzhong = {
+	281.1.1 = {
+		liege = d_taga_guilin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_suping = {
+	281.1.1 = {
+		liege = d_taga_guilin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_longgang = {
+	281.1.1 = {
+		liege = d_taga_guilin
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_gaoliang = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_siping = {
+	281.1.1 = {
+		liege = d_taga_gaoliang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_gaoxing = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guanghua = {
+	281.1.1 = {
+		liege = d_taga_gaoxing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haining = {
+	281.1.1 = {
+		liege = d_taga_gaoxing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_ningpu = {
+	281.1.1 = {
+		liege = k_taga_guang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ningpu = {
+	281.1.1 = {
+		liege = d_taga_ningpu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xingdao = {
+	281.1.1 = {
+		liege = d_taga_ningpu
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_jiao = {
+	281.1.1 = {
+		liege = e_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiaozhi = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_longbian = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_beidai = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xigan = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anding_j = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haiping = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuning = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wanghai = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_goulou = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuyuan = {
+	281.1.1 = {
+		liege = d_taga_jiaozhi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hepu = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hepu = {
+	281.1.1 = {
+		liege = d_taga_hepu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dangchang = {
+	281.1.1 = {
+		liege = d_taga_hepu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xvwen = {
+	281.1.1 = {
+		liege = d_taga_hepu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinchang = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuding_j = {
+	281.1.1 = {
+		liege = d_taga_xinchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_mileng = {
+	281.1.1 = {
+		liege = d_taga_xinchang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuping = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuxing_y = {
+	281.1.1 = {
+		liege = d_taga_wuping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiuzhen = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changle = {
+	281.1.1 = {
+		liege = d_taga_jiuzhen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xvpu = {
+	281.1.1 = {
+		liege = d_taga_jiuzhen
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiude = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiude = {
+	281.1.1 = {
+		liege = d_taga_jiude
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_rinan = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xijuan = {
+	281.1.1 = {
+		liege = d_taga_rinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuwu = {
+	281.1.1 = {
+		liege = d_taga_rinan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bijing = {
+	281.1.1 = {
+		liege = d_taga_rinan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhuya = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shendu = {
+	281.1.1 = {
+		liege = d_taga_zhuya
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_leluo = {
+	281.1.1 = {
+		liege = d_taga_zhuya
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongfeng = {
+	281.1.1 = {
+		liege = d_taga_zhuya
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_daner = {
+	281.1.1 = {
+		liege = k_taga_jiao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_daner = {
+	281.1.1 = {
+		liege = d_taga_daner
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_xv = {
+	281.1.1 = {
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_xv = {
+	281.1.1 = {
+		liege = e_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xvzhou = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xvzhou = {
+	281.1.1 = {
+		liege = d_taga_xvzhou
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_taga_liu = {
+	281.1.1 = {
+		liege = d_taga_xvzhou
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fuyang = {
+	281.1.1 = {
+		liege = d_taga_xvzhou
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiapi = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiapi = {
+	281.1.1 = {
+		liege = d_taga_xiapi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_suiling = {
+	281.1.1 = {
+		liege = d_taga_xiapi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tong = {
+	281.1.1 = {
+		liege = d_taga_xiapi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_langya = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_langya = {
+	281.1.1 = {
+		liege = d_taga_langya
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fei = {
+	281.1.1 = {
+		liege = d_taga_langya
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zeng = {
+	281.1.1 = {
+		liege = d_taga_langya
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dongguan = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongguan = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongan = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gai = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_mengyin = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongwu = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linju_x = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anqiu = {
+	281.1.1 = {
+		liege = d_taga_dongguan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_donghai = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tan = {
+	281.1.1 = {
+		liege = d_taga_donghai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qv = {
+	281.1.1 = {
+		liege = d_taga_donghai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuqi = {
+	281.1.1 = {
+		liege = d_taga_donghai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lanling = {
+	281.1.1 = {
+		liege = k_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lanling = {
+	281.1.1 = {
+		liege = d_taga_lanling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changlv = {
+	281.1.1 = {
+		liege = d_taga_lanling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qi_x = {
+	281.1.1 = {
+		liege = d_taga_lanling
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_nanxv = {
+	281.1.1 = {
+		liege = e_taga_xv
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guangling = {
+	281.1.1 = {
+		liege = k_taga_nanxv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangling = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hailing = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sheyang = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huaiyin = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sishui = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huaipu = {
+	281.1.1 = {
+		liege = d_taga_guangling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_linhuai = {
+	281.1.1 = {
+		liege = k_taga_nanxv
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linhuai = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huailing = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiaxiang = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xv = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tangyi = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongyang = {
+	281.1.1 = {
+		liege = d_taga_linhuai
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_qing = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_qing = {
+	281.1.1 = {
+		liege = e_taga_qing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_qi = {
+	281.1.1 = {
+		liege = k_taga_qing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linzi = {
+	281.1.1 = {
+		liege = d_taga_qi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changguo = {
+	281.1.1 = {
+		liege = d_taga_qi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangrao = {
+	281.1.1 = {
+		liege = d_taga_qi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_donganping = {
+	281.1.1 = {
+		liege = d_taga_qi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lean = {
+	281.1.1 = {
+		liege = k_taga_qing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaoyuan = {
+	281.1.1 = {
+		liege = d_taga_lean
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linji = {
+	281.1.1 = {
+		liege = d_taga_lean
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongchaoyang = {
+	281.1.1 = {
+		liege = d_taga_lean
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liangzou = {
+	281.1.1 = {
+		liege = d_taga_lean
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shouguang = {
+	281.1.1 = {
+		liege = d_taga_lean
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jinan_q = {
+	281.1.1 = {
+		liege = k_taga_qing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dongpingling = {
+	281.1.1 = {
+		liege = d_taga_jinan_q
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuling = {
+	281.1.1 = {
+		liege = d_taga_jinan_q
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_licheng = {
+	281.1.1 = {
+		liege = d_taga_jinan_q
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jian = {
+	281.1.1 = {
+		liege = d_taga_jinan_q
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zouping = {
+	281.1.1 = {
+		liege = d_taga_jinan_q
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_jiaodong = {
+	281.1.1 = {
+		liege = e_taga_qing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_beihai = {
+	281.1.1 = {
+		liege = k_taga_jiaodong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingshou = {
+	281.1.1 = {
+		liege = d_taga_beihai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jimo = {
+	281.1.1 = {
+		liege = d_taga_beihai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_donglai = {
+	281.1.1 = {
+		liege = k_taga_jiaodong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ye = {
+	281.1.1 = {
+		liege = d_taga_donglai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huang = {
+	281.1.1 = {
+		liege = d_taga_donglai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qvcheng = {
+	281.1.1 = {
+		liege = d_taga_donglai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_changguang = {
+	281.1.1 = {
+		liege = k_taga_jiaodong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_buqi = {
+	281.1.1 = {
+		liege = d_taga_changguang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ting = {
+	281.1.1 = {
+		liege = d_taga_changguang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changguang = {
+	281.1.1 = {
+		liege = d_taga_changguang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changyang = {
+	281.1.1 = {
+		liege = d_taga_changguang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_chengyang = {
+	281.1.1 = {
+		liege = k_taga_jiaodong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ju = {
+	281.1.1 = {
+		liege = d_taga_chengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qianzou = {
+	281.1.1 = {
+		liege = d_taga_chengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gumu = {
+	281.1.1 = {
+		liege = d_taga_chengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaomi = {
+	281.1.1 = {
+		liege = d_taga_chengyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yian = {
+	281.1.1 = {
+		liege = d_taga_chengyang
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_yan = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_puyang = {
+	281.1.1 = {
+		liege = e_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_puyang = {
+	281.1.1 = {
+		liege = k_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_puyang = {
+	281.1.1 = {
+		liege = d_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juan = {
+	281.1.1 = {
+		liege = d_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linqiu = {
+	281.1.1 = {
+		liege = d_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_chenliu = {
+	281.1.1 = {
+		liege = k_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiaohuang = {
+	281.1.1 = {
+		liege = d_taga_chenliu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_weishi = {
+	281.1.1 = {
+		liege = d_taga_chenliu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongqiu = {
+	281.1.1 = {
+		liege = d_taga_chenliu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xunyi = {
+	281.1.1 = {
+		liege = d_taga_chenliu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiyin = {
+	281.1.1 = {
+		liege = k_taga_puyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dingtao = {
+	281.1.1 = {
+		liege = d_taga_jiyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chengshi = {
+	281.1.1 = {
+		liege = d_taga_jiyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gouyang = {
+	281.1.1 = {
+		liege = d_taga_jiyin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shanfu = {
+	281.1.1 = {
+		liege = d_taga_jiyin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_gaoping = {
+	281.1.1 = {
+		liege = e_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_gaoping = {
+	281.1.1 = {
+		liege = k_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changyi = {
+	281.1.1 = {
+		liege = d_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juye = {
+	281.1.1 = {
+		liege = d_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaoping = {
+	281.1.1 = {
+		liege = d_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanpingyang = {
+	281.1.1 = {
+		liege = d_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiaqiu = {
+	281.1.1 = {
+		liege = d_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_rencheng = {
+	281.1.1 = {
+		liege = k_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_rencheng = {
+	281.1.1 = {
+		liege = d_taga_rencheng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dongping = {
+	281.1.1 = {
+		liege = k_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyan = {
+	281.1.1 = {
+		liege = d_taga_dongping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shouzhang = {
+	281.1.1 = {
+		liege = d_taga_dongping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gangping = {
+	281.1.1 = {
+		liege = d_taga_dongping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fan = {
+	281.1.1 = {
+		liege = d_taga_dongping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jibei = {
+	281.1.1 = {
+		liege = k_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lu_j = {
+	281.1.1 = {
+		liege = d_taga_jibei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linyi = {
+	281.1.1 = {
+		liege = d_taga_jibei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_taishan = {
+	281.1.1 = {
+		liege = k_taga_gaoping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fenggao = {
+	281.1.1 = {
+		liege = d_taga_taishan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juping = {
+	281.1.1 = {
+		liege = d_taga_taishan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanwuyang = {
+	281.1.1 = {
+		liege = d_taga_taishan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shanren = {
+	281.1.1 = {
+		liege = d_taga_taishan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_laiwu = {
+	281.1.1 = {
+		liege = d_taga_taishan
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_you = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_you = {
+	281.1.1 = {
+		liege = e_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yan = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ji_y = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changping_y = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anle = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangyang = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_quanzhou = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongnu = {
+	281.1.1 = {
+		liege = d_taga_yan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_fanyang = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuo = {
+	281.1.1 = {
+		liege = d_taga_fanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liangxiang = {
+	281.1.1 = {
+		liege = d_taga_fanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guan = {
+	281.1.1 = {
+		liege = d_taga_fanyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fanyang = {
+	281.1.1 = {
+		liege = d_taga_fanyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_beiping = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xvwu = {
+	281.1.1 = {
+		liege = d_taga_beiping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tuyin = {
+	281.1.1 = {
+		liege = d_taga_beiping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guangning = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xialuo = {
+	281.1.1 = {
+		liege = d_taga_guangning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_goumao = {
+	281.1.1 = {
+		liege = d_taga_guangning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangning = {
+	281.1.1 = {
+		liege = d_taga_guangning
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shanggu = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juyang = {
+	281.1.1 = {
+		liege = d_taga_shanggu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dai = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dai = {
+	281.1.1 = {
+		liege = d_taga_dai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangchang = {
+	281.1.1 = {
+		liege = d_taga_dai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaoliu = {
+	281.1.1 = {
+		liege = d_taga_dai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_banshi = {
+	281.1.1 = {
+		liege = d_taga_dai
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_macheng = {
+	281.1.1 = {
+		liege = d_taga_dai
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_liaoxi = {
+	281.1.1 = {
+		liege = k_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yangle = {
+	281.1.1 = {
+		liege = d_taga_liaoxi
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_ping = {
+	281.1.1 = {
+		liege = e_taga_you
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_liaodong = {
+	281.1.1 = {
+		liege = k_taga_ping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xianping = {
+	281.1.1 = {
+		liege = d_taga_liaodong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangping = {
+	281.1.1 = {
+		liege = d_taga_liaodong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xuantu = {
+	281.1.1 = {
+		liege = k_taga_ping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaogouli = {
+	281.1.1 = {
+		liege = d_taga_xuantu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_changli = {
+	281.1.1 = {
+		liege = k_taga_ping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bintu = {
+	281.1.1 = {
+		liege = d_taga_changli
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changli_p = {
+	281.1.1 = {
+		liege = d_taga_changli
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lelang = {
+	281.1.1 = {
+		liege = k_taga_ping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chaoxian = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_siwang = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tunyou = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_suicheng = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hunni = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_loufang = {
+	281.1.1 = {
+		liege = d_taga_lelang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_daifang = {
+	281.1.1 = {
+		liege = k_taga_ping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haiming = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_daifang = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanxin = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tixi = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hanzi = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liekou = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changcen = {
+	281.1.1 = {
+		liege = d_taga_daifang
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_bing = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_bing = {
+	281.1.1 = {
+		liege = e_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_taiyuan = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jinyang = {
+	281.1.1 = {
+		liege = d_taga_taiyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingtao = {
+	281.1.1 = {
+		liege = d_taga_taiyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yu = {
+	281.1.1 = {
+		liege = d_taga_taiyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wu_b = {
+	281.1.1 = {
+		liege = d_taga_taiyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qi = {
+	281.1.1 = {
+		liege = d_taga_taiyuan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shangdang = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xuanshi = {
+	281.1.1 = {
+		liege = d_taga_shangdang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhangzi = {
+	281.1.1 = {
+		liege = d_taga_shangdang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huguan = {
+	281.1.1 = {
+		liege = d_taga_shangdang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangyuan = {
+	281.1.1 = {
+		liege = d_taga_shangdang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nie = {
+	281.1.1 = {
+		liege = d_taga_shangdang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_leping = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhan = {
+	281.1.1 = {
+		liege = d_taga_leping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shangai = {
+	281.1.1 = {
+		liege = d_taga_leping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shouyang = {
+	281.1.1 = {
+		liege = d_taga_leping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_liaoyang = {
+	281.1.1 = {
+		liege = d_taga_leping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yanmen = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangwu = {
+	281.1.1 = {
+		liege = d_taga_yanmen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yingou = {
+	281.1.1 = {
+		liege = d_taga_yanmen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fanchi = {
+	281.1.1 = {
+		liege = d_taga_yanmen
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingcheng = {
+	281.1.1 = {
+		liege = d_taga_yanmen
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinxing = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiuyuan = {
+	281.1.1 = {
+		liege = d_taga_xinxing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jinchang = {
+	281.1.1 = {
+		liege = d_taga_xinxing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangmu = {
+	281.1.1 = {
+		liege = d_taga_xinxing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dingxiang = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shanwu = {
+	281.1.1 = {
+		liege = d_taga_dingxiang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wucheng = {
+	281.1.1 = {
+		liege = d_taga_dingxiang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yunzhong = {
+	281.1.1 = {
+		liege = k_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yunzhong = {
+	281.1.1 = {
+		liege = d_taga_yunzhong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiling = {
+	281.1.1 = {
+		liege = d_taga_yunzhong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuquan = {
+	281.1.1 = {
+		liege = d_taga_yunzhong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shanan = {
+	281.1.1 = {
+		liege = d_taga_yunzhong
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_shuofang = {
+	281.1.1 = {
+		liege = e_taga_bing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shuofang = {
+	281.1.1 = {
+		liege = k_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linrong = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sanfeng = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangmu_s = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linhe_s = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dacheng = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shuofang = {
+	281.1.1 = {
+		liege = d_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xihe = {
+	281.1.1 = {
+		liege = k_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lishi = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linshui = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tujun = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingding = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_meiji = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yinshan = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuanyin = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhongyang = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zengshan = {
+	281.1.1 = {
+		liege = d_taga_xihe
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuyuan = {
+	281.1.1 = {
+		liege = k_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiuyuan_s = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyuan = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chengyi = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hemu = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_heyin = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_manbai = {
+	281.1.1 = {
+		liege = d_taga_wuyuan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shang = {
+	281.1.1 = {
+		liege = k_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fushi = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiuzi = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_diaoyin = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiyuan = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaonu = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingdu_s = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_sheyan = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaowang = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tongwan = {
+	281.1.1 = {
+		liege = d_taga_shang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_beidi = {
+	281.1.1 = {
+		liege = k_taga_shuofang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_niyang = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chunhu = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhilu = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuzhi = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lian = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fuping = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_maling = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xunyan = {
+	281.1.1 = {
+		liege = d_taga_beidi
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_liang = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_yong = {
+	281.1.1 = {
+		liege = e_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jingzhao = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jingzhao = {
+	281.1.1 = {
+		liege = d_taga_jingzhao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lantian = {
+	281.1.1 = {
+		liege = d_taga_jingzhao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gaoling = {
+	281.1.1 = {
+		liege = d_taga_jingzhao
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zheng = {
+	281.1.1 = {
+		liege = d_taga_jingzhao
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_fengyi = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fengyi = {
+	281.1.1 = {
+		liege = d_taga_fengyi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pinyang = {
+	281.1.1 = {
+		liege = d_taga_fengyi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiagui = {
+	281.1.1 = {
+		liege = d_taga_fengyi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_fufeng = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fufeng = {
+	281.1.1 = {
+		liege = d_taga_fufeng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_meiyang = {
+	281.1.1 = {
+		liege = d_taga_fufeng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yong = {
+	281.1.1 = {
+		liege = d_taga_fufeng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qian = {
+	281.1.1 = {
+		liege = d_taga_fufeng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chencang = {
+	281.1.1 = {
+		liege = d_taga_fufeng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_anding = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_anding = {
+	281.1.1 = {
+		liege = d_taga_anding
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chaona = {
+	281.1.1 = {
+		liege = d_taga_anding
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shiping = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shiping = {
+	281.1.1 = {
+		liege = d_taga_shiping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wugong = {
+	281.1.1 = {
+		liege = d_taga_shiping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinping = {
+	281.1.1 = {
+		liege = k_taga_yong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xinping = {
+	281.1.1 = {
+		liege = d_taga_xinping
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_liang = {
+	281.1.1 = {
+		liege = e_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wuwei = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guzang = {
+	281.1.1 = {
+		liege = d_taga_wuwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xuanwei = {
+	281.1.1 = {
+		liege = d_taga_wuwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fanhe = {
+	281.1.1 = {
+		liege = d_taga_wuwei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xiping = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xidu = {
+	281.1.1 = {
+		liege = d_taga_xiping
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_linqiang = {
+	281.1.1 = {
+		liege = d_taga_xiping
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jincheng = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuzhong = {
+	281.1.1 = {
+		liege = d_taga_jincheng
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_haomen = {
+	281.1.1 = {
+		liege = d_taga_jincheng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhangye = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wulan = {
+	281.1.1 = {
+		liege = d_taga_zhangye
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongping = {
+	281.1.1 = {
+		liege = d_taga_zhangye
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xi = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_rile = {
+	281.1.1 = {
+		liege = d_taga_xi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiuquan = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fulu = {
+	281.1.1 = {
+		liege = d_taga_jiuquan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huishui = {
+	281.1.1 = {
+		liege = d_taga_jiuquan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shatou = {
+	281.1.1 = {
+		liege = d_taga_jiuquan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yumen = {
+	281.1.1 = {
+		liege = d_taga_jiuquan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dunhuang = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dunhuang = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuanquan = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qianqi = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yiwu = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangzhi = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_changpu = {
+	281.1.1 = {
+		liege = d_taga_dunhuang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xihai = {
+	281.1.1 = {
+		liege = k_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juyan = {
+	281.1.1 = {
+		liege = d_taga_xihai
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_qin = {
+	281.1.1 = {
+		liege = e_taga_liang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_tianshui = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ji_q = {
+	281.1.1 = {
+		liege = d_taga_tianshui
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_chengji = {
+	281.1.1 = {
+		liege = d_taga_tianshui
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shichang = {
+	281.1.1 = {
+		liege = d_taga_tianshui
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_longxi = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiangwu = {
+	281.1.1 = {
+		liege = d_taga_longxi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_didao = {
+	281.1.1 = {
+		liege = d_taga_longxi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_nanan = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huandao = {
+	281.1.1 = {
+		liege = d_taga_nanan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_lueyang = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lueyang = {
+	281.1.1 = {
+		liege = d_taga_lueyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wudu = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xiabian = {
+	281.1.1 = {
+		liege = d_taga_wudu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gudao = {
+	281.1.1 = {
+		liege = d_taga_wudu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ju_q = {
+	281.1.1 = {
+		liege = d_taga_wudu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_qiangdao = {
+	281.1.1 = {
+		liege = d_taga_wudu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yinping = {
+	281.1.1 = {
+		liege = k_taga_qin
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yinping = {
+	281.1.1 = {
+		liege = d_taga_yinping
+		government = taga_hanjin_government
+	}
+}
+
+e_taga_yi = {
+	281.1.1 = {
+		liege = h_taga_hanjin
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_yi = {
+	281.1.1 = {
+		liege = e_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shu = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shu = {
+	281.1.1 = {
+		liege = d_taga_shu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ningshu = {
+	281.1.1 = {
+		liege = d_taga_shu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jinyuan = {
+	281.1.1 = {
+		liege = d_taga_shu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jianwei = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_niubi = {
+	281.1.1 = {
+		liege = d_taga_jianwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zizhong = {
+	281.1.1 = {
+		liege = d_taga_jianwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wuyang_y = {
+	281.1.1 = {
+		liege = d_taga_jianwei
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bodao = {
+	281.1.1 = {
+		liege = d_taga_jianwei
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_wenshan = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wenshan = {
+	281.1.1 = {
+		liege = d_taga_wenshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shengqian = {
+	281.1.1 = {
+		liege = d_taga_wenshan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guangrou = {
+	281.1.1 = {
+		liege = d_taga_wenshan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hanjia = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hanjia = {
+	281.1.1 = {
+		liege = d_taga_hanjia
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yandao = {
+	281.1.1 = {
+		liege = d_taga_hanjia
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jiangyang = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiangyang = {
+	281.1.1 = {
+		liege = d_taga_jiangyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hanan = {
+	281.1.1 = {
+		liege = d_taga_jiangyang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fujie = {
+	281.1.1 = {
+		liege = d_taga_jiangyang
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zhuti = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanguang = {
+	281.1.1 = {
+		liege = d_taga_zhuti
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zhuti = {
+	281.1.1 = {
+		liege = d_taga_zhuti
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yuexi = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yuexi = {
+	281.1.1 = {
+		liege = d_taga_yuexi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dingzuo = {
+	281.1.1 = {
+		liege = d_taga_yuexi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_huiwu = {
+	281.1.1 = {
+		liege = d_taga_yuexi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zangke = {
+	281.1.1 = {
+		liege = k_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zangke = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bixian = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_pingyi = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yelang = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wanshou = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wulian = {
+	281.1.1 = {
+		liege = d_taga_zangke
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_liang_yi = {
+	281.1.1 = {
+		liege = e_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_hanzhong = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_hanzhong = {
+	281.1.1 = {
+		liege = d_taga_hanzhong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_baozhong = {
+	281.1.1 = {
+		liege = d_taga_hanzhong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xixiang = {
+	281.1.1 = {
+		liege = d_taga_hanzhong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_shangyong = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shangyong = {
+	281.1.1 = {
+		liege = d_taga_shangyong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_beiwu = {
+	281.1.1 = {
+		liege = d_taga_shangyong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xincheng = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fangling = {
+	281.1.1 = {
+		liege = d_taga_xincheng
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_weixing = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_weixing = {
+	281.1.1 = {
+		liege = d_taga_weixing
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ankang = {
+	281.1.1 = {
+		liege = d_taga_weixing
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_zitong = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_zitong = {
+	281.1.1 = {
+		liege = d_taga_zitong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jiange = {
+	281.1.1 = {
+		liege = d_taga_zitong
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_guanghan = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guanghan = {
+	281.1.1 = {
+		liege = d_taga_guanghan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xindu = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_xindu = {
+	281.1.1 = {
+		liege = d_taga_xindu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_fuling = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_fuling = {
+	281.1.1 = {
+		liege = d_taga_fuling
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_ba = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ba = {
+	281.1.1 = {
+		liege = d_taga_ba
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_dangqv = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_dangqv = {
+	281.1.1 = {
+		liege = d_taga_dangqv
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_baxi = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_baxi = {
+	281.1.1 = {
+		liege = d_taga_baxi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_badong = {
+	281.1.1 = {
+		liege = k_taga_liang_yi
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_badong = {
+	281.1.1 = {
+		liege = d_taga_badong
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_juren = {
+	281.1.1 = {
+		liege = d_taga_badong
+		government = taga_hanjin_government
+	}
+}
+
+k_taga_ning = {
+	281.1.1 = {
+		liege = e_taga_yi
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_jianning = {
+	281.1.1 = {
+		liege = k_taga_ning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_jianning = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shuangbai = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_guchang = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_cunma = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_weixian = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_mudan = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_tangao = {
+	281.1.1 = {
+		liege = d_taga_jianning
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yunnan = {
+	281.1.1 = {
+		liege = k_taga_ning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yunnan = {
+	281.1.1 = {
+		liege = d_taga_yunnan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongning = {
+	281.1.1 = {
+		liege = d_taga_yunnan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_suijiu = {
+	281.1.1 = {
+		liege = d_taga_yunnan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gufu = {
+	281.1.1 = {
+		liege = d_taga_yunnan
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nongdong = {
+	281.1.1 = {
+		liege = d_taga_yunnan
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_xinggu = {
+	281.1.1 = {
+		liege = k_taga_ning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_bengu = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_louwo = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_gouting = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_lvgao = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_wanwen = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_shengxiu = {
+	281.1.1 = {
+		liege = d_taga_xinggu
+		government = taga_hanjin_government
+	}
+}
+
+d_taga_yongchang = {
+	281.1.1 = {
+		liege = k_taga_ning
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongchang = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_ailao = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongxiang = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_nanfu = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_yongshou = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_ailao = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_bonan = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_kunming = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_luduo = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_yuandu = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_daner = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_chuanxiong = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_luopu = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_piaoyue = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_minpu = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
+
+c_taga_my_taga_jiuliao = {
+	281.1.1 = {
+		liege = d_taga_yongchang
+		government = taga_hanjin_government
+	}
+}
