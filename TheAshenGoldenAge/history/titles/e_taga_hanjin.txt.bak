@@ -9,15 +9,16 @@
 		}
 	}
 	290.5.16 = {
-		holder = imperial_jin_4 # Hui of Jin
+		holder = c_taga_luoyang_01 # Hui of Jin
 	}
 	307.1.8 = {
-		holder = imperial_jin_5 # Huai of Jin
+		holder = c_taga_luoyang_01 # Huai of Jin
 	}
 	313.6.7 = {
-		holder = imperial_jin_7 # Min of Jin
+		holder = c_taga_luoyang_01 # Min of Jin
 		effect = {
 			set_capital_county = title:c_taga_jingzhao
 		}
 	}
 }
+

@@ -9,7 +9,7 @@ build_title_history.py
 头衔历史中每个（脚本生成的）日期块包含 liege / government / holder：
 
     k_henan = {
-        281.1.1 = {
+        305.1.25 = {
             liege = e_china                     <- 法理直接上级，自动推导
             government = celestial_government   <- 来自下方 HISTORY_ENTRIES
             holder = k_henan_01                 <- 头衔名 + 序号，自动编号
@@ -90,7 +90,7 @@ CHARACTERS_PATH = r'TheAshenGoldenAge\history\characters\jin.txt'
 #             * 键为头衔等级前缀，可用 'default' 兜底；
 #             * 值为 None，或等级未列出且无 default，表示该等级在该日期不生成条目。
 HISTORY_ENTRIES = OrderedDict([
-    ('281.1.1',  'taga_hanjin_government'),
+    ('305.1.25',  'taga_hanjin_government'),
     # 按等级区分的写法示例（1178 年仅王国改用 steppe，公国/伯爵领不生成条目）：
     # ('1178.1.1', {'k': 'steppe_admin_government'}),
 ])
@@ -106,19 +106,19 @@ GOVERNMENT_OVERRIDES = {
 #   字典   —— {日期: liege或None}，可用 'default' 键兜底；未命中的日期回落法理上级
 LIEGE_OVERRIDES = {
     # 'k_henan': {'1178.1.1': 'e_jin'},
-    'e_taga_si': {'281.1.1': 'h_taga_hanjin'},      # 司州（司隶）
-    'e_taga_yu': {'281.1.1': 'h_taga_hanjin'},      # 豫州
-    'e_taga_ji': {'281.1.1': 'h_taga_hanjin'},      # 冀州
-    'e_taga_yan': {'281.1.1': 'h_taga_hanjin'},     # 兖州
-    'e_taga_xv': {'281.1.1': 'h_taga_hanjin'},      # 徐州
-    'e_taga_qing': {'281.1.1': 'h_taga_hanjin'},    # 青州
-    'e_taga_jing': {'281.1.1': 'h_taga_hanjin'},    # 荆州
-    'e_taga_yang': {'281.1.1': 'h_taga_hanjin'},    # 扬州
-    'e_taga_yi': {'281.1.1': 'h_taga_hanjin'},      # 益州
-    'e_taga_liang': {'281.1.1': 'h_taga_hanjin'},   # 凉州
-    'e_taga_bing': {'281.1.1': 'h_taga_hanjin'},    # 并州
-    'e_taga_you': {'281.1.1': 'h_taga_hanjin'},     # 幽州
-    'e_taga_jiao': {'281.1.1': 'h_taga_hanjin'},    # 交州
+    'e_taga_si': {'305.1.25': 'h_taga_hanjin'},      # 司州（司隶）
+    'e_taga_yu': {'305.1.25': 'h_taga_hanjin'},      # 豫州
+    'e_taga_ji': {'305.1.25': 'h_taga_hanjin'},      # 冀州
+    'e_taga_yan': {'305.1.25': 'h_taga_hanjin'},     # 兖州
+    'e_taga_xv': {'305.1.25': 'h_taga_hanjin'},      # 徐州
+    'e_taga_qing': {'305.1.25': 'h_taga_hanjin'},    # 青州
+    'e_taga_jing': {'305.1.25': 'h_taga_hanjin'},    # 荆州
+    'e_taga_yang': {'305.1.25': 'h_taga_hanjin'},    # 扬州
+    'e_taga_yi': {'305.1.25': 'h_taga_hanjin'},      # 益州
+    'e_taga_liang': {'305.1.25': 'h_taga_hanjin'},   # 凉州
+    'e_taga_bing': {'305.1.25': 'h_taga_hanjin'},    # 并州
+    'e_taga_you': {'305.1.25': 'h_taga_hanjin'},     # 幽州
+    'e_taga_jiao': {'305.1.25': 'h_taga_hanjin'},    # 交州
 }
 
 # 完全不生成历史的头衔。
