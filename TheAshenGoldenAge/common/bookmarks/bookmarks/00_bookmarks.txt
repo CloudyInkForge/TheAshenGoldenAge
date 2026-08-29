@@ -49,7 +49,7 @@ bm_PJin_XuanWu = {
 }
 
 bm_PJin_test = {
-	start_date = 1280
+	start_date =281.1.1
 	is_playable = yes
 	group = bm_group_PJin
 

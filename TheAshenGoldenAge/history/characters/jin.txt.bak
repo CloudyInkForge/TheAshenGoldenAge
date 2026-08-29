@@ -1,0 +1,40 @@
+﻿imperial_jin_1 = {
+	name = "Yan_708E" # 司馬炎 (Wu of Jin)
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	father = imperial_jin_2
+	236.1.1 = { birth = yes }
+	290.5.16 = { death = yes }
+}
+imperial_jin_4 = {
+	name = "Zhong_8877" # 司馬衷 (Hui of Jin)
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+    trait = content
+    trait = honest
+    trait = trusting
+    trait = intellect_bad_3
+	father = imperial_jin_1
+	259.1.1 = { birth = yes }
+	307.1.8 = { death = yes }
+}
+imperial_jin_5 = {
+	name = "Chi_71BE" # 司馬熾 (Huai of Jin)
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	father = imperial_jin_1
+	284.1.1 = { birth = yes }
+	313.3.10 = { death = yes }
+}
+imperial_jin_7 = {
+	name = "Ye_90BA" # 司馬業 (Min of Jin)
+	dynasty = jin_imperial_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	father = imperial_jin_1_12
+	300.1.1 = { birth = yes }
+	318.2.7 = { death = yes }
+}
