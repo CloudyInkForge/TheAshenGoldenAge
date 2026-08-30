@@ -1,4 +1,14 @@
-﻿bm_PJin_ShiZhi = {
+﻿bm_FJin_heji = {
+	start_date = 305.1.25
+	is_playable = yes
+	group = bm_group_FJin
+
+	weight = {
+		value = 0
+	}
+}
+
+bm_PJin_ShiZhi = {
 	start_date = 313.4.1
 	is_playable = yes
 	group = bm_group_LiuMin
@@ -49,7 +59,7 @@ bm_PJin_XuanWu = {
 }
 
 bm_PJin_test = {
-	start_date = 305.1.25
+	start_date = 327.12.8
 	is_playable = yes
 	group = bm_group_PJin
 

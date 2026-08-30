@@ -78,7 +78,7 @@ taga_cao = {
 	name = "dynn_taga_cao"
 	culture = TAGA_jin
 }
-taga_xun = {
-	name = "dynn_taga_xun"
+taga_gou = {
+	name = "dynn_taga_gou"
 	culture = TAGA_jin
 }

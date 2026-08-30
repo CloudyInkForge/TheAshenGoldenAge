@@ -1,4 +1,7 @@
-﻿bm_group_LiuMin = {
+﻿bm_group_FJin = {
+	default_start_date = 305.1.25
+}
+bm_group_LiuMin = {
 	default_start_date = 313.4.1
 }
 bm_group_PJin = {
