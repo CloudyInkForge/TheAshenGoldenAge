@@ -10,7 +10,14 @@
 	259.1.1 = { birth = yes }
 	307.1.8 = { death = yes }
 }
-
+taga_simayan = {
+	name = "taga_yan_01" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	321.1.1 = { birth = yes }
+	342.7.26 = { death = yes }
+}
 
 
 

@@ -1,0 +1,4 @@
+h_taga_zhao = {
+	color = { 26 26 26 }
+	capital = c_taga_ye
+}

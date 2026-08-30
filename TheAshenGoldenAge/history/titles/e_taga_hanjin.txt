@@ -18,6 +18,14 @@
 			set_capital_county = title:c_taga_luoyang
 		}
 	}
+	318.4.26 = {
+		effect = {
+			set_capital_county = title:c_taga_jiankang
+		}
+	}
+	325.10.19 = {
+		holder = taga_simayan # Cheng of Jin
+	}
 }
 
 e_taga_si = {
