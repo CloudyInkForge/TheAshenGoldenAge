@@ -1,48 +1,22 @@
-imperial_jin_1 = {
-	name = "Yan_708E" # 司馬炎 (Wu of Jin)
-	dynasty = jin_imperial_sima
-	religion = "jingxue"
-	culture = "TAGA_jin"
-	father = imperial_jin_2
-	236.1.1 = { birth = yes }
-	290.5.16 = { death = yes }
-}
-imperial_jin_4 = {
-	name = "Zhong_8877" # 司馬衷 (Hui of Jin)
-	dynasty = jin_imperial_sima
+﻿taga_simazhong = {
+	name = "taga_zhong" # 司馬衷 (Hui of Jin)
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
     trait = content
     trait = honest
     trait = trusting
     trait = intellect_bad_3
-	father = imperial_jin_1
 	259.1.1 = { birth = yes }
 	307.1.8 = { death = yes }
-}
-imperial_jin_5 = {
-	name = "Chi_71BE" # 司馬熾 (Huai of Jin)
-	dynasty = jin_imperial_sima
-	religion = "jingxue"
-	culture = "TAGA_jin"
-	father = imperial_jin_1
-	284.1.1 = { birth = yes }
-	313.3.10 = { death = yes }
-}
-imperial_jin_7 = {
-	name = "Ye_90BA" # 司馬業 (Min of Jin)
-	dynasty = jin_imperial_sima
-	religion = "jingxue"
-	culture = "TAGA_jin"
-	father = imperial_jin_1_12
-	300.1.1 = { birth = yes }
-	318.2.7 = { death = yes }
 }
 
 
 
 
 c_taga_luoyang_01 = {
+	name = "taga_tun" 
+	dynasty = taga_liu_dl
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -236,6 +210,8 @@ c_taga_zhaoge_01 = {
 
 
 c_taga_wei_01 = {
+	name = "taga_mo" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -333,6 +309,8 @@ c_taga_yinan_01 = {
 
 
 c_taga_xindu_j_01 = {
+	name = "taga_yi_01" 
+	dynasty = taga_li_01
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -664,6 +642,8 @@ c_taga_nanshenze_01 = {
 
 
 c_taga_jiankang_01 = {
+	name = "taga_hu" 
+	dynasty = taga_cao
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -1032,6 +1012,8 @@ c_taga_songyang_01 = {
 
 
 c_taga_nanchang_01 = {
+	name = "taga_miao" 
+	dynasty = taga_ying
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -1289,6 +1271,8 @@ c_taga_wuxing_jianan_01 = {
 
 
 c_taga_xvchang_01 = {
+	name = "taga_xiao" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -1411,6 +1395,8 @@ c_taga_liang_01 = {
 }
 
 c_taga_chen_y_01 = {
+	name = "taga_qiao" 
+	dynasty = taga_liu
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -1662,6 +1648,8 @@ c_taga_luyang_01 = {
 
 
 c_taga_xiangyang_01 = {
+	name = "taga_hong" 
+	dynasty = taga_liu_pei
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -2201,6 +2189,8 @@ c_taga_sihui_01 = {
 }
 
 c_taga_fanyu_01 = {
+	name = "taga_yi" 
+	dynasty = taga_wang
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -2371,6 +2361,8 @@ c_taga_xingdao_01 = {
 
 
 c_taga_longbian_01 = {
+	name = "taga_yan" 
+	dynasty = taga_wu
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -2579,6 +2571,8 @@ c_taga_fuyang_01 = {
 
 
 c_taga_xiapi_01 = {
+	name = "taga_mao" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -2806,6 +2800,8 @@ c_taga_dongyang_01 = {
 
 
 c_taga_linzi_01 = {
+	name = "taga_lue" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3012,6 +3008,8 @@ c_taga_yian_01 = {
 
 
 c_taga_puyang_01 = {
+	name = "taga_xi" 
+	dynasty = taga_xun
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3219,6 +3217,8 @@ c_taga_laiwu_01 = {
 
 
 c_taga_ji_y_01 = {
+	name = "taga_jun" 
+	dynasty = taga_wang_ty
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3388,6 +3388,8 @@ c_taga_xianping_01 = {
 }
 
 c_taga_xiangping_01 = {
+	name = "taga_zhen" 
+	dynasty = taga_li
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3514,6 +3516,8 @@ c_taga_changcen_01 = {
 
 
 c_taga_jinyang_01 = {
+	name = "taga_teng" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3681,6 +3685,8 @@ c_taga_wucheng_01 = {
 
 
 c_taga_yunzhong_01 = {
+	name = "taga_gaoshengyuan" 
+	dynasty = taga_liu_tf
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3754,10 +3760,12 @@ c_taga_shuofang_01 = {
 
 
 c_taga_lishi_01 = {
+	name = "taga_yuan" 
+	dynasty = taga_liu_xx
 	religion = "jingxue"
 	culture = "TAGA_jin"
-	275.1.25 = { birth = yes }
-	335.1.25 = { death = yes }
+	253.2.10 = { birth = yes }
+	310.8.10 = { death = yes }
 }
 
 c_taga_linshui_01 = {
@@ -3980,17 +3988,9 @@ c_taga_xunyan_01 = {
 	335.1.25 = { death = yes }
 }
 
-
-
-
-c_taga_jingzhao_01 = {
-	religion = "jingxue"
-	culture = "TAGA_jin"
-	275.1.25 = { birth = yes }
-	335.1.25 = { death = yes }
-}
-
 c_taga_lantian_01 = {
+	name = "taga_yong" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -3998,6 +3998,8 @@ c_taga_lantian_01 = {
 }
 
 c_taga_gaoling_01 = {
+	name = "taga_dan" 
+	dynasty = taga_gao
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4110,6 +4112,8 @@ c_taga_xinping_01 = {
 
 
 c_taga_guzang_01 = {
+	name = "taga_gui" 
+	dynasty = taga_zhang
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4266,6 +4270,8 @@ c_taga_juyan_01 = {
 
 
 c_taga_ji_q_01 = {
+	name = "taga_zhong_01" 
+	dynasty = taga_huangfu
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4358,6 +4364,8 @@ c_taga_yinping_01 = {
 
 
 c_taga_shu_01 = {
+	name = "taga_xiong" 
+	dynasty = taga_li_ch
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4549,6 +4557,8 @@ c_taga_wulian_01 = {
 
 
 c_taga_hanzhong_01 = {
+	name = "taga_kai" 
+	dynasty = taga_you
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4648,6 +4658,8 @@ c_taga_fuling_01 = {
 
 
 c_taga_ba_01 = {
+	name = "taga_shang" 
+	dynasty = taga_luo
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }
@@ -4688,6 +4700,8 @@ c_taga_juren_01 = {
 
 
 c_taga_jianning_01 = {
+	name = "taga_yi" 
+	dynasty = taga_li
 	religion = "jingxue"
 	culture = "TAGA_jin"
 	275.1.25 = { birth = yes }

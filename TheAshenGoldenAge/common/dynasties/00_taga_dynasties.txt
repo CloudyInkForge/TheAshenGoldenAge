@@ -1,0 +1,84 @@
+﻿taga_sima = {
+	name = "dynn_taga_sima"
+	culture = TAGA_jin
+}
+taga_huangfu = {
+	name = "dynn_taga_huangfu"
+	culture = TAGA_jin
+}
+taga_zhang = {
+	name = "dynn_taga_zhang"
+	culture = TAGA_jin
+}
+taga_you = {
+	name = "dynn_taga_you"
+	culture = TAGA_jin
+}
+taga_liu = {
+	name = "dynn_taga_liu"
+	culture = TAGA_jin
+}
+taga_luo = {
+	name = "dynn_taga_luo"
+	culture = TAGA_jin
+}
+taga_li = {
+	name = "dynn_taga_li"
+	culture = TAGA_jin
+}
+taga_li_01 = {
+	name = "dynn_taga_li"
+	culture = TAGA_jin
+}
+taga_li_ch = {
+	name = "dynn_taga_li"
+	culture = TAGA_jin
+}
+taga_wu = {
+	name = "dynn_taga_wu"
+	culture = TAGA_jin
+}
+taga_wang = {
+	name = "dynn_taga_wang"
+	culture = TAGA_jin
+}
+taga_ying = {
+	name = "dynn_taga_ying"
+	culture = TAGA_jin
+}
+taga_gao = {
+	name = "dynn_taga_gao"
+	culture = TAGA_jin
+}
+taga_liu_pei = {
+	name = "dynn_taga_liu"
+	culture = TAGA_jin
+}
+taga_liu_dl = {
+	name = "dynn_taga_liu"
+	culture = TAGA_jin
+}
+taga_liu_tf = {
+	name = "dynn_taga_liu"
+	culture = TAGA_jin
+}
+taga_liu_xx = {
+	name = "dynn_taga_liu"
+	culture = TAGA_jin
+}
+taga_li_bh = {
+	name = "dynn_taga_li"
+	culture = TAGA_jin
+}
+taga_wang_ty = {
+	name = "dynn_taga_wang"
+	culture = TAGA_jin
+}
+taga_cao = {
+	name = "dynn_taga_cao"
+	culture = TAGA_jin
+}
+taga_xun = {
+	name = "dynn_taga_xun"
+	culture = TAGA_jin
+}
