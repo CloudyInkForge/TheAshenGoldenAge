@@ -45,6 +45,7 @@ d_taga_henan = {
 }
 
 c_taga_luoyang = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -53,6 +54,7 @@ c_taga_luoyang = {
 }
 
 c_taga_chenggao = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -61,6 +63,7 @@ c_taga_chenggao = {
 }
 
 c_taga_xinan_s = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -69,6 +72,7 @@ c_taga_xinan_s = {
 }
 
 c_taga_luhun = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -77,6 +81,7 @@ c_taga_luhun = {
 }
 
 c_taga_liang_s = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -85,6 +90,7 @@ c_taga_liang_s = {
 }
 
 c_taga_yangzhai = {
+	305.1.25 = { change_development_level = 79 }
 	305.1.25 = {
 		liege = d_taga_henan
 		government = taga_hanjin_government
@@ -101,6 +107,7 @@ d_taga_xingyang = {
 }
 
 c_taga_xingyang = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_xingyang
 		government = taga_hanjin_government
@@ -109,6 +116,7 @@ c_taga_xingyang = {
 }
 
 c_taga_yangwu = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_xingyang
 		government = taga_hanjin_government
@@ -117,6 +125,7 @@ c_taga_yangwu = {
 }
 
 c_taga_kaifeng = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_xingyang
 		government = taga_hanjin_government
@@ -133,6 +142,7 @@ d_taga_hongnong = {
 }
 
 c_taga_hongnong = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_hongnong
 		government = taga_hanjin_government
@@ -141,6 +151,7 @@ c_taga_hongnong = {
 }
 
 c_taga_shan_s = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_hongnong
 		government = taga_hanjin_government
@@ -157,6 +168,7 @@ d_taga_shangluo = {
 }
 
 c_taga_shangluo = {
+	305.1.25 = { change_development_level = 49 }
 	305.1.25 = {
 		liege = d_taga_shangluo
 		government = taga_hanjin_government
@@ -173,6 +185,7 @@ d_taga_hedong = {
 }
 
 c_taga_hedong = {
+	305.1.25 = { change_development_level = 38 }
 	305.1.25 = {
 		liege = d_taga_hedong
 		government = taga_hanjin_government
@@ -181,6 +194,7 @@ c_taga_hedong = {
 }
 
 c_taga_puban = {
+	305.1.25 = { change_development_level = 38 }
 	305.1.25 = {
 		liege = d_taga_hedong
 		government = taga_hanjin_government
@@ -189,6 +203,7 @@ c_taga_puban = {
 }
 
 c_taga_hebei = {
+	305.1.25 = { change_development_level = 38 }
 	305.1.25 = {
 		liege = d_taga_hedong
 		government = taga_hanjin_government
@@ -197,6 +212,7 @@ c_taga_hebei = {
 }
 
 c_taga_yuan = {
+	305.1.25 = { change_development_level = 38 }
 	305.1.25 = {
 		liege = d_taga_hedong
 		government = taga_hanjin_government
@@ -213,6 +229,7 @@ d_taga_pingyang = {
 }
 
 c_taga_pingyang = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyang
 		government = taga_hanjin_government
@@ -221,6 +238,7 @@ c_taga_pingyang = {
 }
 
 c_taga_duanshi = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyang
 		government = taga_hanjin_government
@@ -229,6 +247,7 @@ c_taga_duanshi = {
 }
 
 c_taga_pishi = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyang
 		government = taga_hanjin_government
@@ -237,6 +256,7 @@ c_taga_pishi = {
 }
 
 c_taga_jiang = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyang
 		government = taga_hanjin_government
@@ -245,6 +265,7 @@ c_taga_jiang = {
 }
 
 c_taga_xiangling = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyang
 		government = taga_hanjin_government
@@ -261,6 +282,7 @@ d_taga_henei = {
 }
 
 c_taga_henei = {
+	305.1.25 = { change_development_level = 48 }
 	305.1.25 = {
 		liege = d_taga_henei
 		government = taga_hanjin_government
@@ -269,6 +291,7 @@ c_taga_henei = {
 }
 
 c_taga_zhi = {
+	305.1.25 = { change_development_level = 48 }
 	305.1.25 = {
 		liege = d_taga_henei
 		government = taga_hanjin_government
@@ -277,6 +300,7 @@ c_taga_zhi = {
 }
 
 c_taga_huai = {
+	305.1.25 = { change_development_level = 48 }
 	305.1.25 = {
 		liege = d_taga_henei
 		government = taga_hanjin_government
@@ -293,6 +317,7 @@ d_taga_ji = {
 }
 
 c_taga_ji = {
+	305.1.25 = { change_development_level = 52 }
 	305.1.25 = {
 		liege = d_taga_ji
 		government = taga_hanjin_government
@@ -301,6 +326,7 @@ c_taga_ji = {
 }
 
 c_taga_zhaoge = {
+	305.1.25 = { change_development_level = 52 }
 	305.1.25 = {
 		liege = d_taga_ji
 		government = taga_hanjin_government
@@ -325,6 +351,7 @@ d_taga_wei = {
 }
 
 c_taga_wei = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_wei
 		government = taga_hanjin_government
@@ -333,6 +360,7 @@ c_taga_wei = {
 }
 
 c_taga_dangyin = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_wei
 		government = taga_hanjin_government
@@ -341,6 +369,7 @@ c_taga_dangyin = {
 }
 
 c_taga_neihuang = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_wei
 		government = taga_hanjin_government
@@ -357,6 +386,7 @@ d_taga_yangping = {
 }
 
 c_taga_guantao = {
+	305.1.25 = { change_development_level = 76 }
 	305.1.25 = {
 		liege = d_taga_yangping
 		government = taga_hanjin_government
@@ -365,6 +395,7 @@ c_taga_guantao = {
 }
 
 c_taga_yangping = {
+	305.1.25 = { change_development_level = 76 }
 	305.1.25 = {
 		liege = d_taga_yangping
 		government = taga_hanjin_government
@@ -381,6 +412,7 @@ d_taga_guangping = {
 }
 
 c_taga_qvliang = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -389,6 +421,7 @@ c_taga_qvliang = {
 }
 
 c_taga_guangping = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -397,6 +430,7 @@ c_taga_guangping = {
 }
 
 c_taga_handan = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -405,6 +439,7 @@ c_taga_handan = {
 }
 
 c_taga_wuan = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -413,6 +448,7 @@ c_taga_wuan = {
 }
 
 c_taga_ren = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -421,6 +457,7 @@ c_taga_ren = {
 }
 
 c_taga_xiangguo = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_guangping
 		government = taga_hanjin_government
@@ -437,6 +474,7 @@ d_taga_dunqiu = {
 }
 
 c_taga_dunqiu = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_dunqiu
 		government = taga_hanjin_government
@@ -445,6 +483,7 @@ c_taga_dunqiu = {
 }
 
 c_taga_yinan = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_dunqiu
 		government = taga_hanjin_government
@@ -477,6 +516,7 @@ d_taga_anping = {
 }
 
 c_taga_xindu_j = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -485,6 +525,7 @@ c_taga_xindu_j = {
 }
 
 c_taga_jing = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -493,6 +534,7 @@ c_taga_jing = {
 }
 
 c_taga_guangzong = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -501,6 +543,7 @@ c_taga_guangzong = {
 }
 
 c_taga_xiabo = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -509,6 +552,7 @@ c_taga_xiabo = {
 }
 
 c_taga_wuyi = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -517,6 +561,7 @@ c_taga_wuyi = {
 }
 
 c_taga_wusui = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_anping
 		government = taga_hanjin_government
@@ -533,6 +578,7 @@ d_taga_pingyuan = {
 }
 
 c_taga_pingyuan = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -541,6 +587,7 @@ c_taga_pingyuan = {
 }
 
 c_taga_ge = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -549,6 +596,7 @@ c_taga_ge = {
 }
 
 c_taga_xipingchang = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -557,6 +605,7 @@ c_taga_xipingchang = {
 }
 
 c_taga_boping = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -565,6 +614,7 @@ c_taga_boping = {
 }
 
 c_taga_gaotang = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -573,6 +623,7 @@ c_taga_gaotang = {
 }
 
 c_taga_chiping = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_pingyuan
 		government = taga_hanjin_government
@@ -589,6 +640,7 @@ d_taga_leling = {
 }
 
 c_taga_yanci_j = {
+	305.1.25 = { change_development_level = 57 }
 	305.1.25 = {
 		liege = d_taga_leling
 		government = taga_hanjin_government
@@ -597,6 +649,7 @@ c_taga_yanci_j = {
 }
 
 c_taga_yangxin = {
+	305.1.25 = { change_development_level = 57 }
 	305.1.25 = {
 		liege = d_taga_leling
 		government = taga_hanjin_government
@@ -605,6 +658,7 @@ c_taga_yangxin = {
 }
 
 c_taga_xinle = {
+	305.1.25 = { change_development_level = 57 }
 	305.1.25 = {
 		liege = d_taga_leling
 		government = taga_hanjin_government
@@ -621,6 +675,7 @@ d_taga_bohai = {
 }
 
 c_taga_nanpi = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_bohai
 		government = taga_hanjin_government
@@ -629,6 +684,7 @@ c_taga_nanpi = {
 }
 
 c_taga_chonghe = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_bohai
 		government = taga_hanjin_government
@@ -637,6 +693,7 @@ c_taga_chonghe = {
 }
 
 c_taga_tiao = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_bohai
 		government = taga_hanjin_government
@@ -645,6 +702,7 @@ c_taga_tiao = {
 }
 
 c_taga_guangchuan = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_bohai
 		government = taga_hanjin_government
@@ -661,6 +719,7 @@ d_taga_zhangwu = {
 }
 
 c_taga_zhangwu = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_zhangwu
 		government = taga_hanjin_government
@@ -669,6 +728,7 @@ c_taga_zhangwu = {
 }
 
 c_taga_dongpingshu = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_zhangwu
 		government = taga_hanjin_government
@@ -685,6 +745,7 @@ d_taga_hejian = {
 }
 
 c_taga_lecheng = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_hejian
 		government = taga_hanjin_government
@@ -693,6 +754,7 @@ c_taga_lecheng = {
 }
 
 c_taga_mo = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_hejian
 		government = taga_hanjin_government
@@ -701,6 +763,7 @@ c_taga_mo = {
 }
 
 c_taga_wuyuan_j = {
+	305.1.25 = { change_development_level = 36 }
 	305.1.25 = {
 		liege = d_taga_hejian
 		government = taga_hanjin_government
@@ -717,6 +780,7 @@ d_taga_gaoyang = {
 }
 
 c_taga_boling = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_gaoyang
 		government = taga_hanjin_government
@@ -725,6 +789,7 @@ c_taga_boling = {
 }
 
 c_taga_beixincheng = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_gaoyang
 		government = taga_hanjin_government
@@ -741,6 +806,7 @@ d_taga_qinghe = {
 }
 
 c_taga_qinghe = {
+	305.1.25 = { change_development_level = 27 }
 	305.1.25 = {
 		liege = d_taga_qinghe
 		government = taga_hanjin_government
@@ -749,6 +815,7 @@ c_taga_qinghe = {
 }
 
 c_taga_shu_j = {
+	305.1.25 = { change_development_level = 27 }
 	305.1.25 = {
 		liege = d_taga_qinghe
 		government = taga_hanjin_government
@@ -765,6 +832,7 @@ d_taga_zhongshan = {
 }
 
 c_taga_lvnu = {
+	305.1.25 = { change_development_level = 26 }
 	305.1.25 = {
 		liege = d_taga_zhongshan
 		government = taga_hanjin_government
@@ -773,6 +841,7 @@ c_taga_lvnu = {
 }
 
 c_taga_wangdu = {
+	305.1.25 = { change_development_level = 26 }
 	305.1.25 = {
 		liege = d_taga_zhongshan
 		government = taga_hanjin_government
@@ -781,6 +850,7 @@ c_taga_wangdu = {
 }
 
 c_taga_beiping = {
+	305.1.25 = { change_development_level = 26 }
 	305.1.25 = {
 		liege = d_taga_zhongshan
 		government = taga_hanjin_government
@@ -797,6 +867,7 @@ d_taga_changshan = {
 }
 
 c_taga_zhending = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_changshan
 		government = taga_hanjin_government
@@ -805,6 +876,7 @@ c_taga_zhending = {
 }
 
 c_taga_jingxing = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_changshan
 		government = taga_hanjin_government
@@ -813,6 +885,7 @@ c_taga_jingxing = {
 }
 
 c_taga_lingshou = {
+	305.1.25 = { change_development_level = 25 }
 	305.1.25 = {
 		liege = d_taga_changshan
 		government = taga_hanjin_government
@@ -829,6 +902,7 @@ d_taga_zhao = {
 }
 
 c_taga_fangzi = {
+	305.1.25 = { change_development_level = 61 }
 	305.1.25 = {
 		liege = d_taga_zhao
 		government = taga_hanjin_government
@@ -837,6 +911,7 @@ c_taga_fangzi = {
 }
 
 c_taga_yuanshi = {
+	305.1.25 = { change_development_level = 61 }
 	305.1.25 = {
 		liege = d_taga_zhao
 		government = taga_hanjin_government
@@ -845,6 +920,7 @@ c_taga_yuanshi = {
 }
 
 c_taga_zhongqiu = {
+	305.1.25 = { change_development_level = 61 }
 	305.1.25 = {
 		liege = d_taga_zhao
 		government = taga_hanjin_government
@@ -861,6 +937,7 @@ d_taga_julu = {
 }
 
 c_taga_yingtao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_julu
 		government = taga_hanjin_government
@@ -869,6 +946,7 @@ c_taga_yingtao = {
 }
 
 c_taga_qiao_j = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_julu
 		government = taga_hanjin_government
@@ -877,6 +955,7 @@ c_taga_qiao_j = {
 }
 
 c_taga_julu = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_julu
 		government = taga_hanjin_government
@@ -885,6 +964,7 @@ c_taga_julu = {
 }
 
 c_taga_xiaqvyang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_julu
 		government = taga_hanjin_government
@@ -893,6 +973,7 @@ c_taga_xiaqvyang = {
 }
 
 c_taga_pingxiang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_julu
 		government = taga_hanjin_government
@@ -909,6 +990,7 @@ d_taga_boling = {
 }
 
 c_taga_anping = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_boling
 		government = taga_hanjin_government
@@ -917,6 +999,7 @@ c_taga_anping = {
 }
 
 c_taga_anguo = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_boling
 		government = taga_hanjin_government
@@ -925,6 +1008,7 @@ c_taga_anguo = {
 }
 
 c_taga_nanshenze = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_boling
 		government = taga_hanjin_government
@@ -949,6 +1033,7 @@ d_taga_danyang = {
 }
 
 c_taga_jiankang = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -957,6 +1042,7 @@ c_taga_jiankang = {
 }
 
 c_taga_gourong = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -965,6 +1051,7 @@ c_taga_gourong = {
 }
 
 c_taga_yuhu = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -973,6 +1060,7 @@ c_taga_yuhu = {
 }
 
 c_taga_danyang = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -981,6 +1069,7 @@ c_taga_danyang = {
 }
 
 c_taga_jiangcheng = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -989,6 +1078,7 @@ c_taga_jiangcheng = {
 }
 
 c_taga_lishui = {
+	305.1.25 = { change_development_level = 30 }
 	305.1.25 = {
 		liege = d_taga_danyang
 		government = taga_hanjin_government
@@ -1005,6 +1095,7 @@ d_taga_jinling = {
 }
 
 c_taga_dantu = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_jinling
 		government = taga_hanjin_government
@@ -1013,6 +1104,7 @@ c_taga_dantu = {
 }
 
 c_taga_jinling = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_jinling
 		government = taga_hanjin_government
@@ -1029,6 +1121,7 @@ d_taga_wuxing = {
 }
 
 c_taga_wuxing = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_wuxing
 		government = taga_hanjin_government
@@ -1037,6 +1130,7 @@ c_taga_wuxing = {
 }
 
 c_taga_yuhang = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_wuxing
 		government = taga_hanjin_government
@@ -1045,6 +1139,7 @@ c_taga_yuhang = {
 }
 
 c_taga_zhang = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_wuxing
 		government = taga_hanjin_government
@@ -1061,6 +1156,7 @@ d_taga_yixing = {
 }
 
 c_taga_yangxian = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_yixing
 		government = taga_hanjin_government
@@ -1077,6 +1173,7 @@ d_taga_wu = {
 }
 
 c_taga_wu = {
+	305.1.25 = { change_development_level = 13 }
 	305.1.25 = {
 		liege = d_taga_wu
 		government = taga_hanjin_government
@@ -1085,6 +1182,7 @@ c_taga_wu = {
 }
 
 c_taga_haiyan = {
+	305.1.25 = { change_development_level = 13 }
 	305.1.25 = {
 		liege = d_taga_wu
 		government = taga_hanjin_government
@@ -1093,6 +1191,7 @@ c_taga_haiyan = {
 }
 
 c_taga_qiantang = {
+	305.1.25 = { change_development_level = 13 }
 	305.1.25 = {
 		liege = d_taga_wu
 		government = taga_hanjin_government
@@ -1101,6 +1200,7 @@ c_taga_qiantang = {
 }
 
 c_taga_tonglu = {
+	305.1.25 = { change_development_level = 13 }
 	305.1.25 = {
 		liege = d_taga_wu
 		government = taga_hanjin_government
@@ -1117,6 +1217,7 @@ d_taga_xuancheng = {
 }
 
 c_taga_wanling = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_xuancheng
 		government = taga_hanjin_government
@@ -1125,6 +1226,7 @@ c_taga_wanling = {
 }
 
 c_taga_xuancheng = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_xuancheng
 		government = taga_hanjin_government
@@ -1133,6 +1235,7 @@ c_taga_xuancheng = {
 }
 
 c_taga_shicheng = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_xuancheng
 		government = taga_hanjin_government
@@ -1141,6 +1244,7 @@ c_taga_shicheng = {
 }
 
 c_taga_chungu = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_xuancheng
 		government = taga_hanjin_government
@@ -1157,6 +1261,7 @@ d_taga_huainan = {
 }
 
 c_taga_huainan = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1165,6 +1270,7 @@ c_taga_huainan = {
 }
 
 c_taga_hefei = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1173,6 +1279,7 @@ c_taga_hefei = {
 }
 
 c_taga_quanjiao = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1181,6 +1288,7 @@ c_taga_quanjiao = {
 }
 
 c_taga_xiacai = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1189,6 +1297,7 @@ c_taga_xiacai = {
 }
 
 c_taga_yicheng_y = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1197,6 +1306,7 @@ c_taga_yicheng_y = {
 }
 
 c_taga_yinling = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1205,6 +1315,7 @@ c_taga_yinling = {
 }
 
 c_taga_dangtu = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1213,6 +1324,7 @@ c_taga_dangtu = {
 }
 
 c_taga_dongcheng = {
+	305.1.25 = { change_development_level = 12 }
 	305.1.25 = {
 		liege = d_taga_huainan
 		government = taga_hanjin_government
@@ -1229,6 +1341,7 @@ d_taga_lujiang = {
 }
 
 c_taga_lujiang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lujiang
 		government = taga_hanjin_government
@@ -1237,6 +1350,7 @@ c_taga_lujiang = {
 }
 
 c_taga_yangquan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lujiang
 		government = taga_hanjin_government
@@ -1245,6 +1359,7 @@ c_taga_yangquan = {
 }
 
 c_taga_wan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lujiang
 		government = taga_hanjin_government
@@ -1253,6 +1368,7 @@ c_taga_wan = {
 }
 
 c_taga_linhu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lujiang
 		government = taga_hanjin_government
@@ -1269,6 +1385,7 @@ d_taga_liyang = {
 }
 
 c_taga_liyang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_liyang
 		government = taga_hanjin_government
@@ -1285,6 +1402,7 @@ d_taga_zhongli = {
 }
 
 c_taga_zhongli = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_zhongli
 		government = taga_hanjin_government
@@ -1301,6 +1419,7 @@ d_taga_kuaiji = {
 }
 
 c_taga_kuaiji = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_kuaiji
 		government = taga_hanjin_government
@@ -1309,6 +1428,7 @@ c_taga_kuaiji = {
 }
 
 c_taga_shan = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_kuaiji
 		government = taga_hanjin_government
@@ -1317,6 +1437,7 @@ c_taga_shan = {
 }
 
 c_taga_gouzhang = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_kuaiji
 		government = taga_hanjin_government
@@ -1325,6 +1446,7 @@ c_taga_gouzhang = {
 }
 
 c_taga_zhuji = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_kuaiji
 		government = taga_hanjin_government
@@ -1341,6 +1463,7 @@ d_taga_xinan = {
 }
 
 c_taga_xinan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinan
 		government = taga_hanjin_government
@@ -1349,6 +1472,7 @@ c_taga_xinan = {
 }
 
 c_taga_she = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinan
 		government = taga_hanjin_government
@@ -1357,6 +1481,7 @@ c_taga_she = {
 }
 
 c_taga_you = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinan
 		government = taga_hanjin_government
@@ -1373,6 +1498,7 @@ d_taga_dongyang = {
 }
 
 c_taga_changshan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_dongyang
 		government = taga_hanjin_government
@@ -1381,6 +1507,7 @@ c_taga_changshan = {
 }
 
 c_taga_dongxinan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_dongyang
 		government = taga_hanjin_government
@@ -1389,6 +1516,7 @@ c_taga_dongxinan = {
 }
 
 c_taga_fengan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_dongyang
 		government = taga_hanjin_government
@@ -1397,6 +1525,7 @@ c_taga_fengan = {
 }
 
 c_taga_suichang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_dongyang
 		government = taga_hanjin_government
@@ -1413,6 +1542,7 @@ d_taga_linhai = {
 }
 
 c_taga_zhangan = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_linhai
 		government = taga_hanjin_government
@@ -1421,6 +1551,7 @@ c_taga_zhangan = {
 }
 
 c_taga_linhai = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_linhai
 		government = taga_hanjin_government
@@ -1429,6 +1560,7 @@ c_taga_linhai = {
 }
 
 c_taga_ninghai = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_linhai
 		government = taga_hanjin_government
@@ -1445,6 +1577,7 @@ d_taga_yongjia = {
 }
 
 c_taga_yongjia = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yongjia
 		government = taga_hanjin_government
@@ -1453,6 +1586,7 @@ c_taga_yongjia = {
 }
 
 c_taga_songyang = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yongjia
 		government = taga_hanjin_government
@@ -1477,6 +1611,7 @@ d_taga_yuzhang = {
 }
 
 c_taga_nanchang = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_yuzhang
 		government = taga_hanjin_government
@@ -1485,6 +1620,7 @@ c_taga_nanchang = {
 }
 
 c_taga_yongxiu = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_yuzhang
 		government = taga_hanjin_government
@@ -1493,6 +1629,7 @@ c_taga_yongxiu = {
 }
 
 c_taga_jiancheng = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_yuzhang
 		government = taga_hanjin_government
@@ -1501,6 +1638,7 @@ c_taga_jiancheng = {
 }
 
 c_taga_xingan = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_yuzhang
 		government = taga_hanjin_government
@@ -1509,6 +1647,7 @@ c_taga_xingan = {
 }
 
 c_taga_haihun = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_yuzhang
 		government = taga_hanjin_government
@@ -1525,6 +1664,7 @@ d_taga_luling = {
 }
 
 c_taga_shiyang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_luling
 		government = taga_hanjin_government
@@ -1533,6 +1673,7 @@ c_taga_shiyang = {
 }
 
 c_taga_xingping = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_luling
 		government = taga_hanjin_government
@@ -1541,6 +1682,7 @@ c_taga_xingping = {
 }
 
 c_taga_xichang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_luling
 		government = taga_hanjin_government
@@ -1549,6 +1691,7 @@ c_taga_xichang = {
 }
 
 c_taga_baqiu = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_luling
 		government = taga_hanjin_government
@@ -1565,6 +1708,7 @@ d_taga_linchuan = {
 }
 
 c_taga_linru = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linchuan
 		government = taga_hanjin_government
@@ -1573,6 +1717,7 @@ c_taga_linru = {
 }
 
 c_taga_xinning = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linchuan
 		government = taga_hanjin_government
@@ -1581,6 +1726,7 @@ c_taga_xinning = {
 }
 
 c_taga_xinjian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linchuan
 		government = taga_hanjin_government
@@ -1589,6 +1735,7 @@ c_taga_xinjian = {
 }
 
 c_taga_nancheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linchuan
 		government = taga_hanjin_government
@@ -1597,6 +1744,7 @@ c_taga_nancheng = {
 }
 
 c_taga_yongcheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linchuan
 		government = taga_hanjin_government
@@ -1613,6 +1761,7 @@ d_taga_ancheng = {
 }
 
 c_taga_pingdu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ancheng
 		government = taga_hanjin_government
@@ -1621,6 +1770,7 @@ c_taga_pingdu = {
 }
 
 c_taga_yichun = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ancheng
 		government = taga_hanjin_government
@@ -1629,6 +1779,7 @@ c_taga_yichun = {
 }
 
 c_taga_yongxin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ancheng
 		government = taga_hanjin_government
@@ -1645,6 +1796,7 @@ d_taga_wuchang = {
 }
 
 c_taga_wuchang = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_wuchang
 		government = taga_hanjin_government
@@ -1661,6 +1813,7 @@ d_taga_xunyang = {
 }
 
 c_taga_chaisang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_xunyang
 		government = taga_hanjin_government
@@ -1669,6 +1822,7 @@ c_taga_chaisang = {
 }
 
 c_taga_pengze = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_xunyang
 		government = taga_hanjin_government
@@ -1677,6 +1831,7 @@ c_taga_pengze = {
 }
 
 c_taga_xunyang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_xunyang
 		government = taga_hanjin_government
@@ -1693,6 +1848,7 @@ d_taga_poyang = {
 }
 
 c_taga_poyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_poyang
 		government = taga_hanjin_government
@@ -1701,6 +1857,7 @@ c_taga_poyang = {
 }
 
 c_taga_yuhan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_poyang
 		government = taga_hanjin_government
@@ -1709,6 +1866,7 @@ c_taga_yuhan = {
 }
 
 c_taga_qiaoyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_poyang
 		government = taga_hanjin_government
@@ -1725,6 +1883,7 @@ d_taga_nankang = {
 }
 
 c_taga_yudu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_nankang
 		government = taga_hanjin_government
@@ -1733,6 +1892,7 @@ c_taga_yudu = {
 }
 
 c_taga_gan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_nankang
 		government = taga_hanjin_government
@@ -1741,6 +1901,7 @@ c_taga_gan = {
 }
 
 c_taga_nanye = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_nankang
 		government = taga_hanjin_government
@@ -1757,6 +1918,7 @@ d_taga_jinan = {
 }
 
 c_taga_dongye = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan
 		government = taga_hanjin_government
@@ -1765,6 +1927,7 @@ c_taga_dongye = {
 }
 
 c_taga_wenma = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan
 		government = taga_hanjin_government
@@ -1773,6 +1936,7 @@ c_taga_wenma = {
 }
 
 c_taga_jinan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan
 		government = taga_hanjin_government
@@ -1781,6 +1945,7 @@ c_taga_jinan = {
 }
 
 c_taga_xinluo = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan
 		government = taga_hanjin_government
@@ -1797,6 +1962,7 @@ d_taga_jianan = {
 }
 
 c_taga_jianan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jianan
 		government = taga_hanjin_government
@@ -1805,6 +1971,7 @@ c_taga_jianan = {
 }
 
 c_taga_jiangle = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jianan
 		government = taga_hanjin_government
@@ -1813,6 +1980,7 @@ c_taga_jiangle = {
 }
 
 c_taga_yanping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jianan
 		government = taga_hanjin_government
@@ -1821,6 +1989,7 @@ c_taga_yanping = {
 }
 
 c_taga_wuxing_jianan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jianan
 		government = taga_hanjin_government
@@ -1853,6 +2022,7 @@ d_taga_yingchuan = {
 }
 
 c_taga_xvchang = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1861,6 +2031,7 @@ c_taga_xvchang = {
 }
 
 c_taga_yanling = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1869,6 +2040,7 @@ c_taga_yanling = {
 }
 
 c_taga_changping = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1877,6 +2049,7 @@ c_taga_changping = {
 }
 
 c_taga_linyin = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1885,6 +2058,7 @@ c_taga_linyin = {
 }
 
 c_taga_yan_y = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1893,6 +2067,7 @@ c_taga_yan_y = {
 }
 
 c_taga_zhaoling = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_yingchuan
 		government = taga_hanjin_government
@@ -1909,6 +2084,7 @@ d_taga_runan = {
 }
 
 c_taga_xinxi = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1917,6 +2093,7 @@ c_taga_xinxi = {
 }
 
 c_taga_ancheng = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1925,6 +2102,7 @@ c_taga_ancheng = {
 }
 
 c_taga_yangan = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1933,6 +2111,7 @@ c_taga_yangan = {
 }
 
 c_taga_shangcai = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1941,6 +2120,7 @@ c_taga_shangcai = {
 }
 
 c_taga_wufang = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1949,6 +2129,7 @@ c_taga_wufang = {
 }
 
 c_taga_pingyu = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1957,6 +2138,7 @@ c_taga_pingyu = {
 }
 
 c_taga_nandun = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_runan
 		government = taga_hanjin_government
@@ -1973,6 +2155,7 @@ d_taga_xiangcheng = {
 }
 
 c_taga_xiangcheng = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_xiangcheng
 		government = taga_hanjin_government
@@ -1981,6 +2164,7 @@ c_taga_xiangcheng = {
 }
 
 c_taga_fu = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_xiangcheng
 		government = taga_hanjin_government
@@ -1989,6 +2173,7 @@ c_taga_fu = {
 }
 
 c_taga_dingling = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_xiangcheng
 		government = taga_hanjin_government
@@ -2005,6 +2190,7 @@ d_taga_liang = {
 }
 
 c_taga_liang = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2013,6 +2199,7 @@ c_taga_liang = {
 }
 
 c_taga_chen_y = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2021,6 +2208,7 @@ c_taga_chen_y = {
 }
 
 c_taga_xiayi = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2029,6 +2217,7 @@ c_taga_xiayi = {
 }
 
 c_taga_gushu = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2037,6 +2226,7 @@ c_taga_gushu = {
 }
 
 c_taga_ku = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2045,6 +2235,7 @@ c_taga_ku = {
 }
 
 c_taga_yangjia = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2053,6 +2244,7 @@ c_taga_yangjia = {
 }
 
 c_taga_xiang = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_liang
 		government = taga_hanjin_government
@@ -2069,6 +2261,7 @@ d_taga_pei = {
 }
 
 c_taga_pei = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2077,6 +2270,7 @@ c_taga_pei = {
 }
 
 c_taga_xiang_y = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2085,6 +2279,7 @@ c_taga_xiang_y = {
 }
 
 c_taga_xiao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2093,6 +2288,7 @@ c_taga_xiao = {
 }
 
 c_taga_fuli = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2101,6 +2297,7 @@ c_taga_fuli = {
 }
 
 c_taga_jiao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2109,6 +2306,7 @@ c_taga_jiao = {
 }
 
 c_taga_gongqiu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_pei
 		government = taga_hanjin_government
@@ -2125,6 +2323,7 @@ d_taga_qiao = {
 }
 
 c_taga_qiao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_qiao
 		government = taga_hanjin_government
@@ -2133,6 +2332,7 @@ c_taga_qiao = {
 }
 
 c_taga_chengfu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_qiao
 		government = taga_hanjin_government
@@ -2141,6 +2341,7 @@ c_taga_chengfu = {
 }
 
 c_taga_longkang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_qiao
 		government = taga_hanjin_government
@@ -2149,6 +2350,7 @@ c_taga_longkang = {
 }
 
 c_taga_zan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_qiao
 		government = taga_hanjin_government
@@ -2157,6 +2359,7 @@ c_taga_zan = {
 }
 
 c_taga_zhi_y = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_qiao
 		government = taga_hanjin_government
@@ -2173,6 +2376,7 @@ d_taga_lu = {
 }
 
 c_taga_lu_y = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lu
 		government = taga_hanjin_government
@@ -2181,6 +2385,7 @@ c_taga_lu_y = {
 }
 
 c_taga_xue = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lu
 		government = taga_hanjin_government
@@ -2189,6 +2394,7 @@ c_taga_xue = {
 }
 
 c_taga_bian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lu
 		government = taga_hanjin_government
@@ -2205,6 +2411,7 @@ d_taga_yiyang = {
 }
 
 c_taga_yiyang = {
+	305.1.25 = { change_development_level = 41 }
 	305.1.25 = {
 		liege = d_taga_yiyang
 		government = taga_hanjin_government
@@ -2221,6 +2428,7 @@ d_taga_xiyang = {
 }
 
 c_taga_xiyang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_xiyang
 		government = taga_hanjin_government
@@ -2229,6 +2437,7 @@ c_taga_xiyang = {
 }
 
 c_taga_xiling = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_xiyang
 		government = taga_hanjin_government
@@ -2245,6 +2454,7 @@ d_taga_anfeng = {
 }
 
 c_taga_anfeng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_anfeng
 		government = taga_hanjin_government
@@ -2253,6 +2463,7 @@ c_taga_anfeng = {
 }
 
 c_taga_lu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_anfeng
 		government = taga_hanjin_government
@@ -2269,6 +2480,7 @@ d_taga_ruyin = {
 }
 
 c_taga_ruyin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ruyin
 		government = taga_hanjin_government
@@ -2277,6 +2489,7 @@ c_taga_ruyin = {
 }
 
 c_taga_song = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ruyin
 		government = taga_hanjin_government
@@ -2285,6 +2498,7 @@ c_taga_song = {
 }
 
 c_taga_xincai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ruyin
 		government = taga_hanjin_government
@@ -2293,6 +2507,7 @@ c_taga_xincai = {
 }
 
 c_taga_gushi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ruyin
 		government = taga_hanjin_government
@@ -2317,6 +2532,7 @@ d_taga_nanyang = {
 }
 
 c_taga_yuan_j = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanyang
 		government = taga_hanjin_government
@@ -2325,6 +2541,7 @@ c_taga_yuan_j = {
 }
 
 c_taga_bowang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanyang
 		government = taga_hanjin_government
@@ -2333,6 +2550,7 @@ c_taga_bowang = {
 }
 
 c_taga_guanjun = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanyang
 		government = taga_hanjin_government
@@ -2341,6 +2559,7 @@ c_taga_guanjun = {
 }
 
 c_taga_biyang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanyang
 		government = taga_hanjin_government
@@ -2349,6 +2568,7 @@ c_taga_biyang = {
 }
 
 c_taga_luyang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanyang
 		government = taga_hanjin_government
@@ -2365,6 +2585,7 @@ d_taga_xiangyang = {
 }
 
 c_taga_xiangyang = {
+	305.1.25 = { change_development_level = 28 }
 	305.1.25 = {
 		liege = d_taga_xiangyang
 		government = taga_hanjin_government
@@ -2373,6 +2594,7 @@ c_taga_xiangyang = {
 }
 
 c_taga_shandou = {
+	305.1.25 = { change_development_level = 28 }
 	305.1.25 = {
 		liege = d_taga_xiangyang
 		government = taga_hanjin_government
@@ -2381,6 +2603,7 @@ c_taga_shandou = {
 }
 
 c_taga_yicheng = {
+	305.1.25 = { change_development_level = 28 }
 	305.1.25 = {
 		liege = d_taga_xiangyang
 		government = taga_hanjin_government
@@ -2389,6 +2612,7 @@ c_taga_yicheng = {
 }
 
 c_taga_linju = {
+	305.1.25 = { change_development_level = 28 }
 	305.1.25 = {
 		liege = d_taga_xiangyang
 		government = taga_hanjin_government
@@ -2405,6 +2629,7 @@ d_taga_xinye = {
 }
 
 c_taga_xinye = {
+	305.1.25 = { change_development_level = 17 }
 	305.1.25 = {
 		liege = d_taga_xinye
 		government = taga_hanjin_government
@@ -2413,6 +2638,7 @@ c_taga_xinye = {
 }
 
 c_dengzhou_1 = {
+	305.1.25 = { change_development_level = 17 }
 	305.1.25 = {
 		liege = d_taga_xinye
 		government = taga_hanjin_government
@@ -2429,6 +2655,7 @@ d_taga_nanxiang = {
 }
 
 c_taga_cuo = {
+	305.1.25 = { change_development_level = 10 }
 	305.1.25 = {
 		liege = d_taga_nanxiang
 		government = taga_hanjin_government
@@ -2437,6 +2664,7 @@ c_taga_cuo = {
 }
 
 c_taga_shunyang = {
+	305.1.25 = { change_development_level = 10 }
 	305.1.25 = {
 		liege = d_taga_nanxiang
 		government = taga_hanjin_government
@@ -2445,6 +2673,7 @@ c_taga_shunyang = {
 }
 
 c_taga_danshui = {
+	305.1.25 = { change_development_level = 10 }
 	305.1.25 = {
 		liege = d_taga_nanxiang
 		government = taga_hanjin_government
@@ -2461,6 +2690,7 @@ d_taga_nan = {
 }
 
 c_taga_jiangling = {
+	305.1.25 = { change_development_level = 46 }
 	305.1.25 = {
 		liege = d_taga_nan
 		government = taga_hanjin_government
@@ -2469,6 +2699,7 @@ c_taga_jiangling = {
 }
 
 c_taga_ruo = {
+	305.1.25 = { change_development_level = 46 }
 	305.1.25 = {
 		liege = d_taga_nan
 		government = taga_hanjin_government
@@ -2477,6 +2708,7 @@ c_taga_ruo = {
 }
 
 c_taga_zhouling = {
+	305.1.25 = { change_development_level = 46 }
 	305.1.25 = {
 		liege = d_taga_nan
 		government = taga_hanjin_government
@@ -2485,6 +2717,7 @@ c_taga_zhouling = {
 }
 
 c_taga_huarong = {
+	305.1.25 = { change_development_level = 46 }
 	305.1.25 = {
 		liege = d_taga_nan
 		government = taga_hanjin_government
@@ -2501,6 +2734,7 @@ d_taga_jingling = {
 }
 
 c_taga_yundu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jingling
 		government = taga_hanjin_government
@@ -2509,6 +2743,7 @@ c_taga_yundu = {
 }
 
 c_taga_jingling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jingling
 		government = taga_hanjin_government
@@ -2525,6 +2760,7 @@ d_taga_sui = {
 }
 
 c_taga_sui = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_sui
 		government = taga_hanjin_government
@@ -2541,6 +2777,7 @@ d_taga_yiyang_j = {
 }
 
 c_taga_yiyang_j = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yiyang_j
 		government = taga_hanjin_government
@@ -2549,6 +2786,7 @@ c_taga_yiyang_j = {
 }
 
 c_taga_anchang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yiyang_j
 		government = taga_hanjin_government
@@ -2557,6 +2795,7 @@ c_taga_anchang = {
 }
 
 c_taga_chaoyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yiyang_j
 		government = taga_hanjin_government
@@ -2573,6 +2812,7 @@ d_taga_yidu = {
 }
 
 c_taga_yidu = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yidu
 		government = taga_hanjin_government
@@ -2589,6 +2829,7 @@ d_taga_jianping = {
 }
 
 c_taga_wu_j = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianping
 		government = taga_hanjin_government
@@ -2597,6 +2838,7 @@ c_taga_wu_j = {
 }
 
 c_taga_jianshi = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianping
 		government = taga_hanjin_government
@@ -2605,6 +2847,7 @@ c_taga_jianshi = {
 }
 
 c_taga_zigui = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianping
 		government = taga_hanjin_government
@@ -2621,6 +2864,7 @@ d_taga_jiangxia = {
 }
 
 c_taga_anlu = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_jiangxia
 		government = taga_hanjin_government
@@ -2629,6 +2873,7 @@ c_taga_anlu = {
 }
 
 c_taga_pingchun = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_jiangxia
 		government = taga_hanjin_government
@@ -2637,6 +2882,7 @@ c_taga_pingchun = {
 }
 
 c_taga_tunyang = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_jiangxia
 		government = taga_hanjin_government
@@ -2653,6 +2899,7 @@ d_taga_nanping = {
 }
 
 c_taga_nanping_j = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanping
 		government = taga_hanjin_government
@@ -2661,6 +2908,7 @@ c_taga_nanping_j = {
 }
 
 c_taga_chanling = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanping
 		government = taga_hanjin_government
@@ -2669,6 +2917,7 @@ c_taga_chanling = {
 }
 
 c_taga_jiangan = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_nanping
 		government = taga_hanjin_government
@@ -2685,6 +2934,7 @@ d_taga_wuling = {
 }
 
 c_taga_linyuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2693,6 +2943,7 @@ c_taga_linyuan = {
 }
 
 c_taga_hanshou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2701,6 +2952,7 @@ c_taga_hanshou = {
 }
 
 c_taga_yuanling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2709,6 +2961,7 @@ c_taga_yuanling = {
 }
 
 c_taga_qiuyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2717,6 +2970,7 @@ c_taga_qiuyang = {
 }
 
 c_taga_wuyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2725,6 +2979,7 @@ c_taga_wuyang = {
 }
 
 c_taga_tancheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2733,6 +2988,7 @@ c_taga_tancheng = {
 }
 
 c_taga_qianling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2741,6 +2997,7 @@ c_taga_qianling = {
 }
 
 c_taga_qianyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2749,6 +3006,7 @@ c_taga_qianyang = {
 }
 
 c_taga_my_yuanling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2757,6 +3015,7 @@ c_taga_my_yuanling = {
 }
 
 c_taga_my_qiuyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2765,6 +3024,7 @@ c_taga_my_qiuyang = {
 }
 
 c_taga_my_qianling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuling
 		government = taga_hanjin_government
@@ -2781,6 +3041,7 @@ d_taga_tianmen = {
 }
 
 c_taga_tianmen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_tianmen
 		government = taga_hanjin_government
@@ -2789,6 +3050,7 @@ c_taga_tianmen = {
 }
 
 c_taga_my_louzhong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_tianmen
 		government = taga_hanjin_government
@@ -2797,6 +3059,7 @@ c_taga_my_louzhong = {
 }
 
 c_taga_my_chong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_tianmen
 		government = taga_hanjin_government
@@ -2813,6 +3076,7 @@ d_taga_changsha = {
 }
 
 c_taga_changsha = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_changsha
 		government = taga_hanjin_government
@@ -2821,6 +3085,7 @@ c_taga_changsha = {
 }
 
 c_taga_liuyang = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_changsha
 		government = taga_hanjin_government
@@ -2829,6 +3094,7 @@ c_taga_liuyang = {
 }
 
 c_taga_you_x = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_changsha
 		government = taga_hanjin_government
@@ -2845,6 +3111,7 @@ d_taga_hengyang = {
 }
 
 c_taga_xiangnan = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hengyang
 		government = taga_hanjin_government
@@ -2853,6 +3120,7 @@ c_taga_xiangnan = {
 }
 
 c_taga_xinkang = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hengyang
 		government = taga_hanjin_government
@@ -2861,6 +3129,7 @@ c_taga_xinkang = {
 }
 
 c_taga_xiangxi = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hengyang
 		government = taga_hanjin_government
@@ -2869,6 +3138,7 @@ c_taga_xiangxi = {
 }
 
 c_taga_zhengyang = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hengyang
 		government = taga_hanjin_government
@@ -2885,6 +3155,7 @@ d_taga_baling = {
 }
 
 c_taga_baling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_baling
 		government = taga_hanjin_government
@@ -2901,6 +3172,7 @@ d_taga_shaoling = {
 }
 
 c_taga_shaoling = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_shaoling
 		government = taga_hanjin_government
@@ -2909,6 +3181,7 @@ c_taga_shaoling = {
 }
 
 c_taga_shaoyang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_shaoling
 		government = taga_hanjin_government
@@ -2917,6 +3190,7 @@ c_taga_shaoyang = {
 }
 
 c_taga_duliang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_shaoling
 		government = taga_hanjin_government
@@ -2933,6 +3207,7 @@ d_taga_xiangdong = {
 }
 
 c_taga_ling = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_xiangdong
 		government = taga_hanjin_government
@@ -2941,6 +3216,7 @@ c_taga_ling = {
 }
 
 c_taga_linzheng = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_xiangdong
 		government = taga_hanjin_government
@@ -2949,6 +3225,7 @@ c_taga_linzheng = {
 }
 
 c_taga_chaling = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_xiangdong
 		government = taga_hanjin_government
@@ -2965,6 +3242,7 @@ d_taga_guiyang = {
 }
 
 c_taga_chen = {
+	305.1.25 = { change_development_level = 9 }
 	305.1.25 = {
 		liege = d_taga_guiyang
 		government = taga_hanjin_government
@@ -2973,6 +3251,7 @@ c_taga_chen = {
 }
 
 c_taga_nanping = {
+	305.1.25 = { change_development_level = 9 }
 	305.1.25 = {
 		liege = d_taga_guiyang
 		government = taga_hanjin_government
@@ -2989,6 +3268,7 @@ d_taga_lingling = {
 }
 
 c_taga_quanling = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_lingling
 		government = taga_hanjin_government
@@ -2997,6 +3277,7 @@ c_taga_quanling = {
 }
 
 c_taga_qiyang = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_lingling
 		government = taga_hanjin_government
@@ -3005,6 +3286,7 @@ c_taga_qiyang = {
 }
 
 c_taga_lingling = {
+	305.1.25 = { change_development_level = 22 }
 	305.1.25 = {
 		liege = d_taga_lingling
 		government = taga_hanjin_government
@@ -3021,6 +3303,7 @@ d_taga_yingyang = {
 }
 
 c_taga_yingyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yingyang
 		government = taga_hanjin_government
@@ -3037,6 +3320,7 @@ d_taga_linhe = {
 }
 
 c_taga_linhe = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhe
 		government = taga_hanjin_government
@@ -3045,6 +3329,7 @@ c_taga_linhe = {
 }
 
 c_taga_fuchuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhe
 		government = taga_hanjin_government
@@ -3053,6 +3338,7 @@ c_taga_fuchuan = {
 }
 
 c_taga_pingchen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhe
 		government = taga_hanjin_government
@@ -3069,6 +3355,7 @@ d_taga_shian = {
 }
 
 c_taga_shian = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_shian
 		government = taga_hanjin_government
@@ -3077,6 +3364,7 @@ c_taga_shian = {
 }
 
 c_taga_xiping = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_shian
 		government = taga_hanjin_government
@@ -3085,6 +3373,7 @@ c_taga_xiping = {
 }
 
 c_taga_lipu = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_shian
 		government = taga_hanjin_government
@@ -3101,6 +3390,7 @@ d_taga_shixing = {
 }
 
 c_taga_shixing = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shixing
 		government = taga_hanjin_government
@@ -3109,6 +3399,7 @@ c_taga_shixing = {
 }
 
 c_taga_hankuang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shixing
 		government = taga_hanjin_government
@@ -3117,6 +3408,7 @@ c_taga_hankuang = {
 }
 
 c_taga_zhenyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shixing
 		government = taga_hanjin_government
@@ -3141,6 +3433,7 @@ d_taga_nanhai = {
 }
 
 c_taga_sihui = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3149,6 +3442,7 @@ c_taga_sihui = {
 }
 
 c_taga_fanyu = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3157,6 +3451,7 @@ c_taga_fanyu = {
 }
 
 c_taga_zengcheng = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3165,6 +3460,7 @@ c_taga_zengcheng = {
 }
 
 c_taga_boluo = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3173,6 +3469,7 @@ c_taga_boluo = {
 }
 
 c_taga_longchuan = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3181,6 +3478,7 @@ c_taga_longchuan = {
 }
 
 c_taga_pingyi_g = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_nanhai
 		government = taga_hanjin_government
@@ -3197,6 +3495,7 @@ d_taga_dongguan_g = {
 }
 
 c_taga_baoan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongguan_g
 		government = taga_hanjin_government
@@ -3205,6 +3504,7 @@ c_taga_baoan = {
 }
 
 c_taga_haifeng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongguan_g
 		government = taga_hanjin_government
@@ -3221,6 +3521,7 @@ d_taga_cangwu = {
 }
 
 c_taga_duanxi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_cangwu
 		government = taga_hanjin_government
@@ -3229,6 +3530,7 @@ c_taga_duanxi = {
 }
 
 c_taga_guangxin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_cangwu
 		government = taga_hanjin_government
@@ -3237,6 +3539,7 @@ c_taga_guangxin = {
 }
 
 c_taga_mengling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_cangwu
 		government = taga_hanjin_government
@@ -3253,6 +3556,7 @@ d_taga_yulin = {
 }
 
 c_taga_anshi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yulin
 		government = taga_hanjin_government
@@ -3261,6 +3565,7 @@ c_taga_anshi = {
 }
 
 c_taga_anguang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yulin
 		government = taga_hanjin_government
@@ -3269,6 +3574,7 @@ c_taga_anguang = {
 }
 
 c_taga_lingfang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yulin
 		government = taga_hanjin_government
@@ -3277,6 +3583,7 @@ c_taga_lingfang = {
 }
 
 c_taga_bushan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yulin
 		government = taga_hanjin_government
@@ -3285,6 +3592,7 @@ c_taga_bushan = {
 }
 
 c_taga_wuxi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yulin
 		government = taga_hanjin_government
@@ -3301,6 +3609,7 @@ d_taga_guilin = {
 }
 
 c_taga_tanzhong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guilin
 		government = taga_hanjin_government
@@ -3309,6 +3618,7 @@ c_taga_tanzhong = {
 }
 
 c_taga_suping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guilin
 		government = taga_hanjin_government
@@ -3317,6 +3627,7 @@ c_taga_suping = {
 }
 
 c_taga_longgang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guilin
 		government = taga_hanjin_government
@@ -3333,6 +3644,7 @@ d_taga_gaoliang = {
 }
 
 c_taga_siping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoliang
 		government = taga_hanjin_government
@@ -3349,6 +3661,7 @@ d_taga_gaoxing = {
 }
 
 c_taga_guanghua = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoxing
 		government = taga_hanjin_government
@@ -3357,6 +3670,7 @@ c_taga_guanghua = {
 }
 
 c_taga_haining = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoxing
 		government = taga_hanjin_government
@@ -3373,6 +3687,7 @@ d_taga_ningpu = {
 }
 
 c_taga_ningpu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ningpu
 		government = taga_hanjin_government
@@ -3381,6 +3696,7 @@ c_taga_ningpu = {
 }
 
 c_taga_xingdao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ningpu
 		government = taga_hanjin_government
@@ -3405,6 +3721,7 @@ d_taga_jiaozhi = {
 }
 
 c_taga_longbian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3413,6 +3730,7 @@ c_taga_longbian = {
 }
 
 c_taga_beidai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3421,6 +3739,7 @@ c_taga_beidai = {
 }
 
 c_taga_xigan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3429,6 +3748,7 @@ c_taga_xigan = {
 }
 
 c_taga_anding_j = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3437,6 +3757,7 @@ c_taga_anding_j = {
 }
 
 c_taga_haiping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3445,6 +3766,7 @@ c_taga_haiping = {
 }
 
 c_taga_wuning = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3453,6 +3775,7 @@ c_taga_wuning = {
 }
 
 c_taga_wanghai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3461,6 +3784,7 @@ c_taga_wanghai = {
 }
 
 c_taga_goulou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3469,6 +3793,7 @@ c_taga_goulou = {
 }
 
 c_taga_zhuyuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiaozhi
 		government = taga_hanjin_government
@@ -3485,6 +3810,7 @@ d_taga_hepu = {
 }
 
 c_taga_hepu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_hepu
 		government = taga_hanjin_government
@@ -3493,6 +3819,7 @@ c_taga_hepu = {
 }
 
 c_taga_dangchang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_hepu
 		government = taga_hanjin_government
@@ -3501,6 +3828,7 @@ c_taga_dangchang = {
 }
 
 c_taga_xvwen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_hepu
 		government = taga_hanjin_government
@@ -3517,6 +3845,7 @@ d_taga_xinchang = {
 }
 
 c_taga_wuding_j = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinchang
 		government = taga_hanjin_government
@@ -3525,6 +3854,7 @@ c_taga_wuding_j = {
 }
 
 c_taga_mileng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinchang
 		government = taga_hanjin_government
@@ -3541,6 +3871,7 @@ d_taga_wuping = {
 }
 
 c_taga_wuxing_y = {
+	305.1.25 = { change_development_level = 41 }
 	305.1.25 = {
 		liege = d_taga_wuping
 		government = taga_hanjin_government
@@ -3557,6 +3888,7 @@ d_taga_jiuzhen = {
 }
 
 c_taga_changle = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuzhen
 		government = taga_hanjin_government
@@ -3565,6 +3897,7 @@ c_taga_changle = {
 }
 
 c_taga_xvpu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuzhen
 		government = taga_hanjin_government
@@ -3581,6 +3914,7 @@ d_taga_jiude = {
 }
 
 c_taga_jiude = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiude
 		government = taga_hanjin_government
@@ -3597,6 +3931,7 @@ d_taga_rinan = {
 }
 
 c_taga_xijuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_rinan
 		government = taga_hanjin_government
@@ -3605,6 +3940,7 @@ c_taga_xijuan = {
 }
 
 c_taga_zhuwu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_rinan
 		government = taga_hanjin_government
@@ -3613,6 +3949,7 @@ c_taga_zhuwu = {
 }
 
 c_taga_bijing = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_rinan
 		government = taga_hanjin_government
@@ -3629,6 +3966,7 @@ d_taga_zhuya = {
 }
 
 c_taga_shendu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhuya
 		government = taga_hanjin_government
@@ -3637,6 +3975,7 @@ c_taga_shendu = {
 }
 
 c_taga_leluo = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhuya
 		government = taga_hanjin_government
@@ -3645,6 +3984,7 @@ c_taga_leluo = {
 }
 
 c_taga_yongfeng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhuya
 		government = taga_hanjin_government
@@ -3661,6 +4001,7 @@ d_taga_daner = {
 }
 
 c_taga_daner = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daner
 		government = taga_hanjin_government
@@ -3685,6 +4026,7 @@ d_taga_xvzhou = {
 }
 
 c_taga_xvzhou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xvzhou
 		government = taga_hanjin_government
@@ -3693,6 +4035,7 @@ c_taga_xvzhou = {
 }
 
 c_taga_taga_liu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xvzhou
 		government = taga_hanjin_government
@@ -3701,6 +4044,7 @@ c_taga_taga_liu = {
 }
 
 c_taga_fuyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xvzhou
 		government = taga_hanjin_government
@@ -3717,6 +4061,7 @@ d_taga_xiapi = {
 }
 
 c_taga_xiapi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xiapi
 		government = taga_hanjin_government
@@ -3725,6 +4070,7 @@ c_taga_xiapi = {
 }
 
 c_taga_suiling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xiapi
 		government = taga_hanjin_government
@@ -3733,6 +4079,7 @@ c_taga_suiling = {
 }
 
 c_taga_tong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xiapi
 		government = taga_hanjin_government
@@ -3749,6 +4096,7 @@ d_taga_langya = {
 }
 
 c_taga_langya = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_langya
 		government = taga_hanjin_government
@@ -3757,6 +4105,7 @@ c_taga_langya = {
 }
 
 c_taga_fei = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_langya
 		government = taga_hanjin_government
@@ -3765,6 +4114,7 @@ c_taga_fei = {
 }
 
 c_taga_zeng = {
+	305.1.25 = { change_development_level = 33 }
 	305.1.25 = {
 		liege = d_taga_langya
 		government = taga_hanjin_government
@@ -3781,6 +4131,7 @@ d_taga_dongguan = {
 }
 
 c_taga_dongguan = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3789,6 +4140,7 @@ c_taga_dongguan = {
 }
 
 c_taga_dongan = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3797,6 +4149,7 @@ c_taga_dongan = {
 }
 
 c_taga_gai = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3805,6 +4158,7 @@ c_taga_gai = {
 }
 
 c_taga_mengyin = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3813,6 +4167,7 @@ c_taga_mengyin = {
 }
 
 c_taga_dongwu = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3821,6 +4176,7 @@ c_taga_dongwu = {
 }
 
 c_taga_linju_x = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3829,6 +4185,7 @@ c_taga_linju_x = {
 }
 
 c_taga_anqiu = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_dongguan
 		government = taga_hanjin_government
@@ -3845,6 +4202,7 @@ d_taga_donghai = {
 }
 
 c_taga_tan = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_donghai
 		government = taga_hanjin_government
@@ -3853,6 +4211,7 @@ c_taga_tan = {
 }
 
 c_taga_qv = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_donghai
 		government = taga_hanjin_government
@@ -3861,6 +4220,7 @@ c_taga_qv = {
 }
 
 c_taga_zhuqi = {
+	305.1.25 = { change_development_level = 6 }
 	305.1.25 = {
 		liege = d_taga_donghai
 		government = taga_hanjin_government
@@ -3877,6 +4237,7 @@ d_taga_lanling = {
 }
 
 c_taga_lanling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lanling
 		government = taga_hanjin_government
@@ -3885,6 +4246,7 @@ c_taga_lanling = {
 }
 
 c_taga_changlv = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lanling
 		government = taga_hanjin_government
@@ -3893,6 +4255,7 @@ c_taga_changlv = {
 }
 
 c_taga_qi_x = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lanling
 		government = taga_hanjin_government
@@ -3909,6 +4272,7 @@ d_taga_guangling = {
 }
 
 c_taga_guangling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3917,6 +4281,7 @@ c_taga_guangling = {
 }
 
 c_taga_hailing = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3925,6 +4290,7 @@ c_taga_hailing = {
 }
 
 c_taga_sheyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3933,6 +4299,7 @@ c_taga_sheyang = {
 }
 
 c_taga_huaiyin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3941,6 +4308,7 @@ c_taga_huaiyin = {
 }
 
 c_taga_sishui = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3949,6 +4317,7 @@ c_taga_sishui = {
 }
 
 c_taga_huaipu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangling
 		government = taga_hanjin_government
@@ -3965,6 +4334,7 @@ d_taga_linhuai = {
 }
 
 c_taga_linhuai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -3973,6 +4343,7 @@ c_taga_linhuai = {
 }
 
 c_taga_huailing = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -3981,6 +4352,7 @@ c_taga_huailing = {
 }
 
 c_taga_xiaxiang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -3989,6 +4361,7 @@ c_taga_xiaxiang = {
 }
 
 c_taga_xv = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -3997,6 +4370,7 @@ c_taga_xv = {
 }
 
 c_taga_tangyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -4005,6 +4379,7 @@ c_taga_tangyi = {
 }
 
 c_taga_dongyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_linhuai
 		government = taga_hanjin_government
@@ -4029,6 +4404,7 @@ d_taga_qi = {
 }
 
 c_taga_linzi = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_qi
 		government = taga_hanjin_government
@@ -4037,6 +4413,7 @@ c_taga_linzi = {
 }
 
 c_taga_changguo = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_qi
 		government = taga_hanjin_government
@@ -4045,6 +4422,7 @@ c_taga_changguo = {
 }
 
 c_taga_guangrao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_qi
 		government = taga_hanjin_government
@@ -4053,6 +4431,7 @@ c_taga_guangrao = {
 }
 
 c_taga_donganping = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_qi
 		government = taga_hanjin_government
@@ -4069,6 +4448,7 @@ d_taga_lean = {
 }
 
 c_taga_gaoyuan = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_lean
 		government = taga_hanjin_government
@@ -4077,6 +4457,7 @@ c_taga_gaoyuan = {
 }
 
 c_taga_linji = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_lean
 		government = taga_hanjin_government
@@ -4085,6 +4466,7 @@ c_taga_linji = {
 }
 
 c_taga_dongchaoyang = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_lean
 		government = taga_hanjin_government
@@ -4093,6 +4475,7 @@ c_taga_dongchaoyang = {
 }
 
 c_taga_liangzou = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_lean
 		government = taga_hanjin_government
@@ -4101,6 +4484,7 @@ c_taga_liangzou = {
 }
 
 c_taga_shouguang = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_lean
 		government = taga_hanjin_government
@@ -4117,6 +4501,7 @@ d_taga_jinan_q = {
 }
 
 c_taga_dongpingling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan_q
 		government = taga_hanjin_government
@@ -4125,6 +4510,7 @@ c_taga_dongpingling = {
 }
 
 c_taga_yuling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan_q
 		government = taga_hanjin_government
@@ -4133,6 +4519,7 @@ c_taga_yuling = {
 }
 
 c_taga_licheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan_q
 		government = taga_hanjin_government
@@ -4141,6 +4528,7 @@ c_taga_licheng = {
 }
 
 c_taga_jian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan_q
 		government = taga_hanjin_government
@@ -4149,6 +4537,7 @@ c_taga_jian = {
 }
 
 c_taga_zouping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jinan_q
 		government = taga_hanjin_government
@@ -4165,6 +4554,7 @@ d_taga_beihai = {
 }
 
 c_taga_pingshou = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_beihai
 		government = taga_hanjin_government
@@ -4173,6 +4563,7 @@ c_taga_pingshou = {
 }
 
 c_taga_jimo = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_beihai
 		government = taga_hanjin_government
@@ -4189,6 +4580,7 @@ d_taga_donglai = {
 }
 
 c_taga_ye = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_donglai
 		government = taga_hanjin_government
@@ -4197,6 +4589,7 @@ c_taga_ye = {
 }
 
 c_taga_huang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_donglai
 		government = taga_hanjin_government
@@ -4205,6 +4598,7 @@ c_taga_huang = {
 }
 
 c_taga_qvcheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_donglai
 		government = taga_hanjin_government
@@ -4221,6 +4615,7 @@ d_taga_changguang = {
 }
 
 c_taga_buqi = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_changguang
 		government = taga_hanjin_government
@@ -4229,6 +4624,7 @@ c_taga_buqi = {
 }
 
 c_taga_ting = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_changguang
 		government = taga_hanjin_government
@@ -4237,6 +4633,7 @@ c_taga_ting = {
 }
 
 c_taga_changguang = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_changguang
 		government = taga_hanjin_government
@@ -4245,6 +4642,7 @@ c_taga_changguang = {
 }
 
 c_taga_changyang = {
+	305.1.25 = { change_development_level = 2 }
 	305.1.25 = {
 		liege = d_taga_changguang
 		government = taga_hanjin_government
@@ -4261,6 +4659,7 @@ d_taga_chengyang = {
 }
 
 c_taga_ju = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_chengyang
 		government = taga_hanjin_government
@@ -4269,6 +4668,7 @@ c_taga_ju = {
 }
 
 c_taga_qianzou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_chengyang
 		government = taga_hanjin_government
@@ -4277,6 +4677,7 @@ c_taga_qianzou = {
 }
 
 c_taga_gumu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_chengyang
 		government = taga_hanjin_government
@@ -4285,6 +4686,7 @@ c_taga_gumu = {
 }
 
 c_taga_gaomi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_chengyang
 		government = taga_hanjin_government
@@ -4293,6 +4695,7 @@ c_taga_gaomi = {
 }
 
 c_taga_yian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_chengyang
 		government = taga_hanjin_government
@@ -4317,6 +4720,7 @@ d_taga_puyang = {
 }
 
 c_taga_puyang = {
+	305.1.25 = { change_development_level = 32 }
 	305.1.25 = {
 		liege = d_taga_puyang
 		government = taga_hanjin_government
@@ -4325,6 +4729,7 @@ c_taga_puyang = {
 }
 
 c_taga_juan = {
+	305.1.25 = { change_development_level = 32 }
 	305.1.25 = {
 		liege = d_taga_puyang
 		government = taga_hanjin_government
@@ -4333,6 +4738,7 @@ c_taga_juan = {
 }
 
 c_taga_linqiu = {
+	305.1.25 = { change_development_level = 32 }
 	305.1.25 = {
 		liege = d_taga_puyang
 		government = taga_hanjin_government
@@ -4349,6 +4755,7 @@ d_taga_chenliu = {
 }
 
 c_taga_xiaohuang = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_chenliu
 		government = taga_hanjin_government
@@ -4357,6 +4764,7 @@ c_taga_xiaohuang = {
 }
 
 c_taga_weishi = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_chenliu
 		government = taga_hanjin_government
@@ -4365,6 +4773,7 @@ c_taga_weishi = {
 }
 
 c_taga_yongqiu = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_chenliu
 		government = taga_hanjin_government
@@ -4373,6 +4782,7 @@ c_taga_yongqiu = {
 }
 
 c_taga_xunyi = {
+	305.1.25 = { change_development_level = 18 }
 	305.1.25 = {
 		liege = d_taga_chenliu
 		government = taga_hanjin_government
@@ -4389,6 +4799,7 @@ d_taga_jiyin = {
 }
 
 c_taga_dingtao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiyin
 		government = taga_hanjin_government
@@ -4397,6 +4808,7 @@ c_taga_dingtao = {
 }
 
 c_taga_chengshi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiyin
 		government = taga_hanjin_government
@@ -4405,6 +4817,7 @@ c_taga_chengshi = {
 }
 
 c_taga_gouyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiyin
 		government = taga_hanjin_government
@@ -4413,6 +4826,7 @@ c_taga_gouyang = {
 }
 
 c_taga_shanfu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiyin
 		government = taga_hanjin_government
@@ -4429,6 +4843,7 @@ d_taga_gaoping = {
 }
 
 c_taga_changyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoping
 		government = taga_hanjin_government
@@ -4437,6 +4852,7 @@ c_taga_changyi = {
 }
 
 c_taga_juye = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoping
 		government = taga_hanjin_government
@@ -4445,6 +4861,7 @@ c_taga_juye = {
 }
 
 c_taga_gaoping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoping
 		government = taga_hanjin_government
@@ -4453,6 +4870,7 @@ c_taga_gaoping = {
 }
 
 c_taga_nanpingyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoping
 		government = taga_hanjin_government
@@ -4461,6 +4879,7 @@ c_taga_nanpingyang = {
 }
 
 c_taga_xiaqiu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_gaoping
 		government = taga_hanjin_government
@@ -4477,6 +4896,7 @@ d_taga_rencheng = {
 }
 
 c_taga_rencheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_rencheng
 		government = taga_hanjin_government
@@ -4493,6 +4913,7 @@ d_taga_dongping = {
 }
 
 c_taga_wuyan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongping
 		government = taga_hanjin_government
@@ -4501,6 +4922,7 @@ c_taga_wuyan = {
 }
 
 c_taga_shouzhang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongping
 		government = taga_hanjin_government
@@ -4509,6 +4931,7 @@ c_taga_shouzhang = {
 }
 
 c_taga_gangping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongping
 		government = taga_hanjin_government
@@ -4517,6 +4940,7 @@ c_taga_gangping = {
 }
 
 c_taga_fan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dongping
 		government = taga_hanjin_government
@@ -4533,6 +4957,7 @@ d_taga_jibei = {
 }
 
 c_taga_lu_j = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jibei
 		government = taga_hanjin_government
@@ -4541,6 +4966,7 @@ c_taga_lu_j = {
 }
 
 c_taga_linyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jibei
 		government = taga_hanjin_government
@@ -4557,6 +4983,7 @@ d_taga_taishan = {
 }
 
 c_taga_fenggao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taishan
 		government = taga_hanjin_government
@@ -4565,6 +4992,7 @@ c_taga_fenggao = {
 }
 
 c_taga_juping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taishan
 		government = taga_hanjin_government
@@ -4573,6 +5001,7 @@ c_taga_juping = {
 }
 
 c_taga_nanwuyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taishan
 		government = taga_hanjin_government
@@ -4581,6 +5010,7 @@ c_taga_nanwuyang = {
 }
 
 c_taga_shanren = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taishan
 		government = taga_hanjin_government
@@ -4589,6 +5019,7 @@ c_taga_shanren = {
 }
 
 c_taga_laiwu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taishan
 		government = taga_hanjin_government
@@ -4613,6 +5044,7 @@ d_taga_yan = {
 }
 
 c_taga_ji_y = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4621,6 +5053,7 @@ c_taga_ji_y = {
 }
 
 c_taga_changping_y = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4629,6 +5062,7 @@ c_taga_changping_y = {
 }
 
 c_taga_anle = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4637,6 +5071,7 @@ c_taga_anle = {
 }
 
 c_taga_guangyang = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4645,6 +5080,7 @@ c_taga_guangyang = {
 }
 
 c_taga_quanzhou = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4653,6 +5089,7 @@ c_taga_quanzhou = {
 }
 
 c_taga_yongnu = {
+	305.1.25 = { change_development_level = 19 }
 	305.1.25 = {
 		liege = d_taga_yan
 		government = taga_hanjin_government
@@ -4669,6 +5106,7 @@ d_taga_fanyang = {
 }
 
 c_taga_zhuo = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_fanyang
 		government = taga_hanjin_government
@@ -4677,6 +5115,7 @@ c_taga_zhuo = {
 }
 
 c_taga_liangxiang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_fanyang
 		government = taga_hanjin_government
@@ -4685,6 +5124,7 @@ c_taga_liangxiang = {
 }
 
 c_taga_guan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_fanyang
 		government = taga_hanjin_government
@@ -4693,6 +5133,7 @@ c_taga_guan = {
 }
 
 c_taga_fanyang = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_fanyang
 		government = taga_hanjin_government
@@ -4709,6 +5150,7 @@ d_taga_beiping = {
 }
 
 c_taga_xvwu = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_beiping
 		government = taga_hanjin_government
@@ -4717,6 +5159,7 @@ c_taga_xvwu = {
 }
 
 c_taga_tuyin = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_beiping
 		government = taga_hanjin_government
@@ -4733,6 +5176,7 @@ d_taga_guangning = {
 }
 
 c_taga_xialuo = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangning
 		government = taga_hanjin_government
@@ -4741,6 +5185,7 @@ c_taga_xialuo = {
 }
 
 c_taga_goumao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangning
 		government = taga_hanjin_government
@@ -4749,6 +5194,7 @@ c_taga_goumao = {
 }
 
 c_taga_guangning = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_guangning
 		government = taga_hanjin_government
@@ -4765,6 +5211,7 @@ d_taga_shanggu = {
 }
 
 c_taga_juyang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_shanggu
 		government = taga_hanjin_government
@@ -4781,6 +5228,7 @@ d_taga_dai = {
 }
 
 c_taga_dai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dai
 		government = taga_hanjin_government
@@ -4789,6 +5237,7 @@ c_taga_dai = {
 }
 
 c_taga_guangchang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dai
 		government = taga_hanjin_government
@@ -4797,6 +5246,7 @@ c_taga_guangchang = {
 }
 
 c_taga_gaoliu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dai
 		government = taga_hanjin_government
@@ -4805,6 +5255,7 @@ c_taga_gaoliu = {
 }
 
 c_taga_banshi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dai
 		government = taga_hanjin_government
@@ -4813,6 +5264,7 @@ c_taga_banshi = {
 }
 
 c_taga_macheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dai
 		government = taga_hanjin_government
@@ -4829,6 +5281,7 @@ d_taga_liaoxi = {
 }
 
 c_taga_yangle = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_liaoxi
 		government = taga_hanjin_government
@@ -4853,6 +5306,7 @@ d_taga_liaodong = {
 }
 
 c_taga_xianping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_liaodong
 		government = taga_hanjin_government
@@ -4861,6 +5315,7 @@ c_taga_xianping = {
 }
 
 c_taga_xiangping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_liaodong
 		government = taga_hanjin_government
@@ -4877,6 +5332,7 @@ d_taga_xuantu = {
 }
 
 c_taga_gaogouli = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xuantu
 		government = taga_hanjin_government
@@ -4893,6 +5349,7 @@ d_taga_changli = {
 }
 
 c_taga_bintu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_changli
 		government = taga_hanjin_government
@@ -4901,6 +5358,7 @@ c_taga_bintu = {
 }
 
 c_taga_changli_p = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_changli
 		government = taga_hanjin_government
@@ -4917,6 +5375,7 @@ d_taga_lelang = {
 }
 
 c_taga_chaoxian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4925,6 +5384,7 @@ c_taga_chaoxian = {
 }
 
 c_taga_siwang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4933,6 +5393,7 @@ c_taga_siwang = {
 }
 
 c_taga_tunyou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4941,6 +5402,7 @@ c_taga_tunyou = {
 }
 
 c_taga_suicheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4949,6 +5411,7 @@ c_taga_suicheng = {
 }
 
 c_taga_hunni = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4957,6 +5420,7 @@ c_taga_hunni = {
 }
 
 c_taga_loufang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_lelang
 		government = taga_hanjin_government
@@ -4973,6 +5437,7 @@ d_taga_daifang = {
 }
 
 c_taga_haiming = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -4981,6 +5446,7 @@ c_taga_haiming = {
 }
 
 c_taga_daifang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -4989,6 +5455,7 @@ c_taga_daifang = {
 }
 
 c_taga_nanxin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -4997,6 +5464,7 @@ c_taga_nanxin = {
 }
 
 c_taga_tixi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -5005,6 +5473,7 @@ c_taga_tixi = {
 }
 
 c_taga_hanzi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -5013,6 +5482,7 @@ c_taga_hanzi = {
 }
 
 c_taga_liekou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -5021,6 +5491,7 @@ c_taga_liekou = {
 }
 
 c_taga_changcen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_daifang
 		government = taga_hanjin_government
@@ -5046,6 +5517,7 @@ d_taga_taiyuan = {
 }
 
 c_taga_jinyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taiyuan
 		government = taga_hanjin_government
@@ -5054,6 +5526,7 @@ c_taga_jinyang = {
 }
 
 c_taga_pingtao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taiyuan
 		government = taga_hanjin_government
@@ -5062,6 +5535,7 @@ c_taga_pingtao = {
 }
 
 c_taga_yu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taiyuan
 		government = taga_hanjin_government
@@ -5070,6 +5544,7 @@ c_taga_yu = {
 }
 
 c_taga_wu_b = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taiyuan
 		government = taga_hanjin_government
@@ -5078,6 +5553,7 @@ c_taga_wu_b = {
 }
 
 c_taga_qi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_taiyuan
 		government = taga_hanjin_government
@@ -5094,6 +5570,7 @@ d_taga_shangdang = {
 }
 
 c_taga_xuanshi = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_shangdang
 		government = taga_hanjin_government
@@ -5102,6 +5579,7 @@ c_taga_xuanshi = {
 }
 
 c_taga_zhangzi = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_shangdang
 		government = taga_hanjin_government
@@ -5110,6 +5588,7 @@ c_taga_zhangzi = {
 }
 
 c_taga_huguan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_shangdang
 		government = taga_hanjin_government
@@ -5118,6 +5597,7 @@ c_taga_huguan = {
 }
 
 c_taga_xiangyuan = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_shangdang
 		government = taga_hanjin_government
@@ -5126,6 +5606,7 @@ c_taga_xiangyuan = {
 }
 
 c_taga_nie = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_shangdang
 		government = taga_hanjin_government
@@ -5142,6 +5623,7 @@ d_taga_leping = {
 }
 
 c_taga_zhan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_leping
 		government = taga_hanjin_government
@@ -5150,6 +5632,7 @@ c_taga_zhan = {
 }
 
 c_taga_shangai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_leping
 		government = taga_hanjin_government
@@ -5158,6 +5641,7 @@ c_taga_shangai = {
 }
 
 c_taga_shouyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_leping
 		government = taga_hanjin_government
@@ -5166,6 +5650,7 @@ c_taga_shouyang = {
 }
 
 c_taga_liaoyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_leping
 		government = taga_hanjin_government
@@ -5182,6 +5667,7 @@ d_taga_yanmen = {
 }
 
 c_taga_guangwu = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yanmen
 		government = taga_hanjin_government
@@ -5190,6 +5676,7 @@ c_taga_guangwu = {
 }
 
 c_taga_yingou = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yanmen
 		government = taga_hanjin_government
@@ -5198,6 +5685,7 @@ c_taga_yingou = {
 }
 
 c_taga_fanchi = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yanmen
 		government = taga_hanjin_government
@@ -5206,6 +5694,7 @@ c_taga_fanchi = {
 }
 
 c_taga_pingcheng = {
+	305.1.25 = { change_development_level = 3 }
 	305.1.25 = {
 		liege = d_taga_yanmen
 		government = taga_hanjin_government
@@ -5222,6 +5711,7 @@ d_taga_xinxing = {
 }
 
 c_taga_jiuyuan = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_xinxing
 		government = taga_hanjin_government
@@ -5230,6 +5720,7 @@ c_taga_jiuyuan = {
 }
 
 c_taga_jinchang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_xinxing
 		government = taga_hanjin_government
@@ -5238,6 +5729,7 @@ c_taga_jinchang = {
 }
 
 c_taga_guangmu = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_xinxing
 		government = taga_hanjin_government
@@ -5264,6 +5756,7 @@ d_taga_dingxiang = {
 }
 
 c_taga_shanwu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dingxiang
 		government = taga_hanjin_government
@@ -5272,6 +5765,7 @@ c_taga_shanwu = {
 }
 
 c_taga_wucheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dingxiang
 		government = taga_hanjin_government
@@ -5288,6 +5782,7 @@ d_taga_yunzhong = {
 }
 
 c_taga_yunzhong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunzhong
 		government = taga_hanjin_government
@@ -5296,6 +5791,7 @@ c_taga_yunzhong = {
 }
 
 c_taga_jiling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunzhong
 		government = taga_hanjin_government
@@ -5304,6 +5800,7 @@ c_taga_jiling = {
 }
 
 c_taga_wuquan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunzhong
 		government = taga_hanjin_government
@@ -5312,6 +5809,7 @@ c_taga_wuquan = {
 }
 
 c_taga_shanan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunzhong
 		government = taga_hanjin_government
@@ -5327,6 +5825,7 @@ d_taga_shuofang = {
 }
 
 c_taga_linrong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5335,6 +5834,7 @@ c_taga_linrong = {
 }
 
 c_taga_sanfeng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5343,6 +5843,7 @@ c_taga_sanfeng = {
 }
 
 c_taga_guangmu_s = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5351,6 +5852,7 @@ c_taga_guangmu_s = {
 }
 
 c_taga_linhe_s = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5359,6 +5861,7 @@ c_taga_linhe_s = {
 }
 
 c_taga_dacheng = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5367,6 +5870,7 @@ c_taga_dacheng = {
 }
 
 c_taga_shuofang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shuofang
 		government = taga_hanjin_government
@@ -5387,6 +5891,7 @@ d_taga_xihe = {
 }
 
 c_taga_lishi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xihe
 		government = taga_hanjin_government
@@ -5395,6 +5900,7 @@ c_taga_lishi = {
 }
 
 c_taga_linshui = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5403,6 +5909,7 @@ c_taga_linshui = {
 }
 
 c_taga_tujun = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5411,6 +5918,7 @@ c_taga_tujun = {
 }
 
 c_taga_pingding = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5419,6 +5927,7 @@ c_taga_pingding = {
 }
 
 c_taga_meiji = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5427,6 +5936,7 @@ c_taga_meiji = {
 }
 
 c_taga_yinshan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5435,6 +5945,7 @@ c_taga_yinshan = {
 }
 
 c_taga_yuanyin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5443,6 +5954,7 @@ c_taga_yuanyin = {
 }
 
 c_taga_zhongyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5451,6 +5963,7 @@ c_taga_zhongyang = {
 }
 
 c_taga_zengshan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = k_taga_shuofang
 		government = taga_hanjin_government
@@ -5467,6 +5980,7 @@ d_taga_wuyuan = {
 }
 
 c_taga_jiuyuan_s = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5475,6 +5989,7 @@ c_taga_jiuyuan_s = {
 }
 
 c_taga_wuyuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5483,6 +5998,7 @@ c_taga_wuyuan = {
 }
 
 c_taga_chengyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5491,6 +6007,7 @@ c_taga_chengyi = {
 }
 
 c_taga_hemu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5499,6 +6016,7 @@ c_taga_hemu = {
 }
 
 c_taga_heyin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5507,6 +6025,7 @@ c_taga_heyin = {
 }
 
 c_taga_manbai = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuyuan
 		government = taga_hanjin_government
@@ -5523,6 +6042,7 @@ d_taga_shang = {
 }
 
 c_taga_fushi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5531,6 +6051,7 @@ c_taga_fushi = {
 }
 
 c_taga_jiuzi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5539,6 +6060,7 @@ c_taga_jiuzi = {
 }
 
 c_taga_diaoyin = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5547,6 +6069,7 @@ c_taga_diaoyin = {
 }
 
 c_taga_qiyuan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5555,6 +6078,7 @@ c_taga_qiyuan = {
 }
 
 c_taga_gaonu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5563,6 +6087,7 @@ c_taga_gaonu = {
 }
 
 c_taga_pingdu_s = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5571,6 +6096,7 @@ c_taga_pingdu_s = {
 }
 
 c_taga_sheyan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5579,6 +6105,7 @@ c_taga_sheyan = {
 }
 
 c_taga_gaowang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5587,6 +6114,7 @@ c_taga_gaowang = {
 }
 
 c_taga_tongwan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_shang
 		government = taga_hanjin_government
@@ -5603,6 +6131,7 @@ d_taga_beidi = {
 }
 
 c_taga_niyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5611,6 +6140,7 @@ c_taga_niyang = {
 }
 
 c_taga_chunhu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5619,6 +6149,7 @@ c_taga_chunhu = {
 }
 
 c_taga_zhilu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5627,6 +6158,7 @@ c_taga_zhilu = {
 }
 
 c_taga_yuzhi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5635,6 +6167,7 @@ c_taga_yuzhi = {
 }
 
 c_taga_lian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5643,6 +6176,7 @@ c_taga_lian = {
 }
 
 c_taga_fuping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5651,6 +6185,7 @@ c_taga_fuping = {
 }
 
 c_taga_maling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5659,6 +6194,7 @@ c_taga_maling = {
 }
 
 c_taga_xunyan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_beidi
 		government = taga_hanjin_government
@@ -5691,6 +6227,7 @@ d_taga_jingzhao = {
 }
 
 c_taga_jingzhao = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_jingzhao
 		government = taga_hanjin_government
@@ -5699,6 +6236,7 @@ c_taga_jingzhao = {
 }
 
 c_taga_lantian = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_jingzhao
 		government = taga_hanjin_government
@@ -5707,6 +6245,7 @@ c_taga_lantian = {
 }
 
 c_taga_gaoling = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_jingzhao
 		government = taga_hanjin_government
@@ -5715,6 +6254,7 @@ c_taga_gaoling = {
 }
 
 c_taga_zheng = {
+	305.1.25 = { change_development_level = 31 }
 	305.1.25 = {
 		liege = d_taga_jingzhao
 		government = taga_hanjin_government
@@ -5731,6 +6271,7 @@ d_taga_fengyi = {
 }
 
 c_taga_fengyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_fengyi
 		government = taga_hanjin_government
@@ -5739,6 +6280,7 @@ c_taga_fengyi = {
 }
 
 c_taga_pinyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_fengyi
 		government = taga_hanjin_government
@@ -5747,6 +6289,7 @@ c_taga_pinyang = {
 }
 
 c_taga_xiagui = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_fengyi
 		government = taga_hanjin_government
@@ -5763,6 +6306,7 @@ d_taga_fufeng = {
 }
 
 c_taga_fufeng = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_fufeng
 		government = taga_hanjin_government
@@ -5771,6 +6315,7 @@ c_taga_fufeng = {
 }
 
 c_taga_meiyang = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_fufeng
 		government = taga_hanjin_government
@@ -5779,6 +6324,7 @@ c_taga_meiyang = {
 }
 
 c_taga_yong = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_fufeng
 		government = taga_hanjin_government
@@ -5787,6 +6333,7 @@ c_taga_yong = {
 }
 
 c_taga_qian = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_fufeng
 		government = taga_hanjin_government
@@ -5795,6 +6342,7 @@ c_taga_qian = {
 }
 
 c_taga_chencang = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_fufeng
 		government = taga_hanjin_government
@@ -5811,6 +6359,7 @@ d_taga_anding = {
 }
 
 c_taga_anding = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_anding
 		government = taga_hanjin_government
@@ -5819,6 +6368,7 @@ c_taga_anding = {
 }
 
 c_taga_chaona = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_anding
 		government = taga_hanjin_government
@@ -5835,6 +6385,7 @@ d_taga_shiping = {
 }
 
 c_taga_shiping = {
+	305.1.25 = { change_development_level = 27 }
 	305.1.25 = {
 		liege = d_taga_shiping
 		government = taga_hanjin_government
@@ -5843,6 +6394,7 @@ c_taga_shiping = {
 }
 
 c_taga_wugong = {
+	305.1.25 = { change_development_level = 27 }
 	305.1.25 = {
 		liege = d_taga_shiping
 		government = taga_hanjin_government
@@ -5859,6 +6411,7 @@ d_taga_xinping = {
 }
 
 c_taga_xinping = {
+	305.1.25 = { change_development_level = 4 }
 	305.1.25 = {
 		liege = d_taga_xinping
 		government = taga_hanjin_government
@@ -5883,6 +6436,7 @@ d_taga_wuwei = {
 }
 
 c_taga_guzang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuwei
 		government = taga_hanjin_government
@@ -5891,6 +6445,7 @@ c_taga_guzang = {
 }
 
 c_taga_xuanwei = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuwei
 		government = taga_hanjin_government
@@ -5899,6 +6454,7 @@ c_taga_xuanwei = {
 }
 
 c_taga_fanhe = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wuwei
 		government = taga_hanjin_government
@@ -5915,6 +6471,7 @@ d_taga_xiping = {
 }
 
 c_taga_xidu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xiping
 		government = taga_hanjin_government
@@ -5923,6 +6480,7 @@ c_taga_xidu = {
 }
 
 c_taga_linqiang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xiping
 		government = taga_hanjin_government
@@ -5939,6 +6497,7 @@ d_taga_jincheng = {
 }
 
 c_taga_yuzhong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jincheng
 		government = taga_hanjin_government
@@ -5947,6 +6506,7 @@ c_taga_yuzhong = {
 }
 
 c_taga_haomen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jincheng
 		government = taga_hanjin_government
@@ -5963,6 +6523,7 @@ d_taga_zhangye = {
 }
 
 c_taga_wulan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhangye
 		government = taga_hanjin_government
@@ -5971,6 +6532,7 @@ c_taga_wulan = {
 }
 
 c_taga_yongping = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhangye
 		government = taga_hanjin_government
@@ -5987,6 +6549,7 @@ d_taga_xi = {
 }
 
 c_taga_rile = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xi
 		government = taga_hanjin_government
@@ -6003,6 +6566,7 @@ d_taga_jiuquan = {
 }
 
 c_taga_fulu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuquan
 		government = taga_hanjin_government
@@ -6011,6 +6575,7 @@ c_taga_fulu = {
 }
 
 c_taga_huishui = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuquan
 		government = taga_hanjin_government
@@ -6019,6 +6584,7 @@ c_taga_huishui = {
 }
 
 c_taga_shatou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuquan
 		government = taga_hanjin_government
@@ -6027,6 +6593,7 @@ c_taga_shatou = {
 }
 
 c_taga_yumen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiuquan
 		government = taga_hanjin_government
@@ -6043,6 +6610,7 @@ d_taga_dunhuang = {
 }
 
 c_taga_dunhuang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6051,6 +6619,7 @@ c_taga_dunhuang = {
 }
 
 c_taga_yuanquan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6059,6 +6628,7 @@ c_taga_yuanquan = {
 }
 
 c_taga_qianqi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6067,6 +6637,7 @@ c_taga_qianqi = {
 }
 
 c_taga_yiwu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6075,6 +6646,7 @@ c_taga_yiwu = {
 }
 
 c_taga_guangzhi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6083,6 +6655,7 @@ c_taga_guangzhi = {
 }
 
 c_taga_changpu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dunhuang
 		government = taga_hanjin_government
@@ -6099,6 +6672,7 @@ d_taga_xihai = {
 }
 
 c_taga_juyan = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_xihai
 		government = taga_hanjin_government
@@ -6123,6 +6697,7 @@ d_taga_tianshui = {
 }
 
 c_taga_ji_q = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_tianshui
 		government = taga_hanjin_government
@@ -6131,6 +6706,7 @@ c_taga_ji_q = {
 }
 
 c_taga_chengji = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_tianshui
 		government = taga_hanjin_government
@@ -6139,6 +6715,7 @@ c_taga_chengji = {
 }
 
 c_taga_shichang = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_tianshui
 		government = taga_hanjin_government
@@ -6155,6 +6732,7 @@ d_taga_longxi = {
 }
 
 c_taga_xiangwu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_longxi
 		government = taga_hanjin_government
@@ -6163,6 +6741,7 @@ c_taga_xiangwu = {
 }
 
 c_taga_didao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_longxi
 		government = taga_hanjin_government
@@ -6179,6 +6758,7 @@ d_taga_nanan = {
 }
 
 c_taga_huandao = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_nanan
 		government = taga_hanjin_government
@@ -6195,6 +6775,7 @@ d_taga_lueyang = {
 }
 
 c_taga_lueyang = {
+	305.1.25 = { change_development_level = 14 }
 	305.1.25 = {
 		liege = d_taga_lueyang
 		government = taga_hanjin_government
@@ -6211,6 +6792,7 @@ d_taga_wudu = {
 }
 
 c_taga_xiabian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wudu
 		government = taga_hanjin_government
@@ -6219,6 +6801,7 @@ c_taga_xiabian = {
 }
 
 c_taga_gudao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wudu
 		government = taga_hanjin_government
@@ -6227,6 +6810,7 @@ c_taga_gudao = {
 }
 
 c_taga_ju_q = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wudu
 		government = taga_hanjin_government
@@ -6235,6 +6819,7 @@ c_taga_ju_q = {
 }
 
 c_taga_qiangdao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_wudu
 		government = taga_hanjin_government
@@ -6251,6 +6836,7 @@ d_taga_yinping = {
 }
 
 c_taga_yinping = {
+	305.1.25 = { change_development_level = 5 }
 	305.1.25 = {
 		liege = d_taga_yinping
 		government = taga_hanjin_government
@@ -6287,6 +6873,7 @@ d_taga_shu = {
 }
 
 c_taga_shu = {
+	305.1.25 = { change_development_level = 62 }
 	305.1.25 = {
 		liege = d_taga_shu
 		government = taga_hanjin_government
@@ -6295,6 +6882,7 @@ c_taga_shu = {
 }
 
 c_taga_ningshu = {
+	305.1.25 = { change_development_level = 62 }
 	305.1.25 = {
 		liege = d_taga_shu
 		government = taga_hanjin_government
@@ -6303,6 +6891,7 @@ c_taga_ningshu = {
 }
 
 c_taga_jinyuan = {
+	305.1.25 = { change_development_level = 62 }
 	305.1.25 = {
 		liege = d_taga_shu
 		government = taga_hanjin_government
@@ -6319,6 +6908,7 @@ d_taga_jianwei = {
 }
 
 c_taga_niubi = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_jianwei
 		government = taga_hanjin_government
@@ -6327,6 +6917,7 @@ c_taga_niubi = {
 }
 
 c_taga_zizhong = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_jianwei
 		government = taga_hanjin_government
@@ -6335,6 +6926,7 @@ c_taga_zizhong = {
 }
 
 c_taga_wuyang_y = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_jianwei
 		government = taga_hanjin_government
@@ -6343,6 +6935,7 @@ c_taga_wuyang_y = {
 }
 
 c_taga_bodao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_jianwei
 		government = taga_hanjin_government
@@ -6359,6 +6952,7 @@ d_taga_wenshan = {
 }
 
 c_taga_wenshan = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_wenshan
 		government = taga_hanjin_government
@@ -6367,6 +6961,7 @@ c_taga_wenshan = {
 }
 
 c_taga_shengqian = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_wenshan
 		government = taga_hanjin_government
@@ -6375,6 +6970,7 @@ c_taga_shengqian = {
 }
 
 c_taga_guangrou = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_wenshan
 		government = taga_hanjin_government
@@ -6391,6 +6987,7 @@ d_taga_hanjia = {
 }
 
 c_taga_hanjia = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_hanjia
 		government = taga_hanjin_government
@@ -6399,6 +6996,7 @@ c_taga_hanjia = {
 }
 
 c_taga_yandao = {
+	305.1.25 = { change_development_level = 23 }
 	305.1.25 = {
 		liege = d_taga_hanjia
 		government = taga_hanjin_government
@@ -6415,6 +7013,7 @@ d_taga_jiangyang = {
 }
 
 c_taga_jiangyang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiangyang
 		government = taga_hanjin_government
@@ -6423,6 +7022,7 @@ c_taga_jiangyang = {
 }
 
 c_taga_hanan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiangyang
 		government = taga_hanjin_government
@@ -6431,6 +7031,7 @@ c_taga_hanan = {
 }
 
 c_taga_fujie = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_jiangyang
 		government = taga_hanjin_government
@@ -6455,6 +7056,7 @@ d_taga_hanzhong = {
 }
 
 c_taga_hanzhong = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hanzhong
 		government = taga_hanjin_government
@@ -6463,6 +7065,7 @@ c_taga_hanzhong = {
 }
 
 c_taga_baozhong = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hanzhong
 		government = taga_hanjin_government
@@ -6471,6 +7074,7 @@ c_taga_baozhong = {
 }
 
 c_taga_xixiang = {
+	305.1.25 = { change_development_level = 16 }
 	305.1.25 = {
 		liege = d_taga_hanzhong
 		government = taga_hanjin_government
@@ -6487,6 +7091,7 @@ d_taga_shangyong = {
 }
 
 c_taga_shangyong = {
+	305.1.25 = { change_development_level = 10 }
 	305.1.25 = {
 		liege = d_taga_shangyong
 		government = taga_hanjin_government
@@ -6495,6 +7100,7 @@ c_taga_shangyong = {
 }
 
 c_taga_beiwu = {
+	305.1.25 = { change_development_level = 10 }
 	305.1.25 = {
 		liege = d_taga_shangyong
 		government = taga_hanjin_government
@@ -6511,6 +7117,7 @@ d_taga_xincheng = {
 }
 
 c_taga_fangling = {
+	305.1.25 = { change_development_level = 29 }
 	305.1.25 = {
 		liege = d_taga_xincheng
 		government = taga_hanjin_government
@@ -6527,6 +7134,7 @@ d_taga_weixing = {
 }
 
 c_taga_weixing = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_weixing
 		government = taga_hanjin_government
@@ -6535,6 +7143,7 @@ c_taga_weixing = {
 }
 
 c_taga_ankang = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_weixing
 		government = taga_hanjin_government
@@ -6551,6 +7160,7 @@ d_taga_zitong = {
 }
 
 c_taga_zitong = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_zitong
 		government = taga_hanjin_government
@@ -6559,6 +7169,7 @@ c_taga_zitong = {
 }
 
 c_taga_jiange = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_zitong
 		government = taga_hanjin_government
@@ -6575,6 +7186,7 @@ d_taga_guanghan = {
 }
 
 c_taga_guanghan = {
+	305.1.25 = { change_development_level = 8 }
 	305.1.25 = {
 		liege = d_taga_guanghan
 		government = taga_hanjin_government
@@ -6591,6 +7203,7 @@ d_taga_xindu = {
 }
 
 c_taga_xindu = {
+	305.1.25 = { change_development_level = 52 }
 	305.1.25 = {
 		liege = d_taga_xindu
 		government = taga_hanjin_government
@@ -6607,6 +7220,7 @@ d_taga_fuling = {
 }
 
 c_taga_fuling = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_fuling
 		government = taga_hanjin_government
@@ -6623,6 +7237,7 @@ d_taga_ba = {
 }
 
 c_taga_ba = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_ba
 		government = taga_hanjin_government
@@ -6639,6 +7254,7 @@ d_taga_dangqv = {
 }
 
 c_taga_dangqv = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_dangqv
 		government = taga_hanjin_government
@@ -6655,6 +7271,7 @@ d_taga_baxi = {
 }
 
 c_taga_baxi = {
+	305.1.25 = { change_development_level = 20 }
 	305.1.25 = {
 		liege = d_taga_baxi
 		government = taga_hanjin_government
@@ -6671,6 +7288,7 @@ d_taga_badong = {
 }
 
 c_taga_badong = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_badong
 		government = taga_hanjin_government
@@ -6679,6 +7297,7 @@ c_taga_badong = {
 }
 
 c_taga_juren = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_badong
 		government = taga_hanjin_government
@@ -6703,6 +7322,7 @@ d_taga_jianning = {
 }
 
 c_taga_jianning = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6711,6 +7331,7 @@ c_taga_jianning = {
 }
 
 c_taga_shuangbai = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6719,6 +7340,7 @@ c_taga_shuangbai = {
 }
 
 c_taga_guchang = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6727,6 +7349,7 @@ c_taga_guchang = {
 }
 
 c_taga_cunma = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6735,6 +7358,7 @@ c_taga_cunma = {
 }
 
 c_taga_weixian = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6743,6 +7367,7 @@ c_taga_weixian = {
 }
 
 c_taga_mudan = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6751,6 +7376,7 @@ c_taga_mudan = {
 }
 
 c_taga_tangao = {
+	305.1.25 = { change_development_level = 7 }
 	305.1.25 = {
 		liege = d_taga_jianning
 		government = taga_hanjin_government
@@ -6768,6 +7394,7 @@ d_taga_zhuti = {
 }
 
 c_taga_nanguang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhuti
 		government = taga_hanjin_government
@@ -6776,6 +7403,7 @@ c_taga_nanguang = {
 }
 
 c_taga_zhuti = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zhuti
 		government = taga_hanjin_government
@@ -6792,6 +7420,7 @@ d_taga_yuexi = {
 }
 
 c_taga_yuexi = {
+	305.1.25 = { change_development_level = 97 }
 	305.1.25 = {
 		liege = d_taga_yuexi
 		government = taga_hanjin_government
@@ -6800,6 +7429,7 @@ c_taga_yuexi = {
 }
 
 c_taga_dingzuo = {
+	305.1.25 = { change_development_level = 97 }
 	305.1.25 = {
 		liege = d_taga_yuexi
 		government = taga_hanjin_government
@@ -6808,6 +7438,7 @@ c_taga_dingzuo = {
 }
 
 c_taga_huiwu = {
+	305.1.25 = { change_development_level = 97 }
 	305.1.25 = {
 		liege = d_taga_yuexi
 		government = taga_hanjin_government
@@ -6824,6 +7455,7 @@ d_taga_zangke = {
 }
 
 c_taga_zangke = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6832,6 +7464,7 @@ c_taga_zangke = {
 }
 
 c_taga_bixian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6840,6 +7473,7 @@ c_taga_bixian = {
 }
 
 c_taga_pingyi = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6848,6 +7482,7 @@ c_taga_pingyi = {
 }
 
 c_taga_yelang = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6856,6 +7491,7 @@ c_taga_yelang = {
 }
 
 c_taga_wanshou = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6864,6 +7500,7 @@ c_taga_wanshou = {
 }
 
 c_taga_wulian = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_zangke
 		government = taga_hanjin_government
@@ -6880,6 +7517,7 @@ d_taga_yunnan = {
 }
 
 c_taga_yunnan = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunnan
 		government = taga_hanjin_government
@@ -6888,6 +7526,7 @@ c_taga_yunnan = {
 }
 
 c_taga_yongning = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunnan
 		government = taga_hanjin_government
@@ -6896,6 +7535,7 @@ c_taga_yongning = {
 }
 
 c_taga_suijiu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunnan
 		government = taga_hanjin_government
@@ -6904,6 +7544,7 @@ c_taga_suijiu = {
 }
 
 c_taga_gufu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunnan
 		government = taga_hanjin_government
@@ -6912,6 +7553,7 @@ c_taga_gufu = {
 }
 
 c_taga_nongdong = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_yunnan
 		government = taga_hanjin_government
@@ -6928,6 +7570,7 @@ d_taga_xinggu = {
 }
 
 c_taga_bengu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6936,6 +7579,7 @@ c_taga_bengu = {
 }
 
 c_taga_louwo = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6944,6 +7588,7 @@ c_taga_louwo = {
 }
 
 c_taga_gouting = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6952,6 +7597,7 @@ c_taga_gouting = {
 }
 
 c_taga_lvgao = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6960,6 +7606,7 @@ c_taga_lvgao = {
 }
 
 c_taga_wanwen = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6968,6 +7615,7 @@ c_taga_wanwen = {
 }
 
 c_taga_shengxiu = {
+	305.1.25 = { change_development_level = 1 }
 	305.1.25 = {
 		liege = d_taga_xinggu
 		government = taga_hanjin_government
@@ -6984,6 +7632,7 @@ d_taga_yongchang = {
 }
 
 c_taga_yongchang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -6992,6 +7641,7 @@ c_taga_yongchang = {
 }
 
 c_taga_ailao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7000,6 +7650,7 @@ c_taga_ailao = {
 }
 
 c_taga_yongxiang = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7008,6 +7659,7 @@ c_taga_yongxiang = {
 }
 
 c_taga_nanfu = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7016,6 +7668,7 @@ c_taga_nanfu = {
 }
 
 c_taga_yongshou = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7024,6 +7677,7 @@ c_taga_yongshou = {
 }
 
 c_taga_my_ailao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7032,6 +7686,7 @@ c_taga_my_ailao = {
 }
 
 c_taga_my_bonan = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7040,6 +7695,7 @@ c_taga_my_bonan = {
 }
 
 c_taga_my_kunming = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7048,6 +7704,7 @@ c_taga_my_kunming = {
 }
 
 c_taga_my_luduo = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7056,6 +7713,7 @@ c_taga_my_luduo = {
 }
 
 c_taga_my_yuandu = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7064,6 +7722,7 @@ c_taga_my_yuandu = {
 }
 
 c_taga_my_daner = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7072,6 +7731,7 @@ c_taga_my_daner = {
 }
 
 c_taga_my_chuanxiong = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7080,6 +7740,7 @@ c_taga_my_chuanxiong = {
 }
 
 c_taga_my_luopu = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7088,6 +7749,7 @@ c_taga_my_luopu = {
 }
 
 c_taga_my_piaoyue = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7096,6 +7758,7 @@ c_taga_my_piaoyue = {
 }
 
 c_taga_my_minpu = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
@@ -7104,6 +7767,7 @@ c_taga_my_minpu = {
 }
 
 c_taga_my_taga_jiuliao = {
+	305.1.25 = { change_development_level = 11 }
 	305.1.25 = {
 		liege = d_taga_yongchang
 		government = taga_hanjin_government
