@@ -1,40 +1,9643 @@
-﻿imperial_jin_1 = {
-	name = "Yan_708E" # 司馬炎 (Wu of Jin)
-	dynasty = jin_imperial_sima
-	religion = "jingxue"
-	culture = "TAGA_jin"
-	father = imperial_jin_2
-	236.1.1 = { birth = yes }
-	290.5.16 = { death = yes }
-}
-imperial_jin_4 = {
-	name = "Zhong_8877" # 司馬衷 (Hui of Jin)
-	dynasty = jin_imperial_sima
+﻿taga_simazhong = {
+	name = "taga_zhong" # 司馬衷 (Hui of Jin)
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
     trait = content
     trait = honest
     trait = trusting
     trait = intellect_bad_3
-	father = imperial_jin_1
 	259.1.1 = { birth = yes }
 	307.1.8 = { death = yes }
 }
-imperial_jin_5 = {
-	name = "Chi_71BE" # 司馬熾 (Huai of Jin)
-	dynasty = jin_imperial_sima
+taga_simayan = {
+	name = "taga_yan_01" 
+	dynasty = taga_sima
 	religion = "jingxue"
 	culture = "TAGA_jin"
-	father = imperial_jin_1
-	284.1.1 = { birth = yes }
-	313.3.10 = { death = yes }
+	321.1.1 = { birth = yes }
+	342.7.26 = { death = yes }
 }
-imperial_jin_7 = {
-	name = "Ye_90BA" # 司馬業 (Min of Jin)
-	dynasty = jin_imperial_sima
+
+
+
+c_taga_luoyang_01 = {
+	name = "taga_tun" 
+	dynasty = taga_liu_dl
 	religion = "jingxue"
 	culture = "TAGA_jin"
-	father = imperial_jin_1_12
-	300.1.1 = { birth = yes }
-	318.2.7 = { death = yes }
+	253.3.20 = { birth = yes }
+	311.11.16 = { death = yes }
+}
+
+c_taga_chenggao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinan_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_luhun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liang_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangzhai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xingyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_kaifeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_hongnong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shan_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shangluo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_hedong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_puban_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hebei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_pingyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_duanshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pishi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiangling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_henei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhaoge_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_wei_01 = {
+	name = "taga_mo" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	270.3.19 = { birth = yes }
+	311.4.13 = { death = yes }
+}
+
+c_taga_dangyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_neihuang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_guantao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_qvliang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_handan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ren_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiangguo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dunqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yinan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_xindu_j_01 = {
+	name = "taga_yi_01" 
+	dynasty = taga_li_01
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	272.7.8 = { birth = yes }
+	305.9.10 = { death = yes }
+}
+
+c_taga_jing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangzong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiabo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wusui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_pingyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ge_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xipingchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_boping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaotang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chiping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yanci_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangxin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinle_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_nanpi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chonghe_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tiao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangchuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhangwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongpingshu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lecheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_mo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuyuan_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_boling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_beixincheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_qinghe_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shu_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_lvnu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wangdu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_beiping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhending_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jingxing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lingshou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fangzi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuanshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhongqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yingtao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiao_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_julu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiaqvyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingxiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_anping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anguo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanshenze_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_jiankang_01 = {
+	name = "taga_hu" 
+	dynasty = taga_cao
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.4.21 = { birth = yes }
+	305.10.25 = { death = yes }
+}
+
+c_taga_gourong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuhu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_danyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiangcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lishui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dantu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jinling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wuxing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuhang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yangxian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haiyan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiantang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tonglu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xuancheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shicheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chungu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_huainan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hefei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_quanjiao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiacai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yicheng_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yinling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dangtu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lujiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangquan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linhu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_liyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhongli_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_kuaiji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gouzhang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhuji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xinan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_she_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_you_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_changshan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongxinan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fengan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_suichang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhangan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linhai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ninghai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yongjia_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_songyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_nanchang_01 = {
+	name = "taga_miao" 
+	dynasty = taga_ying
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	269.4.29 = { birth = yes }
+	306.7.21 = { death = yes }
+}
+
+c_taga_yongxiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiancheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xingan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haihun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shiyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xingping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xichang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_baqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_linru_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinning_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinjian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nancheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_pingdu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yichun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongxin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wuchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_chaisang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pengze_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xunyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_poyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuhan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiaoyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yudu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanye_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dongye_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wenma_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jinan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinluo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_jianan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiangle_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yanping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuxing_jianan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_xvchang_01 = {
+	name = "taga_xiao" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.12.21 = { death = yes }
+}
+
+c_taga_yanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yan_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhaoling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xinxi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ancheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shangcai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wufang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingyu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nandun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiangcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dingling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_liang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chen_y_01 = {
+	name = "taga_qiao" 
+	dynasty = taga_liu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	249.1.25 = { birth = yes }
+	311.6.11 = { death = yes }
+}
+
+c_taga_xiayi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gushu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ku_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yangjia_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_pei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiang_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fuli_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gongqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_qiao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chengfu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_longkang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhi_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lu_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xue_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_yiyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_anfeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ruyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_song_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xincai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gushi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_yuan_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bowang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guanjun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_biyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_luyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiangyang_01 = {
+	name = "taga_hong" 
+	dynasty = taga_liu_pei
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	236.1.25 = { birth = yes }
+	306.1.25 = { death = yes }
+}
+
+c_taga_shandou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yicheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linju_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xinye_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_dengzhou_1_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_cuo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shunyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_danshui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_jiangling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ruo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhouling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huarong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yundu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jingling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_sui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yiyang_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chaoyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yidu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wu_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jianshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zigui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_anlu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingchun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tunyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_nanping_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiangan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_linyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hanshou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tancheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qianling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qianyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_yuanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_qiuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_qianling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_tianmen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_louzhong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_chong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_changsha_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_you_x_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiangnan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xinkang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiangxi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhengyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_baling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shaoling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shaoyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_duliang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linzheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chaling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_chen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_quanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lingling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yingyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_linhe_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fuchuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingchen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lipu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shixing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hankuang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhenyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_sihui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fanyu_01 = {
+	name = "taga_yi" 
+	dynasty = taga_wang
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	235.1.25 = { birth = yes }
+	307.4.25 = { death = yes }
+}
+
+c_taga_zengcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_boluo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_longchuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingyi_g_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_baoan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haifeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_duanxi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangxin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_mengling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_anshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anguang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lingfang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bushan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuxi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_tanzhong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_suping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_longgang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_siping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_guanghua_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haining_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ningpu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xingdao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_longbian_01 = {
+	name = "taga_yan" 
+	dynasty = taga_wu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	235.1.25 = { birth = yes }
+	308.1.25 = { death = yes }
+}
+
+c_taga_beidai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xigan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anding_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haiping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuning_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wanghai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_goulou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhuyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_hepu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dangchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xvwen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wuding_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_mileng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wuxing_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_changle_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xvpu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_jiude_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xijuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhuwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bijing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shendu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_leluo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongfeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_daner_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_xvzhou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_taga_liu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiapi_01 = {
+	name = "taga_mao" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	259.1.25 = { birth = yes }
+	311.6.25 = { death = yes }
+}
+
+c_taga_suiling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_langya_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dongguan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_mengyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linju_x_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_tan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qv_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhuqi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lanling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changlv_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qi_x_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_guangling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hailing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_sheyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huaiyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_sishui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huaipu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_linhuai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huailing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiaxiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xv_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tangyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_linzi_01 = {
+	name = "taga_lue" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	267.1.25 = { birth = yes }
+	309.4.25 = { death = yes }
+}
+
+c_taga_changguo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangrao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_donganping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_gaoyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dongchaoyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liangzou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shouguang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dongpingling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_licheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zouping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_pingshou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jimo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ye_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qvcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_buqi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ting_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changguang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ju_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qianzou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gumu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaomi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_puyang_01 = {
+	name = "taga_xi" 
+	dynasty = taga_gou
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	249.1.25 = { birth = yes }
+	311.11.25 = { death = yes }
+}
+
+c_taga_juan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiaohuang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_weishi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xunyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dingtao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chengshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gouyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shanfu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_changyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_juye_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaoping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanpingyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiaqiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_rencheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wuyan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shouzhang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gangping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lu_j_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fenggao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_juping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanwuyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shanren_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_laiwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_ji_y_01 = {
+	name = "taga_jun" 
+	dynasty = taga_wang_ty
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	252.1.25 = { birth = yes }
+	314.1.25 = { death = yes }
+}
+
+c_taga_changping_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_anle_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_quanzhou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongnu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhuo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liangxiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fanyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xvwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tuyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xialuo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_goumao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangning_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_juyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaoliu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_banshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_macheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yangle_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_xianping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiangping_01 = {
+	name = "taga_zhen" 
+	dynasty = taga_li
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	254.1.25 = { birth = yes }
+	309.1.25 = { death = yes }
+}
+
+
+c_taga_gaogouli_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_bintu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changli_p_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_chaoxian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_siwang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tunyou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_suicheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hunni_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_loufang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_haiming_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_daifang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanxin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tixi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hanzi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liekou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changcen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_jinyang_01 = {
+	name = "taga_teng" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	265.1.25 = { birth = yes }
+	307.9.25 = { death = yes }
+}
+
+c_taga_pingtao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wu_b_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xuanshi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhangzi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huguan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiangyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nie_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zhan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shangai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shouyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_liaoyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_guangwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yingou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fanchi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingcheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_jiuyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jinchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangmu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shanwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wucheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yunzhong_01 = {
+	name = "taga_gaoshengyuan" 
+	dynasty = taga_liu_tf
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	256.1.25 = { birth = yes }
+	309.1.25 = { death = yes }
+}
+
+c_taga_jiling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuquan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shanan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_linrong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_sanfeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangmu_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linhe_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dacheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shuofang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lishi_01 = {
+	name = "taga_yuan" 
+	dynasty = taga_liu_xx
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	253.2.10 = { birth = yes }
+	310.8.29 = { death = yes }
+}
+
+c_taga_linshui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tujun_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingding_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_meiji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yinshan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuanyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhongyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zengshan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_jiuyuan_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chengyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hemu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_heyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_manbai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fushi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiuzi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_diaoyin_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaonu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingdu_s_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_sheyan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gaowang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tongwan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_niyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chunhu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhilu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuzhi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fuping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_maling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xunyan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lantian_01 = {
+	name = "taga_yong" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	257.1.25 = { birth = yes }
+	310.3.25 = { death = yes }
+}
+
+c_taga_gaoling_01 = {
+	name = "taga_dan" 
+	dynasty = taga_gao
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	236.1.25 = { birth = yes }
+	309.1.25 = { death = yes }
+}
+
+c_taga_zheng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fengyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pinyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xiagui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fufeng_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_meiyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chencang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_anding_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_chaona_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shiping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wugong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xinping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_guzang_01 = {
+	name = "taga_gui" 
+	dynasty = taga_zhang
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	254.1.25 = { birth = yes }
+	314.1.25 = { death = yes }
+}
+
+c_taga_xuanwei_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fanhe_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xidu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_linqiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yuzhong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_haomen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wulan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_rile_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fulu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huishui_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shatou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yumen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_dunhuang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yuanquan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qianqi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yiwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangzhi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_changpu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_juyan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_ji_q_01 = {
+	name = "taga_zhong_01" 
+	dynasty = taga_huangfu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	264.1.25 = { birth = yes }
+	305.5.25 = { death = yes }
+}
+
+c_taga_chengji_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shichang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiangwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_didao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_huandao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_lueyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xiabian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gudao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ju_q_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_qiangdao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yinping_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+
+c_taga_shu_01 = {
+	name = "taga_xiong" 
+	dynasty = taga_li_ch
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	274.1.25 = { birth = yes }
+	334.8.11 = { death = yes }
+}
+
+c_taga_ningshu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jinyuan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_niubi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zizhong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wuyang_y_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bodao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_wenshan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shengqian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guangrou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_hanjia_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yandao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_jiangyang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_hanan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_fujie_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_nanguang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_zhuti_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yuexi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_dingzuo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_huiwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zangke_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_bixian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_pingyi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yelang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wanshou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wulian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_hanzhong_01 = {
+	name = "taga_kai" 
+	dynasty = taga_you
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	272.1.25 = { birth = yes }
+	305.7.25 = { death = yes }
+}
+
+c_taga_baozhong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_xixiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_shangyong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_beiwu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fangling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_weixing_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ankang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_zitong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_jiange_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_guanghan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_xindu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_fuling_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_ba_01 = {
+	name = "taga_shang" 
+	dynasty = taga_luo
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	247.1.25 = { birth = yes }
+	310.1.25 = { death = yes }
+}
+
+
+c_taga_dangqv_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_baxi_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_badong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_juren_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+
+c_taga_jianning_01 = {
+	name = "taga_yi" 
+	dynasty = taga_li
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	267.1.25 = { birth = yes }
+	306.9.25 = { death = yes }
+}
+
+c_taga_shuangbai_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_guchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_cunma_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_weixian_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_mudan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_tangao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yunnan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongning_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_suijiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gufu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nongdong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_bengu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_louwo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_gouting_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_lvgao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_wanwen_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_shengxiu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+
+c_taga_yongchang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_ailao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongxiang_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_nanfu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_yongshou_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_ailao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_bonan_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_kunming_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_luduo_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_yuandu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_daner_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_chuanxiong_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_luopu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_piaoyue_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_minpu_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_my_taga_jiuliao_01 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	275.1.25 = { birth = yes }
+	335.1.25 = { death = yes }
+}
+
+c_taga_luoyang_327 = {
+	name = "taga_tun" 
+	dynasty = taga_liu_dl
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chenggao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinan_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_luhun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liang_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangzhai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xingyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_kaifeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hongnong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shan_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shangluo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hedong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_puban_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hebei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_duanshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pishi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_henei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhaoge_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wei_327 = {
+	name = "taga_mo" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dangyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_neihuang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guantao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qvliang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_handan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ren_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangguo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dunqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yinan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xindu_j_327 = {
+	name = "taga_yi_01" 
+	dynasty = taga_li_01
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangzong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiabo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wusui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ge_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xipingchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_boping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaotang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chiping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yanci_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangxin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinle_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanpi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chonghe_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tiao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangchuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhangwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongpingshu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lecheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_mo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyuan_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_boling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_beixincheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qinghe_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shu_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lvnu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wangdu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_beiping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhending_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jingxing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lingshou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fangzi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuanshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhongqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yingtao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiao_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_julu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiaqvyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingxiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anguo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanshenze_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiankang_327 = {
+	name = "taga_hu" 
+	dynasty = taga_cao
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gourong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuhu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_danyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiangcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lishui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dantu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jinling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuxing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuhang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangxian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haiyan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiantang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tonglu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xuancheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shicheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chungu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huainan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hefei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_quanjiao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiacai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yicheng_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yinling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dangtu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lujiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangquan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linhu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhongli_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_kuaiji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gouzhang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_she_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_you_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changshan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongxinan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fengan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_suichang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhangan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linhai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ninghai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongjia_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_songyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanchang_327 = {
+	name = "taga_miao" 
+	dynasty = taga_ying
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongxiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiancheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xingan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haihun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shiyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xingping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xichang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_baqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linru_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinning_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinjian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nancheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingdu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yichun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongxin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chaisang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pengze_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xunyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_poyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuhan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiaoyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yudu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanye_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongye_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wenma_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jinan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinluo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jianan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiangle_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yanping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuxing_jianan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xvchang_327 = {
+	name = "taga_xiao" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chen_y_327 = {
+	name = "taga_qiao" 
+	dynasty = taga_liu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yan_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhaoling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinxi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ancheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shangcai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wufang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingyu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nandun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dingling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiayi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gushu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ku_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangjia_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiang_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fuli_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gongqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chengfu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_longkang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhi_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lu_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xue_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yiyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anfeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ruyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_song_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xincai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gushi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangyang_327 = {
+	name = "taga_hong" 
+	dynasty = taga_liu_pei
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuan_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bowang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guanjun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_biyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_luyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shandou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yicheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linju_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinye_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_dengzhou_1_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_cuo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shunyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_danshui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiangling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ruo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhouling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huarong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yundu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jingling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yiyang_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chaoyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yidu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wu_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jianshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zigui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anlu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingchun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tunyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanping_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiangan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hanshou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tancheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qianling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qianyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_yuanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_qiuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_qianling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tianmen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_louzhong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_chong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changsha_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_you_x_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangnan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinkang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangxi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhengyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_baling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shaoling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shaoyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_duliang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linzheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chaling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_quanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lingling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yingyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linhe_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fuchuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingchen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lipu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shixing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hankuang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhenyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fanyu_327 = {
+	name = "taga_yi" 
+	dynasty = taga_wang
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sihui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zengcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_boluo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_longchuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingyi_g_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_baoan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haifeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_duanxi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangxin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_mengling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anguang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lingfang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bushan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuxi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tanzhong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_suping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_longgang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_siping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guanghua_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haining_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ningpu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xingdao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_longbian_327 = {
+	name = "taga_yan" 
+	dynasty = taga_wu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_beidai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xigan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anding_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haiping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuning_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wanghai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_goulou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hepu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dangchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xvwen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuding_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_mileng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuxing_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changle_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xvpu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiude_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xijuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bijing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shendu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_leluo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongfeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_daner_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiapi_327 = {
+	name = "taga_mao" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xvzhou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_taga_liu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_suiling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_langya_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongguan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_mengyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linju_x_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qv_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuqi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lanling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changlv_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qi_x_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hailing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sheyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huaiyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sishui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huaipu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linhuai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huailing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiaxiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xv_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tangyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linzi_327 = {
+	name = "taga_lue" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changguo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangrao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_donganping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaoyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongchaoyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liangzou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shouguang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dongpingling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_licheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zouping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingshou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jimo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ye_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qvcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_buqi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ting_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changguang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ju_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qianzou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gumu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaomi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_puyang_327 = {
+	name = "taga_xi" 
+	dynasty = taga_gou
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiaohuang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_weishi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xunyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dingtao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chengshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gouyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shanfu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juye_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaoping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanpingyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiaqiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_rencheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shouzhang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gangping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lu_j_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fenggao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanwuyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shanren_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_laiwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ji_y_327 = {
+	name = "taga_jun" 
+	dynasty = taga_wang_ty
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changping_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anle_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_quanzhou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongnu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liangxiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fanyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xvwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tuyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xialuo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_goumao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangning_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaoliu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_banshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_macheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yangle_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangping_327 = {
+	name = "taga_zhen" 
+	dynasty = taga_li
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xianping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaogouli_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bintu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changli_p_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chaoxian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_siwang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tunyou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_suicheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hunni_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_loufang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haiming_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_daifang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanxin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tixi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hanzi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liekou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changcen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jinyang_327 = {
+	name = "taga_teng" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingtao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wu_b_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xuanshi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhangzi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huguan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nie_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shangai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shouyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_liaoyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yingou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fanchi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingcheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiuyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jinchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangmu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yunzhong_327 = {
+	name = "taga_gaoshengyuan" 
+	dynasty = taga_liu_tf
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shanwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wucheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuquan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shanan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linrong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sanfeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangmu_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linhe_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dacheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shuofang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lishi_327 = {
+	name = "taga_yuan" 
+	dynasty = taga_liu_xx
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linshui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tujun_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingding_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_meiji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yinshan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuanyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhongyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zengshan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiuyuan_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chengyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hemu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_heyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_manbai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fushi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiuzi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_diaoyin_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaonu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingdu_s_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_sheyan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaowang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tongwan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_niyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chunhu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhilu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuzhi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fuping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_maling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xunyan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lantian_327 = {
+	name = "taga_yong" 
+	dynasty = taga_sima
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gaoling_327 = {
+	name = "taga_dan" 
+	dynasty = taga_gao
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zheng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fengyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pinyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiagui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fufeng_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_meiyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chencang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_anding_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chaona_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shiping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wugong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xinping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guzang_327 = {
+	name = "taga_gui" 
+	dynasty = taga_zhang
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xuanwei_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fanhe_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xidu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_linqiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuzhong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_haomen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wulan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_rile_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fulu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huishui_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shatou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yumen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dunhuang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuanquan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qianqi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yiwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangzhi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_changpu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juyan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ji_q_327 = {
+	name = "taga_zhong_01" 
+	dynasty = taga_huangfu
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_chengji_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shichang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiangwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_didao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huandao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lueyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xiabian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gudao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ju_q_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_qiangdao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yinping_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ba_327 = {
+	name = "taga_shang" 
+	dynasty = taga_luo
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shu_327 = {
+	name = "taga_xiong" 
+	dynasty = taga_li_ch
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ningshu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jinyuan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_niubi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zizhong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wuyang_y_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bodao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wenshan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shengqian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guangrou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hanjia_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yandao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiangyang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hanan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fujie_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_hanzhong_327 = {
+	name = "taga_kai" 
+	dynasty = taga_you
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_baozhong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xixiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shangyong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_beiwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fangling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_weixing_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ankang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zitong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jiange_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guanghan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_xindu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_fuling_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dangqv_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_baxi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_badong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_juren_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_jianning_327 = {
+	name = "taga_yi" 
+	dynasty = taga_li
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shuangbai_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_guchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_cunma_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_weixian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_mudan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_tangao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanguang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zhuti_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yuexi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_dingzuo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_huiwu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_zangke_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bixian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_pingyi_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yelang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wanshou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wulian_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yunnan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongning_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_suijiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gufu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nongdong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_bengu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_louwo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_gouting_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_lvgao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_wanwen_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_shengxiu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongchang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_ailao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongxiang_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_nanfu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_yongshou_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_ailao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_bonan_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_kunming_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_luduo_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_yuandu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_daner_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_chuanxiong_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_luopu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_piaoyue_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_minpu_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
+}
+
+c_taga_my_taga_jiuliao_327 = {
+	religion = "jingxue"
+	culture = "TAGA_jin"
+	297.12.8 = { birth = yes }
+	357.12.8 = { death = yes }
 }

@@ -39,7 +39,7 @@ bm_PJin_YuanZi = {
 }
 
 bm_PJin_NanJun = {
-	start_date = 361.11.17
+	start_date = 361.1.1
 	is_playable = yes
 	group = bm_group_PJin
 
